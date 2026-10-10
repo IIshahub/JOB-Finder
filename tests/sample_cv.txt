@@ -1,0 +1,25 @@
+Sara Nouri
+Senior Data Analyst | Tehran
+sara.nouri@example.com
++98 912 000 0000
+Location: Tehran, Iran
+https://www.linkedin.com/in/saranouri
+
+Summary
+Data analyst with experience in SQL, Python, and dashboards that help teams make decisions.
+
+Skills
+Python, SQL, Excel, Tableau, Power BI, statistics, A/B testing
+
+Experience
+Senior Data Analyst
+Example Retail | Tehran
+2021 - Present
+- Built dashboards for store managers
+
+Data Analyst
+North Shop
+2018 - 2021
+
+Education
+BSc Statistics
