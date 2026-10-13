@@ -21,15 +21,18 @@ Roles outside Iran come from [Remotive](https://remotive.com/), [Arbeitnow](http
 
 ## New LinkedIn posts
 
-Each search can ask [Brave Search](https://brave.com/search/api/) for public LinkedIn hiring posts from the past month. The app talks to the search engine only, never to LinkedIn. Posts it finds are kept in `data/linkedin_posts.json` and shown next to the saved ones.
+New public LinkedIn hiring posts are found with [Tavily](https://tavily.com/), a web search API. Nothing here talks to LinkedIn itself. Tavily's free plan gives 1,000 searches a month and does not ask for a card.
 
-Get an API key from Brave, then set it once in PowerShell and restart the app:
+Tavily refuses connections from Iranian servers, so the search runs in GitHub Actions instead:
 
-```powershell
-setx BRAVE_API_KEY "your-key"
-```
+1. Every six hours, `.github/workflows/linkedin-posts.yml` runs `scripts/update_post_feed.py`. It searches six roles from the past month and commits the results to `feed/linkedin_posts.json`.
+2. The app downloads that file from GitHub at most once an hour, adds new posts to `data/linkedin_posts.json`, and shows them next to the saved ones.
 
-Without a key, the source line shows **Web search unavailable** and only the saved posts appear.
+To set it up, add your Tavily key as a repository secret named `TAVILY_API_KEY` under **Settings → Secrets and variables → Actions**. To run it right away, open **Actions → LinkedIn post feed → Run workflow**.
+
+To change the roles, add a repository variable named `FEED_ROLES` with comma-separated titles, or edit `DEFAULT_ROLES` in the script. Each role costs one search per run; six roles at four runs a day stays under the free plan.
+
+On a server that can reach Tavily directly, set `POSTS_FEED_URL` to an empty value and `TAVILY_API_KEY` to your key. The app then searches the roles each visitor types, at most once every six hours per role.
 
 ## Run it
 

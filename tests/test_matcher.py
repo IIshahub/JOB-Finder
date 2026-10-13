@@ -309,8 +309,8 @@ State University 2020 - 2024
         item = {
             "title": "استخدام <strong>Frontend Developer</strong> | LinkedIn",
             "url": "https://ir.linkedin.com/posts/acme-labs_hiring-activity-7512345678901234567-AbCd?trk=public",
-            "description": "React و TypeScript، حضوری در تهران. ارسال رزومه به jobs@acme.ir",
-            "page_age": "2026-10-11T08:00:00",
+            "content": "React و TypeScript، حضوری در تهران. ارسال رزومه به jobs@acme.ir",
+            "published_date": "Sun, 11 Oct 2026 08:00:00 GMT",
         }
         post = adapt_web_result(item, "Iran")
         self.assertEqual(post["url"], "https://www.linkedin.com/posts/acme-labs_hiring-activity-7512345678901234567-AbCd")
@@ -328,10 +328,28 @@ State University 2020 - 2024
         import os
         from unittest import mock
 
-        with mock.patch.dict(os.environ, {"BRAVE_API_KEY": ""}):
-            posts, report = fetch_web_posts({"target_titles": ["Frontend Developer"]})
+        with mock.patch.dict(os.environ, {"TAVILY_API_KEY": ""}):
+            posts, report, _searched = fetch_web_posts({"target_titles": ["Frontend Developer"]})
         self.assertEqual(posts, [])
         self.assertFalse(report["ok"])
+
+    def test_web_search_skips_recent_queries(self):
+        import os
+        import time
+        from unittest import mock
+
+        profile = {"target_titles": ["Frontend Developer"], "location": "Tehran, Iran"}
+        reply = mock.Mock()
+        reply.json.return_value = {"results": []}
+        with mock.patch.dict(os.environ, {"TAVILY_API_KEY": "test"}), mock.patch("matcher.post_offers.requests.post", return_value=reply) as call:
+            _posts, report, searched = fetch_web_posts(profile, {})
+            self.assertEqual(call.call_count, 1)
+            self.assertTrue(report["ok"])
+            fetch_web_posts(profile, searched)
+            self.assertEqual(call.call_count, 1)
+            stale = {key: time.time() - 7 * 3600 for key in searched}
+            fetch_web_posts(profile, stale)
+            self.assertEqual(call.call_count, 2)
 
     def test_word_boundaries_and_html(self):
         self.assertTrue(contains_term("Senior Data Analyst", "data analyst"))
@@ -352,7 +370,9 @@ State University 2020 - 2024
 
         with TemporaryDirectory() as folder:
             posts_path = app_module.POSTS_PATH
+            feed_url = app_module.FEED_URL
             app_module.POSTS_PATH = Path(folder) / "linkedin_posts.json"
+            app_module.FEED_URL = ""
             try:
                 client = app.test_client()
                 home = client.get("/")
@@ -391,6 +411,43 @@ State University 2020 - 2024
                 self.assertNotIn(b"Sara Nouri", posts.data)
             finally:
                 app_module.POSTS_PATH = posts_path
+                app_module.FEED_URL = feed_url
+
+    def test_post_feed_is_cleaned_and_checked_hourly(self):
+        import app as app_module
+        from tempfile import TemporaryDirectory
+        from unittest import mock
+
+        good = {
+            "title": "استخدام React Developer",
+            "company": "Acme",
+            "location": "Tehran, Iran",
+            "url": "https://ir.linkedin.com/posts/acme_hiring-activity-1?trk=x",
+            "published": "2026-10-12",
+            "snippet": "React و TypeScript. ارسال رزومه به jobs@acme.ir",
+            "apply_email": "not-an-email\nBcc:x@y.z",
+        }
+        bad = {**good, "url": "javascript:alert(1)"}
+        reply = mock.Mock()
+        reply.json.return_value = {"posts": [good, bad, "junk"]}
+        with TemporaryDirectory() as folder:
+            saved = (app_module.POSTS_PATH, app_module.FEED_CHECK_PATH, app_module.FEED_URL)
+            app_module.POSTS_PATH = Path(folder) / "linkedin_posts.json"
+            app_module.FEED_CHECK_PATH = Path(folder) / "feed_checked.json"
+            app_module.FEED_URL = "https://example.test/feed.json"
+            try:
+                with mock.patch("matcher.post_offers.requests.get", return_value=reply) as call:
+                    stored, report = app_module.refresh_posts({})
+                    self.assertTrue(report["ok"])
+                    self.assertEqual(len(stored), 1)
+                    self.assertEqual(stored[0]["url"], "https://www.linkedin.com/posts/acme_hiring-activity-1")
+                    self.assertEqual(stored[0]["apply_email"], "jobs@acme.ir")
+                    again, second_report = app_module.refresh_posts({})
+                    self.assertIsNone(second_report)
+                    self.assertEqual(again, stored)
+                    self.assertEqual(call.call_count, 1)
+            finally:
+                app_module.POSTS_PATH, app_module.FEED_CHECK_PATH, app_module.FEED_URL = saved
 
 
 if __name__ == "__main__":

@@ -5,6 +5,8 @@ from __future__ import annotations
 import hashlib
 import os
 import re
+import time
+from email.utils import parsedate_to_datetime
 from html import unescape
 from urllib.parse import unquote, urlencode, urlparse
 
@@ -13,7 +15,9 @@ import requests
 from matcher.job_sources import iran_place, iso_date
 from matcher.scorer import contains_term, cover_letter, find_email, home_country, matches_regions, title_points
 
-BRAVE_SEARCH_URL = "https://api.search.brave.com/res/v1/web/search"
+TAVILY_SEARCH_URL = "https://api.tavily.com/search"
+# Tavily's free plan allows 1,000 searches a month, shared by every visitor.
+SEARCH_COOLDOWN = 6 * 3600
 POST_PATH_RE = re.compile(r"^/posts/[^/?#]+")
 PERSIAN_RE = re.compile(r"[\u0600-\u06FF]")
 
@@ -212,32 +216,53 @@ def linkedin_post_search_url(keywords: str) -> str:
     )
 
 
-def fetch_web_posts(profile: dict) -> tuple[list[dict], dict]:
-    """Ask a web search engine for public LinkedIn posts. LinkedIn itself is never contacted."""
-    key = os.environ.get("BRAVE_API_KEY", "").strip()
+def fetch_web_posts(profile: dict, searched_at: dict | None = None) -> tuple[list[dict], dict, dict]:
+    """Ask a web search engine for public LinkedIn posts. LinkedIn itself is never contacted.
+
+    `searched_at` maps each query to the time it last ran; queries newer than
+    SEARCH_COOLDOWN are skipped. The updated map is returned for saving.
+    """
+    now = time.time()
+    searched = {
+        query: stamp
+        for query, stamp in (searched_at or {}).items()
+        if isinstance(stamp, (int, float)) and now - stamp < SEARCH_COOLDOWN
+    }
+    key = os.environ.get("TAVILY_API_KEY", "").strip()
     if not key:
-        return [], {"name": "Web search", "ok": False, "count": 0, "error": "Set BRAVE_API_KEY to look for new posts."}
+        report = {"name": "Web search", "ok": False, "count": 0, "error": "Set TAVILY_API_KEY to look for new posts."}
+        return [], report, searched
     found: list[dict] = []
     try:
         for query, region in web_queries(profile):
-            response = requests.get(
-                BRAVE_SEARCH_URL,
-                params={"q": query, "count": 20, "freshness": "pm"},
-                headers={"Accept": "application/json", "X-Subscription-Token": key},
-                timeout=15,
+            cache_key = query.lower()
+            if cache_key in searched:
+                continue
+            response = requests.post(
+                TAVILY_SEARCH_URL,
+                json={
+                    "query": query,
+                    "search_depth": "basic",
+                    "max_results": 20,
+                    "time_range": "month",
+                    "include_domains": ["linkedin.com/posts"],
+                    "include_published_date": True,
+                },
+                headers={"Authorization": f"Bearer {key}"},
+                timeout=20,
             )
             response.raise_for_status()
-            results = (response.json().get("web") or {}).get("results") or []
-            for item in results:
+            searched[cache_key] = now
+            for item in response.json().get("results") or []:
                 post = adapt_web_result(item, region)
                 if post:
                     found.append(post)
     except Exception as exc:
         found = merge_posts(found, [])
         message = (str(exc).strip().splitlines() or [exc.__class__.__name__])[0][:180]
-        return found, {"name": "Web search", "ok": False, "count": len(found), "error": message}
+        return found, {"name": "Web search", "ok": False, "count": len(found), "error": message}, searched
     found = merge_posts(found, [])
-    return found, {"name": "Web search", "ok": True, "count": len(found), "error": ""}
+    return found, {"name": "Web search", "ok": True, "count": len(found), "error": ""}, searched
 
 
 def web_queries(profile: dict) -> list[tuple[str, str]]:
@@ -246,9 +271,9 @@ def web_queries(profile: dict) -> list[tuple[str, str]]:
     queries = []
     for role in roles:
         if home.lower() == "iran":
-            queries.append((f"site:linkedin.com/posts استخدام {role}", home))
+            queries.append((f"استخدام {role}", home))
         else:
-            queries.append((f"site:linkedin.com/posts hiring {role} {home}", home))
+            queries.append((f"hiring {role} {home}", home))
     return queries
 
 
@@ -260,9 +285,7 @@ def adapt_web_result(item: dict, region: str) -> dict | None:
         return None
     title = strip_tags(item.get("title"))
     title = re.sub(r"\s*[|\-–]\s*LinkedIn\s*$", "", title).strip()
-    parts = [strip_tags(item.get("description"))]
-    parts.extend(strip_tags(text) for text in item.get("extra_snippets") or [])
-    snippet = " ".join(part for part in parts if part)[:600]
+    snippet = strip_tags(item.get("content"))[:600]
     if not title:
         return None
     text = f"{title} {snippet}"
@@ -275,10 +298,20 @@ def adapt_web_result(item: dict, region: str) -> dict | None:
         "company": post_author(url),
         "location": location,
         "url": url,
-        "published": iso_date(item.get("page_age")),
+        "published": published_day(item.get("published_date")),
         "snippet": snippet,
         "apply_email": find_email(snippet),
     }
+
+
+def published_day(value) -> str:
+    day = iso_date(value)
+    if day or not value:
+        return day
+    try:
+        return parsedate_to_datetime(str(value)).date().isoformat()
+    except (TypeError, ValueError):
+        return ""
 
 
 def post_url(value: str) -> str:
@@ -316,3 +349,38 @@ def merge_posts(first: list[dict], second: list[dict], limit: int = 120) -> list
         seen.add(key)
         merged.append(post)
     return merged[:limit]
+
+
+def fetch_feed_posts(url: str) -> tuple[list[dict], dict]:
+    """Download posts that a scheduled job outside this server already found."""
+    try:
+        response = requests.get(url, headers={"Accept": "application/json"}, timeout=20)
+        response.raise_for_status()
+        payload = response.json()
+    except Exception as exc:
+        message = (str(exc).strip().splitlines() or [exc.__class__.__name__])[0][:180]
+        return [], {"name": "Post feed", "ok": False, "count": 0, "error": message}
+    items = payload.get("posts") if isinstance(payload, dict) else payload
+    posts = [post for post in (clean_post(item) for item in items or []) if post]
+    posts = merge_posts(posts, [])
+    return posts, {"name": "Post feed", "ok": True, "count": len(posts), "error": ""}
+
+
+def clean_post(item) -> dict | None:
+    if not isinstance(item, dict):
+        return None
+    url = post_url(str(item.get("url") or ""))
+    title = strip_tags(item.get("title"))[:140]
+    if not url or not title:
+        return None
+    snippet = strip_tags(item.get("snippet"))[:600]
+    email = strip_tags(item.get("apply_email"))
+    return {
+        "title": title,
+        "company": strip_tags(item.get("company"))[:140] or post_author(url),
+        "location": strip_tags(item.get("location"))[:80],
+        "url": url,
+        "published": iso_date(item.get("published")),
+        "snippet": snippet,
+        "apply_email": email if email and find_email(email) == email else find_email(snippet),
+    }

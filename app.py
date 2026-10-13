@@ -8,7 +8,9 @@ allow third-party tools to log in and apply.
 from __future__ import annotations
 
 import json
+import os
 import re
+import time
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -16,12 +18,19 @@ from flask import Flask, jsonify, render_template, request, send_from_directory
 
 from matcher.cv_parser import parse_cv, parse_upload
 from matcher.job_sources import search_jobs
-from matcher.post_offers import fetch_web_posts, merge_posts, post_search_links, search_posts
+from matcher.post_offers import fetch_feed_posts, fetch_web_posts, merge_posts, post_search_links, search_posts
 from matcher.scorer import score_and_rank
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 POSTS_PATH = DATA_DIR / "linkedin_posts.json"
+SEARCHES_PATH = DATA_DIR / "web_searches.json"
+FEED_CHECK_PATH = DATA_DIR / "feed_checked.json"
+FEED_URL = os.environ.get(
+    "POSTS_FEED_URL",
+    "https://raw.githubusercontent.com/IIshahub/JOB-Finder/main/feed/linkedin_posts.json",
+).strip()
+FEED_INTERVAL = 3600
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024
@@ -101,13 +110,11 @@ def search():
         return jsonify({"error": "Add at least one role to search for."}), 400
     jobs, sources = search_jobs(profile["target_titles"])
     ranked = score_and_rank(profile, jobs, easy_apply=profile["easy_apply"])
-    web_posts, web_report = fetch_web_posts(profile)
-    stored = merge_posts(web_posts, saved_posts())
-    if web_posts:
-        save_json(POSTS_PATH, stored)
+    stored, web_report = refresh_posts(profile)
     posts, post_sources = search_posts(profile, stored)
     sources.extend(post_sources)
-    sources.append(web_report)
+    if web_report:
+        sources.append(web_report)
     return jsonify({"jobs": ranked, "sources": sources, "posts": posts, "post_searches": post_search_links(profile)})
 
 
@@ -115,8 +122,35 @@ def search():
 def list_posts():
     payload = request.get_json(silent=True)
     profile = normalize_profile(payload if isinstance(payload, dict) else {})
-    posts, _sources = search_posts(profile, saved_posts())
+    stored, _report = refresh_posts(profile) if FEED_URL else (saved_posts(), None)
+    posts, _sources = search_posts(profile, stored)
     return jsonify({"posts": posts, "post_searches": post_search_links(profile)})
+
+
+def refresh_posts(profile: dict) -> tuple[list[dict], dict | None]:
+    """Add newly found public posts to the shared store and return it.
+
+    With a feed URL, posts come from the scheduled GitHub job and the feed is
+    downloaded at most once an hour. Without one, this server asks Tavily.
+    """
+    stored = saved_posts()
+    if FEED_URL:
+        checked = load_json(FEED_CHECK_PATH, {})
+        last = checked.get("checked_at") if isinstance(checked, dict) else None
+        if isinstance(last, (int, float)) and time.time() - last < FEED_INTERVAL:
+            return stored, None
+        save_json(FEED_CHECK_PATH, {"checked_at": time.time()})
+        new_posts, report = fetch_feed_posts(FEED_URL)
+    else:
+        last_searched = load_json(SEARCHES_PATH, {})
+        last_searched = last_searched if isinstance(last_searched, dict) else {}
+        new_posts, report, searched = fetch_web_posts(profile, last_searched)
+        if searched != last_searched:
+            save_json(SEARCHES_PATH, searched)
+    if new_posts:
+        stored = merge_posts(new_posts, stored)
+        save_json(POSTS_PATH, stored)
+    return stored, report
 
 
 def saved_posts() -> list[dict]:
