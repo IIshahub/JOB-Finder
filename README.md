@@ -19,20 +19,45 @@ Iran listings come from [Jobvision](https://jobvision.ir/), [Jobinja](https://jo
 
 Roles outside Iran come from [Remotive](https://remotive.com/), [Arbeitnow](https://www.arbeitnow.com/), [Remote OK](https://remoteok.com/), and [Jobicy](https://jobicy.com/).
 
-## New LinkedIn posts
+## New LinkedIn jobs and posts
 
-New public LinkedIn hiring posts are found with [Tavily](https://tavily.com/), a web search API. Nothing here talks to LinkedIn itself. Tavily's free plan gives 1,000 searches a month and does not ask for a card.
+New public LinkedIn job listings and hiring posts are found with [Tavily](https://tavily.com/), a web search API. Nothing here talks to LinkedIn itself. Tavily's free plan gives 1,000 searches a month and does not ask for a card.
 
-Tavily refuses connections from Iranian servers, so the search runs in GitHub Actions instead:
+Tavily refuses connections from Iranian servers, so the search runs in GitHub Actions instead, and the app needs no key:
 
-1. Every six hours, `.github/workflows/linkedin-posts.yml` runs `scripts/update_post_feed.py`. It searches six roles from the past month and commits the results to `feed/linkedin_posts.json`.
-2. The app downloads that file from GitHub at most once an hour, adds new posts to `data/linkedin_posts.json`, and shows them next to the saved ones.
+1. Every twelve hours, `.github/workflows/linkedin-posts.yml` runs `scripts/update_post_feed.py`. For each of six roles it searches posts and `search_web_jobs` listings from the past month, and commits the results to `feed/linkedin_posts.json` and `feed/linkedin_jobs.json`.
+2. The app downloads both files from GitHub at most once an hour and keeps them in `data/`. LinkedIn jobs are ranked with the other boards when you click **Find matching jobs**, and posts are shown in their own list.
 
 To set it up, add your Tavily key as a repository secret named `TAVILY_API_KEY` under **Settings → Secrets and variables → Actions**. To run it right away, open **Actions → LinkedIn post feed → Run workflow**.
 
-To change the roles, add a repository variable named `FEED_ROLES` with comma-separated titles, or edit `DEFAULT_ROLES` in the script. Each role costs one search per run; six roles at four runs a day stays under the free plan.
+To change the roles, add a repository variable named `FEED_ROLES` with comma-separated titles, or edit `DEFAULT_ROLES` in the script. Each role costs two searches per run, one for posts and one for jobs; six roles at two runs a day is about 744 searches a month, under the free plan.
 
-On a server that can reach Tavily directly, set `POSTS_FEED_URL` to an empty value and `TAVILY_API_KEY` to your key. The app then searches the roles each visitor types, at most once every six hours per role.
+On a server that can reach Tavily directly, set `POSTS_FEED_URL` and `JOBS_FEED_URL` to empty values and `TAVILY_API_KEY` to your key. The app then searches the roles each visitor types.
+
+## Search LinkedIn by keyword
+
+`scripts/search_linkedin.py` finds LinkedIn job listings and hiring posts that contain every word of a keyword:
+
+```powershell
+python -m scripts.search_linkedin react developer --location "Tehran, Iran"
+python -m scripts.search_linkedin "data analyst" --since week --json results.json
+python -m scripts.search_linkedin فرانت --offline
+```
+
+- **Jobs** are public `linkedin.com/jobs/view` pages, and **posts** are public `linkedin.com/posts` pages. Both are found with Tavily, so this needs `TAVILY_API_KEY` or `--api-key`.
+- Saved posts in `feed/` and `data/` are always searched, so `--offline` works without a key or a connection.
+- `--since` is `day`, `week`, `month` (the default), or `year`. Each run without `--offline` uses two Tavily searches.
+- The output ends with signed-in LinkedIn search links for jobs and posts with the same keyword, for anything the web search missed.
+
+Tavily answers 403 Forbidden from Iranian networks. In that case only saved posts are shown, and the error appears under **Sources**.
+
+From Iran, add `--remote` instead. The search then runs in GitHub Actions (`.github/workflows/linkedin-search.yml`) with the repository's `TAVILY_API_KEY` secret, and the results are downloaded in about a minute:
+
+```powershell
+python -m scripts.search_linkedin react developer --location "Tehran, Iran" --remote
+```
+
+This needs the [GitHub CLI](https://cli.github.com/) signed in with `gh auth login`. The jobs and posts it finds are also saved to `data/`, so **Find matching jobs** in the app shows them right away.
 
 ## Run it
 

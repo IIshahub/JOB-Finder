@@ -12,6 +12,7 @@ from matcher.job_sources import (
     parse_kardix_jobs,
     parse_quera_html,
 )
+from matcher.linkedin_search import adapt_job_result, fetch_linkedin_jobs, matches_keyword, search_linkedin
 from matcher.post_offers import adapt_web_result, fetch_web_posts, is_job_offer, linkedin_post_search_url, search_posts
 from matcher.scorer import contains_term, linkedin_search_url, other_stack, score_and_rank, title_points
 
@@ -458,6 +459,198 @@ State University 2020 - 2024
                     self.assertEqual(call.call_count, 1)
             finally:
                 app_module.POSTS_PATH, app_module.FEED_CHECK_PATH, app_module.FEED_URL = saved
+
+    def test_linkedin_job_results_and_keyword_match(self):
+        item = {
+            "title": "Snapp hiring Senior <b>Frontend</b> Developer in Tehran, Tehran Province, Iran | LinkedIn",
+            "url": "https://ir.linkedin.com/jobs/view/senior-frontend-developer-at-snapp-4012345678?trk=public",
+            "content": "React, TypeScript, and Next.js. Send a CV to jobs@snapp.ir",
+            "published_date": "2026-10-10",
+        }
+        job = adapt_job_result(item, "Iran")
+        self.assertEqual(job["url"], "https://www.linkedin.com/jobs/view/senior-frontend-developer-at-snapp-4012345678")
+        self.assertEqual(job["title"], "Senior Frontend Developer")
+        self.assertEqual(job["company"], "Snapp")
+        self.assertEqual(job["location"], "Tehran, Tehran Province, Iran")
+        self.assertEqual(job["published"], "2026-10-10")
+        self.assertEqual(job["apply_email"], "jobs@snapp.ir")
+        self.assertIsNone(adapt_job_result({**item, "url": "https://www.linkedin.com/posts/x-activity-1"}, "Iran"))
+        self.assertIsNone(adapt_job_result({**item, "url": "https://linkedin.com.evil.io/jobs/view/1"}, "Iran"))
+        self.assertTrue(matches_keyword("Senior Front-End Developer, React", "frontend react"))
+        self.assertTrue(matches_keyword("استخدام فرانت‌اند کار", "فرانت"))
+        self.assertFalse(matches_keyword("Senior Backend Developer", "frontend"))
+
+    def test_linkedin_search_finds_jobs_and_posts_for_a_keyword(self):
+        import os
+        from unittest import mock
+
+        job = {
+            "title": "Acme hiring React Developer in Tehran, Iran | LinkedIn",
+            "url": "https://www.linkedin.com/jobs/view/react-developer-at-acme-4011111111",
+            "content": "React and TypeScript.",
+        }
+        post = {
+            "title": "استخدام React Developer | LinkedIn",
+            "url": "https://www.linkedin.com/posts/acme_hiring-activity-7512345678901234567-AbCd",
+            "content": "React در تهران. ارسال رزومه به jobs@acme.ir",
+        }
+        replies = [mock.Mock(), mock.Mock()]
+        replies[0].json.return_value = {"results": [job, {**job, "url": job["url"] + "?trk=x"}]}
+        replies[1].json.return_value = {"results": [post]}
+        with mock.patch.dict(os.environ, {"TAVILY_API_KEY": "test"}), mock.patch(
+            "matcher.linkedin_search.requests.post", side_effect=replies
+        ) as call:
+            result = search_linkedin("react", location="Tehran, Iran")
+        self.assertEqual(call.call_count, 2)
+        self.assertEqual(call.call_args_list[0].kwargs["json"]["include_domains"], ["linkedin.com/jobs/view"])
+        self.assertEqual(call.call_args_list[1].kwargs["json"]["query"], "استخدام react")
+        self.assertEqual([item["title"] for item in result["jobs"]], ["React Developer"])
+        self.assertIn(post["url"], [item["url"] for item in result["posts"]])
+        self.assertTrue(all(matches_keyword(f"{p['title']} {p['snippet']}", "react") for p in result["posts"]))
+        self.assertIn("keywords=react", result["links"]["jobs"])
+
+        with mock.patch("matcher.linkedin_search.requests.post") as call:
+            offline = search_linkedin("react", offline=True)
+        call.assert_not_called()
+        self.assertEqual(offline["jobs"], [])
+        self.assertTrue(offline["posts"])
+
+    def test_app_search_includes_linkedin_jobs_from_feed_or_tavily(self):
+        import app as app_module
+        import os
+        from tempfile import TemporaryDirectory
+        from unittest import mock
+
+        item = {
+            "title": "Acme hiring Frontend Developer in Tehran, Iran | LinkedIn",
+            "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-acme-4099999999",
+            "content": "React and TypeScript in Tehran.",
+            "published_date": "2026-10-12",
+        }
+        feed_job = {
+            "title": "Frontend <b>Developer</b>",
+            "company": "Beta",
+            "location": "Tehran, Iran",
+            "url": "https://ir.linkedin.com/jobs/view/frontend-developer-at-beta-4088888888?trk=x",
+            "published": "2026-10-11",
+            "snippet": "React. Send a CV to jobs@beta.ir",
+            "apply_email": "not-an-email\nBcc:x@y.z",
+        }
+        profile = {
+            "name": "Sara Nouri",
+            "location": "Tehran, Iran",
+            "skills": ["React", "TypeScript"],
+            "target_titles": ["Frontend Developer"],
+            "target_regions": ["Iran"],
+        }
+        tavily = mock.Mock()
+        tavily.json.return_value = {"results": [item]}
+        feed = mock.Mock()
+        feed.json.return_value = {"jobs": [feed_job, {**feed_job, "url": "javascript:alert(1)"}, "junk"]}
+
+        jobs, report = fetch_linkedin_jobs({**profile, "target_titles": []})
+        self.assertEqual(jobs, [])
+        with mock.patch.dict(os.environ, {"TAVILY_API_KEY": "test"}), mock.patch(
+            "matcher.linkedin_search.requests.post", return_value=tavily
+        ):
+            jobs, report = fetch_linkedin_jobs(profile)
+        self.assertTrue(report["ok"])
+        self.assertEqual([job["title"] for job in jobs], ["Frontend Developer"])
+
+        saved = (app_module.JOBS_PATH, app_module.JOBS_FEED_CHECK_PATH, app_module.JOBS_FEED_URL)
+        with TemporaryDirectory() as folder, mock.patch("app.search_jobs", side_effect=lambda titles: ([], [])), mock.patch(
+            "app.refresh_posts", return_value=([], None)
+        ):
+            app_module.JOBS_PATH = Path(folder) / "linkedin_jobs.json"
+            app_module.JOBS_FEED_CHECK_PATH = Path(folder) / "jobs_feed_checked.json"
+            try:
+                app_module.JOBS_FEED_URL = "https://example.test/jobs.json"
+                with mock.patch("matcher.linkedin_search.requests.get", return_value=feed) as call, mock.patch(
+                    "matcher.linkedin_search.requests.post"
+                ) as search:
+                    first = app.test_client().post("/api/search", json=profile).get_json()
+                    second = app.test_client().post("/api/search", json=profile).get_json()
+                self.assertEqual(call.call_count, 1)
+                search.assert_not_called()
+                for payload in (first, second):
+                    linkedin = [job for job in payload["jobs"] if job["source"] == "LinkedIn job"]
+                    self.assertEqual([job["company"] for job in linkedin], ["Beta"])
+                    self.assertEqual(linkedin[0]["url"], "https://www.linkedin.com/jobs/view/frontend-developer-at-beta-4088888888")
+                    self.assertEqual(linkedin[0]["apply_email"], "jobs@beta.ir")
+                    self.assertIn({"name": "LinkedIn jobs", "ok": True, "count": 1, "error": ""}, payload["sources"])
+
+                app_module.JOBS_FEED_URL = ""
+                with mock.patch.dict(os.environ, {"TAVILY_API_KEY": "test"}), mock.patch(
+                    "matcher.linkedin_search.requests.post", return_value=tavily
+                ):
+                    payload = app.test_client().post("/api/search", json=profile).get_json()
+                companies = {job["company"] for job in payload["jobs"] if job["source"] == "LinkedIn job"}
+                self.assertEqual(companies, {"Acme", "Beta"})
+            finally:
+                app_module.JOBS_PATH, app_module.JOBS_FEED_CHECK_PATH, app_module.JOBS_FEED_URL = saved
+
+
+    def test_remote_search_runs_workflow_and_saves_results(self):
+        import json
+        import subprocess
+        from tempfile import TemporaryDirectory
+        from unittest import mock
+
+        from scripts import search_linkedin as cli
+
+        result = {
+            "jobs": [
+                {
+                    "title": "React Developer",
+                    "company": "Acme",
+                    "location": "Tehran, Iran",
+                    "url": "https://ir.linkedin.com/jobs/view/react-developer-at-acme-4011111111?trk=x",
+                    "snippet": "React. Send a CV to jobs@acme.ir",
+                },
+                {"title": "Bad", "url": "javascript:alert(1)"},
+            ],
+            "posts": [
+                {
+                    "title": "استخدام React Developer",
+                    "url": "https://www.linkedin.com/posts/acme_hiring-activity-7512345678901234567-AbCd",
+                    "snippet": "React در تهران",
+                }
+            ],
+            "reports": [],
+            "links": {"jobs": "https://www.linkedin.com/jobs/search/", "posts": "https://www.linkedin.com/search/"},
+        }
+        calls = []
+        polls = iter(["in_progress", "completed"])
+
+        def fake_gh(command, **kwargs):
+            args = command[1:]
+            calls.append(args)
+            output = ""
+            if args[:2] == ["workflow", "run"]:
+                fake_gh.request_id = next(a.split("=", 1)[1] for a in args if a.startswith("request_id="))
+            elif args[:2] == ["run", "list"]:
+                output = json.dumps([{"databaseId": 7, "displayTitle": f"LinkedIn search: react [{fake_gh.request_id}]"}])
+            elif args[:2] == ["run", "view"]:
+                output = json.dumps({"status": next(polls), "conclusion": "success", "url": "https://github.com/x"})
+            elif args[:2] == ["run", "download"]:
+                folder = Path(args[args.index("-D") + 1])
+                (folder / "linkedin_search.json").write_text(json.dumps(result), encoding="utf-8")
+            return subprocess.CompletedProcess(command, 0, output, "")
+
+        with TemporaryDirectory() as folder, mock.patch("scripts.search_linkedin.subprocess.run", side_effect=fake_gh), mock.patch(
+            "scripts.search_linkedin.time.sleep"
+        ), mock.patch.object(cli, "DATA_JOBS", Path(folder) / "jobs.json"), mock.patch.object(
+            cli, "DATA_POSTS", Path(folder) / "posts.json"
+        ), mock.patch("sys.stdout"):
+            self.assertEqual(cli.main(["react", "--remote", "--location", "Tehran, Iran"]), 0)
+            jobs = json.loads((Path(folder) / "jobs.json").read_text(encoding="utf-8"))
+            posts = json.loads((Path(folder) / "posts.json").read_text(encoding="utf-8"))
+        self.assertIn("keyword=react", calls[0])
+        self.assertIn("location=Tehran, Iran", calls[0])
+        self.assertEqual([job["url"] for job in jobs], ["https://www.linkedin.com/jobs/view/react-developer-at-acme-4011111111"])
+        self.assertEqual(jobs[0]["apply_email"], "jobs@acme.ir")
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(calls[-1][:2], ["run", "download"])
 
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@ from flask import Flask, jsonify, render_template, request, send_from_directory
 
 from matcher.cv_parser import parse_cv, parse_upload
 from matcher.job_sources import search_jobs
+from matcher.linkedin_search import as_board_job, fetch_jobs_feed, fetch_linkedin_jobs, merge_jobs
 from matcher.post_offers import fetch_feed_posts, fetch_web_posts, merge_posts, post_search_links, search_posts
 from matcher.scorer import score_and_rank
 
@@ -29,6 +30,12 @@ FEED_CHECK_PATH = DATA_DIR / "feed_checked.json"
 FEED_URL = os.environ.get(
     "POSTS_FEED_URL",
     "https://raw.githubusercontent.com/IIshahub/JOB-Finder/main/feed/linkedin_posts.json",
+).strip()
+JOBS_PATH = DATA_DIR / "linkedin_jobs.json"
+JOBS_FEED_CHECK_PATH = DATA_DIR / "jobs_feed_checked.json"
+JOBS_FEED_URL = os.environ.get(
+    "JOBS_FEED_URL",
+    "https://raw.githubusercontent.com/IIshahub/JOB-Finder/main/feed/linkedin_jobs.json",
 ).strip()
 FEED_INTERVAL = 3600
 
@@ -109,6 +116,9 @@ def search():
     if not profile["target_titles"]:
         return jsonify({"error": "Add at least one role to search for."}), 400
     jobs, sources = search_jobs(profile["target_titles"])
+    linkedin_jobs, linkedin_report = refresh_linkedin_jobs(profile)
+    jobs.extend(as_board_job(job) for job in linkedin_jobs)
+    sources.append(linkedin_report)
     ranked = score_and_rank(profile, jobs, easy_apply=profile["easy_apply"])
     stored, web_report = refresh_posts(profile)
     posts, post_sources = search_posts(profile, stored)
@@ -151,6 +161,37 @@ def refresh_posts(profile: dict) -> tuple[list[dict], dict | None]:
         stored = merge_posts(new_posts, stored)
         save_json(POSTS_PATH, stored)
     return stored, report
+
+
+def refresh_linkedin_jobs(profile: dict) -> tuple[list[dict], dict]:
+    """Return saved LinkedIn jobs after adding any new ones.
+
+    With a feed URL, jobs come from the scheduled GitHub job and the feed is
+    downloaded at most once an hour. Without one, this server asks Tavily.
+    """
+    stored = saved_jobs()
+    report = None
+    if JOBS_FEED_URL:
+        checked = load_json(JOBS_FEED_CHECK_PATH, {})
+        last = checked.get("checked_at") if isinstance(checked, dict) else None
+        if not (isinstance(last, (int, float)) and time.time() - last < FEED_INTERVAL):
+            save_json(JOBS_FEED_CHECK_PATH, {"checked_at": time.time()})
+            new_jobs, report = fetch_jobs_feed(JOBS_FEED_URL)
+        else:
+            new_jobs = []
+    else:
+        new_jobs, report = fetch_linkedin_jobs(profile)
+    if new_jobs:
+        stored = merge_jobs(new_jobs, stored)
+        save_json(JOBS_PATH, stored)
+    if report is None or report["ok"]:
+        return stored, {"name": "LinkedIn jobs", "ok": True, "count": len(stored), "error": ""}
+    return stored, {**report, "count": len(stored)}
+
+
+def saved_jobs() -> list[dict]:
+    saved = load_json(JOBS_PATH, [])
+    return saved if isinstance(saved, list) else []
 
 
 def saved_posts() -> list[dict]:

@@ -2,7 +2,7 @@ name: LinkedIn post feed
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
       - name: Install
         run: python -m pip install "requests>=2.31"
 
-      - name: Search for new posts
+      - name: Search for new posts and jobs
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           FEED_ROLES: ${{ vars.FEED_ROLES }}
@@ -40,6 +40,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feed/linkedin_posts.json
-          git commit -m "Update LinkedIn post feed"
+          git add feed/
+          git commit -m "Update LinkedIn feeds"
           git push
