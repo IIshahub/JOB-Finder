@@ -27,6 +27,8 @@ let postPage = 1;
 let savedPage = 1;
 
 const PAGE_SIZE = 5;
+const PROFILE_KEY = "jobfinder.profile";
+const SAVED_KEY = "jobfinder.applications";
 
 const COUNTRIES = [
   "Iran",
@@ -150,10 +152,9 @@ minScore.addEventListener("input", () => {
   renderJobs();
 });
 
-async function loadProfile() {
-  const response = await fetch("/api/profile");
-  const payload = await response.json();
-  if (payload.profile) applyProfile(payload.profile);
+function loadProfile() {
+  const profile = readStored(PROFILE_KEY, null);
+  if (profile && typeof profile === "object") applyProfile(profile);
 }
 
 async function parseFile(file) {
@@ -180,6 +181,7 @@ async function sendParse(url, options) {
     setError(payload.error || "Could not read that CV.");
     return;
   }
+  writeStored(PROFILE_KEY, payload.profile);
   applyProfile(payload.profile);
   const count = (payload.profile.skills || []).length;
   setStatus(`Found ${count} skills and ${(payload.profile.target_titles || []).length} roles. Edit anything that looks off, then search.`);
@@ -220,10 +222,12 @@ async function searchJobs() {
   setError("");
   searchButton.disabled = true;
   setStatus("Searching job boards...");
+  const profile = profilePayload();
+  writeStored(PROFILE_KEY, profile);
   const response = await fetch("/api/search", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(profilePayload()),
+    body: JSON.stringify(profile),
   });
   const payload = await response.json();
   searchButton.disabled = false;
@@ -355,7 +359,11 @@ function postCard(post) {
 }
 
 async function loadPosts() {
-  const response = await fetch("/api/posts");
+  const response = await fetch("/api/posts", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(readStored(PROFILE_KEY, null) || {}),
+  });
   if (!response.ok) return;
   const payload = await response.json();
   renderPosts(payload.posts || [], payload.post_searches || []);
@@ -540,37 +548,57 @@ function openMail(job, button) {
   setStatus("Your email app should open. Attach your CV, then send.");
 }
 
-async function saveJob(job, button) {
-  const response = await fetch("/api/applications", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      id: job.id,
-      title: job.title,
-      company: job.company,
-      url: job.url,
-      source: job.source,
-      score: job.score,
-      cover_letter: job.cover_letter,
-      linkedin_search_url: job.linkedin_search_url,
-      apply_email: job.apply_email || "",
-    }),
-  });
-  if (!response.ok) {
-    setError("Could not save that role.");
+function saveJob(job, button) {
+  const record = {
+    id: String(job.id || "").slice(0, 40),
+    title: String(job.title || "").slice(0, 140),
+    company: String(job.company || "").slice(0, 140),
+    url: safeUrl(job.url),
+    source: String(job.source || "").slice(0, 40),
+    score: Math.max(0, Math.min(100, Number.parseInt(job.score, 10) || 0)),
+    cover_letter: String(job.cover_letter || "").slice(0, 5000),
+    linkedin_search_url: safeUrl(job.linkedin_search_url),
+    apply_email: safeEmail(job.apply_email),
+    saved_at: new Date().toISOString(),
+    status: "prepared",
+  };
+  if (!record.id) return;
+  const items = [record, ...storedApplications().filter((item) => item.id !== record.id)].slice(0, 100);
+  if (!writeStored(SAVED_KEY, items)) {
+    setError("Could not save that role. This browser blocks local storage.");
     return;
   }
-  savedIds.add(job.id);
   button.textContent = "Saved";
   loadApplications();
 }
 
-async function loadApplications() {
-  const response = await fetch("/api/applications");
-  const payload = await response.json();
-  savedItems = payload.applications || [];
+function loadApplications() {
+  savedItems = storedApplications();
   savedIds = new Set(savedItems.map((item) => item.id));
   paintSaved();
+}
+
+function storedApplications() {
+  const items = readStored(SAVED_KEY, []);
+  return Array.isArray(items) ? items.filter((item) => item && typeof item === "object" && item.id) : [];
+}
+
+function readStored(key, fallback) {
+  try {
+    const raw = window.localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch (error) {
+    return fallback;
+  }
+}
+
+function writeStored(key, value) {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(value));
+    return true;
+  } catch (error) {
+    return false;
+  }
 }
 
 function paintSaved() {
@@ -618,9 +646,8 @@ function savedCard(item) {
   return card;
 }
 
-async function deleteSaved(id) {
-  await fetch(`/api/applications/${encodeURIComponent(id)}`, { method: "DELETE" });
-  savedIds.delete(id);
+function deleteSaved(id) {
+  writeStored(SAVED_KEY, storedApplications().filter((item) => item.id !== id));
   loadApplications();
   renderJobs();
 }

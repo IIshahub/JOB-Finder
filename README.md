@@ -19,6 +19,18 @@ Iran listings come from [Jobvision](https://jobvision.ir/), [Jobinja](https://jo
 
 Roles outside Iran come from [Remotive](https://remotive.com/), [Arbeitnow](https://www.arbeitnow.com/), [Remote OK](https://remoteok.com/), and [Jobicy](https://jobicy.com/).
 
+## New LinkedIn posts
+
+Each search can ask [Brave Search](https://brave.com/search/api/) for public LinkedIn hiring posts from the past month. The app talks to the search engine only, never to LinkedIn. Posts it finds are kept in `data/linkedin_posts.json` and shown next to the saved ones.
+
+Get an API key from Brave, then set it once in PowerShell and restart the app:
+
+```powershell
+setx BRAVE_API_KEY "your-key"
+```
+
+Without a key, the source line shows **Web search unavailable** and only the saved posts appear.
+
 ## Run it
 
 On Windows, double-click `run.bat`. It creates a virtual environment, installs the packages, and opens the app at [http://127.0.0.1:5050](http://127.0.0.1:5050).
@@ -47,7 +59,9 @@ Then open [http://127.0.0.1:5050](http://127.0.0.1:5050).
 
 ## What stays private
 
-The `data` folder holds the saved CV and the ready-to-send list on this computer. It is not part of the published project. Delete that folder to clear them.
+Your CV and the ready-to-send list are kept in your own browser, not on the server. Another device or browser starts empty. To clear them, clear this site's data in your browser.
+
+The server reads an uploaded CV to pull out your details and sends them back without saving them. The `data` folder only holds public LinkedIn posts found by web search.
 
 ## Tests
 

@@ -3,10 +3,19 @@
 from __future__ import annotations
 
 import hashlib
+import os
 import re
-from urllib.parse import urlencode
+from html import unescape
+from urllib.parse import unquote, urlencode, urlparse
 
+import requests
+
+from matcher.job_sources import iran_place, iso_date
 from matcher.scorer import contains_term, cover_letter, find_email, home_country, matches_regions, title_points
+
+BRAVE_SEARCH_URL = "https://api.search.brave.com/res/v1/web/search"
+POST_PATH_RE = re.compile(r"^/posts/[^/?#]+")
+PERSIAN_RE = re.compile(r"[\u0600-\u06FF]")
 
 HIRING_RE = re.compile(
     r"استخدام|فرصت شغلی|موقعیت شغلی|we're hiring|we are hiring|\bhiring\b|رزومه|"
@@ -15,9 +24,18 @@ HIRING_RE = re.compile(
 )
 SEEKER_RE = re.compile(r"جویای کار|open to work|به دنبال کار هستم", re.I)
 
-# Public posts visible without a LinkedIn login on 2026-10-10.
+# Public posts visible without a LinkedIn login on 2026-10-13.
 # LinkedIn does not offer a personal feed API, so a signed-in search is the live view.
 PUBLIC_POSTS = [
+    {
+        "title": "استخدام کارآموز فرانت اند، حضوری، تهران",
+        "company": "Fararo",
+        "location": "Tehran, Iran",
+        "url": "https://www.linkedin.com/posts/fara-ro_%D8%A2%DA%AF%D9%87%DB%8C%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C-activity-7512122623011516416-3Nix",
+        "published": "2026-10-03",
+        "snippet": "On-site frontend intern in Tehran for people who have worked with React or Next.js. Send a CV to mail@fararo.org.",
+        "apply_email": "mail@fararo.org",
+    },
     {
         "title": "استخدام توسعه دهنده فرانت اند میدلول",
         "company": "Sepid System",
@@ -72,12 +90,49 @@ PUBLIC_POSTS = [
         "snippet": "Senior React and Next.js role in Mirdamad, Tehran. TypeScript, Tailwind, and PWA. Send a CV to Javadyousefi9000@gmail.com.",
         "apply_email": "Javadyousefi9000@gmail.com",
     },
+    {
+        "title": "استخدام Senior Front-end Developer",
+        "company": "Rokham",
+        "location": "Mashhad, Iran",
+        "url": "https://www.linkedin.com/posts/mostafa-kermani-pmp-%C2%AE-84390879_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-senior-front-end-developer-activity-7503327401154760704-Irpm",
+        "published": "2026-09-09",
+        "snippet": "Senior React, Next.js, and TypeScript role in Mashhad, remote possible, project-based or part-time. Contact on Telegram at @kermani_rkm.",
+        "apply_email": "",
+    },
+    {
+        "title": "استخدام Frontend Developer، LendTech، جردن",
+        "company": "Posted by Alireza Zarezade",
+        "location": "Tehran, Iran",
+        "url": "https://www.linkedin.com/posts/alireza-zarezade_hiring-frontend-frontenddeveloper-activity-7496934042739724288-xqif",
+        "published": "2026-08-22",
+        "snippet": "Full-time on-site frontend role at a LendTech company in Jordan, Tehran. Two to three years with React, Next.js App Router, and TypeScript. Send a CV to a.r.zarezade@gmail.com with the subject Frontend Developer.",
+        "apply_email": "a.r.zarezade@gmail.com",
+    },
+    {
+        "title": "استخدام Frontend Developer (React / Next.js)",
+        "company": "Posted by Mahla Motaghi",
+        "location": "Tehran, Iran",
+        "url": "https://www.linkedin.com/posts/mahlamotaghi72_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-frontend-developer-react-nextjs-activity-7492863393628966912-DD1r",
+        "published": "",
+        "snippet": "Full-time on-site frontend role near Argentina Square, Tehran. React, Next.js, TypeScript, TanStack Query, Zustand, and Tailwind. Send the CV by LinkedIn message.",
+        "apply_email": "",
+    },
+    {
+        "title": "Frontend Developer (React / Next.js)",
+        "company": "Loopex",
+        "location": "Tehran, Iran",
+        "url": "https://www.linkedin.com/posts/loopexchange_frontend-developer-react-nextjs-loopex-activity-7485779674409791488-lwZW",
+        "published": "2026-07-22",
+        "snippet": "Frontend role at a Tehran crypto exchange. At least three years with React and Next.js. Pay listed at 75 to 95 million per month. Send a CV to hiring@loopex.ir.",
+        "apply_email": "hiring@loopex.ir",
+    },
 ]
 
 
-def search_posts(profile: dict) -> tuple[list[dict], list[dict]]:
+def search_posts(profile: dict, extra_posts: list[dict] | None = None) -> tuple[list[dict], list[dict]]:
     titles = profile.get("target_titles") or []
-    found = [post for post in PUBLIC_POSTS if is_job_offer(offer_text(post), titles)]
+    pool = merge_posts(extra_posts or [], PUBLIC_POSTS)
+    found = [post for post in pool if is_job_offer(offer_text(post), titles)]
     report = {"name": "LinkedIn posts", "ok": True, "count": len(found), "error": ""}
     ranked = [decorate_post(profile, post) for post in found]
     ranked.sort(key=lambda item: (item["priority"], item.get("published") or ""), reverse=True)
@@ -155,3 +210,109 @@ def linkedin_post_search_url(keywords: str) -> str:
     return "https://www.linkedin.com/search/results/content/?" + urlencode(
         {"keywords": keywords, "origin": "GLOBAL_SEARCH_HEADER", "sortBy": '"date_posted"'}
     )
+
+
+def fetch_web_posts(profile: dict) -> tuple[list[dict], dict]:
+    """Ask a web search engine for public LinkedIn posts. LinkedIn itself is never contacted."""
+    key = os.environ.get("BRAVE_API_KEY", "").strip()
+    if not key:
+        return [], {"name": "Web search", "ok": False, "count": 0, "error": "Set BRAVE_API_KEY to look for new posts."}
+    found: list[dict] = []
+    try:
+        for query, region in web_queries(profile):
+            response = requests.get(
+                BRAVE_SEARCH_URL,
+                params={"q": query, "count": 20, "freshness": "pm"},
+                headers={"Accept": "application/json", "X-Subscription-Token": key},
+                timeout=15,
+            )
+            response.raise_for_status()
+            results = (response.json().get("web") or {}).get("results") or []
+            for item in results:
+                post = adapt_web_result(item, region)
+                if post:
+                    found.append(post)
+    except Exception as exc:
+        found = merge_posts(found, [])
+        message = (str(exc).strip().splitlines() or [exc.__class__.__name__])[0][:180]
+        return found, {"name": "Web search", "ok": False, "count": len(found), "error": message}
+    found = merge_posts(found, [])
+    return found, {"name": "Web search", "ok": True, "count": len(found), "error": ""}
+
+
+def web_queries(profile: dict) -> list[tuple[str, str]]:
+    roles = (profile.get("target_titles") or ["Frontend Developer"])[:2]
+    home = home_country(profile) or "Iran"
+    queries = []
+    for role in roles:
+        if home.lower() == "iran":
+            queries.append((f"site:linkedin.com/posts استخدام {role}", home))
+        else:
+            queries.append((f"site:linkedin.com/posts hiring {role} {home}", home))
+    return queries
+
+
+def adapt_web_result(item: dict, region: str) -> dict | None:
+    if not isinstance(item, dict):
+        return None
+    url = post_url(str(item.get("url") or ""))
+    if not url:
+        return None
+    title = strip_tags(item.get("title"))
+    title = re.sub(r"\s*[|\-–]\s*LinkedIn\s*$", "", title).strip()
+    parts = [strip_tags(item.get("description"))]
+    parts.extend(strip_tags(text) for text in item.get("extra_snippets") or [])
+    snippet = " ".join(part for part in parts if part)[:600]
+    if not title:
+        return None
+    text = f"{title} {snippet}"
+    if region.lower() == "iran" or PERSIAN_RE.search(text):
+        location = iran_place(text)
+    else:
+        location = region
+    return {
+        "title": title[:140],
+        "company": post_author(url),
+        "location": location,
+        "url": url,
+        "published": iso_date(item.get("page_age")),
+        "snippet": snippet,
+        "apply_email": find_email(snippet),
+    }
+
+
+def post_url(value: str) -> str:
+    parsed = urlparse(value)
+    host = (parsed.hostname or "").lower()
+    if parsed.scheme != "https" or not (host == "linkedin.com" or host.endswith(".linkedin.com")):
+        return ""
+    match = POST_PATH_RE.match(parsed.path)
+    if not match:
+        return ""
+    return "https://www.linkedin.com" + match.group(0)
+
+
+def post_author(url: str) -> str:
+    slug = unquote(url.rsplit("/posts/", 1)[-1]).split("_", 1)[0]
+    words = [word for word in slug.split("-") if word and not re.fullmatch(r"[0-9a-f]{6,}", word)]
+    name = " ".join(word.capitalize() for word in words if not PERSIAN_RE.search(word))
+    return f"Posted by {name}" if name else "LinkedIn post"
+
+
+def strip_tags(value) -> str:
+    text = unescape(re.sub(r"<[^>]+>", " ", str(value or "")))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def merge_posts(first: list[dict], second: list[dict], limit: int = 120) -> list[dict]:
+    seen: set[str] = set()
+    merged = []
+    for post in [*first, *second]:
+        if not isinstance(post, dict):
+            continue
+        key = str(post.get("url") or "").split("?")[0].rstrip("/").lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(post)
+    return merged[:limit]

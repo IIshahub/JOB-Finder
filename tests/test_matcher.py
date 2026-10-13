@@ -12,7 +12,7 @@ from matcher.job_sources import (
     parse_kardix_jobs,
     parse_quera_html,
 )
-from matcher.post_offers import is_job_offer, linkedin_post_search_url
+from matcher.post_offers import adapt_web_result, fetch_web_posts, is_job_offer, linkedin_post_search_url, search_posts
 from matcher.scorer import contains_term, linkedin_search_url, other_stack, score_and_rank, title_points
 
 SAMPLE = Path(__file__).with_name("sample_cv.txt").read_text(encoding="utf-8")
@@ -305,6 +305,34 @@ State University 2020 - 2024
         self.assertIn("linkedin.com/search/results/content/", url)
         self.assertIn("date_posted", url)
 
+    def test_web_search_results_become_posts(self):
+        item = {
+            "title": "استخدام <strong>Frontend Developer</strong> | LinkedIn",
+            "url": "https://ir.linkedin.com/posts/acme-labs_hiring-activity-7512345678901234567-AbCd?trk=public",
+            "description": "React و TypeScript، حضوری در تهران. ارسال رزومه به jobs@acme.ir",
+            "page_age": "2026-10-11T08:00:00",
+        }
+        post = adapt_web_result(item, "Iran")
+        self.assertEqual(post["url"], "https://www.linkedin.com/posts/acme-labs_hiring-activity-7512345678901234567-AbCd")
+        self.assertEqual(post["title"], "استخدام Frontend Developer")
+        self.assertEqual(post["company"], "Posted by Acme Labs")
+        self.assertEqual(post["location"], "Tehran, Iran")
+        self.assertEqual(post["published"], "2026-10-11")
+        self.assertEqual(post["apply_email"], "jobs@acme.ir")
+        self.assertIsNone(adapt_web_result({**item, "url": "https://www.linkedin.com/jobs/view/123"}, "Iran"))
+        self.assertIsNone(adapt_web_result({**item, "url": "https://linkedin.com.evil.io/posts/x"}, "Iran"))
+        posts, _ = search_posts({"target_titles": ["Frontend Developer"]}, [post])
+        self.assertIn(post["url"], [found["url"] for found in posts])
+
+    def test_web_search_needs_key(self):
+        import os
+        from unittest import mock
+
+        with mock.patch.dict(os.environ, {"BRAVE_API_KEY": ""}):
+            posts, report = fetch_web_posts({"target_titles": ["Frontend Developer"]})
+        self.assertEqual(posts, [])
+        self.assertFalse(report["ok"])
+
     def test_word_boundaries_and_html(self):
         self.assertTrue(contains_term("Senior Data Analyst", "data analyst"))
         self.assertFalse(contains_term("excellent work", "excel"))
@@ -323,10 +351,8 @@ State University 2020 - 2024
         from tempfile import TemporaryDirectory
 
         with TemporaryDirectory() as folder:
-            original = app_module.PROFILE_PATH
-            applications_path = app_module.APPLICATIONS_PATH
-            app_module.PROFILE_PATH = Path(folder) / "profile.json"
-            app_module.APPLICATIONS_PATH = Path(folder) / "applications.json"
+            posts_path = app_module.POSTS_PATH
+            app_module.POSTS_PATH = Path(folder) / "linkedin_posts.json"
             try:
                 client = app.test_client()
                 home = client.get("/")
@@ -356,30 +382,15 @@ State University 2020 - 2024
                     headers={"Origin": "http://briefrole.ir", "Host": "briefrole.ir"},
                 )
                 self.assertEqual(public.status_code, 200)
-                saved = client.post(
-                    "/api/applications",
-                    json={
-                        "id": "job-1",
-                        "title": "Analyst",
-                        "score": "not-a-number",
-                        "url": "javascript:alert(1)",
-                        "apply_email": "not-an-email\nBcc:other@example.com",
-                        "cover_letter": "Hello",
-                    },
-                )
-                self.assertEqual(saved.status_code, 200)
-                record = saved.get_json()["application"]
-                self.assertEqual(record["score"], 0)
-                self.assertEqual(record["url"], "")
-                self.assertEqual(record["apply_email"], "")
-                listed = client.get("/api/applications")
-                self.assertEqual(listed.get_json()["applications"][0]["id"], "job-1")
-                removed = client.delete("/api/applications/job-1")
-                self.assertEqual(removed.status_code, 200)
-                self.assertEqual(client.get("/api/applications").get_json()["applications"], [])
+                self.assertEqual(list(Path(folder).iterdir()), [])
+                other_visitor = app.test_client()
+                self.assertEqual(other_visitor.get("/api/profile").status_code, 404)
+                self.assertEqual(other_visitor.get("/api/applications").status_code, 404)
+                posts = other_visitor.post("/api/posts", json={})
+                self.assertEqual(posts.status_code, 200)
+                self.assertNotIn(b"Sara Nouri", posts.data)
             finally:
-                app_module.PROFILE_PATH = original
-                app_module.APPLICATIONS_PATH = applications_path
+                app_module.POSTS_PATH = posts_path
 
 
 if __name__ == "__main__":

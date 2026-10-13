@@ -16,13 +16,12 @@ from flask import Flask, jsonify, render_template, request, send_from_directory
 
 from matcher.cv_parser import parse_cv, parse_upload
 from matcher.job_sources import search_jobs
-from matcher.post_offers import post_search_links, search_posts
+from matcher.post_offers import fetch_web_posts, merge_posts, post_search_links, search_posts
 from matcher.scorer import score_and_rank
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
-PROFILE_PATH = DATA_DIR / "profile.json"
-APPLICATIONS_PATH = DATA_DIR / "applications.json"
+POSTS_PATH = DATA_DIR / "linkedin_posts.json"
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024
@@ -71,11 +70,6 @@ def favicon():
     return send_from_directory(app.static_folder, "favicon.ico", mimetype="image/vnd.microsoft.icon")
 
 
-@app.get("/api/profile")
-def get_profile():
-    return jsonify({"profile": load_json(PROFILE_PATH, None)})
-
-
 @app.post("/api/parse")
 def parse():
     upload = request.files.get("file")
@@ -94,7 +88,6 @@ def parse():
         profile = parse_cv(text)
         profile["cv_filename"] = "Pasted CV"
     profile = normalize_profile(profile)
-    save_json(PROFILE_PATH, profile)
     return jsonify({"profile": profile})
 
 
@@ -106,66 +99,29 @@ def search():
     profile = normalize_profile(payload)
     if not profile["target_titles"]:
         return jsonify({"error": "Add at least one role to search for."}), 400
-    save_json(PROFILE_PATH, profile)
     jobs, sources = search_jobs(profile["target_titles"])
     ranked = score_and_rank(profile, jobs, easy_apply=profile["easy_apply"])
-    posts, post_sources = search_posts(profile)
+    web_posts, web_report = fetch_web_posts(profile)
+    stored = merge_posts(web_posts, saved_posts())
+    if web_posts:
+        save_json(POSTS_PATH, stored)
+    posts, post_sources = search_posts(profile, stored)
     sources.extend(post_sources)
+    sources.append(web_report)
     return jsonify({"jobs": ranked, "sources": sources, "posts": posts, "post_searches": post_search_links(profile)})
 
 
-@app.get("/api/posts")
+@app.post("/api/posts")
 def list_posts():
-    profile = load_json(PROFILE_PATH, {}) or {}
-    if not isinstance(profile, dict):
-        profile = {}
-    posts, _sources = search_posts(profile)
+    payload = request.get_json(silent=True)
+    profile = normalize_profile(payload if isinstance(payload, dict) else {})
+    posts, _sources = search_posts(profile, saved_posts())
     return jsonify({"posts": posts, "post_searches": post_search_links(profile)})
 
 
-@app.get("/api/applications")
-def list_applications():
-    saved = load_json(APPLICATIONS_PATH, [])
-    if not isinstance(saved, list):
-        saved = []
-    return jsonify({"applications": saved})
-
-
-@app.post("/api/applications")
-def save_application():
-    payload = request.get_json(silent=True)
-    if not isinstance(payload, dict) or not payload.get("id"):
-        return jsonify({"error": "Missing application."}), 400
-    saved = load_json(APPLICATIONS_PATH, [])
-    if not isinstance(saved, list):
-        saved = []
-    record = {
-        "id": str(payload.get("id"))[:40],
-        "title": clip(payload.get("title"), 140),
-        "company": clip(payload.get("company"), 140),
-        "url": http_url(payload.get("url"), 500),
-        "source": clip(payload.get("source"), 40),
-        "score": bounded_int(payload.get("score")),
-        "cover_letter": str(payload.get("cover_letter") or "")[:5000],
-        "linkedin_search_url": http_url(payload.get("linkedin_search_url"), 800),
-        "apply_email": email_address(payload.get("apply_email")),
-        "saved_at": timestamp(),
-        "status": "prepared",
-    }
-    saved = [item for item in saved if item.get("id") != record["id"]]
-    saved.insert(0, record)
-    save_json(APPLICATIONS_PATH, saved[:100])
-    return jsonify({"application": record})
-
-
-@app.delete("/api/applications/<application_id>")
-def delete_application(application_id: str):
-    saved = load_json(APPLICATIONS_PATH, [])
-    if not isinstance(saved, list):
-        saved = []
-    saved = [item for item in saved if item.get("id") != application_id]
-    save_json(APPLICATIONS_PATH, saved)
-    return jsonify({"ok": True})
+def saved_posts() -> list[dict]:
+    saved = load_json(POSTS_PATH, [])
+    return saved if isinstance(saved, list) else []
 
 
 @app.errorhandler(413)
@@ -220,29 +176,6 @@ def clip(value, limit: int, collapse: bool = True) -> str:
     return text[:limit]
 
 
-def bounded_int(value, low: int = 0, high: int = 100) -> int:
-    try:
-        number = int(value)
-    except (TypeError, ValueError):
-        return 0
-    return max(low, min(high, number))
-
-
-def email_address(value) -> str:
-    text = clip(value, 160)
-    if re.fullmatch(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", text, re.I):
-        return text
-    return ""
-
-
-def http_url(value, limit: int) -> str:
-    text = clip(value, limit)
-    parsed = urlparse(text)
-    if parsed.scheme in {"http", "https"} and parsed.netloc:
-        return text
-    return ""
-
-
 def as_bool(value) -> bool:
     if isinstance(value, bool):
         return value
@@ -263,12 +196,6 @@ def save_json(path: Path, payload) -> None:
     temporary = path.with_suffix(path.suffix + ".tmp")
     temporary.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     temporary.replace(path)
-
-
-def timestamp() -> str:
-    from datetime import datetime, timezone
-
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 
 if __name__ == "__main__":
