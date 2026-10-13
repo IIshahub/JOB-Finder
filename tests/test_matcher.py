@@ -323,6 +323,16 @@ State University 2020 - 2024
         self.assertIsNone(adapt_web_result({**item, "url": "https://linkedin.com.evil.io/posts/x"}, "Iran"))
         posts, _ = search_posts({"target_titles": ["Frontend Developer"]}, [post])
         self.assertIn(post["url"], [found["url"] for found in posts])
+        undated = adapt_web_result(
+            {
+                "title": "Sara Ahmadi's Post",
+                "url": "https://www.linkedin.com/posts/fara-ro_x-activity-7512122623011516416-3Nix",
+                "content": "استخدام فرانت اند React در تهران",
+            },
+            "Iran",
+        )
+        self.assertEqual(undated["published"], "2026-10-03")
+        self.assertEqual(undated["title"], "استخدام فرانت اند React در تهران")
 
     def test_web_search_needs_key(self):
         import os

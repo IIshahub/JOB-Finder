@@ -19,6 +19,8 @@ TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 # Tavily's free plan allows 1,000 searches a month, shared by every visitor.
 SEARCH_COOLDOWN = 6 * 3600
 POST_PATH_RE = re.compile(r"^/posts/[^/?#]+")
+ACTIVITY_RE = re.compile(r"activity-(\d{15,22})")
+GENERIC_TITLE_RE = re.compile(r"^(?:.+?'s Post|.+? on LinkedIn|LinkedIn)$", re.I)
 PERSIAN_RE = re.compile(r"[\u0600-\u06FF]")
 
 HIRING_RE = re.compile(
@@ -286,6 +288,8 @@ def adapt_web_result(item: dict, region: str) -> dict | None:
     title = strip_tags(item.get("title"))
     title = re.sub(r"\s*[|\-–]\s*LinkedIn\s*$", "", title).strip()
     snippet = strip_tags(item.get("content"))[:600]
+    if GENERIC_TITLE_RE.match(title) and snippet:
+        title = snippet[:90].rsplit(" ", 1)[0] if len(snippet) > 90 else snippet
     if not title:
         return None
     text = f"{title} {snippet}"
@@ -298,10 +302,18 @@ def adapt_web_result(item: dict, region: str) -> dict | None:
         "company": post_author(url),
         "location": location,
         "url": url,
-        "published": published_day(item.get("published_date")),
+        "published": published_day(item.get("published_date")) or activity_day(url),
         "snippet": snippet,
         "apply_email": find_email(snippet),
     }
+
+
+def activity_day(url: str) -> str:
+    """LinkedIn activity ids carry the post time in milliseconds in their top 41 bits."""
+    match = ACTIVITY_RE.search(url or "")
+    if not match:
+        return ""
+    return iso_date((int(match.group(1)) >> 22) / 1000)
 
 
 def published_day(value) -> str:
@@ -343,7 +355,9 @@ def merge_posts(first: list[dict], second: list[dict], limit: int = 120) -> list
     for post in [*first, *second]:
         if not isinstance(post, dict):
             continue
-        key = str(post.get("url") or "").split("?")[0].rstrip("/").lower()
+        url = str(post.get("url") or "")
+        activity = ACTIVITY_RE.search(url)
+        key = activity.group(1) if activity else url.split("?")[0].rstrip("/").lower()
         if not key or key in seen:
             continue
         seen.add(key)
@@ -374,13 +388,15 @@ def clean_post(item) -> dict | None:
     if not url or not title:
         return None
     snippet = strip_tags(item.get("snippet"))[:600]
+    if GENERIC_TITLE_RE.match(title) and snippet:
+        title = snippet[:90].rsplit(" ", 1)[0] if len(snippet) > 90 else snippet
     email = strip_tags(item.get("apply_email"))
     return {
         "title": title,
         "company": strip_tags(item.get("company"))[:140] or post_author(url),
         "location": strip_tags(item.get("location"))[:80],
         "url": url,
-        "published": iso_date(item.get("published")),
+        "published": iso_date(item.get("published")) or activity_day(url),
         "snippet": snippet,
         "apply_email": email if email and find_email(email) == email else find_email(snippet),
     }
