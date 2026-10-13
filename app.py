@@ -37,17 +37,28 @@ def block_cross_site_writes():
     origin = request.headers.get("Origin", "")
     if origin:
         if not is_local_origin(origin):
-            return jsonify({"error": "This app only accepts requests from this computer."}), 403
+            return jsonify({"error": "This app only accepts requests from its own address."}), 403
         return None
     site = request.headers.get("Sec-Fetch-Site", "")
     if site in {"cross-site", "same-site"}:
-        return jsonify({"error": "This app only accepts requests from this computer."}), 403
+        return jsonify({"error": "This app only accepts requests from its own address."}), 403
     return None
 
 
 def is_local_origin(origin: str) -> bool:
     parsed = urlparse(origin)
-    return parsed.scheme in {"http", "https"} and parsed.hostname in LOCAL_HOSTS
+    if parsed.scheme not in {"http", "https"} or not parsed.hostname:
+        return False
+    hostname = parsed.hostname.lower()
+    return hostname in LOCAL_HOSTS or hostname == current_hostname()
+
+
+def current_hostname() -> str:
+    host = (request.host or "").strip().lower()
+    if host.startswith("["):
+        end = host.find("]")
+        return host[1:end] if end != -1 else host
+    return host.split(":", 1)[0]
 
 
 @app.get("/")

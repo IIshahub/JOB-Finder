@@ -350,6 +350,12 @@ State University 2020 - 2024
                     headers={"Origin": "https://example.evil"},
                 )
                 self.assertEqual(blocked.status_code, 403)
+                public = client.post(
+                    "/api/parse",
+                    json={"text": SAMPLE},
+                    headers={"Origin": "http://briefrole.ir", "Host": "briefrole.ir"},
+                )
+                self.assertEqual(public.status_code, 200)
                 saved = client.post(
                     "/api/applications",
                     json={
