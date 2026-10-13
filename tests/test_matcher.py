@@ -491,6 +491,9 @@ State University 2020 - 2024
              ("Django React Developer - Remote Work", "BairesDev", "Remote")),
             ("React Developer - Bright Vision Technologies", "react-developer-at-bright-vision-technologies-4476364632",
              ("React Developer", "Bright Vision Technologies", "")),
+            ("React Developer - Remote Work", "react-developer-remote-work-at-indi-staffing-services-4476776933",
+             ("React Developer - Remote Work", "Indi Staffing Services", "Remote")),
+            ("Frontend Engineer - Acme Labs", "4465221299", ("Frontend Engineer", "Acme Labs", "")),
         ]
         for title, path, expected in shapes:
             parsed = adapt_job_result({"title": title, "url": base + path, "content": "React and TypeScript."})

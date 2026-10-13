@@ -251,8 +251,13 @@ def adapt_job_result(item: dict) -> dict | None:
         location = match.group("location") or ""
     else:
         parts = [part.strip() for part in re.split(r"\s+[-–—|]\s+", raw_title) if part.strip()]
-        title = parts[0]
-        company = parts[1] if len(parts) > 1 else ""
+        from_url = slug_company(url)
+        if not from_url:
+            title, company = parts[0], (parts[1] if len(parts) > 1 else "")
+        elif len(parts) > 1 and squash(parts[-1]) == squash(from_url):
+            title, company = " - ".join(parts[:-1]), parts[-1]
+        else:
+            title, company = " - ".join(parts), from_url
     title, company, location = (trim_cut(value) for value in (title, company, location))
     company = company or slug_company(url)
     if not location:
@@ -276,6 +281,10 @@ def adapt_job_result(item: dict) -> dict | None:
 def trim_cut(value: str) -> str:
     """Drop the '...' that search engines add to shortened titles."""
     return re.sub(r"\s*(?:\.{3}|…)\s*$", "", value or "").strip(" -–—|")
+
+
+def squash(value: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", value.lower())
 
 
 def slug_company(url: str) -> str:
