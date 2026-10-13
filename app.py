@@ -10,8 +10,9 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, send_from_directory
 
 from matcher.cv_parser import parse_cv, parse_upload
 from matcher.job_sources import search_jobs
@@ -26,10 +27,37 @@ APPLICATIONS_PATH = DATA_DIR / "applications.json"
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024
 
+LOCAL_HOSTS = {"127.0.0.1", "localhost", "::1"}
+
+
+@app.before_request
+def block_cross_site_writes():
+    if request.method in {"GET", "HEAD", "OPTIONS"}:
+        return None
+    origin = request.headers.get("Origin", "")
+    if origin:
+        if not is_local_origin(origin):
+            return jsonify({"error": "This app only accepts requests from this computer."}), 403
+        return None
+    site = request.headers.get("Sec-Fetch-Site", "")
+    if site in {"cross-site", "same-site"}:
+        return jsonify({"error": "This app only accepts requests from this computer."}), 403
+    return None
+
+
+def is_local_origin(origin: str) -> bool:
+    parsed = urlparse(origin)
+    return parsed.scheme in {"http", "https"} and parsed.hostname in LOCAL_HOSTS
+
 
 @app.get("/")
 def index():
     return render_template("index.html")
+
+
+@app.get("/favicon.ico")
+def favicon():
+    return send_from_directory(app.static_folder, "favicon.ico", mimetype="image/vnd.microsoft.icon")
 
 
 @app.get("/api/profile")
@@ -104,12 +132,12 @@ def save_application():
         "id": str(payload.get("id"))[:40],
         "title": clip(payload.get("title"), 140),
         "company": clip(payload.get("company"), 140),
-        "url": clip(payload.get("url"), 500),
+        "url": http_url(payload.get("url"), 500),
         "source": clip(payload.get("source"), 40),
-        "score": int(payload.get("score") or 0),
+        "score": bounded_int(payload.get("score")),
         "cover_letter": str(payload.get("cover_letter") or "")[:5000],
-        "linkedin_search_url": clip(payload.get("linkedin_search_url"), 800),
-        "apply_email": clip(payload.get("apply_email"), 160),
+        "linkedin_search_url": http_url(payload.get("linkedin_search_url"), 800),
+        "apply_email": email_address(payload.get("apply_email")),
         "saved_at": timestamp(),
         "status": "prepared",
     }
@@ -179,6 +207,29 @@ def clip(value, limit: int, collapse: bool = True) -> str:
     if collapse:
         text = " ".join(text.split())
     return text[:limit]
+
+
+def bounded_int(value, low: int = 0, high: int = 100) -> int:
+    try:
+        number = int(value)
+    except (TypeError, ValueError):
+        return 0
+    return max(low, min(high, number))
+
+
+def email_address(value) -> str:
+    text = clip(value, 160)
+    if re.fullmatch(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", text, re.I):
+        return text
+    return ""
+
+
+def http_url(value, limit: int) -> str:
+    text = clip(value, limit)
+    parsed = urlparse(text)
+    if parsed.scheme in {"http", "https"} and parsed.netloc:
+        return text
+    return ""
 
 
 def as_bool(value) -> bool:

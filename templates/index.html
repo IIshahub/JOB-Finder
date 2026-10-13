@@ -2,27 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3efe6">
   <title>CV Job Matcher</title>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" sizes="32x32">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-<body>
+<body data-pane="profile">
   <header class="site-header">
     <div class="wrap header-row">
-      <div>
-        <p class="eyebrow">Local job matcher</p>
-        <h1>Find roles that fit your CV</h1>
+      <div class="brand">
+        <img src="{{ url_for('static', filename='favicon.svg') }}" alt="" width="44" height="44">
+        <div>
+          <p class="eyebrow">Local job matcher</p>
+          <h1>Find roles that fit your CV</h1>
+        </div>
       </div>
       <p class="lede">Your CV stays on this computer. Review each match, then send the application yourself.</p>
     </div>
   </header>
+  <nav class="section-nav" aria-label="Sections">
+    <button type="button" data-pane="profile" class="is-current" aria-current="page">CV</button>
+    <button type="button" data-pane="matches">Matches</button>
+    <button type="button" data-pane="posts">Posts</button>
+    <button type="button" data-pane="saved">Saved</button>
+  </nav>
 
   <main class="wrap layout">
     <form id="profile-form" class="panel">
       <h2>Your CV</h2>
       <label class="file-drop" id="file-drop">
         <input id="cv-file" type="file" accept=".pdf,.docx,.txt">
-        <span id="file-label">Drop a PDF, DOCX, or TXT file, or choose one</span>
+        <span class="file-kicker">PDF, DOCX, or TXT</span>
+        <span id="file-label">Drop a file here, or tap to choose one</span>
       </label>
       <label for="cv-paste">Or paste the CV text</label>
       <textarea id="cv-paste" rows="5" placeholder="Paste your CV if the file is a scan or a photo."></textarea>
@@ -32,17 +45,17 @@
       <div class="split">
         <div>
           <label for="name">Name</label>
-          <input id="name" autocomplete="name">
+          <input id="name" type="text" autocomplete="name" enterkeyhint="next">
         </div>
         <div>
           <label for="email">Email</label>
-          <input id="email" autocomplete="email">
+          <input id="email" type="email" autocomplete="email" inputmode="email" enterkeyhint="next">
         </div>
       </div>
       <div class="split">
         <div>
           <label for="phone">Phone</label>
-          <input id="phone" autocomplete="tel">
+          <input id="phone" type="tel" autocomplete="tel" inputmode="tel" enterkeyhint="next">
         </div>
         <div>
           <label for="location">Where you live</label>
@@ -58,7 +71,7 @@
         <p class="hint">Pick one or more countries, or all of them. Roles in the country where you live stay first.</p>
       </fieldset>
       <label for="titles">Roles you want</label>
-      <input id="titles" placeholder="Data analyst, Product manager">
+      <input id="titles" type="text" placeholder="Data analyst, Product manager" enterkeyhint="done">
       <label for="skills">Skills</label>
       <textarea id="skills" rows="3" placeholder="Python, SQL, Excel"></textarea>
       <label for="summary">Short summary</label>
@@ -74,8 +87,10 @@
         <input id="min-score" type="range" min="15" max="90" value="45">
       </div>
 
-      <button type="submit" id="search-button">Find matching jobs</button>
-      <p id="status" class="status" role="status"></p>
+      <div class="form-actions">
+        <button type="submit" id="search-button">Find matching jobs</button>
+        <p id="status" class="status" role="status"></p>
+      </div>
 
       <section class="linkedin-box">
         <h3>Search these roles on LinkedIn</h3>
@@ -85,7 +100,8 @@
       <textarea id="cv-text" hidden></textarea>
     </form>
 
-    <section class="results">
+    <div class="results-column">
+    <section class="results pane-matches">
       <div class="results-head">
         <h2>Matches</h2>
         <p class="hint">Roles in the country where you live are listed first. Other selected countries follow. All countries keeps every listing.</p>
@@ -94,20 +110,24 @@
       <div id="results" class="cards">
         <p class="empty">Read your CV, check the roles, then search.</p>
       </div>
+      <nav id="results-pager" class="pager" aria-label="Match pages" hidden></nav>
+    </section>
 
-      <section class="tracker">
+    <section class="tracker pane-posts">
         <h2>Job offers in LinkedIn posts</h2>
         <p class="hint">Iran is listed first. These are public posts that read as job offers. Open a post search while you are signed in to see more of the feed.</p>
         <div id="post-searches" class="link-stack"></div>
         <div id="posts" class="cards"></div>
+        <nav id="posts-pager" class="pager" aria-label="Post pages" hidden></nav>
       </section>
 
-      <section class="tracker">
+      <section class="tracker pane-saved">
         <h2>Ready to send</h2>
         <p class="hint">Saved roles keep the letter here so you can apply later. Attach your CV when the email or application form opens.</p>
         <div id="tracker"></div>
+        <nav id="saved-pager" class="pager" aria-label="Saved role pages" hidden></nav>
       </section>
-    </section>
+    </div>
   </main>
   <script src="{{ url_for('static', filename='app.js') }}"></script>
 </body>

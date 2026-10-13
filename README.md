@@ -47,7 +47,7 @@ Then open [http://127.0.0.1:5050](http://127.0.0.1:5050).
 
 ## What stays private
 
-`data/profile.json` and `data/applications.json` are saved locally and are not committed. Delete those files to clear the saved CV and the ready-to-send list.
+The `data` folder holds the saved CV and the ready-to-send list on this computer. It is not part of the published project. Delete that folder to clear them.
 
 ## Tests
 

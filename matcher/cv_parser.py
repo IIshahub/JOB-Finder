@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import zipfile
 from io import BytesIO
 from pathlib import Path
 
@@ -166,8 +167,11 @@ def read_upload(filename: str, data: bytes) -> str:
                 raise ValueError(
                     "This PDF is password-protected. Export an unlocked copy or paste the text."
                 ) from exc
+        if len(reader.pages) > 30:
+            raise ValueError("That PDF has too many pages for a CV. Paste the text instead.")
         text = "\n".join((page.extract_text() or "") for page in reader.pages)
     elif ext == ".docx":
+        assert_docx_limits(data)
         from docx import Document
 
         document = Document(BytesIO(data))
@@ -187,6 +191,18 @@ def read_upload(filename: str, data: bytes) -> str:
             "Could not read enough text from that file. If it is a scanned PDF, paste the CV text instead."
         )
     return text
+
+
+def assert_docx_limits(data: bytes) -> None:
+    try:
+        with zipfile.ZipFile(BytesIO(data)) as archive:
+            total = 0
+            for info in archive.infolist():
+                total += info.file_size
+                if info.file_size > 20 * 1024 * 1024 or total > 20 * 1024 * 1024:
+                    raise ValueError("That DOCX is too large to read. Paste the CV text instead.")
+    except zipfile.BadZipFile as exc:
+        raise ValueError("That file could not be read. Try PDF, DOCX, or paste the text.") from exc
 
 
 def normalize_text(text: str) -> str:

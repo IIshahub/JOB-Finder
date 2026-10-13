@@ -5,17 +5,28 @@ const fileLabel = document.querySelector("#file-label");
 const formError = document.querySelector("#form-error");
 const statusLine = document.querySelector("#status");
 const results = document.querySelector("#results");
+const resultsPager = document.querySelector("#results-pager");
 const postsBox = document.querySelector("#posts");
+const postsPager = document.querySelector("#posts-pager");
 const postSearches = document.querySelector("#post-searches");
 const sourceLine = document.querySelector("#source-line");
 const tracker = document.querySelector("#tracker");
+const savedPager = document.querySelector("#saved-pager");
 const linkedinLinks = document.querySelector("#linkedin-links");
 const minScore = document.querySelector("#min-score");
 const minScoreLabel = document.querySelector("#min-score-label");
 const searchButton = document.querySelector("#search-button");
 
 let currentJobs = [];
+let currentPosts = [];
+let currentPostSearches = [];
+let savedItems = [];
 let savedIds = new Set();
+let jobPage = 1;
+let postPage = 1;
+let savedPage = 1;
+
+const PAGE_SIZE = 5;
 
 const COUNTRIES = [
   "Iran",
@@ -64,12 +75,20 @@ const COUNTRY_HINTS = {
   "United Arab Emirates": ["uae", "dubai", "abu dhabi"],
 };
 
+const mobilePane = window.matchMedia("(max-width: 800px)");
+
 document.addEventListener("DOMContentLoaded", () => {
   buildCountryControls();
   loadProfile();
   loadApplications();
   loadPosts();
   renderLinkedInLinks();
+});
+
+document.querySelector(".section-nav").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-pane]");
+  if (!button) return;
+  showPane(button.dataset.pane);
 });
 
 const fileDrop = document.querySelector("#file-drop");
@@ -127,6 +146,7 @@ form.addEventListener("submit", (event) => {
 
 minScore.addEventListener("input", () => {
   minScoreLabel.textContent = minScore.value;
+  jobPage = 1;
   renderJobs();
 });
 
@@ -213,9 +233,11 @@ async function searchJobs() {
     return;
   }
   currentJobs = payload.jobs || [];
+  jobPage = 1;
   renderSources(payload.sources || []);
   renderJobs();
   renderPosts(payload.posts || [], payload.post_searches || []);
+  if (mobilePane.matches) showPane("matches");
   const visible = visibleJobs().length;
   const postCount = (payload.posts || []).length;
   const jobNote = visible ? `${visible} roles above your match bar.` : "No roles above the match bar. Lower the bar or broaden the role titles.";
@@ -252,13 +274,22 @@ function renderJobs() {
   results.replaceChildren();
   if (!currentJobs.length) {
     results.append(el("p", "empty", "No matching listings yet. The LinkedIn links on the left still open a search for your roles."));
+    renderPager(resultsPager, 0, 1, () => {});
     return;
   }
   if (!jobs.length) {
     results.append(el("p", "empty", "Matches are below the bar. Move Minimum match to the left to see them."));
+    renderPager(resultsPager, 0, 1, () => {});
     return;
   }
-  jobs.forEach((job) => results.append(jobCard(job)));
+  const view = slicePage(jobs, jobPage);
+  jobPage = view.page;
+  view.items.forEach((job) => results.append(jobCard(job)));
+  renderPager(resultsPager, jobs.length, jobPage, (next) => {
+    jobPage = next;
+    renderJobs();
+    scrollTo(document.querySelector(".results-head"));
+  });
 }
 
 function visibleJobs() {
@@ -267,17 +298,30 @@ function visibleJobs() {
 }
 
 function renderPosts(posts, searches) {
-  if (!postsBox || !postSearches) return;
+  if (!postsBox || !postSearches || !postsPager) return;
+  if (Array.isArray(posts)) {
+    currentPosts = posts;
+    currentPostSearches = searches || [];
+    postPage = 1;
+  }
   postSearches.replaceChildren();
-  (searches || []).forEach((item) => {
+  currentPostSearches.forEach((item) => {
     if (safeUrl(item.url)) postSearches.append(linkButton(item.label, item.url, true));
   });
   postsBox.replaceChildren();
-  if (!posts.length) {
+  if (!currentPosts.length) {
     postsBox.append(el("p", "empty", "No public job-offer posts yet. Use the post searches above while you are signed in to LinkedIn."));
+    renderPager(postsPager, 0, 1, () => {});
     return;
   }
-  posts.forEach((post) => postsBox.append(postCard(post)));
+  const view = slicePage(currentPosts, postPage);
+  postPage = view.page;
+  view.items.forEach((post) => postsBox.append(postCard(post)));
+  renderPager(postsPager, currentPosts.length, postPage, (next) => {
+    postPage = next;
+    renderPosts();
+    scrollTo(postsBox.closest(".tracker"));
+  });
 }
 
 function postCard(post) {
@@ -481,12 +525,14 @@ function linkedinSearchUrl(title, place) {
 }
 
 function openMail(job, button) {
+  const email = safeEmail(job.apply_email);
+  if (!email) return;
   const subject = `Application for ${job.title} at ${job.company}`;
   const body = encodeURIComponent(job.cover_letter).replace(/%0A/g, "%0D%0A");
-  const href = `mailto:${job.apply_email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+  const href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
   if (href.length > 1800) {
     copyText(job.cover_letter, button);
-    window.location.href = `mailto:${job.apply_email}?subject=${encodeURIComponent(subject)}`;
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
     setStatus("The letter was copied. Paste it into the email, attach your CV, and send.");
     return;
   }
@@ -522,14 +568,26 @@ async function saveJob(job, button) {
 async function loadApplications() {
   const response = await fetch("/api/applications");
   const payload = await response.json();
-  const items = payload.applications || [];
-  savedIds = new Set(items.map((item) => item.id));
+  savedItems = payload.applications || [];
+  savedIds = new Set(savedItems.map((item) => item.id));
+  paintSaved();
+}
+
+function paintSaved() {
   tracker.replaceChildren();
-  if (!items.length) {
+  if (!savedItems.length) {
     tracker.append(el("p", "empty", "Roles you save show up here, with the letter to send."));
+    renderPager(savedPager, 0, 1, () => {});
     return;
   }
-  items.forEach((item) => tracker.append(savedCard(item)));
+  const view = slicePage(savedItems, savedPage);
+  savedPage = view.page;
+  view.items.forEach((item) => tracker.append(savedCard(item)));
+  renderPager(savedPager, savedItems.length, savedPage, (next) => {
+    savedPage = next;
+    paintSaved();
+    scrollTo(savedPager.closest(".tracker"));
+  });
 }
 
 function savedCard(item) {
@@ -593,6 +651,11 @@ async function copyText(text, button) {
   }, 1400);
 }
 
+function safeEmail(value) {
+  const text = String(value || "").trim();
+  return /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(text) ? text : "";
+}
+
 function safeUrl(url) {
   try {
     const parsed = new URL(url);
@@ -615,11 +678,91 @@ function setValue(id, value) {
   document.getElementById(id).value = value || "";
 }
 
+function slicePage(items, page) {
+  const pages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+  const current = Math.min(Math.max(page, 1), pages);
+  const start = (current - 1) * PAGE_SIZE;
+  return { items: items.slice(start, start + PAGE_SIZE), page: current, pages };
+}
+
+function renderPager(nav, total, page, onPick) {
+  if (!nav) return;
+  const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  if (total === 0 || pages <= 1) {
+    nav.hidden = true;
+    nav.replaceChildren();
+    return;
+  }
+  const current = Math.min(Math.max(page, 1), pages);
+  const start = (current - 1) * PAGE_SIZE + 1;
+  const end = Math.min(total, current * PAGE_SIZE);
+  nav.hidden = false;
+  nav.replaceChildren();
+  nav.append(el("p", "pager-status", `${start}–${end} of ${total}`));
+  const row = el("div", "pager-row");
+  row.append(pagerButton("Previous", current === 1, () => onPick(current - 1)));
+  pageWindow(pages, current).forEach((item) => {
+    if (item === "…") {
+      row.append(el("span", "pager-gap", "…"));
+      return;
+    }
+    const button = pagerButton(String(item), item === current, () => onPick(item));
+    if (item === current) {
+      button.classList.add("is-current");
+      button.setAttribute("aria-current", "page");
+    }
+    row.append(button);
+  });
+  row.append(pagerButton("Next", current === pages, () => onPick(current + 1)));
+  nav.append(row);
+}
+
+function pageWindow(pages, current) {
+  if (pages <= 7) return Array.from({ length: pages }, (_, index) => index + 1);
+  const items = [1];
+  const left = Math.max(2, current - 1);
+  const right = Math.min(pages - 1, current + 1);
+  if (left > 2) items.push("…");
+  for (let number = left; number <= right; number += 1) items.push(number);
+  if (right < pages - 1) items.push("…");
+  items.push(pages);
+  return items;
+}
+
+function pagerButton(text, disabled, onClick) {
+  const button = el("button", null, text);
+  button.type = "button";
+  button.disabled = disabled;
+  if (!disabled) button.addEventListener("click", onClick);
+  return button;
+}
+
+function scrollTo(node) {
+  if (node) node.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function el(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
   if (text != null) node.textContent = text;
   return node;
+}
+
+function showPane(name) {
+  document.body.dataset.pane = name;
+  document.querySelectorAll(".section-nav button").forEach((button) => {
+    const selected = button.dataset.pane === name;
+    button.classList.toggle("is-current", selected);
+    if (selected) button.setAttribute("aria-current", "page");
+    else button.removeAttribute("aria-current");
+  });
+  if (mobilePane.matches) {
+    const root = document.documentElement;
+    const previous = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    window.scrollTo(0, 0);
+    root.style.scrollBehavior = previous;
+  }
 }
 
 function setStatus(message) {

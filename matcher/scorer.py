@@ -335,17 +335,16 @@ def cover_letter(profile: dict, job: dict, matched_skills: list[str]) -> str:
     name = profile.get("name") or "Applicant"
     title = job.get("title") or "the open role"
     company = job.get("company") or "your team"
-    role = (profile.get("target_titles") or ["this field"])[0]
+    role = (profile.get("target_titles") or [""])[0].strip()
     skills = [skill for skill in matched_skills if skill]
     if not skills:
         skills = list(profile.get("skills") or [])[:5]
-    paragraphs = [
-        "Dear Hiring Manager,",
-        (
-            f"I am writing to apply for the {title} position at {company}. "
-            f"I am a {role}, and this opening matches the work I want to do next."
-        ),
-    ]
+    opening = f"I am writing to apply for the {title} position at {company}."
+    if role:
+        opening += f" I am a {role}, and this opening matches the work I want to do next."
+    else:
+        opening += " This opening matches the work I want to do next."
+    paragraphs = ["Dear Hiring Manager,", opening]
     if skills:
         listed = ", ".join(skills[:5])
         paragraphs.append(f"The parts of my experience most relevant to this role are {listed}.")

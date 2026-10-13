@@ -324,21 +324,56 @@ State University 2020 - 2024
 
         with TemporaryDirectory() as folder:
             original = app_module.PROFILE_PATH
+            applications_path = app_module.APPLICATIONS_PATH
             app_module.PROFILE_PATH = Path(folder) / "profile.json"
+            app_module.APPLICATIONS_PATH = Path(folder) / "applications.json"
             try:
                 client = app.test_client()
                 home = client.get("/")
                 self.assertEqual(home.status_code, 200)
                 self.assertIn(b"Find roles that fit your CV", home.data)
                 self.assertIn(b"Job offers in LinkedIn posts", home.data)
+                self.assertIn(b'aria-label="Match pages"', home.data)
+                self.assertIn(b'aria-label="Post pages"', home.data)
+                self.assertIn(b'aria-label="Saved role pages"', home.data)
+                self.assertIn(b'aria-label="Sections"', home.data)
+                self.assertIn(b'data-pane="profile"', home.data)
                 parsed = client.post("/api/parse", json={"text": SAMPLE})
                 self.assertEqual(parsed.status_code, 200)
                 body = parsed.get_json()["profile"]
                 self.assertEqual(body["name"], "Sara Nouri")
                 missing = client.post("/api/search", json={"target_titles": [], "skills": []})
                 self.assertEqual(missing.status_code, 400)
+                blocked = client.post(
+                    "/api/parse",
+                    json={"text": SAMPLE},
+                    headers={"Origin": "https://example.evil"},
+                )
+                self.assertEqual(blocked.status_code, 403)
+                saved = client.post(
+                    "/api/applications",
+                    json={
+                        "id": "job-1",
+                        "title": "Analyst",
+                        "score": "not-a-number",
+                        "url": "javascript:alert(1)",
+                        "apply_email": "not-an-email\nBcc:other@example.com",
+                        "cover_letter": "Hello",
+                    },
+                )
+                self.assertEqual(saved.status_code, 200)
+                record = saved.get_json()["application"]
+                self.assertEqual(record["score"], 0)
+                self.assertEqual(record["url"], "")
+                self.assertEqual(record["apply_email"], "")
+                listed = client.get("/api/applications")
+                self.assertEqual(listed.get_json()["applications"][0]["id"], "job-1")
+                removed = client.delete("/api/applications/job-1")
+                self.assertEqual(removed.status_code, 200)
+                self.assertEqual(client.get("/api/applications").get_json()["applications"], [])
             finally:
                 app_module.PROFILE_PATH = original
+                app_module.APPLICATIONS_PATH = applications_path
 
 
 if __name__ == "__main__":
