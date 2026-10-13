@@ -29,6 +29,9 @@ HIRING_RE = re.compile(
     re.I,
 )
 SEEKER_RE = re.compile(r"جویای کار|open to work|به دنبال کار هستم", re.I)
+# In Arabic "استخدام" means "use", so it only signals hiring in Persian text.
+ARABIC_LETTERS_RE = re.compile("[\u0629\u064A\u0643\u0649]")
+PERSIAN_LETTERS_RE = re.compile("[\u067E\u0686\u0698\u06AF\u06CC\u06A9]")
 
 # Public posts visible without a LinkedIn login on 2026-10-13.
 # LinkedIn does not offer a personal feed API, so a signed-in search is the live view.
@@ -150,7 +153,11 @@ def offer_text(post: dict) -> str:
 
 
 def is_job_offer(text: str, titles: list[str]) -> bool:
-    if not text or not HIRING_RE.search(text):
+    if not text:
+        return False
+    if ARABIC_LETTERS_RE.search(text) and not PERSIAN_LETTERS_RE.search(text):
+        text = text.replace("استخدام", " ")
+    if not HIRING_RE.search(text):
         return False
     if SEEKER_RE.search(text) and not re.search(r"استخدام|فرصت شغلی|موقعیت شغلی|\bhiring\b", text, re.I):
         return False

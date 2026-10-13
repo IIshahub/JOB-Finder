@@ -31,7 +31,11 @@ TIME_RANGES = ("day", "week", "month", "year")
 JOB_PATH_RE = re.compile(r"^/jobs/view/[^/?#]+")
 JOB_ID_RE = re.compile(r"(\d{6,})/?$")
 HIRING_TITLE_RE = re.compile(r"^(?P<company>.+?) hiring (?P<title>.+?)(?: in (?P<location>.+))?$", re.I)
-LINKEDIN_SUFFIX_RE = re.compile(r"\s*[|\-–]\s*LinkedIn\s*$", re.I)
+AT_TITLE_RE = re.compile(r"^(?P<title>.+?) at (?P<company>.+?)(?:\s+[—–]\s+(?P<location>.+))?$")
+LINKEDIN_SUFFIX_RE = re.compile(r"(?:\s*[|\-–—]\s*(?:LinkedIn|Jobs))+\s*$", re.I)
+SLUG_COMPANY_RE = re.compile(r"/jobs/view/[^/]*?-at-([a-z0-9-]+?)-\d{6,}$")
+# LinkedIn has almost no job listings for Iran, so Iran searches look for remote roles.
+REMOTE_COUNTRIES = {"Iran"}
 
 
 def search_linkedin(
@@ -54,7 +58,7 @@ def search_linkedin(
     jobs: list[dict] = []
     web_posts: list[dict] = []
     if key and not offline:
-        jobs, report = search_web_jobs(keyword, location, country, since, key)
+        jobs, report = search_web_jobs(keyword, jobs_location(location, country), since, key)
         reports.append(report)
         web_posts, report = search_web_posts(keyword, location, country, since, key)
         reports.append(report)
@@ -88,12 +92,11 @@ def fetch_linkedin_jobs(profile: dict, since: str = "month") -> tuple[list[dict]
     titles = [str(title).strip() for title in (profile.get("target_titles") or []) if str(title).strip()][:2]
     if not titles:
         return [], {"name": "LinkedIn jobs", "ok": True, "count": 0, "error": ""}
-    location = str(profile.get("location") or "").strip()
-    country = home_country(profile) or location
+    where = jobs_location(str(profile.get("location") or "").strip(), home_country(profile))
     found: list[dict] = []
     errors: list[str] = []
     for title in titles:
-        jobs, report = search_web_jobs(title, location, country, since, key)
+        jobs, report = search_web_jobs(title, where, since, key)
         if not report["ok"] and report.get("error"):
             errors.append(report["error"])
         found.extend(jobs)
@@ -153,16 +156,21 @@ def merge_jobs(first: list[dict], second: list[dict], limit: int = 300) -> list[
     return merged[:limit]
 
 
-def search_web_jobs(keyword: str, location: str, country: str, since: str, key: str) -> tuple[list[dict], dict]:
-    query = " ".join(part for part in (keyword, "jobs", location) if part)
+def jobs_location(location: str, country: str) -> str:
+    return "remote" if country in REMOTE_COUNTRIES else location
+
+
+def search_web_jobs(keyword: str, location: str, since: str, key: str) -> tuple[list[dict], dict]:
+    name = "LinkedIn jobs (remote)" if location == "remote" else "LinkedIn jobs"
+    query = " ".join(part for part in (keyword, location, "jobs") if part)
     try:
         results = tavily_search(query, "linkedin.com/jobs/view", since, key)
     except Exception as exc:
-        return [], {"name": "LinkedIn jobs", "ok": False, "count": 0, "error": short_error(exc)}
+        return [], {"name": name, "ok": False, "count": 0, "error": short_error(exc)}
     seen: set[str] = set()
     jobs = []
     for item in results:
-        job = adapt_job_result(item, country or location)
+        job = adapt_job_result(item)
         if not job or not matches_keyword(f"{job['title']} {job['company']} {job['snippet']}", keyword):
             continue
         match = JOB_ID_RE.search(job["url"])
@@ -171,7 +179,7 @@ def search_web_jobs(keyword: str, location: str, country: str, since: str, key: 
             continue
         seen.add(dedupe)
         jobs.append(job)
-    return jobs, {"name": "LinkedIn jobs", "ok": True, "count": len(jobs), "error": ""}
+    return jobs, {"name": name, "ok": True, "count": len(jobs), "error": ""}
 
 
 def as_board_job(job: dict) -> dict:
@@ -226,7 +234,7 @@ def tavily_search(query: str, domain: str, since: str, key: str) -> list[dict]:
     return [item for item in results if isinstance(item, dict)]
 
 
-def adapt_job_result(item: dict, region: str) -> dict | None:
+def adapt_job_result(item: dict) -> dict | None:
     url = job_url(str(item.get("url") or ""))
     if not url:
         return None
@@ -236,18 +244,23 @@ def adapt_job_result(item: dict, region: str) -> dict | None:
     snippet = strip_tags(item.get("content"))[:600]
     company = ""
     location = ""
-    match = HIRING_TITLE_RE.match(raw_title)
+    match = HIRING_TITLE_RE.match(raw_title) or AT_TITLE_RE.match(raw_title)
     if match:
-        title = match.group("title").strip()
-        company = match.group("company").strip()
-        location = (match.group("location") or "").strip()
+        title = match.group("title")
+        company = match.group("company")
+        location = match.group("location") or ""
     else:
-        parts = [part.strip() for part in re.split(r"\s+[-–|]\s+", raw_title) if part.strip()]
+        parts = [part.strip() for part in re.split(r"\s+[-–—|]\s+", raw_title) if part.strip()]
         title = parts[0]
         company = parts[1] if len(parts) > 1 else ""
+    title, company, location = (trim_cut(value) for value in (title, company, location))
+    company = company or slug_company(url)
     if not location:
         text = f"{raw_title} {snippet}"
-        location = iran_place(text) if region.lower() == "iran" or PERSIAN_RE.search(text) else region
+        if PERSIAN_RE.search(text) or matches_regions(text.lower(), ["Iran"]):
+            location = iran_place(text)
+        elif re.search(r"\bremote\b", text, re.I):
+            location = "Remote"
     return {
         "title": title[:140],
         "company": company[:140] or "LinkedIn job",
@@ -258,6 +271,18 @@ def adapt_job_result(item: dict, region: str) -> dict | None:
         "apply_email": find_email(snippet),
         "source": "LinkedIn job",
     }
+
+
+def trim_cut(value: str) -> str:
+    """Drop the '...' that search engines add to shortened titles."""
+    return re.sub(r"\s*(?:\.{3}|…)\s*$", "", value or "").strip(" -–—|")
+
+
+def slug_company(url: str) -> str:
+    match = SLUG_COMPANY_RE.search(url)
+    if not match:
+        return ""
+    return " ".join(word.capitalize() for word in match.group(1).split("-") if word)
 
 
 def job_url(value: str) -> str:

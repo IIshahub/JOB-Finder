@@ -302,6 +302,8 @@ State University 2020 - 2024
         seeker = "جویای کار هستم و open to work به عنوان طراح."
         self.assertTrue(is_job_offer(offer, ["Frontend Developer"]))
         self.assertFalse(is_job_offer(seeker, ["Frontend Developer"]))
+        arabic = "React 19 hooks من ضمن ال hooks دي --useFormStatus من ضمن الاخطاء استخدام"
+        self.assertFalse(is_job_offer(arabic, ["React Developer"]))
         url = linkedin_post_search_url("استخدام Frontend Developer تهران")
         self.assertIn("linkedin.com/search/results/content/", url)
         self.assertIn("date_posted", url)
@@ -467,15 +469,32 @@ State University 2020 - 2024
             "content": "React, TypeScript, and Next.js. Send a CV to jobs@snapp.ir",
             "published_date": "2026-10-10",
         }
-        job = adapt_job_result(item, "Iran")
+        job = adapt_job_result(item)
         self.assertEqual(job["url"], "https://www.linkedin.com/jobs/view/senior-frontend-developer-at-snapp-4012345678")
         self.assertEqual(job["title"], "Senior Frontend Developer")
         self.assertEqual(job["company"], "Snapp")
         self.assertEqual(job["location"], "Tehran, Tehran Province, Iran")
         self.assertEqual(job["published"], "2026-10-10")
         self.assertEqual(job["apply_email"], "jobs@snapp.ir")
-        self.assertIsNone(adapt_job_result({**item, "url": "https://www.linkedin.com/posts/x-activity-1"}, "Iran"))
-        self.assertIsNone(adapt_job_result({**item, "url": "https://linkedin.com.evil.io/jobs/view/1"}, "Iran"))
+        self.assertIsNone(adapt_job_result({**item, "url": "https://www.linkedin.com/posts/x-activity-1"}))
+        self.assertIsNone(adapt_job_result({**item, "url": "https://linkedin.com.evil.io/jobs/view/1"}))
+
+        base = "https://www.linkedin.com/jobs/view/"
+        shapes = [
+            ("React JS Developer at Programmers.io — Dallas, TX - Jobs", "react-js-developer-at-programmers-io-4471918921",
+             ("React JS Developer", "Programmers.io", "Dallas, TX")),
+            ("Signature IT World Inc hiring React Developer in Sunnyvale ...", "4465221243",
+             ("React Developer", "Signature IT World Inc", "Sunnyvale")),
+            ("React Developer (US)", "react-developer-us-at-edgeq-technologies-private-limited-4477807638",
+             ("React Developer (US)", "Edgeq Technologies Private Limited", "")),
+            ("Django React Developer - Remote Work at BairesDev", "django-react-developer-remote-work-at-bairesdev-4474993455",
+             ("Django React Developer - Remote Work", "BairesDev", "Remote")),
+            ("React Developer - Bright Vision Technologies", "react-developer-at-bright-vision-technologies-4476364632",
+             ("React Developer", "Bright Vision Technologies", "")),
+        ]
+        for title, path, expected in shapes:
+            parsed = adapt_job_result({"title": title, "url": base + path, "content": "React and TypeScript."})
+            self.assertEqual((parsed["title"], parsed["company"], parsed["location"]), expected, title)
         self.assertTrue(matches_keyword("Senior Front-End Developer, React", "frontend react"))
         self.assertTrue(matches_keyword("استخدام فرانت‌اند کار", "فرانت"))
         self.assertFalse(matches_keyword("Senior Backend Developer", "frontend"))
@@ -503,6 +522,8 @@ State University 2020 - 2024
             result = search_linkedin("react", location="Tehran, Iran")
         self.assertEqual(call.call_count, 2)
         self.assertEqual(call.call_args_list[0].kwargs["json"]["include_domains"], ["linkedin.com/jobs/view"])
+        self.assertEqual(call.call_args_list[0].kwargs["json"]["query"], "react remote jobs")
+        self.assertEqual(result["reports"][0]["name"], "LinkedIn jobs (remote)")
         self.assertEqual(call.call_args_list[1].kwargs["json"]["query"], "استخدام react")
         self.assertEqual([item["title"] for item in result["jobs"]], ["React Developer"])
         self.assertIn(post["url"], [item["url"] for item in result["posts"]])
