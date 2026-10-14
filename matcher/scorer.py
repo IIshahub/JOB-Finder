@@ -102,10 +102,12 @@ def title_points(titles: list[str], job_title: str) -> int:
     best = 0
     job_words = {same_role(word) for word in significant_words(folded)}
     for target in titles:
-        if contains_term(folded, target) or contains_term(folded, fold_title(target)):
+        folded_target = fold_title(target)
+        if contains_term(folded, target) or contains_term(folded, folded_target):
             best = max(best, 30)
             continue
-        words = [same_role(word) for word in significant_words(target)]
+        # Fold first so Persian roles like "توسعه‌دهنده فرانت‌اند" can match English jobs.
+        words = [same_role(word) for word in significant_words(folded_target)]
         if words and all(word in job_words or contains_term(folded, word) for word in words):
             best = max(best, 22)
     return best

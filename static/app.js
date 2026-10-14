@@ -29,6 +29,10 @@ let savedPage = 1;
 const PAGE_SIZE = 5;
 const PROFILE_KEY = "jobfinder.profile";
 const SAVED_KEY = "jobfinder.applications";
+const THEME_KEY = "jobfinder.theme";
+const themeToggle = document.querySelector("#theme-toggle");
+const themeToggleText = document.querySelector(".theme-toggle-text");
+const themeColorMeta = document.querySelector('meta[name="theme-color"]');
 
 const COUNTRIES = [
   "Iran",
@@ -80,11 +84,16 @@ const COUNTRY_HINTS = {
 const mobilePane = window.matchMedia("(max-width: 800px)");
 
 document.addEventListener("DOMContentLoaded", () => {
+  initTheme();
   buildCountryControls();
   loadProfile();
   loadApplications();
   loadPosts();
   renderLinkedInLinks();
+});
+
+themeToggle.addEventListener("click", () => {
+  setTheme(currentTheme() === "dark" ? "light" : "dark", true);
 });
 
 document.querySelector(".section-nav").addEventListener("click", (event) => {
@@ -184,7 +193,11 @@ async function sendParse(url, options) {
   writeStored(PROFILE_KEY, payload.profile);
   applyProfile(payload.profile);
   const count = (payload.profile.skills || []).length;
-  setStatus(`Found ${count} skills and ${(payload.profile.target_titles || []).length} roles. Edit anything that looks off, then search.`);
+  const roles = (payload.profile.target_titles || []).length;
+  const model = payload.reader_model ? ` (${payload.reader_model})` : "";
+  const reader = payload.reader === "ai" ? ` with the AI reader${model}` : "";
+  const note = payload.reader_error ? ` ${payload.reader_error}` : "";
+  setStatus(`Found ${count} skills and ${roles} roles${reader}.${note} Edit anything that looks off, then search.`);
 }
 
 function applyProfile(profile) {
@@ -799,4 +812,40 @@ function setStatus(message) {
 function setError(message) {
   formError.hidden = !message;
   formError.textContent = message;
+}
+
+function initTheme() {
+  setTheme(currentTheme(), false);
+}
+
+function currentTheme() {
+  const fromDom = document.documentElement.getAttribute("data-theme");
+  if (fromDom === "light" || fromDom === "dark") return fromDom;
+  try {
+    const stored = window.localStorage.getItem(THEME_KEY);
+    if (stored === "light" || stored === "dark") return stored;
+  } catch (_error) {}
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function setTheme(theme, persist) {
+  const next = theme === "dark" ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", next);
+  if (themeColorMeta) {
+    themeColorMeta.setAttribute("content", next === "dark" ? "#121614" : "#f3efe6");
+  }
+  if (themeToggleText) {
+    themeToggleText.textContent = next === "dark" ? "Light" : "Dark";
+  }
+  if (themeToggle) {
+    themeToggle.setAttribute(
+      "aria-label",
+      next === "dark" ? "Switch to light theme" : "Switch to dark theme"
+    );
+  }
+  if (persist) {
+    try {
+      window.localStorage.setItem(THEME_KEY, next);
+    } catch (_error) {}
+  }
 }

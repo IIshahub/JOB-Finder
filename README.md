@@ -77,7 +77,7 @@ Then open [http://127.0.0.1:5050](http://127.0.0.1:5050).
 ## Use it
 
 1. Drop in a PDF, DOCX, or TXT CV, or paste the text. Scanned pages need the pasted text.
-2. Check the name, roles, and skills. Fix anything the parser missed.
+2. Check the name, roles, and skills. Fix anything the parser missed. It reads English and Persian headings (skills, experience, خلاصه, مهارت‌ها, سوابق شغلی, and similar, including spaced-out ones like "S K I L L S"), contact lines with city/country, and common role titles in both languages. Two-column PDFs are read one column at a time, and Word files include text boxes and the page header. Always review the fields before searching.
 3. Choose the country where you live. Jobs there stay at the top.
 4. Check more countries, or choose **All countries**.
 5. Click **Find matching jobs**.
@@ -85,11 +85,46 @@ Then open [http://127.0.0.1:5050](http://127.0.0.1:5050).
 
 **Remote roles only** hides on-site jobs. **LinkedIn Easy Apply** is only a filter on the LinkedIn links. The match bar hides weaker results; move it left to see more.
 
+## Read any CV with AI (optional)
+
+The built-in reader works from rules, so an unusual layout can still trip it up. For better results with any CV, set one or more API keys. The app tries every free model in order; when one is busy or out of tokens, it switches to the next.
+
+```powershell
+# OpenRouter free models (already enough on its own)
+$env:OPENAI_API_KEY = "sk-or-..."
+$env:OPENAI_BASE_URL = "https://openrouter.ai/api/v1"
+
+# Optional backups — all of these can be set at once
+$env:GEMINI_API_KEY = "..."
+$env:GROQ_API_KEY = "..."
+$env:OLLAMA_MODEL = "qwen3:4b-instruct"
+
+python app.py
+```
+
+**Order used:** OpenRouter free models → Gemini → Groq → Ollama.
+
+- `CV_AI_MODEL` lists OpenRouter / OpenAI models, separated by commas. Empty means the default free OpenRouter list, ending with `openrouter/free` (any free model).
+- On OpenRouter only `:free` models are used unless `CV_AI_ALLOW_PAID=1`.
+- Gemini tries `gemini-2.5-flash`, then `gemini-2.0-flash`, then `gemini-2.5-flash-lite` (override with `CV_AI_GEMINI_MODELS`).
+- Groq tries `openai/gpt-oss-20b`, then other free Groq models (override with `CV_AI_GROQ_MODELS`).
+- Ollama runs locally. Install [Ollama](https://ollama.com/), pull a model, set `OLLAMA_MODEL`. Optional: `OLLAMA_BASE_URL=http://127.0.0.1:11434/v1`.
+- If every AI option fails, the built-in reader is used and the form says so. The status line shows which model answered.
+
+Free options:
+
+- **OpenRouter free models.** Create a free key at [openrouter.ai](https://openrouter.ai/). About 50 free requests a day shared across `:free` models.
+- **Gemini free tier.** Get a key at [Google AI Studio](https://aistudio.google.com/). Google blocks Iranian IP addresses, so this needs a VPN.
+- **Groq free tier.** Get a key at [console.groq.com](https://console.groq.com/). Higher daily limits, but some networks (including some VPNs) get `403 Forbidden`.
+- **Ollama on your PC.** Fully free, no daily limit, CV stays local.
+
+With a key set, the text of each CV you upload is sent to that service. Without a key, nothing leaves the server.
+
 ## What stays private
 
 Your CV and the ready-to-send list are kept in your own browser, not on the server. Another device or browser starts empty. To clear them, clear this site's data in your browser.
 
-The server reads an uploaded CV to pull out your details and sends them back without saving them. The `data` folder only holds public LinkedIn posts found by web search.
+The server reads an uploaded CV to pull out your details and sends them back without saving them. If an AI key is set, the CV text also goes to that AI service (see above). The `data` folder only holds public LinkedIn posts found by web search.
 
 ## Tests
 

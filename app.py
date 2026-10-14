@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 
 from flask import Flask, jsonify, render_template, request, send_from_directory
 
-from matcher.cv_parser import parse_cv, parse_upload
+from matcher.cv_parser import parse_upload, read_cv
 from matcher.job_sources import search_jobs
 from matcher.linkedin_search import as_board_job, fetch_jobs_feed, fetch_linkedin_jobs, merge_jobs
 from matcher.post_offers import fetch_feed_posts, fetch_web_posts, merge_posts, post_search_links, search_posts
@@ -91,7 +91,7 @@ def parse():
     upload = request.files.get("file")
     if upload and upload.filename:
         try:
-            profile = parse_upload(upload.filename, upload.read())
+            profile, reader = parse_upload(upload.filename, upload.read())
         except ValueError as exc:
             return jsonify({"error": str(exc)}), 400
         except Exception:
@@ -101,10 +101,17 @@ def parse():
         text = str(payload.get("text") or request.form.get("text") or "").strip()
         if len(text) < 40:
             return jsonify({"error": "Paste more of your CV so there is enough to match."}), 400
-        profile = parse_cv(text)
+        profile, reader = read_cv(text)
         profile["cv_filename"] = "Pasted CV"
     profile = normalize_profile(profile)
-    return jsonify({"profile": profile})
+    return jsonify(
+        {
+            "profile": profile,
+            "reader": reader["reader"],
+            "reader_error": reader["error"],
+            "reader_model": reader.get("model", ""),
+        }
+    )
 
 
 @app.post("/api/search")

@@ -61,6 +61,252 @@ State University 2020 - 2024
         self.assertTrue(any(title == "Frontend Developer" for title in profile["target_titles"]))
         self.assertTrue(any(title == "Full-Stack Developer" for title in profile["target_titles"]))
 
+    def test_parse_persian_and_alternate_cv_layouts(self):
+        persian = """
+علی رضایی
+توسعه‌دهنده فرانت‌اند
+ali.rezaei@example.com
++98 912 111 2233
+تهران، ایران
+
+درباره من
+توسعه‌دهنده فرانت‌اند با تجربه React و TypeScript.
+
+مهارت‌ها
+React، Next.js، TypeScript، HTML، CSS، Git
+
+سوابق شغلی
+توسعه‌دهنده فرانت‌اند
+شرکت نمونه | تهران
+۱۴۰۲ - اکنون
+
+تحصیلات
+مهندسی کامپیوتر
+"""
+        profile = parse_cv(persian)
+        self.assertEqual(profile["name"], "علی رضایی")
+        self.assertEqual(profile["email"], "ali.rezaei@example.com")
+        self.assertIn("تهران", profile["location"])
+        for skill in ("React", "Next.js", "TypeScript", "HTML", "CSS", "Git"):
+            self.assertIn(skill, profile["skills"])
+        self.assertTrue(any("فرانت" in title for title in profile["target_titles"]))
+        self.assertGreaterEqual(title_points(profile["target_titles"], "Frontend Developer"), 22)
+
+        euro = """
+Maria Santos
+Based in Berlin, Germany
+maria.santos@example.com · +49 30 123456 · linkedin.com/in/mariasantos
+01 Profile
+Backend engineer focused on APIs and data pipelines.
+02 Key Skills
+Python · Django · PostgreSQL · Docker · AWS
+03 Employment History
+DataCorp — Backend Engineer
+2022 - Present
+Built payment services in Python.
+"""
+        euro_profile = parse_cv(euro)
+        self.assertEqual(euro_profile["name"], "Maria Santos")
+        self.assertIn("Berlin", euro_profile["location"])
+        for skill in ("Python", "Django", "PostgreSQL", "Docker", "AWS"):
+            self.assertIn(skill, euro_profile["skills"])
+        self.assertTrue(any("Backend Engineer" in title for title in euro_profile["target_titles"]))
+
+        oneline = """
+Sam Karimi
+Frontend Developer | Remote | sam.karimi@example.com | +1-415-555-0199 | San Francisco, USA
+Skills: React, TypeScript, CSS, Figma
+Experience
+Acme Labs | Frontend Developer | 2023 - Present
+"""
+        one = parse_cv(oneline)
+        self.assertEqual(one["name"], "Sam Karimi")
+        self.assertIn("San Francisco", one["location"])
+        self.assertIn("React", one["skills"])
+        self.assertTrue(any(title == "Frontend Developer" for title in one["target_titles"]))
+
+    def test_two_column_pdf_reads_one_column_at_a_time(self):
+        import pymupdf
+
+        from matcher.cv_parser import read_upload
+
+        document = pymupdf.open()
+        page = document.new_page(width=595, height=842)
+        page.insert_text((40, 60), "LEILA AHMADI", fontsize=22)
+        page.insert_text((40, 80), "Product Designer", fontsize=12)
+        left = ["CONTACT", "leila.ahmadi@example.com", "0912 345 6789", "Shiraz, Iran", "",
+                "MY SKILLS", "Figma", "Prototyping", "User Research 90%", "", "LANGUAGES", "English - Fluent"]
+        right = ["ABOUT ME", "Product designer who turns research into clear interfaces.", "",
+                 "WORK HISTORY", "Senior Product Designer", "Pay Co, Tehran 2021 - Present", "",
+                 "UI Designer", "Studio Nine 2018-2021"]
+        for column, x in ((left, 40), (right, 240)):
+            for row, line in enumerate(column):
+                page.insert_text((x, 130 + row * 16), line, fontsize=10)
+        profile = parse_cv(read_upload("cv.pdf", document.tobytes()))
+        self.assertEqual(profile["name"], "Leila Ahmadi")
+        self.assertEqual(profile["phone"], "0912 345 6789")
+        self.assertEqual(profile["location"], "Shiraz, Iran")
+        self.assertEqual(profile["skills"][:3], ["Figma", "Prototyping", "User Research"])
+        self.assertNotIn("English", profile["skills"])
+        self.assertEqual(profile["target_titles"], ["Product Designer", "Senior Product Designer", "UI Designer"])
+        self.assertIn("clear interfaces", profile["summary"])
+
+    def test_docx_header_and_text_boxes_are_read_once(self):
+        import io
+        import zipfile
+
+        from matcher.cv_parser import read_upload
+
+        w = 'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"'
+        mc = 'xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"'
+
+        def p(text):
+            return f"<w:p><w:r><w:t>{text}</w:t></w:r></w:p>"
+
+        box = p("Core Competencies") + p("Accounting, IFRS, QuickBooks")
+        body = (
+            p("Professional Summary") + p("Accountant with eight years of audit work for manufacturers.")
+            + "<w:p><w:r><mc:AlternateContent><mc:Choice><w:txbxContent>" + box
+            + "</w:txbxContent></mc:Choice><mc:Fallback><w:txbxContent>" + box
+            + "</w:txbxContent></mc:Fallback></mc:AlternateContent></w:r></w:p>"
+            + p("Employment History") + p("Senior Accountant") + p("Atlas Steel 2019 - Present")
+        )
+        header = p("Reza Karimi") + p("Accountant") + p("reza.k@example.com | 09121234567 | Isfahan, Iran")
+        buffer = io.BytesIO()
+        with zipfile.ZipFile(buffer, "w") as archive:
+            archive.writestr("word/document.xml", f"<w:document {w} {mc}><w:body>{body}</w:body></w:document>")
+            archive.writestr("word/header1.xml", f"<w:hdr {w}>{header}</w:hdr>")
+        text = read_upload("cv.docx", buffer.getvalue())
+        self.assertEqual(text.count("Core Competencies"), 1)
+        profile = parse_cv(text)
+        self.assertEqual(profile["name"], "Reza Karimi")
+        self.assertEqual(profile["phone"], "09121234567")
+        self.assertEqual(profile["location"], "Isfahan, Iran")
+        self.assertEqual(profile["skills"], ["Accounting", "IFRS", "QuickBooks"])
+        self.assertEqual(profile["target_titles"], ["Accountant", "Senior Accountant"])
+
+    def test_spaced_headings_labels_and_ratings(self):
+        profile = parse_cv(
+            """
+Name: John Peter Smith
+Mechanical Engineer
+Phone: +44 7700 900123   Email: john.smith@example.com
+London, United Kingdom
+P R O F I L E
+Mechanical engineer with ten years in HVAC design.
+S K I L L S
+AutoCAD ★★★★★
+SolidWorks - Advanced
+W O R K   E X P E R I E N C E
+Design Engineer - Arup
+2016 - 2024
+"""
+        )
+        self.assertEqual(profile["name"], "John Peter Smith")
+        self.assertEqual(profile["phone"], "+44 7700 900123")
+        self.assertEqual(profile["skills"], ["AutoCAD", "SolidWorks"])
+        self.assertEqual(profile["target_titles"], ["Mechanical Engineer", "Design Engineer"])
+        self.assertEqual(profile["summary"], "Mechanical engineer with ten years in HVAC design.")
+
+    def test_ai_reader_fills_profile_and_falls_back(self):
+        import json
+        import os
+        from unittest import mock
+
+        import requests
+
+        from matcher.cv_parser import read_cv
+
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "", "GEMINI_API_KEY": "", "GROQ_API_KEY": "", "OLLAMA_MODEL": ""}):
+            profile, reader = read_cv(SAMPLE)
+        self.assertEqual(reader, {"reader": "rules", "error": "", "model": ""})
+        self.assertEqual(profile["name"], "Sara Nouri")
+
+        answer = {
+            "name": "Sara Nouri",
+            "email": "not an email",
+            "phone": "+98 912 000 0000",
+            "location": "Tehran, Iran",
+            "linkedin": "linkedin.com/in/saranouri",
+            "summary": "Data analyst.",
+            "skills": ["python", "Power BI", "dbt", "Python"],
+            "target_titles": ["Senior Data Analyst", "Data Analyst"],
+        }
+        reply = mock.Mock()
+        reply.json.return_value = {"choices": [{"message": {"content": "```json\n" + json.dumps(answer) + "\n```"}}]}
+        with mock.patch.dict(
+            os.environ,
+            {
+                "OPENAI_API_KEY": "test",
+                "GEMINI_API_KEY": "",
+                "GROQ_API_KEY": "",
+                "OLLAMA_MODEL": "",
+                "CV_AI_MODEL": "",
+                "OPENAI_BASE_URL": "",
+            },
+        ), mock.patch("matcher.cv_ai.requests.post", return_value=reply) as call:
+            profile, reader = read_cv(SAMPLE)
+        self.assertEqual(reader["reader"], "ai")
+        self.assertIn("OpenAI/", reader["model"])
+        self.assertIn("/chat/completions", call.call_args.args[0])
+        self.assertEqual(profile["email"], "sara.nouri@example.com")
+        self.assertEqual(profile["linkedin"], "https://linkedin.com/in/saranouri")
+        self.assertEqual(profile["skills"], ["Python", "Power BI", "dbt"])
+        self.assertEqual(profile["target_titles"], ["Senior Data Analyst", "Data Analyst"])
+
+        from matcher.cv_ai import providers, settings
+
+        router = {
+            "OPENAI_API_KEY": "test",
+            "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
+            "CV_AI_ALLOW_PAID": "",
+            "GEMINI_API_KEY": "",
+            "GROQ_API_KEY": "",
+            "OLLAMA_MODEL": "",
+        }
+        with mock.patch.dict(os.environ, {**router, "CV_AI_MODEL": ""}):
+            models = settings()["model"].split(",")
+            self.assertTrue(all(name.endswith(":free") or name == "openrouter/free" for name in models))
+            self.assertIn("openrouter/free", models)
+        with mock.patch.dict(os.environ, {**router, "CV_AI_MODEL": "gpt-4o-mini,google/gemma-4-31b-it:free"}):
+            self.assertEqual(settings()["model"], "google/gemma-4-31b-it:free")
+        with mock.patch.dict(os.environ, {**router, "CV_AI_MODEL": "openai/gpt-4o-mini"}):
+            self.assertIsNone(settings())
+
+        busy = mock.Mock(status_code=429, text="rate limit")
+        busy.raise_for_status.side_effect = requests.HTTPError("429")
+        ok = mock.Mock()
+        ok.status_code = 200
+        ok.json.return_value = {"choices": [{"message": {"content": json.dumps(answer)}}]}
+        env = {
+            "OPENAI_API_KEY": "or-key",
+            "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
+            "CV_AI_MODEL": "google/gemma-4-31b-it:free,nvidia/nemotron-3-super-120b-a12b:free",
+            "GEMINI_API_KEY": "gem-key",
+            "CV_AI_GEMINI_MODELS": "gemini-2.5-flash",
+            "GROQ_API_KEY": "",
+            "OLLAMA_MODEL": "",
+            "CV_AI_ALLOW_PAID": "",
+        }
+        with mock.patch.dict(os.environ, env):
+            self.assertEqual([item["name"] for item in providers()], ["OpenRouter", "Gemini"])
+        with mock.patch.dict(os.environ, env), mock.patch(
+            "matcher.cv_ai.requests.post", side_effect=[busy, ok]
+        ) as call:
+            profile, reader = read_cv(SAMPLE)
+        self.assertEqual(reader["reader"], "ai")
+        self.assertEqual(reader["model"], "OpenRouter/nvidia/nemotron-3-super-120b-a12b:free")
+        self.assertEqual(call.call_count, 2)
+        self.assertEqual(profile["skills"], ["Python", "Power BI", "dbt"])
+
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "", "GEMINI_API_KEY": "test", "GROQ_API_KEY": "", "OLLAMA_MODEL": "", "CV_AI_MODEL": ""}), mock.patch(
+            "matcher.cv_ai.requests.post", side_effect=requests.ConnectionError("blocked")
+        ):
+            profile, reader = read_cv(SAMPLE)
+        self.assertEqual(reader["reader"], "rules")
+        self.assertIn("could not be reached", reader["error"])
+        self.assertEqual(profile["name"], "Sara Nouri")
+
     def test_scoring_keeps_fit_and_drops_other_city(self):
         profile = parse_cv(SAMPLE)
         analyst = {
@@ -379,9 +625,11 @@ State University 2020 - 2024
 
     def test_pages_and_parse_endpoint(self):
         import app as app_module
+        import os
         from tempfile import TemporaryDirectory
+        from unittest import mock
 
-        with TemporaryDirectory() as folder:
+        with TemporaryDirectory() as folder, mock.patch.dict(os.environ, {"OPENAI_API_KEY": "", "GEMINI_API_KEY": ""}):
             posts_path = app_module.POSTS_PATH
             feed_url = app_module.FEED_URL
             app_module.POSTS_PATH = Path(folder) / "linkedin_posts.json"
@@ -401,6 +649,7 @@ State University 2020 - 2024
                 self.assertEqual(parsed.status_code, 200)
                 body = parsed.get_json()["profile"]
                 self.assertEqual(body["name"], "Sara Nouri")
+                self.assertEqual(parsed.get_json()["reader"], "rules")
                 missing = client.post("/api/search", json={"target_titles": [], "skills": []})
                 self.assertEqual(missing.status_code, 400)
                 blocked = client.post(
