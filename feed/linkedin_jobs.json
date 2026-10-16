@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T04:17:47+00:00",
+  "updated_at": "2026-10-16T16:31:29+00:00",
   "jobs": [
     {
       "title": "FrontEnd Web Developer (Remote)",
@@ -12,12 +12,32 @@
       "source": "LinkedIn job"
     },
     {
+      "title": "Frontend Developer - Remote",
+      "company": "Torentify",
+      "location": "United",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-torentify-4480330335",
+      "published": "2026-10-16",
+      "snippet": "Frontend Developer - Remote in Mountain View, CA. This is a remote position. Annual gross salary: $80,000–$110,000, depending on experience and qualifications.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
       "title": "Front End Web Developer",
       "company": "DBByte",
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/front-end-web-developer-at-dbbyte-4476843758",
-      "published": "2026-10-10",
+      "published": "2026-10-09",
       "snippet": "Role Description This is a full-time remote role for a Frontend Developer at DBByte. The Frontend Developer will build and maintain user-facing interfaces for",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer (Remote)",
+      "company": "7Seventy Recruiting",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-7seventy-recruiting-4477392535",
+      "published": "2026-10-16",
+      "snippet": "This opportunity is for a Mid Level Front End Engineer to develop, maintain, and enhance a consumer-facing web application using React, TypeScript, and Next.js.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -42,12 +62,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Senior Frontend Developer",
-      "company": "Remote Crew",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/senior-frontend-developer-at-remote-crew-4476274858",
-      "published": "2026-10-09",
-      "snippet": "Summary. At Remote Crew, we're partnering with a Northern European interior design e-commerce company looking for a Senior Frontend Developer.",
+      "title": "Junior Front-End Developer",
+      "company": "crewlia",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/junior-front-end-developer-at-crewlia-4478456454",
+      "published": "2026-10-14",
+      "snippet": "We are hiring a Junior Front-End Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day coordination",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -56,7 +76,7 @@
       "company": "Kobotoolbox",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/frontend-web-application-developer-remote-at-kobotoolbox-4478342354",
-      "published": "2026-10-12",
+      "published": "2026-10-11",
       "snippet": "KoboToolbox has an immediate opening for a Frontend Web Application Developer to fill a full-time position of approximately 35-40 hours per week, for a",
       "apply_email": "",
       "source": "LinkedIn job"
@@ -72,12 +92,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Junior Front-End Developer",
-      "company": "crewlia",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-front-end-developer-at-crewlia-4478456454",
-      "published": "2026-10-14",
-      "snippet": "We are hiring a Junior Front-End Developer to provide dedicated remote support to our dynamic teams. Fully remote, flexible work hours Performance-based bonus",
+      "title": "EDS Lead Front End Developer (Remote)",
+      "company": "Blue Acorn iCi",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/eds-lead-front-end-developer-remote-at-blue-acorn-ici-4462992760",
+      "published": "2026-09-24",
+      "snippet": "Blue Acorn iCi is seeking an EDS Front End Developer to build, optimize, and maintain high-performance web experiences using Adobe Edge Delivery Services",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -86,18 +106,8 @@
       "company": "Virufy",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/front-end-developer-unpaid-volunteer-part-time-remote-at-virufy-4475975886",
-      "published": "2026-10-09",
+      "published": "2026-10-08",
       "snippet": "We are seeking a Skilled & Creative Front End Developer who is passionate about crafting high-performance, visually stunning user experiences. Working directly",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "EDS Lead Front End Developer (Remote)",
-      "company": "Blue Acorn iCi",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/eds-lead-front-end-developer-remote-at-blue-acorn-ici-4462992760",
-      "published": "2026-09-24",
-      "snippet": "Blue Acorn iCi is seeking an EDS Front End Developer to build, optimize, and maintain high-performance web experiences using Adobe Edge Delivery Services",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -117,17 +127,17 @@
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/frontend-developer-ii-remote-at-torentify-4478767086",
       "published": "2026-10-13",
-      "snippet": "- Remote at Torentify in United States. Full-time Associate role. s Compensation is offered up to $230,000, plus equity. Fully remote. Position: Senior",
+      "snippet": "Work Arrangement: Fully remote. Position: Senior Frontend Engineer. Industry: Financial Technology (Fintech). Employment",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "Web Developer (Remote)",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/web-developer-remote-at-torentify-4479514556",
+      "title": "Front End Web Applications Developer (Junior) (5660)",
+      "company": "Remotehunter",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/front-end-web-applications-developer-junior-5660-at-remotehunter-4478433075",
       "published": "2026-10-14",
-      "snippet": "The Junior Web Developer will work on front-end interfaces, assist with back-end functionality, troubleshoot technical issues, and help optimize website",
+      "snippet": "The FRONT END WEB APPLICATIONS DEVELOPER role is responsible for designing, building, and supporting the Budget and Spend (BAS) web application as part of the",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -152,42 +162,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Backend Developer (Remote)",
-      "company": "Executiveplacements Com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/backend-developer-remote-at-executiveplacements-com-4478026491",
-      "published": "2026-10-10",
-      "snippet": "The role involves designing, developing, and maintaining software applications to meet business requirements.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Backend C#/.NET Developer - Remote",
-      "company": "Yo It Consulting",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/backend-c%23-net-developer-remote-at-yo-it-consulting-4460285982",
-      "published": "2026-10-08",
-      "snippet": "Backend C#/.NET Developer Role Type: Contract Location: Remote About The Role We are looking for skilled backend developers to support AI training and",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Hiring only on W2: Java Backend Developer, 100% Remote",
       "company": "Tror Ai For Everyone",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/hiring-only-on-w2-java-backend-developer-100%25-remote-at-tror-ai-for-everyone-4478580580",
-      "published": "2026-10-13",
+      "published": "2026-10-12",
       "snippet": "Role: Java Backend Developer Location: 100% Remote Experience: 8+ Years Job Description. Strong hands-on experience in Java development (Spring Boot)",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Node Backend Developer - Remote Work",
-      "company": "INDI Staffing",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/node-backend-developer-remote-work-at-indi-staffing-services-4476764598",
-      "published": "2026-10-07",
-      "snippet": "The Node Backend Developer position focuses on being a full-time problem solver, combining experience, knowledge, and independence to tackle the most complex",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -197,7 +177,27 @@
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/remote-backend-developer-at-agilegrid-solutions-4466771952",
       "published": "2026-09-18",
-      "snippet": "This is a remote position, Minimum of 10+ years of experience in software engineering, with a focus on JVM-based languages such as Java, Groovy, or Kotlin. $",
+      "snippet": "This is a remote position, Minimum of 10+ years of experience in software engineering, with a focus on JVM-based languages such as Java, Groovy, or Kotlin.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Backend Developer - Remote, Full-time",
+      "company": "Clarion",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-developer-remote-full-time-at-clarion-4477690747",
+      "published": "2026-10-08",
+      "snippet": "Senior Backend Developer - Remote, Full-time at Clarion in New York County, NY. Compensation Range: $150K - $225K ・ time Industries Appliances, Electrical,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Node Backend Developer - Remote Work",
+      "company": "INDI Staffing",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/node-backend-developer-remote-work-at-indi-staffing-services-4476764598",
+      "published": "2026-10-07",
+      "snippet": "Apply for Node Backend Developer - Remote Work at INDI Staffing Services in Latin America. Full-time Mid-Senior level role.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -212,22 +212,562 @@
       "source": "LinkedIn job"
     },
     {
+      "title": "Backend Developer II - Remote",
+      "company": "Torentify",
+      "location": "United",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-ii-remote-at-torentify-4479848698",
+      "published": "2026-10-15",
+      "snippet": "Remote-first working environment. Competitive compensation package. Family-friendly policies. Career growth opportunities. Knowledge-sharing opportunities.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Back End Developer - Remote",
+      "company": "Torentify",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/back-end-developer-remote-at-torentify-4479774717",
+      "published": "2026-10-15",
+      "snippet": "- Remote at Torentify in United States. Full-time Associate role. help verify AI-generated code and system behavior, $140,000 - $180,000 2 months ago … $60 - $",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend Developer (Remote)",
+      "company": "Executiveplacements Com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-remote-at-executiveplacements-com-4478026491",
+      "published": "2026-10-10",
+      "snippet": "Proficiency in at least one programming language such as Python, Java, or JavaScript is required. Experience with software development frameworks and libraries",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Backend Developer",
+      "company": "RemoteHunter",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/junior-backend-developer-at-remotehunter-4475974739",
+      "published": "2026-10-08",
+      "snippet": "Full-time Entry level role. designed for a developer with 1-3 years of experience. Salary range is $85,000 to $110,000 per year. Medical insurance Dental",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Developer (Remote)",
+      "company": "Hired",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-hired-4467201480",
+      "published": "",
+      "snippet": "### Full-Stack Developer (Remote). # Full-Stack Developer (Remote). * **Role:** Full-Stack Developer (Remote). We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing, developing, and maintaining efficient, high-quality code to train and optimize AI models. • Design, develop, and maintain efficient, high-quality code to train and optimize AI models. • Conduct evaluations to benchmark model performance and analyze results for continuous improvement. • Proficiency in JavaScript and TypeScript for full-",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer (Remote)",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-wiraa-4475545966",
+      "published": "",
+      "snippet": "### Full Stack Developer (Remote). Join to apply for the **Full Stack Developer (Remote)** role at **Wiraa**. # Full Stack Developer (Remote). Join to apply for the **Full Stack Developer (Remote)** role at **Wiraa**. Our mission is to transform the event management landscape by providing industry-disrupting software solutions that enhance attendee experiences, streamline event operations, and deliver actionable business intelligence. **About The Role**We are seeking an exceptional Full Stack Developer to join our innovative team. As a key member of our development team, you will collaborate c",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer - Fully Remote | Up to $60/hr",
+      "company": "Mercor",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-fully-remote-up-to-%2460-hr-at-mercor-4471169757",
+      "published": "",
+      "snippet": "### Full Stack Developer - Fully Remote | Up to $60/hr. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer - Fully Remote | Up to $60/hr** role at **Mercor**. # Full Stack Developer - Fully Remote | Up to $60/hr. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer - Fully Remote | Up to $60/hr** role at **Mercor**. ## Join or sign in to save this job. Join to save **Full Stack Developer - Fully Remote | Up to $60/hr** at **Mercor**. Get AI-powered advice on this job and more exclusive features. ## Sign in to access AI-power",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Developer (Remote)",
+      "company": "Hired",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-hired-4467206396",
+      "published": "",
+      "snippet": "Full-Stack Developer (Remote) in North Charleston, SC. ### Full-Stack Developer (Remote). # Full-Stack Developer (Remote). * **Role:** Full-Stack Developer (Remote). We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing, developing, and maintaining efficient, high-quality code to train and optimize AI models. • Design, develop, and maintain efficient, high-quality code to train and optimize AI models. • Conduct evaluations to benchmark model performance and analyze results for continuous improvemen",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "SaaS Full-Stack Developer (100 % remote) (m/f/d)",
+      "company": "EWOR",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/saas-full-stack-developer-100-%25-remote-m-f-d-at-ewor-4471854979",
+      "published": "",
+      "snippet": "### SaaS Full-Stack Developer (100 % remote) (m/f/d). # SaaS Full-Stack Developer (100 % remote) (m/f/d). ## Join or sign in to save this job. Join to save **SaaS Full-Stack Developer (100 % remote) (m/f/d)** at **EWOR**. EWOR is launching cutting-edge new initiatives, and we are looking for exceptional operators and builders to join our new department. * You will translate high-level strategic vision into concrete execution roadmaps, driving rapid implementation from prototype to production. * You will architect scalable solutions and drive critical milestones to position the new department f",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer, AI (Remote)",
+      "company": "Torentify",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-ai-remote-at-torentify-4472723832",
+      "published": "",
+      "snippet": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off LinkedIn. Learn more in our Cookie Policy. ### Full Stack Developer, AI (Remote). # Full Stack Developer, AI (Remote). Get AI-powered advice on this job and more exclusive features. DataAnnotation is seeking Full Stack AI Developers to support the development and improvement of advanced AI systems through remote coding work. This role involves designing and solving coding challenges, creating high",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "B2B Full-Stack Developer (100 % remote) (m/f/d)",
+      "company": "EWOR",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/b2b-full-stack-developer-100-%25-remote-m-f-d-at-ewor-4469112855",
+      "published": "",
+      "snippet": "### B2B Full-Stack Developer (100 % remote) (m/f/d). # B2B Full-Stack Developer (100 % remote) (m/f/d). #### EWOR United States 1 week ago See who EWOR has hired for this role. EWOR is launching cutting-edge new initiatives, and we are looking for exceptional operators and builders to join our new department. * You will translate high-level strategic vision into concrete execution roadmaps, driving rapid implementation from prototype to production. * You will architect scalable solutions and drive critical milestones to position the new department for rapid growth and potentially a spin-off to",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Sr Full Stack Developer - Remote",
+      "company": "YO AI Labs",
+      "location": "New York, NY | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/sr-full-stack-developer-remote-at-yo-ai-labs-4471165802",
+      "published": "",
+      "snippet": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off LinkedIn. Learn more in our Cookie Policy. Join to apply for the **Sr Full Stack Developer - Remote** role at **YO AI Labs**. Join to apply for the **Sr Full Stack Developer - Remote** role at **YO AI Labs**. **Job Summary**We are looking for skilled **Full-Stack Software Engineers** to contribute to an AI training project involving software development, debugging, technical problem-solving, syste",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Full-Stack Developer - Remote",
+      "company": "ExecutivePlacements.com",
+      "location": "Vienna, IN",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-remote-at-executiveplacements-com-4475092480",
+      "published": "",
+      "snippet": "### Senior Full-Stack Developer - Remote. # Senior Full-Stack Developer - Remote. We’re looking for a Senior Full-Stack Developer — with a strong backend focus — to join a fast-moving marketplace project on a short-term contract basis. You’ll design and build composable commerce services on commercetools and stand up seller and catalog flows through Mirakl’s dropship model, integrating the two into a seamless buyer and seller experience. This is a hands-on delivery role for an engineer who can own backend architecture, ship production-grade APIs and integrations quickly, and contribute to the",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack JavaScript Developer - Remote - PST",
+      "company": "Avi Technologies Inc.",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-javascript-developer-remote-pst-at-avi-technologies-inc-4475808482",
+      "published": "",
+      "snippet": "Avi Technologies Inc. United States. #### Avi Technologies Inc. United States 16 hours ago See who Avi Technologies Inc. has hired for this role. Get AI-powered advice on this job and more exclusive features. Experience: 5+ years in software development / information systems. • Participate in the complete application lifecycle, including design, development, testing, release, and operational support. • Design, develop, code, debug, and test scalable web applications. • Develop and maintain backend services and APIs using Node.js. • Work effectively within an Agile/Scrum development environment",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-stack Angular Developer - Remote Work",
+      "company": "BairesDev",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-angular-developer-remote-work-at-bairesdev-4471917044",
+      "published": "",
+      "snippet": "### Full-stack Angular Developer - Remote Work. Join to apply for the **Full-stack Angular Developer - Remote Work** role at **BairesDev**. # Full-stack Angular Developer - Remote Work. Join to apply for the **Full-stack Angular Developer - Remote Work** role at **BairesDev**. Join to save **Full-stack Angular Developer - Remote Work** at **BairesDev**. Full-stack Angular Developer at BairesDev. We are looking for a full-stack Angular Developer to write high-quality, reusable code in an Angular-based application with .NET backend to increase its efficiency and improve user experience. - 5+ yea",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "GDH",
+      "location": "Oklahoma City, OK | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-gdh-4470633982",
+      "published": "",
+      "snippet": "### Full Stack Developer. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer** role at **GDH**. # Full Stack Developer. #### GDH Oklahoma City, OK 21 hours ago 79 applicants See who GDH has hired for this role. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer** role at **GDH**. ## Join or sign in to save this job. Join to save **Full Stack Developer** at **GDH**. **Role Summary**A full-stack Software Developer with expertise in back-end T-SQL development, front-end web technologies, and API integrations is sought to supp",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Python Developer (Remote)",
+      "company": "GOVSTAR",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-ai-developer-remote-at-govstar-4470403501",
+      "published": "",
+      "snippet": "GovStar seeks a Full Stack Python Developer to build and maintain secure end-user and service-layer capabilities for enterprise AI applications. This is a hands-on role focused on developing production-quality software that enables agency personnel to securely analyze structured and unstructured data, interact with AI-enabled services, and integrate approved models and data sources within a centralized Azure environment. * Design, develop, test, deploy, and maintain full-stack AI applications and supporting services. * At least 7 years of relevant professional software engineering experience,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "SENIOR FULL STACK (JAVA / REACT) DEVELOPER",
+      "company": "SKM Group",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-java-react-developer-at-skm-group-4473865439",
+      "published": "",
+      "snippet": "### SENIOR FULL STACK (JAVA / REACT) DEVELOPER. # SENIOR FULL STACK (JAVA / REACT) DEVELOPER. Senior Full Stack (Java / React) Developer. We’re looking for a **Senior FS Java Developer** to join a high-impact project focused on the development of cloud-native applications for a global professional services leader. You’ll work on a modern, scalable stack with a strong emphasis on **AI-driven development**, **cloud architecture**, and **full-stack performance**. **About The Role**As a Senior Full-Stack Developer, you will lead the integration of advanced AI tools into the standard SDLC. Senior F",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer (US)",
+      "company": "Edgeq Technologies Private Limited",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-us-at-edgeq-technologies-private-limited-4477807638",
+      "published": "2026-10-09",
+      "snippet": "We are seeking a skilled React Developer to join our remote team. The role focuses on building responsive, high-performance web applications using modern",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React JS Developer",
+      "company": "Programmers.io",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/react-js-developer-at-programmers-io-4471918921",
+      "published": "2026-09-29",
+      "snippet": "Job Title: React JS Developer. Location: Remote. Duration: Only Full Time. Roles and Responsibilities: Developing new user-facing features using React.js",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React JS developer",
+      "company": "Vedan Technologies",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-js-developer-at-vedan-technologies-4476483937",
+      "published": "2026-10-13",
+      "snippet": "Job Title: Senior UI/UX Developer (React JS). Location: Remote. Contract Role. About the Role. We are looking for an experienced Senior UI/UX Developer",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer - Remote Work",
+      "company": "Indi Staffing Services",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-remote-work-at-indi-staffing-services-4479538921",
+      "published": "2026-10-14",
+      "snippet": "React Developer - Remote Work in Mountain View, CA. Develop high-quality, maintainable, and scalable user interface components … 5+ years of experience in",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior React Developer",
+      "company": "Precision Technologies",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/senior-react-developer-at-precision-technologies-4475437454",
+      "published": "2026-10-07",
+      "snippet": "We are looking for a Senior React Developer to join our team remotely on a full-time basis (W2 only, No C2C). .d@precisiontechcorp.com",
+      "apply_email": ".d@precisiontechcorp.com",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Sr React Developer with UX",
+      "company": "Anagh Technologies Inc",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/sr-react-developer-with-ux-at-anagh-technologies-inc-4476031111",
+      "published": "2026-10-12",
+      "snippet": "Hello,. We have 5 urgent openings for \"Sr React Developer with UX\". These are remote roles. Only looking for candidates who can work on W2.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Frontend / React Developer",
+      "company": "JobEasyApply",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/junior-frontend-react-developer-at-jobeasyapply-4478815944",
+      "published": "2026-10-14",
+      "snippet": "This full-time remote role involves developing responsive interfaces using React and JavaScript ... Get notified about new Javascript Developer jobs in Atlanta,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React",
+      "company": "Symphony Talent Middleware Test Company",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-symphony-talent-middleware-test-company-4479095112",
+      "published": "2026-10-13",
+      "snippet": "React Developer Jobs. Surge Software. Honolulu, HI 1 month ago. Frontend SDE II ... Frontend Developer (Remote). 7Seventy Recruiting. United States $200,000",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior React Developer - Remote Work in Latin America",
+      "company": "Indi Staffing Services",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/junior-react-developer-remote-work-at-indi-staffing-services-4479539543",
+      "published": "2026-10-14",
+      "snippet": "Requirements: - At least 1 year of experience in FrontEnd development with strong skills in Javascript, CSS3, and HTML5. - At least 1 year of experience",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior React Developer",
+      "company": "crewlia",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/junior-react-developer-at-crewlia-4478124475",
+      "published": "2026-10-13",
+      "snippet": "We are hiring a Junior React Developer to provide dedicated remote support to our dynamic teams. Fully remote, flexible work hours … $36 - $40 1 week ago",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React + TypeScript Developer - Remote Work - REF#305657",
+      "company": "Bairesdev",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-%2B-typescript-developer-remote-work-ref%23305657-at-bairesdev-4479212769",
+      "published": "2026-10-13",
+      "snippet": "Full-time Entry level role. Develop modern web applications using React and TypeScript. 3+ years of experience with React. pex Mexico MX$45,000 - MX$75,000 5",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior React Developer",
+      "company": "Talently",
+      "location": "Seattle, WA",
+      "url": "https://www.linkedin.com/jobs/view/junior-react-developer-at-talently-4473711061",
+      "published": "2026-09-29",
+      "snippet": "We are looking for a Junior React Developer. Develop, test, and maintain robust, reusable React components. [Hybrid / 100% Remote / Flexible] working",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "Bright Vision Technologies",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-bright-vision-technologies-4476741122",
+      "published": "2026-10-06",
+      "snippet": "Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $120,000–$180,000 Annually Experience Required: 5+ years",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "TaskVerse",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-taskverse-4478357944",
+      "published": "2026-10-11",
+      "snippet": "Employees enjoy a flexible work environment, including options for remote work and flexible hours to promote work-life balance. We provide opportunities for",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "react developer - front end",
+      "company": "Ntt Data North America",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-front-end-at-ntt-data-north-america-4479250151",
+      "published": "2026-10-13",
+      "snippet": "While many positions offer remote or hybrid work options, these arrangements are subject to change based on client requirements. For employees near an NTT",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "AgileGrid Solutions",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-agilegrid-solutions-4478588233",
+      "published": "2026-10-12",
+      "snippet": "We are seeking motivated Junior React Developers to join our Development team. In this role, you will be responsible for designing and implementing user",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "Netrolynx AI",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-netrolynx-ai-4479071649",
+      "published": "2026-10-13",
+      "snippet": "We are seeking a talented and experienced React Developer. This is a 12+ month contract position .js, JavaScript, HTML, and CSS. $130,000 - $145,000 2 weeks ago",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer (Remote)",
+      "company": "Quik Hire Staffing",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-quik-hire-staffing-4463192545",
+      "published": "2026-09-30",
+      "snippet": "Role: Python Developer (Remote); Location: Remote (Work from Anywhere); Job Type: Contract; Payout: $20 - $120/hour. Role Overview:.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer, Python - Remote",
+      "company": "Torentify",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-python-remote-at-torentify-4476775108",
+      "published": "2026-10-07",
+      "snippet": "About the Role We are seeking a Python Developer with React experience for a long-term contract opportunity. This is a remote role supporting work in the insurance and financial domain. The position is suited for a Full Stack Developer with strong Python development and React front-end experience who can explain the design and development process for a portal. [...] • Experience with Native AI. • Ability to clearly explain application design and development processes. • Experience working in the insurance or financial domain. Position Details • Job Title: Python Developer with React • Work Arr",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "Programmers.io",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-programmers-io-4475982630",
+      "published": "2026-10-08",
+      "snippet": "Programmers.io is currently looking for a \"Python Developer\". Remote Role . Full Time Role with benefits. Job Description: Seeking a Mid-Level Full Stack",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer - Remote WFH",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-wfh-at-torentify-4478039348",
+      "published": "2026-10-10",
+      "snippet": "Hiredbuddy is looking for a motivated Python Developer to build and maintain backend services, develop APIs, and support web application development.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "Radley James",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-radley-james-4479783491",
+      "published": "2026-10-15",
+      "snippet": "Senior Python Software Engineer. Location: Remote. Salary: $160,000–$250,000 USD + performance-based bonus. Join a growing investment business at the",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Backend Developer (Remote)",
+      "company": "Hire Feed",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-backend-developer-remote-at-hire-feed-4467209110",
+      "published": "2026-09-30",
+      "snippet": "We are hiring for one of our clients, seeking a Python Developer to work on a Full-Time basis. Responsibilities include developing, testing, and maintaining",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Python Developer",
+      "company": "Global Business Ser. 4u",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-python-developer-remote-at-global-business-ser-4u-4475734911",
+      "published": "2026-10-07",
+      "snippet": "Title : Full Stack Python Developer Location : Remote (Must have GCP/ML/AI) Position: Contract Python full-stack engineer with strong hands-on experience in",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Lead Python GenAI Developer , Remote",
+      "company": "Xforia Global Talent Technology Solutions",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/lead-python-genai-developer-remote-at-xforia-global-talent-technology-solutions-4479149598",
+      "published": "2026-10-15",
+      "snippet": "Job Title: Lead Python GenAI Developer - Min 12+ Yrs. Location: Remote. Duration: Long Term. Job Description:- We are looking for a Senior Engineer with",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Engineer - Remote",
+      "company": "Wiraa",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/python-engineer-remote-at-wiraa-4475790631",
+      "published": "2026-10-08",
+      "snippet": "### Software Engineer #### Skyward United States $115,000.00 - $130,000.00 Python Developer ### Python Developer #### Programmers.io United States Infrastructure Software Engineer ### Infrastructure Software Engineer #### Nebius United States Python Developer ### Python Developer #### Sens Solutions Indiana, United States Applied AI Engineer (Python/AI) ### Applied AI Engineer (Python/AI) #### BrightPlan [...] ### Python Developer #### Farmers Insurance United States BackEnd Engineer: Experiments ### BackEnd Engineer: Experiments #### Constructor United States Software Engineer ### Software En",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer Remote",
+      "company": "Vtechys",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-vtechys-4474087114",
+      "published": "2026-10-06",
+      "snippet": "Looking for an experienced Python Developer with strong backend development skills and prior healthcare domain experience (Elevance Health preferred).",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "ExecutivePlacements.com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-executiveplacements-com-4478029469",
+      "published": "2026-10-10",
+      "snippet": "Full Time Remote Python Developer opening now available. Build and support end-to-end web solutions using Python … $135,000 - $150,000 3 days ago",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Lead Python Developer - Remote - W2 role (Need only USC)",
+      "company": "Kaizen Technologies",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/lead-python-developer-remote-w2-role-need-only-usc-at-kaizen-technologies-4474543756",
+      "published": "2026-10-01",
+      "snippet": "We are seeking an experienced Python Developer with 10–12+ years of experience in designing, developing, and maintaining modern, data-driven applications.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer - Remote Contract",
+      "company": "Envision Technology Solutions",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-contract-at-envision-technology-solutions-4479011748",
+      "published": "2026-10-12",
+      "snippet": "Salary: $70,000 - 110,000 per year Requirements: ~ Around 6–12 years of Python experience ~ Strong communication, analysis, design, development,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "Accelerant",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-accelerant-4459980071",
+      "published": "2026-09-17",
+      "snippet": "Senior Python Engineer – Data & AI. Remote | US East Coast / Canada | Competitive Salary + Bonus | Immediate Start. Build the Future of Specialty Insurance.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Python Developer",
+      "company": "Kareer Basycs",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/junior-python-developer-at-kareer-basycs-4477107199",
+      "published": "2026-10-07",
+      "snippet": "Work Arrangement This is a fully remote position available within the United States, subject to applicable employment, payroll, and hiring requirements in the candidate's state of residence. Equal Employment Opportunity We are an equal opportunity employer. Employment decisions are made without regard to legally protected characteristics under applicable federal, state, or local law. Reasonable accommodations are available for qualified individuals with disabilities as required by law. [...] This range is provided by Kareer Basycs. Your actual pay will be based on your skills and experience —",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Python Developer",
+      "company": "Bright Vision Technologies",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-bright-vision-technologies-4476518892",
+      "published": "2026-10-06",
+      "snippet": "Senior Python Developer – Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "VySystems",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-vysystems-4474332070",
+      "published": "2026-10-01",
+      "snippet": "Apply for Python Developer at VySystems in United States. Full-time Mid-Senior level role. See responsibilities, qualifications, and similar jobs on",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Remote Crew",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/senior-frontend-developer-at-remote-crew-4476274858",
+      "published": "2026-10-09",
+      "snippet": "Summary. At Remote Crew, we're partnering with a Northern European interior design e-commerce company looking for a Senior Frontend Developer.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Web Developer (Remote)",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/web-developer-remote-at-torentify-4479514556",
+      "published": "2026-10-14",
+      "snippet": "The Junior Web Developer will work on front-end interfaces, assist with back-end functionality, troubleshoot technical issues, and help optimize website",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend C#/.NET Developer - Remote",
+      "company": "Yo It Consulting",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/backend-c%23-net-developer-remote-at-yo-it-consulting-4460285982",
+      "published": "2026-10-08",
+      "snippet": "Backend C#/.NET Developer Role Type: Contract Location: Remote About The Role We are looking for skilled backend developers to support AI training and",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
       "title": "Remote Senior Backend Engineer (Python/FastAPI)",
       "company": "Turing",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/remote-senior-backend-engineer-python-fastapi-at-turing-4477291743",
       "published": "2026-10-12",
       "snippet": "Get notified about new Back End Developer jobs in Los Angeles Metropolitan Area. ... Senior Backend Engineer - Backend Platform (USA Only, 100% Remote).",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior Backend Developer - Remote, Full-time",
-      "company": "Clarion",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/senior-backend-developer-remote-full-time-at-clarion-4477690747",
-      "published": "2026-10-09",
-      "snippet": "Senior Backend Developer - Remote, Full-time at Clarion in New York County, NY. Compensation Range: $150K - $225K ・ $125,000 - $250,000 10 months ago ・ $150,",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -322,16 +862,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Full Stack Developer (Remote)",
-      "company": "Wiraa",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-wiraa-4475545966",
-      "published": "2026-10-05",
-      "snippet": "Join or sign in to find your next job ; Qualifications. Minimum of 2+ years of experience working on full stack codebases; Strong technical background with",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Junior Full Stack Developer (Entry-Level)",
       "company": "SharpAtoms",
       "location": "Remote",
@@ -382,92 +912,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "React Developer (US)",
-      "company": "Edgeq Technologies Private Limited",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-us-at-edgeq-technologies-private-limited-4477807638",
-      "published": "2026-10-09",
-      "snippet": "We are seeking a skilled React Developer to join our remote team. The role focuses on building responsive, high-performance web applications using modern",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React JS Developer",
-      "company": "Programmers.io",
-      "location": "Dallas, TX",
-      "url": "https://www.linkedin.com/jobs/view/react-js-developer-at-programmers-io-4471918921",
-      "published": "2026-09-29",
-      "snippet": "Job Title: React JS Developer. Location: Remote. Duration: Only Full Time. Roles and Responsibilities: Developing new user-facing features using React.js",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React JS developer",
-      "company": "Vedan Technologies",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/react-js-developer-at-vedan-technologies-4476483937",
-      "published": "2026-10-14",
-      "snippet": "Job Title: Senior UI/UX Developer (React JS). Location: Remote. Contract Role. About the Role. We are looking for an experienced Senior UI/UX Developer",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer - Remote Work",
-      "company": "Indi Staffing Services",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-remote-work-at-indi-staffing-services-4479538921",
-      "published": "2026-10-14",
-      "snippet": "React Developer - Remote Work in Mountain View, CA. Develop high-quality, maintainable, and scalable user interface components … 5+ years of experience in",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior React Developer",
-      "company": "Precision Technologies",
-      "location": "",
-      "url": "https://www.linkedin.com/jobs/view/senior-react-developer-at-precision-technologies-4475437454",
-      "published": "2026-10-07",
-      "snippet": "We are looking for a Senior React Developer to join our team remotely on a full-time basis (W2 only, No C2C). .d@precisiontechcorp.com",
-      "apply_email": ".d@precisiontechcorp.com",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "senior full stack (java / react) developer",
       "company": "Skm Group",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/senior-full-stack-java-react-developer-at-skm-group-4475722616",
       "published": "2026-10-07",
       "snippet": "Remote: Java Full Stack Developer with React (Full Time Only). Remote: Java Full Stack Developer with React (Full Time Only). Visionary Innovative Technology",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer",
-      "company": "Bright Vision Technologies",
-      "location": "Austin, TX",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-bright-vision-technologies-4476741122",
-      "published": "2026-10-06",
-      "snippet": "React Developer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $120,000–$180,000 Annually Experience Required: 5+ years",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Sr React Developer with UX",
-      "company": "Anagh Technologies Inc",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/sr-react-developer-with-ux-at-anagh-technologies-inc-4476031111",
-      "published": "2026-10-12",
-      "snippet": "Hello,. We have 5 urgent openings for \"Sr React Developer with UX\". These are remote roles. Only looking for candidates who can work on W2.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React",
-      "company": "Symphony Talent Middleware Test Company",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-symphony-talent-middleware-test-company-4479095112",
-      "published": "2026-10-14",
-      "snippet": "React Developer Jobs. Surge Software. Honolulu, HI 1 month ago. Frontend SDE II ... Frontend Developer (Remote). 7Seventy Recruiting. United States $200,000",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -482,66 +932,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Junior React Developer",
-      "company": "crewlia",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-react-developer-at-crewlia-4478124475",
-      "published": "2026-10-14",
-      "snippet": "We are hiring a Junior React Developer to provide dedicated remote support to our dynamic teams. Fully remote, flexible work hours … $36 - $40 1 week ago",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React + TypeScript Developer - Remote Work - REF#305657",
-      "company": "Bairesdev",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/react-%2B-typescript-developer-remote-work-ref%23305657-at-bairesdev-4479212769",
-      "published": "2026-10-14",
-      "snippet": "Full-time Entry level role. Develop modern web applications using React and TypeScript. 3+ years of experience with React. pex Mexico MX$45,000 - MX$75,000 5",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior React Developer",
-      "company": "Talently",
-      "location": "Seattle, WA",
-      "url": "https://www.linkedin.com/jobs/view/junior-react-developer-at-talently-4473711061",
-      "published": "2026-09-29",
-      "snippet": "We are looking for a Junior React Developer. Develop, test, and maintain robust, reusable React components. [Hybrid / 100% Remote / Flexible] working",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer",
-      "company": "TaskVerse",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-taskverse-4478357944",
-      "published": "2026-10-12",
-      "snippet": "Employees enjoy a flexible work environment, including options for remote work and flexible hours to promote work-life balance. We provide opportunities for",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "react developer - front end",
-      "company": "Ntt Data North America",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-front-end-at-ntt-data-north-america-4479250151",
-      "published": "2026-10-14",
-      "snippet": "While many positions offer remote or hybrid work options, these arrangements are subject to change based on client requirements. For employees near an NTT",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer",
-      "company": "AgileGrid Solutions",
-      "location": "",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-agilegrid-solutions-4478588233",
-      "published": "2026-10-13",
-      "snippet": "We are seeking motivated Junior React Developers to join our Development team. In this role, you will be responsible for designing and implementing user",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Lead React Developer",
       "company": "Integration International Inc.",
       "location": "",
@@ -552,142 +942,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "React Developer",
-      "company": "Netrolynx AI",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-netrolynx-ai-4479071649",
-      "published": "2026-10-14",
-      "snippet": "We are seeking a talented and experienced React Developer. This is a 12+ month contract position .js, JavaScript, HTML, and CSS. $130,000 - $145,000 2 weeks ago",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer (Remote)",
-      "company": "Quik Hire Staffing",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-quik-hire-staffing-4463192545",
-      "published": "2026-09-30",
-      "snippet": "Role: Python Developer (Remote); Location: Remote (Work from Anywhere); Job Type: Contract; Payout: $20 - $120/hour. Role Overview:.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer, Python - Remote",
-      "company": "Torentify",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-python-remote-at-torentify-4476775108",
-      "published": "2026-10-07",
-      "snippet": "About the Role We are seeking a Python Developer with React experience for a long-term contract opportunity. This is a remote role supporting work in the insurance and financial domain. The position is suited for a Full Stack Developer with strong Python development and React front-end experience who can explain the design and development process for a portal. [...] • Experience with Native AI. • Ability to clearly explain application design and development processes. • Experience working in the insurance or financial domain. Position Details • Job Title: Python Developer with React • Work Arr",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer - Remote WFH",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-wfh-at-torentify-4478039348",
-      "published": "2026-10-10",
-      "snippet": "Hiredbuddy is looking for a motivated Python Developer to build and maintain backend services, develop APIs, and support web application development.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Backend Developer (Remote)",
-      "company": "Hire Feed",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-backend-developer-remote-at-hire-feed-4467209110",
-      "published": "2026-09-30",
-      "snippet": "We are hiring for one of our clients, seeking a Python Developer to work on a Full-Time basis. Responsibilities include developing, testing, and maintaining",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Python Developer",
-      "company": "Global Business Ser. 4u",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-python-developer-remote-at-global-business-ser-4u-4475734911",
-      "published": "2026-10-08",
-      "snippet": "Title : Full Stack Python Developer Location : Remote (Must have GCP/ML/AI) Position: Contract Python full-stack engineer with strong hands-on experience in",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Engineer - Remote",
-      "company": "Wiraa",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/python-engineer-remote-at-wiraa-4475790631",
-      "published": "2026-10-08",
-      "snippet": "### Software Engineer #### Skyward United States $115,000.00 - $130,000.00 Python Developer ### Python Developer #### Programmers.io United States Infrastructure Software Engineer ### Infrastructure Software Engineer #### Nebius United States Python Developer ### Python Developer #### Sens Solutions Indiana, United States Applied AI Engineer (Python/AI) ### Applied AI Engineer (Python/AI) #### BrightPlan [...] ### Python Developer #### Farmers Insurance United States BackEnd Engineer: Experiments ### BackEnd Engineer: Experiments #### Constructor United States Software Engineer ### Software En",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer Remote",
-      "company": "Vtechys",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-vtechys-4474087114",
-      "published": "2026-10-06",
-      "snippet": "Looking for an experienced Python Developer with strong backend development skills and prior healthcare domain experience (Elevance Health preferred).",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer",
-      "company": "ExecutivePlacements.com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-executiveplacements-com-4478029469",
-      "published": "2026-10-10",
-      "snippet": "Full Time Remote Python Developer opening now available. Build and support end-to-end web solutions using Python … $135,000 - $150,000 3 days ago",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer - Remote Contract",
-      "company": "Envision Technology Solutions",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-contract-at-envision-technology-solutions-4479011748",
-      "published": "2026-10-12",
-      "snippet": "Salary: $70,000 - 110,000 per year Requirements: ~ Around 6–12 years of Python experience ~ Strong communication, analysis, design, development,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Lead Python Developer - Remote - W2 role (Need only USC)",
-      "company": "Kaizen Technologies",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/lead-python-developer-remote-w2-role-need-only-usc-at-kaizen-technologies-4474543756",
-      "published": "2026-10-01",
-      "snippet": "We are seeking an experienced Python Developer with 10–12+ years of experience in designing, developing, and maintaining modern, data-driven applications. The",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Python Developer ($100/hr)",
       "company": "Codefeast",
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/python-developer-%24100-hr-at-codefeast-4473236585",
       "published": "2026-09-17",
       "snippet": "Senior Software Engineer – Python / TypeScript. Experience: 5+ Years. Job Type: Contractor. Location: Remote – USA / Canada. Duration: 2-3 Months.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Python Developer",
-      "company": "Kareer Basycs",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-python-developer-at-kareer-basycs-4477107199",
-      "published": "2026-10-08",
-      "snippet": "Work Arrangement This is a fully remote position available within the United States, subject to applicable employment, payroll, and hiring requirements in the candidate's state of residence. Equal Employment Opportunity We are an equal opportunity employer. Employment decisions are made without regard to legally protected characteristics under applicable federal, state, or local law. Reasonable accommodations are available for qualified individuals with disabilities as required by law. [...] This range is provided by Kareer Basycs. Your actual pay will be based on your skills and experience —",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer",
-      "company": "VySystems",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-at-vysystems-4474332070",
-      "published": "2026-10-01",
-      "snippet": "Apply for Python Developer at VySystems in United States. Full-time Mid-Senior level role. See responsibilities, qualifications, and similar jobs on",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -792,26 +1052,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Back End Developer - Remote",
-      "company": "Torentify",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/back-end-developer-remote-at-torentify-4479774717",
-      "published": "2026-10-15",
-      "snippet": "- Remote at Torentify in United States. Full-time Associate role. $140,000 - $180,000 2 months ago",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Backend Developer",
-      "company": "RemoteHunter",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-backend-developer-at-remotehunter-4475974739",
-      "published": "2026-10-08",
-      "snippet": "Full-time Entry level role. designed for a developer with 1-3 years of experience. Salary range is $85,000 to $110,000 per year. Medical insurance Dental",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Lead Backend Developer",
       "company": "Bright Vision Technologies",
       "location": "",
@@ -868,16 +1108,6 @@
       "url": "https://www.linkedin.com/jobs/view/react-developer-at-bright-vision-technologies-4476364632",
       "published": "2026-10-06",
       "snippet": "React Developer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 with enterprise APIs, cloud services, and microservices-based backend",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Frontend / React Developer",
-      "company": "JobEasyApply",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/junior-frontend-react-developer-at-jobeasyapply-4478815944",
-      "published": "2026-10-15",
-      "snippet": "This full-time remote role involves developing responsive interfaces using React and JavaScript ... Get notified about new Javascript Developer jobs in Atlanta,",
       "apply_email": "",
       "source": "LinkedIn job"
     },
