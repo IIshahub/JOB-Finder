@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T04:16:12+00:00",
+  "updated_at": "2026-10-18T15:45:54+00:00",
   "posts": [
     {
       "title": "دنبال یک Frontend Developer دقیق و خلاق هستیم. ...",
@@ -137,6 +137,15 @@
       "apply_email": ""
     },
     {
+      "title": "ما در سریتا دنبال یک Junior Backend Developer کنجکاو و اهل ساختن هستیم؛ کسی که دوست داره",
+      "company": "Posted by Samaneh Saraeian",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/samaneh-saraeian_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%AA%D9%87%D8%B1%D8%A7%D9%86-activity-7514652826531463168-wTtA",
+      "published": "2026-10-10",
+      "snippet": "ما در سریتا دنبال یک Junior Backend Developer کنجکاو و اهل ساختن هستیم؛ کسی که دوست داره با Python، FastAPI و JavaScript روی یک محصول واقعی مبتنی بر هوش",
+      "apply_email": ""
+    },
+    {
       "title": "شرکت گسترش فناوری‌های نوین بازوی IT بانک کشاورزی استخدام می‌کند: کارشناس توسعه سرمایه",
       "company": "Posted by Mahboubeh Ghandali",
       "location": "Iran",
@@ -164,15 +173,6 @@
       "apply_email": ""
     },
     {
-      "title": "Frontend Trends in 2026: React, Next.js, and TypeScript ...",
-      "company": "Posted by Ajungla Lemtur",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ajungla-lemtur-1940851b9_frontend-react-angular-activity-7506608557866258432-NJkk",
-      "published": "2026-09-18",
-      "snippet": "So I fell down a rabbit hole this week reading about frontend in 2026 and I have thoughts. First, the relief: no new framework is coming to ruin your life.",
-      "apply_email": ""
-    },
-    {
       "title": "پروفایل شما در کانالهای فورته منتشر شد ✓ تلگرام: https://t.me/forte_openpositions/1837",
       "company": "Posted by Kimia Golbahari",
       "location": "Iran",
@@ -182,102 +182,57 @@
       "apply_email": ""
     },
     {
-      "title": "تکنوگلد #technogold #استخدام_دولوپر",
-      "company": "Posted by Technogoldir",
+      "title": "🚨 Python Backend Developer — Hiring.",
+      "company": "Posted by Balram Shukla",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/technogoldir_%D8%AA%DA%A9%D9%86%D9%88%DA%AF%D9%84%D8%AF-technogold-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%AF%D9%88%D9%84%D9%88%D9%BE%D8%B1-activity-7513204125992525824-OZb7",
-      "published": "2026-10-06",
-      "snippet": "استخدام Backend Developer اگر در توسعه Backend با Laravel تجربه دارید و به ساخت سرویس‌های قابل‌اعتماد و مقیاس‌پذیر علاقه‌مندید، جای شما در تیم ما خالی است.",
-      "apply_email": ""
-    },
-    {
-      "title": "Mohammad Sadeghyan | 15 comments",
-      "company": "Posted by Mohammad Sadeghyan",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammad-sadeghyan-130800167_%DA%AF%D9%84%D8%AF%D8%A2%D8%A8-goldab-laravel-activity-7513698562032181249-ImDb",
-      "published": "2026-10-07",
-      "snippet": "فرصت همکاری در گلدآب در گلدآب برای توسعه و رشد تیم Backend، به ۲ نفر نیروی Backend Developer نیاز داریم: Senior Backend Developer (Laravel) Mid-level",
-      "apply_email": ""
-    },
-    {
-      "title": "Amin Shahnazari - استخدام #ai #backend #security",
-      "company": "Posted by Amin Shahnazari",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/amin-shahnazari_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-ai-backend-activity-7508772698970484738-wEtb",
-      "published": "2026-09-24",
-      "snippet": "... Developer (Kotlin/Swift ✅️ Backend Developer (.Net) ✅️ Security Engineer (PenTest) ارسال رزومه از طریق لینک زیر: https://lnkd.in/eWU8jzfr چرا نکسوس؟",
-      "apply_email": ""
-    },
-    {
-      "title": "Mohsen Safarnia | 20 comments",
-      "company": "Posted by Mohsensafarnia",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohsensafarnia_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-java-backenddeveloper-activity-7512205957536477184-JTL6",
-      "published": "2026-10-03",
-      "snippet": "یه موقعیت شغلی جدید توی تیم نرمافزار فناپ تلکام داریم دنبال Senior Backend Developer (Java) هستیم؛ فردی باتجربه که به Java، Spring و Hibernate مسلط باشه",
-      "apply_email": ""
-    },
-    {
-      "title": "Backend Developer فرصتی برای ساختن در مقیاس واقعی اگر علاقه‌مندید روی سرویس‌ها و",
-      "company": "Posted by Alirezavahedy",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/alirezavahedy_backenddeveloper-backenddevelopment-softwareengineering-activity-7512464348603150336-310k",
+      "url": "https://www.linkedin.com/posts/balram-shukla-b47012356_hiring-pythonjobs-pythondeveloper-activity-7512359932650979328-B6y0",
       "published": "2026-10-04",
-      "snippet": "Backend Developer فرصتی برای ساختن در مقیاس واقعی اگر علاقه‌مندید روی سرویس‌ها و سامانه‌هایی کار کنید که روزانه توسط کاربران واقعی در اکوسیستم بانکی و مالی",
+      "snippet": "backend role. #Hiring#PythonJobs#PythonDeveloper#BackendDeveloper#JobOpening#RemoteJobs#TechJobs#SoftwareJobs#Python#GraphQL#RESTAPI#CareerOpportunities [...] Sign inJoin now 🔗 Apply here: Tech Stack: 🐍 Python 🔗 REST APIs ⚡ GraphQL 🗄️ PostgreSQL / MySQL 🥑 MongoDB / Redis About the Role: The role involves designing, developing, and maintaining scalable backend services and APIs. You’ll work on clean, efficient server-side applications and modern technologies including GraphQL, cloud platforms, and databases. 🔄 Like, Comment & Share this post with someone who is looking for a Python backend role",
       "apply_email": ""
     },
     {
-      "title": "در حال جذب توسعهدهنده ارشد Backend Java Senior Java Backend Developer در یک محصول",
-      "company": "Posted by Telc",
+      "title": "🚨 Python Backend Developer — Hiring.",
+      "company": "Posted by Balram Shukla",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/telc_%D8%AA%D9%84%D8%B3%DB%8C-hiring-java-activity-7510332188735926272-xdax",
-      "published": "2026-09-28",
-      "snippet": "در حال جذب توسعهدهنده ارشد Backend Java Senior Java Backend Developer در یک محصول سازمانی، Backend فقط جایی برای پیادهسازی Featureها نیست؛ معماری سیستم،",
+      "url": "https://www.linkedin.com/posts/balram-shukla-b47012356_hiring-pythonjobs-pythondeveloper-activity-7513789245711630336-wtq9",
+      "published": "2026-10-08",
+      "snippet": "backend role. #Hiring#PythonJobs#PythonDeveloper#BackendDeveloper#JobOpening#RemoteJobs#TechJobs#SoftwareJobs#Python#GraphQL#RESTAPI#CareerOpportunities [...] Sign inJoin now 🔗 Apply here: Tech Stack: 🐍 Python 🔗 REST APIs ⚡ GraphQL 🗄️ PostgreSQL / MySQL 🥑 MongoDB / Redis About the Role: The role involves designing, developing, and maintaining scalable backend services and APIs. You’ll work on clean, efficient server-side applications and modern technologies including GraphQL, cloud platforms, and databases. 🔄 Like, Comment & Share this post with someone who is looking for a Python backend role",
       "apply_email": ""
     },
     {
-      "title": "استخدام Full Stack Developer ما در تفاهم (AITD) به دنبال یک Full Stack ... Backend و Web",
+      "title": "🚀 Tech Mahindra | Java Full Stack Developer Interview Experience",
+      "company": "Posted by Shiva Chourasiya",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/shiva-chourasiya_java-springboot-angular-activity-7507655370799009792-ZVX_",
+      "published": "2026-09-21",
+      "snippet": "recently faced. #Java#javadeveloper#SpringBoot#advancejava#sql#java8#javainterview#technicalinterview#javabackend#corejava#javaprogramming#InterviewExperience#Linkedin#BackendDeveloper#JavaProject#Microservices#interview#Spring#DSA#hibernate#RESTAPI#kafka [Java developer, Java Backend Developer, Hiring Java Backend Developer 2026, Java Full Stack developer, Service-based organisation, Pune] [...] rather than simply recalling definitions. The panel expected clear explanations of security concepts, Spring Security internals, and practical implementation approaches. For a 3-5 years Java Backend D",
+      "apply_email": ""
+    },
+    {
+      "title": "We’re hiring an AI Engineer + Golang Developer.",
+      "company": "Posted by Thehacktivator",
+      "location": "Shiraz, Iran",
+      "url": "https://www.linkedin.com/posts/thehacktivator_were-hiring-an-ai-engineer-golang-developer-activity-7513132831020048385-oySv",
+      "published": "2026-10-06",
+      "snippet": "Language ## Sign in to view more content Create your free account or sign in to continue your search Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. []( [...] Sign inJoin now বাংলা (Bangla) Čeština (Czech) Dansk (Danish) Deutsch (German) Ελληνικά (Greek) English (English) Español (Spanish) فارسی (Persian) Suomi (Finnish) Français (French) हिंदी",
+      "apply_email": ""
+    },
+    {
+      "title": "🚨 URGENT HIRING – FULL STACK DEVELOPER",
+      "company": "Posted by Taomar",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/taomar_urgent-hiring-full-stack-developer-activity-7509273017206779904-H8Mh",
+      "published": "2026-09-25",
+      "snippet": "Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) తెలుగు (Telugu) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish) Українська (Ukrainian) Tiếng Việt (Vietnamese) 简体中文 (Chinese (Simplified)) 正體中文 (Chinese (Traditional)) [...] Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Skip to main contentLinkedIn Top Content People Learning Jobs Games [...] Sign inJoin now বাংলা (Bangla) Čeština (C",
+      "apply_email": ""
+    },
+    {
+      "title": "استخدام Full Stack Developer ما در تفاهم (AITD) به دنبال یک Full Stack Developer توانمند",
       "company": "Posted by Aitdco Tafahom",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/aitdco-tafahom_hiring-jobopportunity-fullstackdeveloper-activity-7512486223433760768-bN6h",
       "published": "2026-10-04",
-      "snippet": "استخدام Full Stack Developer ما در تفاهم (AITD) به دنبال یک Full Stack ... Backend و Web API / REST API ▪️ طراحی، توسعه و بهینه‌سازی دیتابیس",
-      "apply_email": ""
-    },
-    {
-      "title": "Open to Work | .NET Backend Developer سلام دوستان در حال حاضر به دنبال فرصت شغلی جدید به",
-      "company": "Posted by Ruhollah Jafari",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ruhollah-jafari_opentowork-hiring-dotnet-activity-7511100496942735361-A0t3",
-      "published": "2026-09-30",
-      "snippet": "Open to Work | .NET Backend Developer سلام دوستان در حال حاضر به دنبال فرصت شغلی جدید به عنوان .NET Backend Developer هستم. ترجیح من همکاری Remote یا",
-      "apply_email": ""
-    },
-    {
-      "title": "ما در سریتا دنبال یک Junior Backend Developer کنجکاو و اهل ساختن هستیم؛ کسی که دوست داره",
-      "company": "Posted by Samaneh Saraeian",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/samaneh-saraeian_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%AA%D9%87%D8%B1%D8%A7%D9%86-activity-7514652826531463168-wTtA",
-      "published": "2026-10-10",
-      "snippet": "ما در سریتا دنبال یک Junior Backend Developer کنجکاو و اهل ساختن هستیم؛ کسی که دوست داره با Python، FastAPI و JavaScript روی یک محصول واقعی مبتنی بر هوش",
-      "apply_email": ""
-    },
-    {
-      "title": "Senior Backend Developer | Backend & Game Development ما در تیم توسعه و نشر بازی‌های",
-      "company": "Posted by Tod Studio",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/tod-studio_hiring-seniorbackenddeveloper-nodejs-activity-7512116063476621312-LJHX",
-      "published": "2026-10-03",
-      "snippet": "Senior Backend Developer | Backend & Game Development ما در تیم توسعه و نشر بازی‌های موبایلی TOD به دنبال یک Senior Backend Developer هستیم؛ فردی",
-      "apply_email": ""
-    },
-    {
-      "title": "فرصت‌های شغلی | Java Developer (Mid / Senior) شرکت داده‌ورزی سداد به دنبال جذب چندین",
-      "company": "Posted by Mostafa Hosseinzadeh",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mostafa-hosseinzadeh_javadeveloper-springboot-microservices-activity-7516437560819335168-rv2K",
-      "published": "2026-10-15",
-      "snippet": "فرصت‌های شغلی | Java Developer (Mid / Senior) شرکت داده‌ورزی سداد به دنبال جذب چندین توسعه‌دهنده Java باتجربه در حوزه زیرساخت‌های مالی و بانکداری می‌باشد.",
+      "snippet": "استخدام Full Stack Developer ما در تفاهم (AITD) به دنبال یک Full Stack Developer توانمند و مسئله‌محور هستیم تا در طراحی، توسعه و نگهداری نرم‌افزارها و",
       "apply_email": ""
     },
     {
@@ -308,6 +263,15 @@
       "apply_email": ""
     },
     {
+      "title": "Software Engineer | Full-Stack Web Developer (.NET) | ITI Trainee 9-month | Professional",
+      "company": "Posted by Nourhan Khaled",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/nourhan-khaled-530048264_less-paperwork-more-patient-care-more-time-activity-7510162500751912960-iiLK",
+      "published": "2026-09-28",
+      "snippet": "Software Engineer | Full-Stack Web Developer (.NET) | ITI Trainee 9-month | Professional development & BI-infused CRM. 8h Edited. ؛From a Graduation Project",
+      "apply_email": ""
+    },
+    {
       "title": "... Full-Stack AI Builder کسی که بتواند یک پروژه را از ایده تا MVP جلو ببرد؛ Frontend،",
       "company": "Posted by Siliconstar Ir",
       "location": "Iran",
@@ -332,6 +296,15 @@
       "url": "https://www.linkedin.com/posts/nazanin-biari-87913ab4_%D8%A2%DA%AF%D9%87%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-activity-7508797054261862400-xCtQ",
       "published": "2026-09-24",
       "snippet": "بخاطر اینکه وقتی میزان افراد تحصیل کرده میره بالا و سطح اشتغال زایی میاد پایین انتظارها از نیروی کار میره بالا و فقط مختص ایران نیستش البته ایران بازار خراب",
+      "apply_email": ""
+    },
+    {
+      "title": "#فرصت_شغلی #مدیر_سرمایه_انسانی #جذب #استخدام #hr",
+      "company": "Posted by Ygharavi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ygharavi_%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%D8%B3%D8%B1%D9%85%D8%A7%DB%8C%D9%87%D8%A7%D9%86%D8%B3%D8%A7%D9%86%DB%8C-%D8%AC%D8%B0%D8%A8-activity-7508409813198925824-0iQz",
+      "published": "2026-09-23",
+      "snippet": "فرصت_شغلی #مدیر_سرمایه_انسانی برای یک شرکت حوزه فناوری اطلاعات به دنبال یک مدیر سرمایه انسانی باتجربه در حوزه فناوری اطلاعات و فینتک هستم.",
       "apply_email": ""
     },
     {
@@ -542,21 +515,21 @@
       "apply_email": ""
     },
     {
+      "title": "#منابع_انسانی #hr #استخدام #کاریابی #کارگزینی | parisa ...",
+      "company": "Posted by Parisa Naseri",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/parisa-naseri-54b733249_%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%A7%D9%86%D8%B3%D8%A7%D9%86%DB%8C-hr-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-activity-7508369382369267712-8Pt5",
+      "published": "2026-09-23",
+      "snippet": "... استخدام #کاریابی # ... Product Designer | UI/UX Specialist | Deep Expertise in Design Systems and Interaction Design | Content Creator.",
+      "apply_email": ""
+    },
+    {
       "title": "از یک سؤال درست آغاز می‌شود. در زیگما۸، به ...",
       "company": "Posted by Mohsen Beygzadeh",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/mohsen-beygzadeh-b5816653_%D9%87%D8%B1-%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%DB%8C-%D8%AE%D9%88%D8%A8-%D8%A7%D8%B2-%DB%8C%DA%A9-%D8%B3%D8%A4%D8%A7%D9%84-%D8%AF%D8%B1%D8%B3%D8%AA-%D8%A2%D8%BA%D8%A7%D8%B2-%D9%85%DB%8C%D8%B4%D9%88%D8%AF-activity-7510292713343406080-13r2",
       "published": "2026-09-28",
       "snippet": "هر تجربهی خوب، از یک سؤال درست آغاز میشود. در زیگما۸، به دنبال UI/UX Designer هستیم؛ کسی که طراحی را فقط در آنچه دیده میشود نبیند، بلکه به آنچه کاربر تجربه",
-      "apply_email": ""
-    },
-    {
-      "title": "#تبلیغ #بازار_کار #مسیر_شغلی #استخدام #رزومه #کاربوم ...",
-      "company": "Posted by Karboom",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/karboom_%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1%DA%A9%D8%A7%D8%B1-%D9%85%D8%B3%DB%8C%D8%B1%D8%B4%D8%BA%D9%84%DB%8C-activity-7510711788523634688-WzEE",
-      "published": "2026-09-29",
-      "snippet": "#تبلیغ پیدا کردن شغل، فقط به فرستادن رزومه برای آگهیهای استخدامی خلاصه نمیشود. گاهی ماه ها رزومه میفرستیم، در مصاحبهها شرکت میکنیم و منتظر یک فرصت مناسب",
       "apply_email": ""
     },
     {
@@ -596,21 +569,102 @@
       "apply_email": ""
     },
     {
-      "title": "Software Engineer | Full-Stack Web Developer (.NET) | ITI Trainee 9-month | Professional",
-      "company": "Posted by Nourhan Khaled",
+      "title": "Frontend Trends in 2026: React, Next.js, and TypeScript ...",
+      "company": "Posted by Ajungla Lemtur",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/nourhan-khaled-530048264_less-paperwork-more-patient-care-more-time-activity-7510162500751912960-iiLK",
-      "published": "2026-09-28",
-      "snippet": "Software Engineer | Full-Stack Web Developer (.NET) | ITI Trainee 9-month | Professional development & BI-infused CRM. 8h Edited. ؛From a Graduation Project",
+      "url": "https://www.linkedin.com/posts/ajungla-lemtur-1940851b9_frontend-react-angular-activity-7506608557866258432-NJkk",
+      "published": "2026-09-18",
+      "snippet": "So I fell down a rabbit hole this week reading about frontend in 2026 and I have thoughts. First, the relief: no new framework is coming to ruin your life.",
       "apply_email": ""
     },
     {
-      "title": "#فرصت_شغلی #مدیر_سرمایه_انسانی #جذب #استخدام #hr",
-      "company": "Posted by Ygharavi",
+      "title": "تکنوگلد #technogold #استخدام_دولوپر",
+      "company": "Posted by Technogoldir",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ygharavi_%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%D8%B3%D8%B1%D9%85%D8%A7%DB%8C%D9%87%D8%A7%D9%86%D8%B3%D8%A7%D9%86%DB%8C-%D8%AC%D8%B0%D8%A8-activity-7508409813198925824-0iQz",
-      "published": "2026-09-23",
-      "snippet": "فرصت_شغلی #مدیر_سرمایه_انسانی برای یک شرکت حوزه فناوری اطلاعات به دنبال یک مدیر سرمایه انسانی باتجربه در حوزه فناوری اطلاعات و فینتک هستم.",
+      "url": "https://www.linkedin.com/posts/technogoldir_%D8%AA%DA%A9%D9%86%D9%88%DA%AF%D9%84%D8%AF-technogold-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%AF%D9%88%D9%84%D9%88%D9%BE%D8%B1-activity-7513204125992525824-OZb7",
+      "published": "2026-10-06",
+      "snippet": "استخدام Backend Developer اگر در توسعه Backend با Laravel تجربه دارید و به ساخت سرویس‌های قابل‌اعتماد و مقیاس‌پذیر علاقه‌مندید، جای شما در تیم ما خالی است.",
+      "apply_email": ""
+    },
+    {
+      "title": "Mohammad Sadeghyan | 15 comments",
+      "company": "Posted by Mohammad Sadeghyan",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammad-sadeghyan-130800167_%DA%AF%D9%84%D8%AF%D8%A2%D8%A8-goldab-laravel-activity-7513698562032181249-ImDb",
+      "published": "2026-10-07",
+      "snippet": "فرصت همکاری در گلدآب در گلدآب برای توسعه و رشد تیم Backend، به ۲ نفر نیروی Backend Developer نیاز داریم: Senior Backend Developer (Laravel) Mid-level",
+      "apply_email": ""
+    },
+    {
+      "title": "Amin Shahnazari - استخدام #ai #backend #security",
+      "company": "Posted by Amin Shahnazari",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/amin-shahnazari_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-ai-backend-activity-7508772698970484738-wEtb",
+      "published": "2026-09-24",
+      "snippet": "... Developer (Kotlin/Swift ✅️ Backend Developer (.Net) ✅️ Security Engineer (PenTest) ارسال رزومه از طریق لینک زیر: https://lnkd.in/eWU8jzfr چرا نکسوس؟",
+      "apply_email": ""
+    },
+    {
+      "title": "Mohsen Safarnia | 20 comments",
+      "company": "Posted by Mohsensafarnia",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohsensafarnia_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-java-backenddeveloper-activity-7512205957536477184-JTL6",
+      "published": "2026-10-03",
+      "snippet": "یه موقعیت شغلی جدید توی تیم نرمافزار فناپ تلکام داریم دنبال Senior Backend Developer (Java) هستیم؛ فردی باتجربه که به Java، Spring و Hibernate مسلط باشه",
+      "apply_email": ""
+    },
+    {
+      "title": "Backend Developer فرصتی برای ساختن در مقیاس واقعی اگر علاقه‌مندید روی سرویس‌ها و",
+      "company": "Posted by Alirezavahedy",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/alirezavahedy_backenddeveloper-backenddevelopment-softwareengineering-activity-7512464348603150336-310k",
+      "published": "2026-10-04",
+      "snippet": "Backend Developer فرصتی برای ساختن در مقیاس واقعی اگر علاقه‌مندید روی سرویس‌ها و سامانه‌هایی کار کنید که روزانه توسط کاربران واقعی در اکوسیستم بانکی و مالی",
+      "apply_email": ""
+    },
+    {
+      "title": "در حال جذب توسعهدهنده ارشد Backend Java Senior Java Backend Developer در یک محصول",
+      "company": "Posted by Telc",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/telc_%D8%AA%D9%84%D8%B3%DB%8C-hiring-java-activity-7510332188735926272-xdax",
+      "published": "2026-09-28",
+      "snippet": "در حال جذب توسعهدهنده ارشد Backend Java Senior Java Backend Developer در یک محصول سازمانی، Backend فقط جایی برای پیادهسازی Featureها نیست؛ معماری سیستم،",
+      "apply_email": ""
+    },
+    {
+      "title": "Open to Work | .NET Backend Developer سلام دوستان در حال حاضر به دنبال فرصت شغلی جدید به",
+      "company": "Posted by Ruhollah Jafari",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ruhollah-jafari_opentowork-hiring-dotnet-activity-7511100496942735361-A0t3",
+      "published": "2026-09-30",
+      "snippet": "Open to Work | .NET Backend Developer سلام دوستان در حال حاضر به دنبال فرصت شغلی جدید به عنوان .NET Backend Developer هستم. ترجیح من همکاری Remote یا",
+      "apply_email": ""
+    },
+    {
+      "title": "Senior Backend Developer | Backend & Game Development ما در تیم توسعه و نشر بازی‌های",
+      "company": "Posted by Tod Studio",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/tod-studio_hiring-seniorbackenddeveloper-nodejs-activity-7512116063476621312-LJHX",
+      "published": "2026-10-03",
+      "snippet": "Senior Backend Developer | Backend & Game Development ما در تیم توسعه و نشر بازی‌های موبایلی TOD به دنبال یک Senior Backend Developer هستیم؛ فردی",
+      "apply_email": ""
+    },
+    {
+      "title": "فرصت‌های شغلی | Java Developer (Mid / Senior) شرکت داده‌ورزی سداد به دنبال جذب چندین",
+      "company": "Posted by Mostafa Hosseinzadeh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mostafa-hosseinzadeh_javadeveloper-springboot-microservices-activity-7516437560819335168-rv2K",
+      "published": "2026-10-15",
+      "snippet": "فرصت‌های شغلی | Java Developer (Mid / Senior) شرکت داده‌ورزی سداد به دنبال جذب چندین توسعه‌دهنده Java باتجربه در حوزه زیرساخت‌های مالی و بانکداری می‌باشد.",
+      "apply_email": ""
+    },
+    {
+      "title": "#تبلیغ #بازار_کار #مسیر_شغلی #استخدام #رزومه #کاربوم ...",
+      "company": "Posted by Karboom",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/karboom_%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1%DA%A9%D8%A7%D8%B1-%D9%85%D8%B3%DB%8C%D8%B1%D8%B4%D8%BA%D9%84%DB%8C-activity-7510711788523634688-WzEE",
+      "published": "2026-09-29",
+      "snippet": "#تبلیغ پیدا کردن شغل، فقط به فرستادن رزومه برای آگهیهای استخدامی خلاصه نمیشود. گاهی ماه ها رزومه میفرستیم، در مصاحبهها شرکت میکنیم و منتظر یک فرصت مناسب",
       "apply_email": ""
     },
     {
@@ -665,24 +719,6 @@
       "url": "https://www.linkedin.com/posts/himani-khandate-030460225_hiring-freshersjobs-itjobs-share-7510290053768765442-KwBT",
       "published": "2026-09-28",
       "snippet": "Sign inJoin now • Company: Navam Intellitech • Experience: 1–3 years 👉🏻 Apply: ----------- 💼 MERN & Blockchain Developer • Company: Suffescom Solutions • Experience: Freshers / Experienced 👉🏻 Apply: ----------- 💼 Technical Support Engineer • Company: ContactWise • Experience: 0–3 years • Location: Remote / Work from home 👉🏻 Apply: 📢 Apply and share with your network. #Hiring#FreshersJobs#ITJobs#DeveloperJobs#JobOpenings Image 2 11 Comment LikeComment [...] Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русс",
-      "apply_email": ""
-    },
-    {
-      "title": "🚨 Python Backend Developer — Hiring.",
-      "company": "Posted by Balram Shukla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/balram-shukla-b47012356_hiring-pythonjobs-pythondeveloper-activity-7512359932650979328-B6y0",
-      "published": "2026-10-04",
-      "snippet": "backend role. #Hiring#PythonJobs#PythonDeveloper#BackendDeveloper#JobOpening#RemoteJobs#TechJobs#SoftwareJobs#Python#GraphQL#RESTAPI#CareerOpportunities [...] Sign inJoin now 🔗 Apply here: Tech Stack: 🐍 Python 🔗 REST APIs ⚡ GraphQL 🗄️ PostgreSQL / MySQL 🥑 MongoDB / Redis About the Role: The role involves designing, developing, and maintaining scalable backend services and APIs. You’ll work on clean, efficient server-side applications and modern technologies including GraphQL, cloud platforms, and databases. 🔄 Like, Comment & Share this post with someone who is looking for a Python backend role",
-      "apply_email": ""
-    },
-    {
-      "title": "🚨 Python Backend Developer — Hiring.",
-      "company": "Posted by Balram Shukla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/balram-shukla-b47012356_hiring-pythonjobs-pythondeveloper-activity-7513789245711630336-wtq9",
-      "published": "2026-10-08",
-      "snippet": "backend role. #Hiring#PythonJobs#PythonDeveloper#BackendDeveloper#JobOpening#RemoteJobs#TechJobs#SoftwareJobs#Python#GraphQL#RESTAPI#CareerOpportunities [...] Sign inJoin now 🔗 Apply here: Tech Stack: 🐍 Python 🔗 REST APIs ⚡ GraphQL 🗄️ PostgreSQL / MySQL 🥑 MongoDB / Redis About the Role: The role involves designing, developing, and maintaining scalable backend services and APIs. You’ll work on clean, efficient server-side applications and modern technologies including GraphQL, cloud platforms, and databases. 🔄 Like, Comment & Share this post with someone who is looking for a Python backend role",
       "apply_email": ""
     },
     {
@@ -799,15 +835,6 @@
       "location": "Shiraz, Iran",
       "url": "https://www.linkedin.com/posts/abumostafa_were-hiring-a-senior-full-stack-developer-activity-7505642714013716481-tj1p",
       "published": "2026-09-15",
-      "snippet": "Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) తెలుగు (Telugu) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish) Українська (Ukrainian) Tiếng Việt (Vietnamese) 简体中文 (Chinese (Simplified)) 正體中文 (Chinese (Traditional)) [...] Sign inJoin now বাংলা (Bangla) Čeština (Czech) Dansk (Danish) Deutsch (German) Ελληνικά (Greek) English (English) Español (Spanish) فارسی (Persian) Suomi (Finnish) Français (French) हिंदी (Hindi) Magyar (Hungarian) Bahasa Indonesia (Indonesian) Italiano",
-      "apply_email": ""
-    },
-    {
-      "title": "🚨 URGENT HIRING – FULL STACK DEVELOPER",
-      "company": "Posted by Taomar",
-      "location": "Shiraz, Iran",
-      "url": "https://www.linkedin.com/posts/taomar_urgent-hiring-full-stack-developer-activity-7509273017206779904-H8Mh",
-      "published": "2026-09-25",
       "snippet": "Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) తెలుగు (Telugu) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish) Українська (Ukrainian) Tiếng Việt (Vietnamese) 简体中文 (Chinese (Simplified)) 正體中文 (Chinese (Traditional)) [...] Sign inJoin now বাংলা (Bangla) Čeština (Czech) Dansk (Danish) Deutsch (German) Ελληνικά (Greek) English (English) Español (Spanish) فارسی (Persian) Suomi (Finnish) Français (French) हिंदी (Hindi) Magyar (Hungarian) Bahasa Indonesia (Indonesian) Italiano",
       "apply_email": ""
     },
