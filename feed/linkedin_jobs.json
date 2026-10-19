@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T15:45:54+00:00",
+  "updated_at": "2026-10-19T04:24:52+00:00",
   "jobs": [
     {
       "title": "Frontend Developer (Remote)",
@@ -36,28 +36,8 @@
       "company": "Zachary Piper",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/frontend-developer-senior-remote-at-zachary-piper-solutions-4479632069",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "snippet": "This position is fully remote for candidates located within the United States and working East Coast (EST) hours. The Senior Frontend Developer will lead the",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Developer - Remote",
-      "company": "Torentify",
-      "location": "United",
-      "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-torentify-4480330335",
-      "published": "2026-10-16",
-      "snippet": "This is a remote position. Annual gross salary: $80,000–$110,000, depending on experience and qualifications.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Engineer - Remote Jobs",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/frontend-engineer-remote-jobs-at-torentify-4478035539",
-      "published": "2026-10-10",
-      "snippet": "This is a full-time, remote position suited to a developer who understands modern frontend technologies, responsive design, and the importance of creating",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -67,17 +47,7 @@
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/frontend-ui-developer-remote-opportunity-at-torentify-4479766548",
       "published": "2026-10-15",
-      "snippet": "UST is seeking a Frontend UI Developer to design, develop, and test web applications that meet user needs and business objectives.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Front-End Developer",
-      "company": "crewlia",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-front-end-developer-at-crewlia-4478456454",
-      "published": "2026-10-14",
-      "snippet": "We are hiring a Junior Front-End Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day coordination,",
+      "snippet": "UST is seeking a Frontend UI Developer to design, develop, and test web applications that meet user needs and business objectives. The role requires extensive",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -92,12 +62,42 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Frontend Developer II - Remote",
-      "company": "Torentify",
+      "title": "Junior Front-End Developer",
+      "company": "crewlia",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/frontend-developer-ii-remote-at-torentify-4478767086",
-      "published": "2026-10-13",
-      "snippet": "Frontend Developer II - Remote at Torentify in United States. Full-time Associate role. Compensation is offered up to $230,000, plus equity.",
+      "url": "https://www.linkedin.com/jobs/view/junior-front-end-developer-at-crewlia-4478456454",
+      "published": "2026-10-14",
+      "snippet": "We are hiring a Junior Front-End Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day coordination",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer - Remote",
+      "company": "Torentify",
+      "location": "United",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-torentify-4480330335",
+      "published": "2026-10-16",
+      "snippet": "This is a remote position. CerebriOS offers a remote-first work environment and opportunities to work with modern web technologies in a collaborative, product-",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Web Application Developer - Remote",
+      "company": "Kobotoolbox",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/frontend-web-application-developer-remote-at-kobotoolbox-4466758988",
+      "published": "2026-09-25",
+      "snippet": "KoboToolbox has an immediate opening for a Frontend Web Application Developer to fill a full-time position of approximately 35-40 hours per week, for a",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Clevanoo LLC",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-clevanoo-llc-4476852718",
+      "published": "2026-10-09",
+      "snippet": "Job Title: Frontend UX Engineer with Vue.js and Laravel/PHP. Location: Remote. Duration: 6-12 Months Contract. Must be comfortable to work on 1099/W2.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -112,22 +112,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Frontend Web Application Developer - Remote",
-      "company": "Kobotoolbox",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/frontend-web-application-developer-remote-at-kobotoolbox-4466758988",
-      "published": "2026-09-25",
-      "snippet": "Location: Remote Availability: 35-40 hours per week. Working hours: US East business hours. Reporting to: Lead developer",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Front End Developer (Mid-level)",
-      "company": "Wiraa",
+      "title": "Frontend Developer II - Remote",
+      "company": "Torentify",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/front-end-developer-mid-level-at-wiraa-4477667429",
-      "published": "2026-10-09",
-      "snippet": "Frontend Engineer - Remote Jobs Frontend Engineer - Remote Jobs Torentify United States 1 hour ago. Senior Frontend Developer jobs 45,179",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-ii-remote-at-torentify-4478767086",
+      "published": "2026-10-13",
+      "snippet": "Work Arrangement: Fully remote. Position: Senior Frontend Engineer. Industry: Financial Technology (Fintech). Employment",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -142,22 +132,32 @@
       "source": "LinkedIn job"
     },
     {
+      "title": "Front End Developer (Mid-level)",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/front-end-developer-mid-level-at-wiraa-4477667429",
+      "published": "2026-10-09",
+      "snippet": "Maximus is seeking a Mid-level Front End Developer to join our dynamic team. This role is pivotal in designing, developing, and enhancing user-facing features",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
       "title": "Frontend developer - Mid",
       "company": "Zachary Piper Solutions",
       "location": "",
       "url": "https://www.linkedin.com/jobs/view/frontend-developer-mid-remote-at-zachary-piper-solutions-4479623404",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "snippet": "3+ years of experience developing modern web applications and frontend solutions · Experience with React, Vue, Angular, JavaScript/TypeScript, Python, and",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "Junior Frontend Developer",
-      "company": "Capgemini",
-      "location": "Atlanta, GA",
-      "url": "https://www.linkedin.com/jobs/view/junior-frontend-developer-at-capgemini-4465085619",
+      "title": "Backend Software Developer (Remote)",
+      "company": "Quik Hire Staffing",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/backend-software-developer-remote-at-quik-hire-staffing-4464423773",
       "published": "2026-09-30",
-      "snippet": "We are seeking a Junior Frontend Developer with 1-3 years of experience to join our engineering team. This role is ideal for an early-career developer",
+      "snippet": "Role: Backend Software Developer (Remote); Location: Remote (Work from Anywhere); Job Type: Contract; Payout: $50 - $120/hour. Role Overview:.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -168,16 +168,6 @@
       "url": "https://www.linkedin.com/jobs/view/java-backend-developer-remote-at-hire-feed-4466040233",
       "published": "2026-09-25",
       "snippet": "Role: Java Backend Developer (Remote) · Location: Remote (Work from Anywhere) · Job Type: Contract · Payout: $30 - $80/hour.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Back End Developer - Remote Opportunity",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/back-end-developer-remote-opportunity-at-torentify-4480320802",
-      "published": "2026-10-16",
-      "snippet": "In this role, you will develop backend systems that integrate with AI models and APIs, build scalable SaaS applications, and improve security automation across",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -196,7 +186,7 @@
       "company": "Tror Ai For Everyone",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/hiring-only-on-w2-java-backend-developer-100%25-remote-at-tror-ai-for-everyone-4478580580",
-      "published": "2026-10-12",
+      "published": "2026-10-13",
       "snippet": "Role: Java Backend Developer Location: 100% Remote Experience: 8+ Years Job Description. Strong hands-on experience in Java development (Spring Boot)",
       "apply_email": "",
       "source": "LinkedIn job"
@@ -208,36 +198,6 @@
       "url": "https://www.linkedin.com/jobs/view/backend-developer-security-remote-at-crossing-hurdles-4470925330",
       "published": "2026-09-25",
       "snippet": "Position: Backend Security Engineer. Type: Contract. Compensation: $30 - $100/hour. Location: Remote. Commitment: 10-40 hrs/week. Role Responsibilities.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Backend Developer",
-      "company": "TaskVerse",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/backend-developer-at-taskverse-4479737400",
-      "published": "2026-10-14",
-      "snippet": "Software Engineer. Software Engineer. Temu. United States $100,000 - $300,000 6 days ago. Backend Engineer (Remote Position). Backend Engineer (Remote Position).",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Backend Developer (Remote)",
-      "company": "Executiveplacements Com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/backend-developer-remote-at-executiveplacements-com-4478026491",
-      "published": "2026-10-09",
-      "snippet": "We are hiring for one of our clients, seeking a Software Developer to work on a full-time basis. The role involves designing, developing, and maintaining",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Back End Developer - Remote",
-      "company": "Torentify",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/back-end-developer-remote-at-torentify-4479774717",
-      "published": "2026-10-15",
-      "snippet": "Gadriel is hiring a Backend Engineer to build the core validation engines and services behind its products. The role focuses on deterministic, reproducible",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -262,162 +222,252 @@
       "source": "LinkedIn job"
     },
     {
+      "title": "Python Backend Developer (Remote)",
+      "company": "Hire Feed",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-backend-developer-remote-at-hire-feed-4467209110",
+      "published": "2026-09-30",
+      "snippet": "We are hiring for one of our clients, seeking a Python Developer to work on a Full-Time basis. Responsibilities include developing, testing, and maintaining",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Back End Developer - Remote",
+      "company": "Torentify",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/back-end-developer-remote-at-torentify-4479774717",
+      "published": "2026-10-15",
+      "snippet": "- Remote at Torentify in United States. Full-time Associate role. help verify AI-generated code and system behavior, $140,000 - $180,000 2 months ago … $60 - $",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
       "title": "Backend Developer II - Remote",
       "company": "Torentify",
       "location": "United",
       "url": "https://www.linkedin.com/jobs/view/backend-developer-ii-remote-at-torentify-4479848698",
       "published": "2026-10-15",
-      "snippet": "Evolve software applications using modern development infrastructure and methods, including Ruby 3. Develop application analytics and observability solutions.",
+      "snippet": "Develop server-side application logic for games. Evolve software applications using modern development infrastructure and methods, including Ruby 3. Develop",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "Backend Developer - WFH",
-      "company": "Torentify",
-      "location": "San Juan, TX",
-      "url": "https://www.linkedin.com/jobs/view/backend-developer-wfh-at-torentify-4479851491",
-      "published": "2026-10-15",
-      "snippet": "The position is fully remote and requires an active TS/SCI security clearance, with the ability to obtain a CI Polygraph. Employment is contingent upon",
+      "title": "Backend Developer (Remote)",
+      "company": "Executiveplacements Com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-remote-at-executiveplacements-com-4478026491",
+      "published": "2026-10-09",
+      "snippet": "Proficiency in at least one programming language such as Python, Java, or JavaScript is required. Experience with software development frameworks and libraries",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "Backend Developer",
-      "company": "Effodio, Inc.",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/backend-developer-at-effodio-inc-4479714778",
-      "published": "2026-10-14",
-      "snippet": "We are looking for a talented, hands-on Backend Software Engineer to join our dynamic team. In this role, you'll help develop and optimize our application",
+      "title": "Senior Backend Developer",
+      "company": "Bright Vision Technologies",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-developer-at-bright-vision-technologies-4472073496",
+      "published": "2026-09-25",
+      "snippet": "This role focuses on building backend platform capabilities — request routing, traffic management, data fan-out, caching layers, asynchronous job execution, and",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer with IAM_W2 Contract_100% Remote",
+      "company": "Ipivot",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-with-iam-w2-contract-100%25-remote-at-ipivot-4478117393",
+      "published": "2026-10-13",
+      "snippet": "Job Title: Full Stack Developer (React & Node.js) with IAM Experience. Duration: W2 Contract. Location: Remote. Note: Need only W2 basis. Job Description:.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
       "title": "Full-Stack Developer (Remote)",
-      "company": "Hired",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-hired-4467201480",
-      "published": "",
-      "snippet": "### Full-Stack Developer (Remote). # Full-Stack Developer (Remote). * **Role:** Full-Stack Developer (Remote). We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing, developing, and maintaining efficient, high-quality code to train and optimize AI models. • Design, develop, and maintain efficient, high-quality code to train and optimize AI models. • Conduct evaluations to benchmark model performance and analyze results for continuous improvement. • Proficiency in JavaScript and TypeScript for full-",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4478337135",
+      "published": "2026-10-11",
+      "snippet": "Apply for Full-Stack Developer (Remote) at Torentify in United States. Full-time Associate role. See responsibilities, qualifications, and similar jobs on",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Developer (Remote)",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4478782999",
+      "published": "2026-10-13",
+      "snippet": "Apply for Full-Stack Developer (Remote) at Torentify in United States. Full-time Associate role. See responsibilities, qualifications, and similar jobs on",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Application Developer (Azure/.NET) - REMOTE",
+      "company": "Cgs Business Solutions",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-application-developer-azure-net-remote-at-cgs-business-solutions-4477922981",
+      "published": "2026-10-14",
+      "snippet": "Apply for Full Stack Application Developer (Azure/.NET) - REMOTE at CGS Business Solutions in Texas, United States. Full-time Mid-Senior level role.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Developer (Remote)",
+      "company": "Executiveplacements Com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-executiveplacements-com-4478027556",
+      "published": "2026-10-09",
+      "snippet": "We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer (Remote) - Tucson, AZ",
+      "company": "Executiveplacements Com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-executiveplacements-com-4478754518",
+      "published": "2026-10-13",
+      "snippet": "We are seeking a Full Stack Developer to join our engineering team and help build and improve the Job-Hopper platform. This is a junior-level role for a",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
       "title": "Full Stack Developer (Remote)",
-      "company": "Wiraa",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-wiraa-4475545966",
-      "published": "",
-      "snippet": "### Full Stack Developer (Remote). Join to apply for the **Full Stack Developer (Remote)** role at **Wiraa**. # Full Stack Developer (Remote). Join to apply for the **Full Stack Developer (Remote)** role at **Wiraa**. Our mission is to transform the event management landscape by providing industry-disrupting software solutions that enhance attendee experiences, streamline event operations, and deliver actionable business intelligence. **About The Role**We are seeking an exceptional Full Stack Developer to join our innovative team. As a key member of our development team, you will collaborate c",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4478076025",
+      "published": "2026-10-10",
+      "snippet": "You'll work across the full application stack, developing React and Next.js interfaces, Node.js and Python APIs, and integrations with AWS services and",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "Full Stack Developer - Fully Remote | Up to $60/hr",
-      "company": "Mercor",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-fully-remote-up-to-%2460-hr-at-mercor-4471169757",
-      "published": "",
-      "snippet": "### Full Stack Developer - Fully Remote | Up to $60/hr. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer - Fully Remote | Up to $60/hr** role at **Mercor**. # Full Stack Developer - Fully Remote | Up to $60/hr. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer - Fully Remote | Up to $60/hr** role at **Mercor**. ## Join or sign in to save this job. Join to save **Full Stack Developer - Fully Remote | Up to $60/hr** at **Mercor**. Get AI-powered advice on this job and more exclusive features. ## Sign in to access AI-power",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "SaaS Full-Stack Developer (100 % remote) (m/f/d)",
-      "company": "EWOR",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/saas-full-stack-developer-100-%25-remote-m-f-d-at-ewor-4471854979",
-      "published": "",
-      "snippet": "### SaaS Full-Stack Developer (100 % remote) (m/f/d). # SaaS Full-Stack Developer (100 % remote) (m/f/d). ## Join or sign in to save this job. Join to save **SaaS Full-Stack Developer (100 % remote) (m/f/d)** at **EWOR**. EWOR is launching cutting-edge new initiatives, and we are looking for exceptional operators and builders to join our new department. * You will translate high-level strategic vision into concrete execution roadmaps, driving rapid implementation from prototype to production. * You will architect scalable solutions and drive critical milestones to position the new department f",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer, AI (Remote)",
+      "title": "Full Stack Developer - Remote",
       "company": "Torentify",
       "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-ai-remote-at-torentify-4472723832",
-      "published": "",
-      "snippet": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off LinkedIn. Learn more in our Cookie Policy. ### Full Stack Developer, AI (Remote). # Full Stack Developer, AI (Remote). Get AI-powered advice on this job and more exclusive features. DataAnnotation is seeking Full Stack AI Developers to support the development and improvement of advanced AI systems through remote coding work. This role involves designing and solving coding challenges, creating high",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4479853453",
+      "published": "2026-10-15",
+      "snippet": "About the Role Scaled Agile is seeking a Full Stack Developer to build, optimize, and maintain high-performing web applications integrated with headless content management systems. You will work with React, Next.js, and TypeScript to turn designs into responsive, accessible, and scalable digital experiences. [...] Maintain developer documentation and contribute to coding standards and best practices. Monitor emerging technologies and recommend improvements to development processes and digital products. Support application releases through code reviews, testing in staging environments, and coor",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "B2B Full-Stack Developer (100 % remote) (m/f/d)",
-      "company": "EWOR",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/b2b-full-stack-developer-100-%25-remote-m-f-d-at-ewor-4469112855",
-      "published": "",
-      "snippet": "### B2B Full-Stack Developer (100 % remote) (m/f/d). # B2B Full-Stack Developer (100 % remote) (m/f/d). #### EWOR United States 1 week ago See who EWOR has hired for this role. EWOR is launching cutting-edge new initiatives, and we are looking for exceptional operators and builders to join our new department. * You will translate high-level strategic vision into concrete execution roadmaps, driving rapid implementation from prototype to production. * You will architect scalable solutions and drive critical milestones to position the new department for rapid growth and potentially a spin-off to",
+      "title": "Full Stack Developer - Remote",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-wiraa-4478774956",
+      "published": "2026-10-13",
+      "snippet": "Apply for Full Stack Developer - Remote at Wiraa in United States. Full-time Associate role. See responsibilities, qualifications, and similar jobs on",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer | Remote",
+      "company": "Crossing Hurdles",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-crossing-hurdles-4477151485",
+      "published": "2026-10-08",
+      "snippet": "Position: Part-Time Full-Stack Engineers: Farm-Data Platform Development. Type: Hourly Contract. Compensation: $39/hr. Location: Remote.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer Intern - Remote ($25–$30/hr)",
+      "company": "Global Jobs Opportunity",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-intern-remote-%2425%E2%80%93%2430-hr-at-global-jobs-opportunity-4479365823",
+      "published": "2026-10-16",
+      "snippet": "Join or sign in to find your next job. Join to apply for the Full Stack Developer Intern - Remote ($25–$30/hr) role at Global Jobs Opportunity ... Get notified",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Fullstack Developer (React/Node.js) (Remote)",
+      "company": "Executiveplacements Com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/fullstack-developer-react-node-js-remote-at-executiveplacements-com-4478032352",
+      "published": "2026-10-09",
+      "snippet": "We are hiring for one of our clients, seeking a Fullstack Developer (React/Node.js) - US to work on a full-time basis. The role involves building and",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "US Remote Contractor",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-us-remote-contractor-at-bold%2Bbeyond-4480830308",
+      "published": "2026-10-17",
+      "snippet": "Apply for Full-Stack Developer - US Remote Contractor at Bold+Beyond in United States. Full-time Mid-Senior level role. See responsibilities, qualifications",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Full-Stack Developer",
+      "company": "crewlia",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/junior-full-stack-developer-at-crewlia-4479112864",
+      "published": "2026-10-15",
+      "snippet": "Role Overview: We are hiring a Junior Full-Stack Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "General Dynamics Information Technology",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-general-dynamics-information-technology-4477875316",
+      "published": "2026-10-09",
+      "snippet": "Job Description: Full Stack Engineer – Remote Eligible (Washington, DC) GDIT is seeking an experienced Full Stack Engineer to support high‑impact customer",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Full Stack Developer - Remote in US",
+      "company": "Cognizant",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-remote-in-us-at-cognizant-4470712222",
+      "published": "2026-09-25",
+      "snippet": "We are seeking an experienced Senior Full Stack Developer within 10- 15 years of experience to design, build, and enhance modern applications for a leading",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Remote Leverage",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4477837712",
+      "published": "2026-10-09",
+      "snippet": "Design, build, and maintain internal web applications used across all departments. ... Develop full-stack features end-to-end, including frontend, backend APIs,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Remote: Java Full Stack Developer with React (Full Time",
+      "company": "Visionary Innovative Technology Solutions Llc",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/remote-java-full-stack-developer-with-react-full-time-only-at-visionary-innovative-technology-solutions-llc-4476026657",
+      "published": "2026-10-13",
+      "snippet": "We are looking for a skilled Java Full Stack Developer with strong hands-on experience in Java, Spring Boot, REST APIs, and React. The ideal candidate will be",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
       "title": "Sr Full Stack Developer - Remote",
       "company": "YO AI Labs",
-      "location": "New York, NY | LinkedIn Jobs",
+      "location": "New",
       "url": "https://www.linkedin.com/jobs/view/sr-full-stack-developer-remote-at-yo-ai-labs-4471165802",
-      "published": "",
-      "snippet": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off LinkedIn. Learn more in our Cookie Policy. Join to apply for the **Sr Full Stack Developer - Remote** role at **YO AI Labs**. Join to apply for the **Sr Full Stack Developer - Remote** role at **YO AI Labs**. **Job Summary**We are looking for skilled **Full-Stack Software Engineers** to contribute to an AI training project involving software development, debugging, technical problem-solving, syste",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer, Python - Remote",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/4476775108",
-      "published": "",
-      "snippet": "### Full Stack Developer, Python - Remote. Join to apply for the **Full Stack Developer, Python - Remote** role at **Torentify**. # Full Stack Developer, Python - Remote. Join to apply for the **Full Stack Developer, Python - Remote** role at **Torentify**. The position is suited for a Full Stack Developer with strong Python development and React front-end experience who can explain the design and development process for a portal. The ideal candidate will have experience building applications from scratch and working across development, cloud, database, CI/CD, and AI-related technologies. • De",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior Full-Stack Developer - Remote",
-      "company": "ExecutivePlacements.com",
-      "location": "Vienna, IN",
-      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-remote-at-executiveplacements-com-4475092480",
-      "published": "",
-      "snippet": "### Senior Full-Stack Developer - Remote. # Senior Full-Stack Developer - Remote. We’re looking for a Senior Full-Stack Developer — with a strong backend focus — to join a fast-moving marketplace project on a short-term contract basis. You’ll design and build composable commerce services on commercetools and stand up seller and catalog flows through Mirakl’s dropship model, integrating the two into a seamless buyer and seller experience. This is a hands-on delivery role for an engineer who can own backend architecture, ship production-grade APIs and integrations quickly, and contribute to the",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack JavaScript Developer - Remote - PST",
-      "company": "Avi Technologies Inc.",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-javascript-developer-remote-pst-at-avi-technologies-inc-4475808482",
-      "published": "",
-      "snippet": "Avi Technologies Inc. United States. #### Avi Technologies Inc. United States 16 hours ago See who Avi Technologies Inc. has hired for this role. Get AI-powered advice on this job and more exclusive features. Experience: 5+ years in software development / information systems. • Participate in the complete application lifecycle, including design, development, testing, release, and operational support. • Design, develop, code, debug, and test scalable web applications. • Develop and maintain backend services and APIs using Node.js. • Work effectively within an Agile/Scrum development environment",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full-stack Angular Developer - Remote Work",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-angular-developer-remote-work-at-bairesdev-4471917044",
-      "published": "",
-      "snippet": "### Full-stack Angular Developer - Remote Work. Join to apply for the **Full-stack Angular Developer - Remote Work** role at **BairesDev**. # Full-stack Angular Developer - Remote Work. Join to apply for the **Full-stack Angular Developer - Remote Work** role at **BairesDev**. Join to save **Full-stack Angular Developer - Remote Work** at **BairesDev**. Full-stack Angular Developer at BairesDev. We are looking for a full-stack Angular Developer to write high-quality, reusable code in an Angular-based application with .NET backend to increase its efficiency and improve user experience. - 5+ yea",
+      "published": "2026-09-26",
+      "snippet": "Strong professional experience developing production full-stack applications. Hands-on experience with both front-end and back-end engineering. Experience",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
       "title": "Full Stack Developer",
-      "company": "GDH",
-      "location": "Oklahoma City, OK | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-gdh-4470633982",
-      "published": "",
-      "snippet": "### Full Stack Developer. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer** role at **GDH**. # Full Stack Developer. #### GDH Oklahoma City, OK 21 hours ago 79 applicants See who GDH has hired for this role. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer** role at **GDH**. ## Join or sign in to save this job. Join to save **Full Stack Developer** at **GDH**. **Role Summary**A full-stack Software Developer with expertise in back-end T-SQL development, front-end web technologies, and API integrations is sought to supp",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full-Stack Python Developer (Remote)",
-      "company": "GOVSTAR",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-ai-developer-remote-at-govstar-4470403501",
-      "published": "",
-      "snippet": "GovStar seeks a Full Stack Python Developer to build and maintain secure end-user and service-layer capabilities for enterprise AI applications. This is a hands-on role focused on developing production-quality software that enables agency personnel to securely analyze structured and unstructured data, interact with AI-enabled services, and integrate approved models and data sources within a centralized Azure environment. * Design, develop, test, deploy, and maintain full-stack AI applications and supporting services. * At least 7 years of relevant professional software engineering experience,",
+      "company": "Ladders",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-ladders-4477068648",
+      "published": "2026-10-15",
+      "snippet": "For our client, we are seeking a Full Stack Developer to join the team of a leader in the Information Technology space.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -512,6 +562,16 @@
       "source": "LinkedIn job"
     },
     {
+      "title": "Full Stack Developer, Python - Remote",
+      "company": "Torentify",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-python-remote-at-torentify-4476775108",
+      "published": "",
+      "snippet": "### Full Stack Developer, Python - Remote. # Full Stack Developer, Python - Remote. The position is suited for a Full Stack Developer with strong Python development and React front-end experience who can explain the design and development process for a portal. The ideal candidate will have experience building applications from scratch and working across development, cloud, database, CI/CD, and AI-related technologies. • Develop full stack applications using Python and React. • Contribute to front-end development using React. • Develop backend functionality using Python. • Support application d",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
       "title": "Strong Medior/ Senior React Native Developer",
       "company": "Elements",
       "location": "Amsterdam, North Holland, Netherlands | LinkedIn Jobs",
@@ -537,37 +597,7 @@
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/python-developer-remote-wfh-at-torentify-4478039348",
       "published": "2026-10-10",
-      "snippet": "Hiredbuddy is seeking an entry-level Python Developer to join its remote engineering team. The company offers an opportunity for early-career developers to",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer",
-      "company": "ExecutivePlacements.com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-executiveplacements-com-4478029469",
-      "published": "2026-10-09",
-      "snippet": "Full Time Remote Python Developer opening now available. We are looking for an experienced Sr. Python/Flask Full Stack Software Engineer to create and",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Backend Developer (Remote)",
-      "company": "Hire Feed",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-backend-developer-remote-at-hire-feed-4467209110",
-      "published": "2026-09-30",
-      "snippet": "We are hiring for one of our clients, seeking a Python Developer to work on a Full-Time basis. Responsibilities include developing, testing, and maintaining",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Python Developer",
-      "company": "crewlia",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-python-developer-at-crewlia-4479126106",
-      "published": "2026-10-15",
-      "snippet": "We are hiring a Junior Python Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day coordination",
+      "snippet": "Hiredbuddy is looking for a motivated Python Developer to build and maintain backend services, develop APIs, and support web application development.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -582,22 +612,22 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Python Developer",
-      "company": "Wiraa",
+      "title": "Python Developer - Remote",
+      "company": "Torentify",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-at-wiraa-4479507298",
-      "published": "2026-10-14",
-      "snippet": "We are seeking a talented Python Developer to join our remote team, based in Suitland, MD. ... Junior Software Engineer jobs · Engineer jobs · Performance Test",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-torentify-4480844138",
+      "published": "2026-10-17",
+      "snippet": "The role requires four days onsite and one day remote per week. Local candidates are preferred, and interviews are conducted in person. ... Develop and maintain",
       "apply_email": "",
       "source": "LinkedIn job"
     },
     {
-      "title": "Sr Python Developer - Remote",
-      "company": "YO AI Labs",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/sr-python-developer-remote-at-yo-ai-labs-4479670400",
-      "published": "2026-10-17",
-      "snippet": "Senior Software Engineer Job Type: Contractor (:15 hrs/week) Location: Remote Schedule: Flexible Required Skills. Python 3, Java, Rust, TypeScript, C++",
+      "title": "Python Developer",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-wiraa-4479507298",
+      "published": "2026-10-15",
+      "snippet": "We are seeking a talented Python Developer to join our remote team, based in Suitland, MD. ... Get notified about new Python Developer jobs in United States.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -607,7 +637,7 @@
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-vtechys-4474087114",
       "published": "2026-10-06",
-      "snippet": "Strong experience in Python development; Hands-on with REST APIs / Microservices; Experience with AWS / Cloud platforms; Strong SQL skills; Healthcare domain",
+      "snippet": "Looking for an experienced Python Developer with strong backend development skills and prior healthcare domain experience (Elevance Health preferred).",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -632,22 +662,22 @@
       "source": "LinkedIn job"
     },
     {
+      "title": "Sr Python Developer - Remote",
+      "company": "YO AI Labs",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/sr-python-developer-remote-at-yo-ai-labs-4479670400",
+      "published": "2026-10-17",
+      "snippet": "Base pay range $30.00/hr - $100.00/hr. Remote Schedule: Flexible Required Skills Python 3, Java, Rust, TypeScript, C++ Algorithms & Data Structures … 150,000 -",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
       "title": "Python/Web Developer - Remote",
       "company": "Torentify",
       "location": "United",
       "url": "https://www.linkedin.com/jobs/view/python-web-developer-remote-at-torentify-4480805899",
       "published": "2026-10-17",
       "snippet": "TCG is seeking a Senior Python/Web Developer to create and publish digital media, interactive visuals, charts, graphs, and other data visualizations for a",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python AI Developer",
-      "company": "Mondo",
-      "location": "New Brunswick, NJ",
-      "url": "https://www.linkedin.com/jobs/view/python-ai-developer-at-mondo-4469883595",
-      "published": "2026-09-22",
-      "snippet": "Apply now: Python AI Developer, location is Hybrid (Remote with occasional onsite). The start date is ASAP for this contract position.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -662,11 +692,11 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Senior Python Developer",
+      "title": "Principal Python Developer",
       "company": "Bright Vision Technologies",
       "location": "",
-      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-bright-vision-technologies-4478594211",
-      "published": "2026-10-12",
+      "url": "https://www.linkedin.com/jobs/view/principal-python-developer-at-bright-vision-technologies-4474572361",
+      "published": "2026-10-01",
       "snippet": "The ideal candidate will bring deep Python expertise combined with strong fundamentals in software architecture, data engineering, and operational support, and",
       "apply_email": "",
       "source": "LinkedIn job"
@@ -682,32 +712,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "UI / UX Designer",
-      "company": "Wiraa",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-wiraa-4478048367",
-      "published": "2026-10-10",
-      "snippet": "We are seeking a talented and creative UI/UX Designer to join our team on a remote, part-time basis. This role involves leading the redesign of our website to",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "UI/UX Designer - Remote",
-      "company": "Wiraa",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-wiraa-4479295691",
-      "published": "2026-10-14",
-      "snippet": "We are actively seeking a talented UI/UX Designer to join our expanding team. This full-time, remote position offers the opportunity to work on diverse",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "UI/UX Designer (Remote)",
       "company": "Torentify",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-torentify-4480506481",
-      "published": "2026-10-16",
-      "snippet": "Apply for UI/UX Designer (Remote) at Torentify in United States. Full-time Associate role. See responsibilities, qualifications, and similar jobs on",
+      "published": "2026-10-17",
+      "snippet": "UI/UX Designer (Remote) Fully remote, with headquarters in Houston, Texas. Expected workload: 10–40 hours per week. $120,000 - $140,000 3 weeks ago",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -716,8 +726,18 @@
       "company": "TaskVerse",
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-taskverse-4479736472",
-      "published": "2026-10-14",
+      "published": "2026-10-15",
       "snippet": "The role is remote, flexible, and suitable for those who thrive in independent work environments and are committed to delivering high-quality results.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer - Remote",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-wiraa-4479295691",
+      "published": "2026-10-15",
+      "snippet": "Full-time Associate role. This full-time, remote position ・ s Minimum of 3 years of commercial experience as a UI/UX designer ・ $100,000 - $129,000 4 weeks",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -727,7 +747,7 @@
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/product-ui-ux-designer-remote-worldwide-at-matcha-fm-4478530717",
       "published": "2026-10-12",
-      "snippet": "Apply for Product UI/UX designer (Remote Worldwide) at matcha.fm in United States. Full-time Mid-Senior level role. See responsibilities, qualifications",
+      "snippet": "Apply for Product UI/UX designer (Remote Worldwide) at matcha.fm in United States. Full-time Mid-Senior level role. $58 - $66 2 weeks ago",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -736,7 +756,7 @@
       "company": "Kforce Inc",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/sharepoint-ui-ux-designer-at-kforce-inc-4469927597",
-      "published": "2026-10-17",
+      "published": "2026-09-29",
       "snippet": "UI/UX Designer | 100% Remote | EST-Based Candidates Preferred. Prudent ... Senior User Interface Designer jobs · User Experience Researcher jobs · Graphic",
       "apply_email": "",
       "source": "LinkedIn job"
@@ -746,8 +766,228 @@
       "company": "DBByte",
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/junior-ui-ux-designer-at-dbbyte-4478808697",
+      "published": "2026-10-15",
+      "snippet": "Full-time Entry level role. Bachelor's degree in user experience, design or related field 3 years of experience with UI design Strong communication, design",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Engineer - Remote Jobs",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/frontend-engineer-remote-jobs-at-torentify-4478035539",
+      "published": "2026-10-10",
+      "snippet": "This is a full-time, remote position suited to a developer who understands modern frontend technologies, responsive design, and the importance of creating",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Frontend Developer",
+      "company": "Capgemini",
+      "location": "Atlanta, GA",
+      "url": "https://www.linkedin.com/jobs/view/junior-frontend-developer-at-capgemini-4465085619",
+      "published": "2026-09-30",
+      "snippet": "We are seeking a Junior Frontend Developer with 1-3 years of experience to join our engineering team. This role is ideal for an early-career developer",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Back End Developer - Remote Opportunity",
+      "company": "Torentify",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/back-end-developer-remote-opportunity-at-torentify-4480320802",
+      "published": "2026-10-16",
+      "snippet": "In this role, you will develop backend systems that integrate with AI models and APIs, build scalable SaaS applications, and improve security automation across",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend Developer",
+      "company": "TaskVerse",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-at-taskverse-4479737400",
       "published": "2026-10-14",
-      "snippet": "Apply for Junior UI/UX Designer at DBByte in United States. Full-time Entry level role. See responsibilities, qualifications, and similar jobs on LinkedIn.",
+      "snippet": "Software Engineer. Software Engineer. Temu. United States $100,000 - $300,000 6 days ago. Backend Engineer (Remote Position). Backend Engineer (Remote Position).",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend Developer - WFH",
+      "company": "Torentify",
+      "location": "San Juan, TX",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-wfh-at-torentify-4479851491",
+      "published": "2026-10-15",
+      "snippet": "The position is fully remote and requires an active TS/SCI security clearance, with the ability to obtain a CI Polygraph. Employment is contingent upon",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend Developer",
+      "company": "Effodio, Inc.",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-at-effodio-inc-4479714778",
+      "published": "2026-10-14",
+      "snippet": "We are looking for a talented, hands-on Backend Software Engineer to join our dynamic team. In this role, you'll help develop and optimize our application",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Developer (Remote)",
+      "company": "Hired",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-hired-4467201480",
+      "published": "",
+      "snippet": "### Full-Stack Developer (Remote). # Full-Stack Developer (Remote). * **Role:** Full-Stack Developer (Remote). We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing, developing, and maintaining efficient, high-quality code to train and optimize AI models. • Design, develop, and maintain efficient, high-quality code to train and optimize AI models. • Conduct evaluations to benchmark model performance and analyze results for continuous improvement. • Proficiency in JavaScript and TypeScript for full-",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer (Remote)",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-wiraa-4475545966",
+      "published": "",
+      "snippet": "### Full Stack Developer (Remote). Join to apply for the **Full Stack Developer (Remote)** role at **Wiraa**. # Full Stack Developer (Remote). Join to apply for the **Full Stack Developer (Remote)** role at **Wiraa**. Our mission is to transform the event management landscape by providing industry-disrupting software solutions that enhance attendee experiences, streamline event operations, and deliver actionable business intelligence. **About The Role**We are seeking an exceptional Full Stack Developer to join our innovative team. As a key member of our development team, you will collaborate c",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer - Fully Remote | Up to $60/hr",
+      "company": "Mercor",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-fully-remote-up-to-%2460-hr-at-mercor-4471169757",
+      "published": "",
+      "snippet": "### Full Stack Developer - Fully Remote | Up to $60/hr. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer - Fully Remote | Up to $60/hr** role at **Mercor**. # Full Stack Developer - Fully Remote | Up to $60/hr. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer - Fully Remote | Up to $60/hr** role at **Mercor**. ## Join or sign in to save this job. Join to save **Full Stack Developer - Fully Remote | Up to $60/hr** at **Mercor**. Get AI-powered advice on this job and more exclusive features. ## Sign in to access AI-power",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "SaaS Full-Stack Developer (100 % remote) (m/f/d)",
+      "company": "EWOR",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/saas-full-stack-developer-100-%25-remote-m-f-d-at-ewor-4471854979",
+      "published": "",
+      "snippet": "### SaaS Full-Stack Developer (100 % remote) (m/f/d). # SaaS Full-Stack Developer (100 % remote) (m/f/d). ## Join or sign in to save this job. Join to save **SaaS Full-Stack Developer (100 % remote) (m/f/d)** at **EWOR**. EWOR is launching cutting-edge new initiatives, and we are looking for exceptional operators and builders to join our new department. * You will translate high-level strategic vision into concrete execution roadmaps, driving rapid implementation from prototype to production. * You will architect scalable solutions and drive critical milestones to position the new department f",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer, AI (Remote)",
+      "company": "Torentify",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-ai-remote-at-torentify-4472723832",
+      "published": "",
+      "snippet": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off LinkedIn. Learn more in our Cookie Policy. ### Full Stack Developer, AI (Remote). # Full Stack Developer, AI (Remote). Get AI-powered advice on this job and more exclusive features. DataAnnotation is seeking Full Stack AI Developers to support the development and improvement of advanced AI systems through remote coding work. This role involves designing and solving coding challenges, creating high",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "B2B Full-Stack Developer (100 % remote) (m/f/d)",
+      "company": "EWOR",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/b2b-full-stack-developer-100-%25-remote-m-f-d-at-ewor-4469112855",
+      "published": "",
+      "snippet": "### B2B Full-Stack Developer (100 % remote) (m/f/d). # B2B Full-Stack Developer (100 % remote) (m/f/d). #### EWOR United States 1 week ago See who EWOR has hired for this role. EWOR is launching cutting-edge new initiatives, and we are looking for exceptional operators and builders to join our new department. * You will translate high-level strategic vision into concrete execution roadmaps, driving rapid implementation from prototype to production. * You will architect scalable solutions and drive critical milestones to position the new department for rapid growth and potentially a spin-off to",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Full-Stack Developer - Remote",
+      "company": "ExecutivePlacements.com",
+      "location": "Vienna, IN",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-remote-at-executiveplacements-com-4475092480",
+      "published": "",
+      "snippet": "### Senior Full-Stack Developer - Remote. # Senior Full-Stack Developer - Remote. We’re looking for a Senior Full-Stack Developer — with a strong backend focus — to join a fast-moving marketplace project on a short-term contract basis. You’ll design and build composable commerce services on commercetools and stand up seller and catalog flows through Mirakl’s dropship model, integrating the two into a seamless buyer and seller experience. This is a hands-on delivery role for an engineer who can own backend architecture, ship production-grade APIs and integrations quickly, and contribute to the",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack JavaScript Developer - Remote - PST",
+      "company": "Avi Technologies Inc.",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-javascript-developer-remote-pst-at-avi-technologies-inc-4475808482",
+      "published": "",
+      "snippet": "Avi Technologies Inc. United States. #### Avi Technologies Inc. United States 16 hours ago See who Avi Technologies Inc. has hired for this role. Get AI-powered advice on this job and more exclusive features. Experience: 5+ years in software development / information systems. • Participate in the complete application lifecycle, including design, development, testing, release, and operational support. • Design, develop, code, debug, and test scalable web applications. • Develop and maintain backend services and APIs using Node.js. • Work effectively within an Agile/Scrum development environment",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-stack Angular Developer - Remote Work",
+      "company": "BairesDev",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-angular-developer-remote-work-at-bairesdev-4471917044",
+      "published": "",
+      "snippet": "### Full-stack Angular Developer - Remote Work. Join to apply for the **Full-stack Angular Developer - Remote Work** role at **BairesDev**. # Full-stack Angular Developer - Remote Work. Join to apply for the **Full-stack Angular Developer - Remote Work** role at **BairesDev**. Join to save **Full-stack Angular Developer - Remote Work** at **BairesDev**. Full-stack Angular Developer at BairesDev. We are looking for a full-stack Angular Developer to write high-quality, reusable code in an Angular-based application with .NET backend to increase its efficiency and improve user experience. - 5+ yea",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "GDH",
+      "location": "Oklahoma City, OK | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-gdh-4470633982",
+      "published": "",
+      "snippet": "### Full Stack Developer. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer** role at **GDH**. # Full Stack Developer. #### GDH Oklahoma City, OK 21 hours ago 79 applicants See who GDH has hired for this role. ## Join or sign in to find your next job. Join to apply for the **Full Stack Developer** role at **GDH**. ## Join or sign in to save this job. Join to save **Full Stack Developer** at **GDH**. **Role Summary**A full-stack Software Developer with expertise in back-end T-SQL development, front-end web technologies, and API integrations is sought to supp",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full-Stack Python Developer (Remote)",
+      "company": "GOVSTAR",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-ai-developer-remote-at-govstar-4470403501",
+      "published": "",
+      "snippet": "GovStar seeks a Full Stack Python Developer to build and maintain secure end-user and service-layer capabilities for enterprise AI applications. This is a hands-on role focused on developing production-quality software that enables agency personnel to securely analyze structured and unstructured data, interact with AI-enabled services, and integrate approved models and data sources within a centralized Azure environment. * Design, develop, test, deploy, and maintain full-stack AI applications and supporting services. * At least 7 years of relevant professional software engineering experience,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "ExecutivePlacements.com",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-remote-at-executiveplacements-com-4478029469",
+      "published": "2026-10-09",
+      "snippet": "Full Time Remote Python Developer opening now available. We are looking for an experienced Sr. Python/Flask Full Stack Software Engineer to create and",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Python Developer",
+      "company": "crewlia",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/junior-python-developer-at-crewlia-4479126106",
+      "published": "2026-10-15",
+      "snippet": "We are hiring a Junior Python Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day coordination",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python AI Developer",
+      "company": "Mondo",
+      "location": "New Brunswick, NJ",
+      "url": "https://www.linkedin.com/jobs/view/python-ai-developer-at-mondo-4469883595",
+      "published": "2026-09-22",
+      "snippet": "Apply now: Python AI Developer, location is Hybrid (Remote with occasional onsite). The start date is ASAP for this contract position.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Python Developer",
+      "company": "Bright Vision Technologies",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-bright-vision-technologies-4478594211",
+      "published": "2026-10-12",
+      "snippet": "The ideal candidate will bring deep Python expertise combined with strong fundamentals in software architecture, data engineering, and operational support, and",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI / UX Designer",
+      "company": "Wiraa",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-wiraa-4478048367",
+      "published": "2026-10-10",
+      "snippet": "We are seeking a talented and creative UI/UX Designer to join our team on a remote, part-time basis. This role involves leading the redesign of our website to",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -832,82 +1072,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Full-Stack Developer (Remote)",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4478337135",
-      "published": "2026-10-11",
-      "snippet": "Full-Stack Developer (Remote) at Torentify in United States. Full-time Associate role. Build full-stack applications using modern frontend and backend",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full-Stack Developer (Remote)",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4478782999",
-      "published": "2026-10-13",
-      "snippet": "Apply for Full-Stack Developer (Remote) at Torentify in United States. Full-time Associate role. See responsibilities, qualifications, and similar jobs on",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Application Developer (Azure/.NET) - REMOTE",
-      "company": "Cgs Business Solutions",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-application-developer-azure-net-remote-at-cgs-business-solutions-4477922981",
-      "published": "2026-10-14",
-      "snippet": "Apply for Full Stack Application Developer (Azure/.NET) - REMOTE at CGS Business Solutions in Texas, United States. Full-time Mid-Senior level role.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer (Remote)",
-      "company": "Torentify",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4478076025",
-      "published": "2026-10-10",
-      "snippet": "Eccalon is seeking a Full Stack Developer to build and deliver production software across Department of Defense (DoD), intelligence, and enterprise programs.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Full Stack Developer",
       "company": "RemoteHunter",
       "location": "",
       "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remotehunter-4474257397",
       "published": "2026-10-05",
       "snippet": "Apply for Full Stack Developer at RemoteHunter in United States. Full-time Mid-Senior level role. See responsibilities, qualifications, and similar jobs on",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full-Stack Developer",
-      "company": "US Remote Contractor",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-us-remote-contractor-at-bold%2Bbeyond-4480830308",
-      "published": "2026-10-17",
-      "snippet": "The Full-Stack Developer is responsible for website and web applications development. Qualifications 5+ years crafting web experiences,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer (Remote) - Tucson, AZ",
-      "company": "Executiveplacements Com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-executiveplacements-com-4478754518",
-      "published": "2026-10-13",
-      "snippet": "We are seeking a Full Stack Developer to join our engineering team and help build and improve the Job-Hopper platform. This is a junior-level role for a",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full-Stack Developer (Remote)",
-      "company": "Executiveplacements Com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-executiveplacements-com-4478027556",
-      "published": "2026-10-10",
-      "snippet": "We are hiring for one of our clients, seeking a JavaScript / TypeScript Full-Stack Developer to work on a full-time basis. The role involves designing,",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -922,102 +1092,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Full Stack Developer | Remote",
-      "company": "Crossing Hurdles",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-crossing-hurdles-4477151485",
-      "published": "2026-10-08",
-      "snippet": "Position: Part-Time Full-Stack Engineers: Farm-Data Platform Development. Type: Hourly Contract. Compensation: $39/hr. Location: Remote.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer Intern - Remote ($25–$30/hr)",
-      "company": "Global Jobs Opportunity",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-intern-remote-%2425%E2%80%93%2430-hr-at-global-jobs-opportunity-4479365823",
-      "published": "2026-10-16",
-      "snippet": "Join or sign in to find your next job. Join to apply for the Full Stack Developer Intern - Remote ($25–$30/hr) role at Global Jobs Opportunity ... Get notified",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Fullstack Developer (React/Node.js) (Remote)",
-      "company": "Executiveplacements Com",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/fullstack-developer-react-node-js-remote-at-executiveplacements-com-4478032352",
-      "published": "2026-10-10",
-      "snippet": "We are hiring for one of our clients, seeking a Fullstack Developer (React/Node.js) - US to work on a full-time basis. The role involves building and",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer - Remote",
-      "company": "Torentify",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-torentify-4479853453",
-      "published": "2026-10-15",
-      "snippet": "Agile is seeking a Full Stack Developer to build, optimize, and maintain high-performing web applications integrated with headless content management systems.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Full-Stack Developer",
-      "company": "crewlia",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/junior-full-stack-developer-at-crewlia-4479112864",
-      "published": "2026-10-15",
-      "snippet": "Role Overview: We are hiring a Junior Full-Stack Developer to provide dedicated remote support to our dynamic teams. In this role, you will handle day-to-day",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "General Dynamics Information Technology",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-general-dynamics-information-technology-4477875316",
-      "published": "2026-10-09",
-      "snippet": "Job Description: Full Stack Engineer – Remote Eligible (Washington, DC) GDIT is seeking an experienced Full Stack Engineer to support high‑impact customer",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Remote: Java Full Stack Developer with React (Full Time",
-      "company": "Visionary Innovative Technology Solutions Llc",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/remote-java-full-stack-developer-with-react-full-time-only-at-visionary-innovative-technology-solutions-llc-4476026657",
-      "published": "2026-10-13",
-      "snippet": "We are looking for a skilled Java Full Stack Developer with strong hands-on experience in Java, Spring Boot, REST APIs, and React. The ideal candidate will be",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer - Remote",
-      "company": "Wiraa",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-wiraa-4478774956",
-      "published": "2026-10-13",
-      "snippet": "Recognized Flexible remote work within the United States Opportunity. Paid time off and holidays",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Junior Full Stack Developer",
       "company": "Revolutional",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/junior-full-stack-developer-at-revolutional-4460660454",
       "published": "2026-09-21",
       "snippet": "Location: Remote Terms: Full-time. Salary Range: $60-70k DOE Clearance ... Get notified about new Full Stack Engineer jobs in Washington, DC. Sign in",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "Ladders",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-ladders-4477068648",
-      "published": "2026-10-15",
-      "snippet": "For our client, we are seeking a Full Stack Developer to join the team of a leader in the Information Technology space.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -1232,16 +1312,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Backend Software Developer (Remote)",
-      "company": "Quik Hire Staffing",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/backend-software-developer-remote-at-quik-hire-staffing-4464423773",
-      "published": "2026-09-30",
-      "snippet": "Role: Backend Software Developer (Remote); Location: Remote (Work from Anywhere); Job Type: Contract; Payout: $50 - $120/hour. Role Overview:.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Backend C#/.NET Developer - Remote",
       "company": "Yo It Consulting",
       "location": "Remote",
@@ -1268,16 +1338,6 @@
       "url": "https://www.linkedin.com/jobs/view/junior-backend-developer-at-remotehunter-4475974739",
       "published": "2026-10-08",
       "snippet": "Full-time Entry level role. designed for a developer with 1-3 years of experience. Salary range is $85,000 to $110,000 per year. Medical insurance Dental",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer with IAM_W2 Contract_100% Remote",
-      "company": "Ipivot",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-with-iam-w2-contract-100%25-remote-at-ipivot-4478117393",
-      "published": "2026-10-13",
-      "snippet": "Job Title: Full Stack Developer (React & Node.js) with IAM Experience. Duration: W2 Contract. Location: Remote. Note: Need only W2 basis. Job Description:.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -1822,16 +1882,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Full Stack Developer",
-      "company": "Remote Leverage",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4477837712",
-      "published": "2026-10-10",
-      "snippet": "You'll join our team to support our in-house development team in designing and building internal software applications. Responsibilities: ... Design, build, and",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "React Developer",
       "company": "Precision Technologies",
       "location": "Remote",
@@ -2128,16 +2178,6 @@
       "url": "https://www.linkedin.com/jobs/view/mid-sr-level-python-developer-at-jobgether-4476593423",
       "published": "2026-10-07",
       "snippet": "Flexible spending accounts (FSA). Life insurance. Retirement plan. Remote work environment. Equal employment opportunity regardless of age, race, color,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Developer",
-      "company": "Clevanoo LLC",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-clevanoo-llc-4476852718",
-      "published": "2026-10-09",
-      "snippet": "Job Title: Frontend UX Engineer with Vue.js and Laravel/PHP. Location: Remote. Duration: 6-12 Months Contract. Must be comfortable to work on 1099/W2.",
       "apply_email": "",
       "source": "LinkedIn job"
     },
