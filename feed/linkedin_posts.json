@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:11:06+00:00",
+  "updated_at": "2026-11-01T05:47:12+00:00",
   "posts": [
     {
       "title": "استخدام | Frontend Developer (AI Product) 🚀 برای ساختن رابط کاربری یک محصول SaaS مبتنی بر AI، دنبال یک Frontend Developer دقیق و خلاق هستیم.",
@@ -71,6 +71,15 @@
       "url": "https://www.linkedin.com/posts/maxim-berenshtein_a-sanitizer-is-not-a-rendering-policy-showing-activity-7513190058326372353-A8J4",
       "published": "2026-10-06",
       "snippet": "Senior Frontend Engineer and FE Tech Lead building scalable frontend systems with Angular, React, Vue.js, and TypeScript, and accelerating",
+      "apply_email": ""
+    },
+    {
+      "title": "Frontend Performance Optimization Checklist by Abdallah Hemdan | Saadi Shamallakh posted on the topic",
+      "company": "Posted by Saadi Shamallakh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/saadi-shamallakh_frontend-performance-playbook-activity-7514625695403270144-wqQk",
+      "published": "2026-10-10",
+      "snippet": "tag revalidation (revalidateTag), keeping time-to-first-byte (TTFB) under 180ms on edge nodes. --- On a personal note: I am currently exploring opportunities to join an early-stage startup as a Founding Engineer or Remote Backend Developer. If you are a founder building an MVP in MENA or globally and need someone who can take product specs from idea to a scalable production backend on day one, feel free to reach out via DM. What technical challenge taught you the most while building your last [...] Like Comment To view or add a comment, sign in 2,044 followers 66 Posts View Profile Connect ##",
       "apply_email": ""
     },
     {
@@ -236,21 +245,39 @@
       "apply_email": ""
     },
     {
+      "title": "... Backend Developer – .NET If you are passionate about high-scale technical ... دلیل",
+      "company": "Posted by Alireza Saffari",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/alireza-saffari_were-hiring-at-tapsi-food-we-have-new-activity-7515779427860070400-cqIB",
+      "published": "2026-10-13",
+      "snippet": "... Backend Developer – .NET If you are passionate about high-scale technical ... دلیل خاصی داره که آگهی استخدام برای یک شرکت ایرانی که قراره افراد داخل ایران رو ...Read more",
+      "apply_email": ""
+    },
+    {
+      "title": "#c #hiring #fullstackdeveloper #dotnet #angular #sqlserver #microservices #golrangtarabar #استخدام | Anaram Yaghoobi Notash | 22 comments",
+      "company": "Posted by Anaram Yaghoobi Notash",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/anaram-yaghoobi-notash_c-hiring-fullstackdeveloper-activity-7520808130037870592-1s23",
+      "published": "2026-10-27",
+      "snippet": "🚀 We’re Hiring | Full-Stack Developer به خانواده بزرگ Golrang Tarabar میپیوندیم و برای توسعه تیم فنی، به دنبال جذب یک Full-Stack Developer متخصص و باانگیزه هستیم. 🔹 شرایط و مهارتهای موردنیاز: \\ حداقل ۵ سال تجربه کاری مرتبط \\ تسلط به #C و ‎.NET / .NET Core \\ تسلط به Angular \\ تجربه کار با SQL Server، Entity Framework Core و Dapper \\ آشنایی با RabbitMQ و Redis \\ تسلط به Git و Azure DevOps \\ تجربه طراحی، توسعه و پیادهسازی APIهای داخلی و خارجی \\ تجربه کار با معماریهای Microservices \\ سابقه کار روی [...] JOBUT.IR(جاب یوتی) Like Reply 1 Reaction 2 Reactions m.hossein rahimloo 13h Report this comment",
+      "apply_email": ""
+    },
+    {
+      "title": "Polly .NET Library for Resilience and Fault Handling | Mohamed Ashraf posted on the topic",
+      "company": "Posted by Mohamed Ashraf",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohamed-ashraf-016202173_dotnet-backend-softwareengineering-activity-7516212708732751872-wteK",
+      "published": "2026-10-14",
+      "snippet": "without introducing new problems. 💬 QUESTION FOR BACKEND DEVELOPERS: When integrating an unreliable third-party API in ASP.NET Core, how would you design your resilience strategy? Would you start with retries and circuit breakers, or would you handle the problem differently depending on the business operation? #dotnet #CSharp #BackendDevelopment #SystemDesign #Microservices #SoftwareEngineering #DistributedSystems #APIDesign [...] حماية مثل: - إعادة المحاولة التلقائية (Retry). - قطع الاتصال بالخدمات العطلانة لمنع انهيار النظام (Circuit Breaker). - حد أقصى لوقت الانتظار (Timeout). - إرجاع خطة أ",
+      "apply_email": ""
+    },
+    {
       "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
       "company": "Posted by Doaa Mahmoud Hashish",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
       "published": "2026-10-23",
       "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] الصحيح مع الـ Concurrency والـ Failures والحفاظ على الـ Data Consistency. ━━━━━━━━━━━━━━━━━━━━ 💬 Let's discuss | خلينا نتناقش When handling con",
-      "apply_email": ""
-    },
-    {
-      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
-      "company": "Posted by Islam Abdalla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
-      "published": "2026-10-18",
-      "snippet": "The strongest line in this policy is not about AI at all - it is \"Define the design and implementation approach before asking AI to generate code.\" I build with Django/DRF daily and use AI tooling, and that is exactly the discipline that keeps it useful: the design comes first, the model fills in the plan, and the review loop stays human. AI in small, reviewable steps is the same shape as how I handled a LangGraph shopping assistant - the agent proposes, deterministic backend code validates and [...] the team’s coding standards and architecture. 5. Protect sensitive information, credentials, a",
       "apply_email": ""
     },
     {
@@ -272,12 +299,12 @@
       "apply_email": ""
     },
     {
-      "title": "#c #hiring #fullstackdeveloper #dotnet #angular #sqlserver #microservices #golrangtarabar #استخدام | Anaram Yaghoobi Notash | 22 comments",
-      "company": "Posted by Anaram Yaghoobi Notash",
+      "title": "استخدام #developer #نرم #توسعه #fullstack #رونیکس | Hamide Azari",
+      "company": "Posted by Hamide Azari",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/anaram-yaghoobi-notash_c-hiring-fullstackdeveloper-activity-7520808130037870592-1s23",
-      "published": "2026-10-27",
-      "snippet": "🚀 We’re Hiring | Full-Stack Developer به خانواده بزرگ Golrang Tarabar میپیوندیم و برای توسعه تیم فنی، به دنبال جذب یک Full-Stack Developer متخصص و باانگیزه هستیم. 🔹 شرایط و مهارتهای موردنیاز: \\ حداقل ۵ سال تجربه کاری مرتبط \\ تسلط به #C و ‎.NET / .NET Core \\ تسلط به Angular \\ تجربه کار با SQL Server، Entity Framework Core و Dapper \\ آشنایی با RabbitMQ و Redis \\ تسلط به Git و Azure DevOps \\ تجربه طراحی، توسعه و پیادهسازی APIهای داخلی و خارجی \\ تجربه کار با معماریهای Microservices \\ سابقه کار روی [...] \\ سابقه کار روی سیستمهای سازمانی و مقیاسپذیر 💡 اگر تجربه توسعه نرمافزارهای سازمانی را دارید، به",
+      "url": "https://www.linkedin.com/posts/hamide-azari-235440127_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-developer-%D9%86%D8%B1%D9%85-activity-7522160778930556928-6MjG",
+      "published": "2026-10-31",
+      "snippet": "کارفرمای گرامی میتونید در این پلتفرم فرد مورد نیاز رو با هر مهارتی پیدا کنید و رزومه ی افراد و حتی نمونه کارها رو در اکسپلور ببینید.",
       "apply_email": ""
     },
     {
@@ -299,6 +326,24 @@
       "apply_email": ""
     },
     {
+      "title": "Meghraj Patil posted on the topic - AI in DevSecOps",
+      "company": "Posted by Meghraj Patil",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/meghraj-patil_devsecops-ai-cybersecurity-activity-7517521275385315328-uen_",
+      "published": "2026-10-18",
+      "snippet": "... developer's perspective. As AI becomes increasingly integrated ... Full-Stack Development, Backend Engineering, and secure software design.",
+      "apply_email": ""
+    },
+    {
+      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
+      "company": "Posted by Islam Abdalla",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
+      "published": "2026-10-18",
+      "snippet": "the team’s coding standards and architecture. 5. Protect sensitive information, credentials, and access to your machine. USING AI IN DEVELOPMENT • Define the design and implementation approach before asking AI to generate code. • Use AI selectively for tasks such as repetitive work and boilerplate. • Review and verify every AI-generated change; preserve existing behavior and maintainability. • Developers—not AI—make architectural decisions and remain accountable for the final implementation. [...] LLM Usage Policy at Narbase Technologies Today, we’re drafting an updated policy for using LLMs a",
+      "apply_email": ""
+    },
+    {
       "title": "Discover Strengths & Weaknesses with AI Assessment | Mohamed Aita posted on the topic",
       "company": "Posted by Mohamed Aita",
       "location": "Iran",
@@ -314,15 +359,6 @@
       "url": "https://www.linkedin.com/posts/mohammad-hamdan-0b7b6b30a_cplusplus-cpp-datastructures-activity-7512009844112003073-mYNN",
       "published": "2026-10-03",
       "snippet": "input, colored console output. Array Utilities: read, print, shuffle, copy, sum, average, odd/even/positive/negative counts, palindrome check, and more. 💡 Recommended Reuse Approach – Central Library Folder: Create a dedicated folder on your system, for example: C:\\MyCppLibraries\\ Place all header files in this folder: MyMathUtilityLib.h MyRandomUtilityLib.h MyInputOutputLib.h MyArrayUtilityLib.h For any new project, add the folder to your include path in Visual Studio: Project Properties → [...] Properties → C/C++ → General → Additional Include Directories → C:\\MyCppLibraries\\ In your project",
-      "apply_email": ""
-    },
-    {
-      "title": "Claude SEO Skill Packs Tested: Results and Security Concerns | Saeed Shahriar posted on the topic",
-      "company": "Posted by Saeedshahryar",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/saeedshahryar_i-planted-20-seo-problems-on-a-copy-of-a-activity-7519090133325963264-02HD",
-      "published": "2026-10-22",
-      "snippet": "Unsolicited #SEO tip: I've seen a lot of confusion over the years, and still to this day about the differences between ranking and re-ranking: I'm looking at you, CTR I've posted a few times before about \"Twiddlers\", especially since we got our hands on the leaked docs in around 2018 🔍 Google’s primary ranking (initial retrieval and scoring) happens first. Then, the Twiddlers step in. Twiddlers are specialised C++ code objects within Google’s Superroot framework. They act as post-retrieval [...] PSA: If you think you can replace your SEO agency with a free or $20 per month AI subscription, you",
       "apply_email": ""
     },
     {
@@ -407,6 +443,15 @@
       "apply_email": ""
     },
     {
+      "title": "Faisal Alherran AI Developer at TAHAKOM Recognized for ...",
+      "company": "Posted by World Wide Network",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/world-wide-network_artificialintelligence-machinelearning-activity-7519735613496029184-L-x2",
+      "published": "2026-10-24",
+      "snippet": "sampath bandaranayake. AI Application Developer | Agentic AI Engineer | AI Product Builder | Python | LLM Applications | FastAPI | PostgreSQL | M.Sc. ... استخدام ...Read more",
+      "apply_email": ""
+    },
+    {
       "title": "Python Variable Scope: Local vs Global Variables | Dina Mahmoud posted on the topic",
       "company": "Posted by Dina Mahmoud",
       "location": "Iran",
@@ -425,15 +470,6 @@
       "apply_email": ""
     },
     {
-      "title": "AI Cybersecurity Insights for Business Leaders | Oivan posted on the topic",
-      "company": "Posted by Oivan",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/oivan_ai-cybersecurity-cyberresilience-activity-7512736431006625792-4OhN",
-      "published": "2026-10-05",
-      "snippet": "+ No alternative text description for this image 4 Like Comment To view or add a comment, sign in ESSAM ABAZA + Report this post [...] + No alternative text description for this image 6 2 Comments Like Comment To view or add a comment, sign in Mourad Ayyach + Report this post [...] No alternative text description for this image Like Comment To view or add a comment, sign in ## More Relevant Posts Mohammad Ali Fathi + Report this post",
-      "apply_email": ""
-    },
-    {
       "title": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز",
       "company": "Posted by Solmaz Cheraghi",
       "location": "Iran",
@@ -449,6 +485,15 @@
       "url": "https://www.linkedin.com/posts/narjes-shenavar-b57180389_productdesigner-uiuxdesigner-uxdesign-activity-7519694231125245952-1xVc",
       "published": "2026-10-24",
       "snippet": "Report this post به دنبال فرصت همکاری بهعنوان Product Designer / UI/UX Designer هستم؛ جایی که بتونم با تفکر طراحی، حل مسئله و درک نیاز کاربران، در خلق و بهبود محصولات دیجیتال نقش داشته باشم. 📍 دورکاری یا حضوری(شیراز) اگر تیم شما به دنبال طراح محصوله یا فرصت همکاری مناسبی میشناسید، خوشحال میشم در ارتباط باشیم. ممنون میشم با معرفی من به تیم ها و شرکت های مرتبط، در پیدا کردن فرصت مناسب همراهم باشید.🤍 🔗 پورتفولیو: #ProductDesigner #UIUXDesigner #UXDesign #ProductDesign #OpenToWork #استخدام [...] omid poost ash kan 5d Report this comment #up Like Reply 1 Reaction Hadiseh Shahbeygi 5d Report this co",
+      "apply_email": ""
+    },
+    {
+      "title": "موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded",
+      "company": "Posted by Winatalent Fa",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/winatalent-fa_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%A8%DB%8C%D9%86%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A8%D8%A7-%D8%AF%D8%B1%D8%A2%D9%85%D8%AF-%D8%A7%D8%B1%D8%B2%DB%8C-%D8%AF%D8%B1-winatalent-activity-7522257119228706816-YVXS",
+      "published": "2026-10-31",
+      "snippet": "موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای",
       "apply_email": ""
     },
     {
@@ -479,21 +524,30 @@
       "apply_email": ""
     },
     {
+      "title": "Claude SEO Skill Packs Tested: Results and Security Concerns | Saeed Shahriar posted on the topic",
+      "company": "Posted by Saeedshahryar",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/saeedshahryar_i-planted-20-seo-problems-on-a-copy-of-a-activity-7519090133325963264-02HD",
+      "published": "2026-10-22",
+      "snippet": "Unsolicited #SEO tip: I've seen a lot of confusion over the years, and still to this day about the differences between ranking and re-ranking: I'm looking at you, CTR I've posted a few times before about \"Twiddlers\", especially since we got our hands on the leaked docs in around 2018 🔍 Google’s primary ranking (initial retrieval and scoring) happens first. Then, the Twiddlers step in. Twiddlers are specialised C++ code objects within Google’s Superroot framework. They act as post-retrieval [...] PSA: If you think you can replace your SEO agency with a free or $20 per month AI subscription, you",
+      "apply_email": ""
+    },
+    {
+      "title": "AI Cybersecurity Insights for Business Leaders | Oivan posted on the topic",
+      "company": "Posted by Oivan",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/oivan_ai-cybersecurity-cyberresilience-activity-7512736431006625792-4OhN",
+      "published": "2026-10-05",
+      "snippet": "+ No alternative text description for this image 4 Like Comment To view or add a comment, sign in ESSAM ABAZA + Report this post [...] + No alternative text description for this image 6 2 Comments Like Comment To view or add a comment, sign in Mourad Ayyach + Report this post [...] No alternative text description for this image Like Comment To view or add a comment, sign in ## More Relevant Posts Mohammad Ali Fathi + Report this post",
+      "apply_email": ""
+    },
+    {
       "title": "🚀 INFOSYS IS HIRING | SENIOR JAVA FULL STACK DEVELOPER (PERMANENT PAYROLL) | HYDERABAD | CHENNAI | BANGALORE 🚀",
       "company": "Posted by Karan Shinde",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/karan-shinde-61aa94259_maverick-it-support-activity-7518341963914326016-urrm",
       "published": "2026-10-20",
       "snippet": "Sign inJoin now | HYDERABAD | CHENNAI | BANGALORE 🚀 Looking for highly skilled Senior Java Full Stack Developers for Infosys (permanent payroll). You will design, develop and maintain high-performance web applications and work closely with product owners, architects, QA engineers and operational partners to deliver secure, resilient and scalable systems. 🎯 🏢 Company: Infosys (Permanent Payroll) 💼 Role: Senior Java Full Stack Developer 📍 Location: Hyderabad (Pocharam SEZ) | Chennai (Mcity) | [...] (Kafka, MQ or similar) and NDM file transfer ✅ Knowledge of API security patterns (OAuth2, JWT, mT",
-      "apply_email": ""
-    },
-    {
-      "title": "Frontend Performance Optimization Checklist by Abdallah Hemdan",
-      "company": "Posted by Saadi Shamallakh",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/saadi-shamallakh_frontend-performance-playbook-activity-7514625695403270144-wqQk",
-      "published": "2026-10-10",
-      "snippet": "The first step is understanding what you're building. → Start with the requirements. → Break them down into features. → Think about the pages",
       "apply_email": ""
     },
     {
@@ -575,15 +629,6 @@
       "url": "https://www.linkedin.com/posts/ruhollah-jafari_opentowork-hiring-dotnet-activity-7511100496942735361-A0t3",
       "published": "2026-09-30",
       "snippet": "Open to Work | .NET Backend Developer سلام دوستان در حال حاضر به دنبال فرصت شغلی جدید به عنوان .NET Backend Developer هستم.",
-      "apply_email": ""
-    },
-    {
-      "title": "Polly .NET Library for Resilience and Fault Handling",
-      "company": "Posted by Mohamed Ashraf",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohamed-ashraf-016202173_dotnet-backend-softwareengineering-activity-7516212708732751872-wteK",
-      "published": "2026-10-14",
-      "snippet": "The Core Concepts every serious backend dev must master: DbContext, DbSet, LINQ, Migrations, Change Tracking, Fluent Configurations,",
       "apply_email": ""
     },
     {
@@ -812,15 +857,6 @@
       "apply_email": ""
     },
     {
-      "title": "... Backend Developer – .NET If you are passionate about high-scale technical ... دلیل",
-      "company": "Posted by Alireza Saffari",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/alireza-saffari_were-hiring-at-tapsi-food-we-have-new-activity-7515779427860070400-cqIB",
-      "published": "2026-10-13",
-      "snippet": "... Backend Developer – .NET If you are passionate about high-scale technical ... دلیل خاصی داره که آگهی استخدام برای یک شرکت ایرانی که قراره افراد داخل ایران رو",
-      "apply_email": ""
-    },
-    {
       "title": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن",
       "company": "Posted by Mrsaffar",
       "location": "Iran",
@@ -1043,42 +1079,6 @@
       "url": "https://www.linkedin.com/posts/heykristopher_xbox-is-building-a-new-kind-of-flywheel-with-ugcPost-7513955395246161920-7a3g",
       "published": "2026-10-08",
       "snippet": "Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Skip to main contentLinkedIn Top Content People Learning Jobs Games [...] Image 2: No alternative text description for this image Image 3: No alternative text description for this image Image 4Image 5 42 Comments LikeComment Share Copy LinkedIn Facebook X [...] Language []( ## Sign in to view more content Create your free account or sign in to continue your search Email or phone Password Show Forgot password? Sign in Sign in with Email or New to LinkedIn? Jo",
-      "apply_email": ""
-    },
-    {
-      "title": "AutoMEP Automates MEP Drawing Edits with AI",
-      "company": "Posted by Kirill Pokidov",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/kirill-pokidov-9a7a224b_ai-activity-7517316842399662080-1Fqz",
-      "published": "2026-10-17",
-      "snippet": "Oct 17, 2026 · AutoMEP introduces an AI-powered web application that allows MEP engineers and designers to edit AutoCAD and Revit drawings by describing changes in plain English. The platform operates entirely",
-      "apply_email": ""
-    },
-    {
-      "title": "AI Pricing Regs Heat Up, Workforce Shifts, and Dev Tools ...",
-      "company": "Posted by Relve",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/relve_newsnoise-relve-activity-7517616189351673856-uhaN",
-      "published": "2026-10-18",
-      "snippet": "Oct 18, 2026 · 🚨#NewsNoise: Today in AI, 18 October 2026 📌Read full #NewsNoise here: https://lnkd.in/dpdXbtCU Channels shift, oversight heats up, and teams rethink how AI work actually gets done. 𝟭",
-      "apply_email": ""
-    },
-    {
-      "title": "#nordpsa #energi #elmarknad #kraftsystem #vattenkraft #elpris ...",
-      "company": "Posted by Beos",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/beos_nordpsa-energi-elmarknad-share-7512848099287912448-VIt2",
-      "published": "",
-      "snippet": "Oct 5, 2026 · ⚡ NordPSA 2.0: ny Nordenmodell, nya svar Sedan i juni har jag byggt om den öppna Nordenmodellen #NordPSA rejält, och kört om både baseline 2040 och jämförelsen med Svenska kraftnäts LMA26",
-      "apply_email": ""
-    },
-    {
-      "title": "#ai #هوش_مصنوعی #منابع_انسانی | Reza Tashtboland",
-      "company": "Posted by Rezatashtboland",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/rezatashtboland_ai-%D9%87%D9%88%D8%B4%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%A7%D9%86%D8%B3%D8%A7%D9%86%DB%8C-activity-7509188823688409088-mHwt",
-      "published": "2026-09-25",
-      "snippet": "... استخدام بذاری اینه که اول برو سراغ تیم فعلیت ... Amin Tavakoli. Ai Engineer | Python Developer | Data Analyst | Data Science Learner | Mayak team member.",
       "apply_email": ""
     }
   ]
