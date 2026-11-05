@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:40:13+00:00",
+  "updated_at": "2026-11-05T06:24:42+00:00",
   "posts": [
     {
       "title": "استخدام | Frontend Developer (AI Product) 🚀 برای ساختن رابط کاربری یک محصول SaaS مبتنی بر AI، دنبال یک Frontend Developer دقیق و خلاق هستیم.",
@@ -74,15 +74,6 @@
       "apply_email": ""
     },
     {
-      "title": "Protecting User Data in AI-Powered Apps with render-policy",
-      "company": "Posted by Maxim Berenshtein",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/maxim-berenshtein_a-sanitizer-is-not-a-rendering-policy-showing-activity-7513190058326372353-A8J4",
-      "published": "2026-10-06",
-      "snippet": "Senior Frontend Engineer and FE Tech Lead building scalable frontend systems with Angular, React, Vue.js, and TypeScript, and accelerating feature delivery",
-      "apply_email": ""
-    },
-    {
       "title": "Frontend Performance Optimization Checklist by Abdallah Hemdan | Saadi Shamallakh posted on the topic",
       "company": "Posted by Saadi Shamallakh",
       "location": "Iran",
@@ -92,12 +83,21 @@
       "apply_email": ""
     },
     {
-      "title": "Saudi e-signature integrations and architecture | Hamada Emam posted on the topic",
-      "company": "Posted by Hamada Emam Tech",
+      "title": "Protecting User Data in AI-Powered Apps with render-policy",
+      "company": "Posted by Maxim Berenshtein",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/hamada-emam-tech_sadq-esignature-digitalsignature-activity-7515649730136346624-NJ4N",
-      "published": "2026-10-18",
-      "snippet": "external calls on the main HTTP thread. Push them to a Redis queue so the user gets an instant response. Graceful Degradation & Fallbacks: If the primary service is down, the system should automatically switch to a secondary provider (e.g., routing SMS from Twilio to Vonage) without the user ever noticing. Your application's uptime should never depend on another company's infrastructure. Tech Leads & Backend Engineers: How do you handle external API timeouts? Do you build custom Circuit [...] الكاملة : 👉 1. خليك proactive بالمعلومة ما تستناش لما يسألك \"خلصت؟\". عود نفسك تبعت/تقول update يومي مخ",
+      "url": "https://www.linkedin.com/posts/maxim-berenshtein_a-sanitizer-is-not-a-rendering-policy-showing-activity-7513190058326372353-A8J4",
+      "published": "2026-10-06",
+      "snippet": "Building frontend apps has evolved a lot over the last few years. We've had to adapt to server components, edge rendering, and entirely new ways of managing",
+      "apply_email": ""
+    },
+    {
+      "title": "Electron's decline: Tauri and .NET WinUI 3 rise | Ckristian Zoli posted on the topic",
+      "company": "Posted by Ckristianzoli",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ckristianzoli_softwareengineering-webdevelopment-electronjs-activity-7512795679161892864-8O6I",
+      "published": "2026-10-05",
+      "snippet": "matters. --- The difference between a beginner and an experienced React developer isn't knowing more hooks. It's understanding why a particular solution should exist in the first place. Write less code. Design better. Measure before optimizing. Build for the future. 🚀 What do you focus on first when a React application starts getting complex? Performance ⚡ | Architecture 🏗️ | State 🗂️ | Code Quality 🧩 #ReactJS #React #FrontendDevelopment #JavaScript #WebDevelopment #SoftwareArchitecture [...] + Web Frontend): Instead of forcing a bloated Chromium instance into your users machine, Tauri uses th",
       "apply_email": ""
     },
     {
@@ -107,15 +107,6 @@
       "url": "https://www.linkedin.com/posts/amr-mahfouz-1383694_no-code-platforms-can-create-fully-functional-activity-7512831277180596224-K2gS",
       "published": "2026-10-05",
       "snippet": "You drag buttons, text boxes, tables, forms, and charts from a sidebar and place them where you want them. 2. Visual Data Modeling (The Database): Instead of writing SQL queries to set up databases, it provides spreadsheet-like grids. You define rows, columns, and relationships (e.g., linking a \"Customer\" to an \"Order\") visually. 3. Logic & Automation Engines (The Behavior): Instead of writing complex loops and conditional statements, you set up If/Then logic blocks. For example: “If a user [...] operate through language. This middle layer and the UI tax we’ve paid for decades, is collapsing b",
-      "apply_email": ""
-    },
-    {
-      "title": "Agents are tool users; that’s obvious. Give them a better web search tool, and they’ll do a much better job. What’s less obvious is that age",
-      "company": "Posted by Amix3k",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/amix3k_agents-are-tool-users-thats-obvious-give-activity-7513113946674065408-DG60",
-      "published": "2026-10-06",
-      "snippet": "Prompty — AI Prompt Library يسعدني مشاركة أحدث مشاريعي البرمجية وهو Web App يهدف إلى تنظيم وإدارة وإعادة استخدام AI Prompts بطريقة بسيطة وعملية جدًا . The project includes features such as search & filtering, favorites, adding, editing, deleting, Dark/Light Mode, responsive design, and Local Storage persistence. Built with: React.js, JavaScript, Vite, CSS. Prompty is currently a front-end-focused project and remains open for further development, with future possibilities such as user [...] 🚨 Your app works. Your UI looks beautiful. Your AI coding assistant says everything is done. So why is yo",
       "apply_email": ""
     },
     {
@@ -152,15 +143,6 @@
       "url": "https://www.linkedin.com/posts/mohammad-sadeghyan-130800167_%DA%AF%D9%84%D8%AF%D8%A2%D8%A8-goldab-laravel-activity-7513698562032181249-ImDb",
       "published": "2026-10-07",
       "snippet": "🚀 فرصت همکاری در گلدآب در گلدآب برای توسعه و رشد تیم Backend، به ۲ نفر نیروی Backend Developer نیاز داریم: 🔹 Senior Backend Developer (Laravel) 🔹 Mid-level Backend Developer (Laravel) تکنولوژیهای اصلی: Laravel / PHP — MySQL — Redis — Git انتظارات ما: تسلط عملی به Laravel و PHP، تجربه کار با دیتابیس و Redis، توانایی حل مسئله، کدنویسی تمیز و قابل نگهداری و روحیه کار تیمی. شرایط همکاری: 📍 تبریز | حضوری | تماموقت 💰 حقوق رقابتی متناسب با سطح و تجربه 🎯 پاداش عملکرد سهماهه 🛡️ بیمه پایه + بیمه تکمیلی 🎁 [...] منم قبلا برای این پوزیشن رزومه ارسال کرده بودم که راحت رد شدم و دلیل هم فراتر از انتظار نوشته،",
-      "apply_email": ""
-    },
-    {
-      "title": "استخدام برنامهنویس (Back-End (python در راهبردهای خلاق آرمان | جابینجا | Arman Solutions",
-      "company": "Posted by Armansolutions",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/armansolutions_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3-back-end-python-%D8%AF%D8%B1-activity-7513119363164598273-Zw1K",
-      "published": "2026-10-06",
-      "snippet": "ما به دنبال یک Backend Developer با حداقل ۴ سال تجربه هستیم تا در توسعه و پیشبرد پروژه صباویژن کنار ما باشه. اگر به Python مسلط هستید و تجربه عملی با Go دارید و با Django/Flask، REST، Microservices، Git و Linux کار کردهاید، خوشحال میشیم با شما آشنا بشیم. آشنایی با Celery، Redis، PostgreSQL و Docker امتیاز محسوب میشه. همکاری به صورت تماموقت امکان دورکاری اگر به ساختن راهکارهای فنی مقیاسپذیر و کار روی پروژههای چالشبرانگیز علاقهمندید، جای شما در تیم ما خالیه. رزومهتون رو از طریق لینک زیر برای ما [...] لینک زیر برای ما ارسال کنید. #Hiring #BackendDeveloper #Python #Go #Golang #SoftwareEngineering",
       "apply_email": ""
     },
     {
@@ -224,6 +206,15 @@
       "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
       "published": "2026-10-23",
       "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] الصحيح مع الـ Concurrency والـ Failures والحفاظ على الـ Data Consistency. ━━━━━━━━━━━━━━━━━━━━ 💬 Let's discuss | خلينا نتناقش When handling con",
+      "apply_email": ""
+    },
+    {
+      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
+      "company": "Posted by Islam Abdalla",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
+      "published": "2026-10-18",
+      "snippet": "The strongest line in this policy is not about AI at all - it is \"Define the design and implementation approach before asking AI to generate code.\" I build with Django/DRF daily and use AI tooling, and that is exactly the discipline that keeps it useful: the design comes first, the model fills in the plan, and the review loop stays human. AI in small, reviewable steps is the same shape as how I handled a LangGraph shopping assistant - the agent proposes, deterministic backend code validates and [...] the team’s coding standards and architecture. 5. Protect sensitive information, credentials, a",
       "apply_email": ""
     },
     {
@@ -308,24 +299,6 @@
       "apply_email": ""
     },
     {
-      "title": "Electron's decline: Tauri and .NET WinUI 3 rise | Ckristian Zoli posted on the topic",
-      "company": "Posted by Ckristianzoli",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ckristianzoli_softwareengineering-webdevelopment-electronjs-activity-7512795679161892864-8O6I",
-      "published": "2026-10-05",
-      "snippet": "you’ll find out in production. 🔹 Fast feedback helps agents too: stateful hot reload in under 200 ms and headless widget tests in under 500 ms, versus native build-to-run cycles of minutes. 🔹 “Harness over prompt”: an MCP server, domain skills and test guardrails improved agent benchmark scores more than prompt tweaks did. Practical takeaway regardless of your stack: invest in your agent’s harness, meaning tests, analyzers and project-specific skills, not just better prompts. If you’re on [...] Have you ever spent time searching for an app to solve a problem, only to delete it after discoverin",
-      "apply_email": ""
-    },
-    {
-      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
-      "company": "Posted by Islam Abdalla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
-      "published": "2026-10-18",
-      "snippet": "LLM Usage Policy at Narbase Technologies Today, we’re drafting an updated policy for using LLMs and AI-assisted software development. TL;DR: Use AI to support development—not to replace developer understanding, judgment, or ownership. Date: October 18, 2026 CORE PRINCIPLES 1. Developers are responsible for all code they submit. 2. Use AI in small, reviewable steps—not to build entire features unsupervised. 3. Understand the code and its impact before submitting it. 4. Follow the team’s coding [...] writing everything manually, the developer naturally builds up context as they work through the",
-      "apply_email": ""
-    },
-    {
       "title": "Faisal Alherran AI Developer at TAHAKOM Recognized for Excellence | World Wide Network posted on the topic",
       "company": "Posted by World Wide Network",
       "location": "Iran",
@@ -344,6 +317,15 @@
       "apply_email": ""
     },
     {
+      "title": "GRIDS Builds Digital Presence for Lathron Oil Services Company",
+      "company": "Posted by Grids Company",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/grids-company_english-below-%D8%AD%D8%B6%D9%88%D8%B1-%D8%B1%D9%82%D9%85%D9%8A-%D8%A3%D9%82%D9%88%D9%89-%D9%8A%D8%A8%D8%AF%D8%A3-%D9%85%D9%86-%D9%85%D9%88%D9%82%D8%B9-activity-7518051759676751872-aiQH",
+      "published": "2026-10-19",
+      "snippet": "ركزنا على واجهة احترافية، وهيكل واضح للمحتوى، وتجربة استخدام سلسة تواكب هوية الشركة وطبيعة أعمالها. موقع الشركة: https://losco.com.ly/",
+      "apply_email": ""
+    },
+    {
       "title": "Claude SEO Skill Packs Tested: Results and Security Concerns | Saeed Shahriar posted on the topic",
       "company": "Posted by Saeedshahryar",
       "location": "Iran",
@@ -353,12 +335,39 @@
       "apply_email": ""
     },
     {
+      "title": "#hiring #frontenddeveloper #nextjs #react #ai #remotejob #vibecoding #smenode | Parmida Mohammadzadehsarab",
+      "company": "Posted by Parmida Mohammadzadeh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/parmida-mohammadzadeh_hiring-frontenddeveloper-nextjs-activity-7513635195133161472-k7xW",
+      "published": "2026-10-07",
+      "snippet": "استخدام | Frontend Developer (AI Product) 🚀 برای ساختن رابط کاربری یک محصول SaaS مبتنی بر AI، دنبال یک Frontend Developer دقیق و خلاق هستیم. کسی که هم کد تمیز بزند و هم تجربهی کاربر براش مهم باشد. 🔹 نوع همکاری: Full-time | Remote ✅ الزامات فنی: • تسلط بر TypeScript، React و Next.js (App Router و Server Components) • تجربهی ساخت UI با Tailwind CSS و کامپوننتهای قابل استفادهی مجدد (ترجیحاً shadcn/ui) • تجربهی کار با API و دادهی typed (REST، JSON، Zod) و مدیریت state و data fetching • آشنایی با [...] کار در محیط Startup یا تیمهای Remote ✨ اگر به AI علاقهی جدی داری، جزئیات رابط کاربری برات مهمه، س",
+      "apply_email": ""
+    },
+    {
+      "title": "استخدام #مشهد #کالاصنعتی #برنامهنویس #داتنت | Amir Jalali Movahed",
+      "company": "Posted by Activity Wwzg",
+      "location": "Mashhad, Iran",
+      "url": "https://www.linkedin.com/posts/activity-7521484919173427200-WWZG",
+      "published": "2026-10-29",
+      "snippet": "استخدام برنامه‌نویس دات‌نت (Mid-Level .NET Developer) موقعیت شغلی در شهر #مشهد است ... React مزیت محسوب می شود. مهارت‌های نرم و ویژگی‌های",
+      "apply_email": ""
+    },
+    {
       "title": "#همکاری #طراحی_وب #wordpress #woocommerce #reactjs #nextjs #uiux #figma #seo #remotework #ecommerce | Ali Kiani | 55 comments",
       "company": "Posted by Alikiani78",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/alikiani78_%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D9%88%D8%A8-wordpress-activity-7514561733773066240-UR1Z",
       "published": "2026-10-10",
       "snippet": "📢 دعوت به همکاری | تشکیل تیم تخصصی طراحی و توسعه وب برای اجرای پروژههای حرفهای در حوزه فروشگاههای اینترنتی (E-Commerce) و پلتفرمهای هوش مصنوعی محور، در حال تشکیل یک تیم تخصصی، چابک و خلاق هستم. اگر در زمینههای زیر تخصص و تجربه عملی دارید، مشتاق همکاری با شما هستم: 🔹 Front-End Developer: مسلط به React / Next.js و استانداردهای روز توسعه فرانتاند 🔹 WordPress & WooCommerce Developer: مسلط به توسعه فنی، طراحی و توسعه افزونهها و بهینهسازی حرفهای (فراتر از کار با قالبهای آماده) 🔹 UI/UX Designer: مسلط [...] سلام و عرض ادب، وقتتون بخیر 🌱 رزومه به همراه نمونهکارها و پاسخ به پرسشهای فنی، از طریق ایمیل خد",
+      "apply_email": ""
+    },
+    {
+      "title": "Self-Hosted AI for Mobile Apps: More Control and Flexibility | Raghd Mahmoud posted on the topic",
+      "company": "Posted by Raghd Mahmoud",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/raghd-mahmoud-320812280_ai-mobiledevelopment-selfhostedai-activity-7516524665679339520-Hxjb",
+      "published": "2026-10-15",
+      "snippet": "patient status and consultation flow. 3. Administrative Web Dashboard (Management & Accounting) •Financial Intelligence: Advanced accounting module distinguishing daily revenue from accumulated debts/credits. •AI-Driven Implementation: Utilized advanced AI assistance to streamline the development of data-heavy analytics and inventory control systems. Technical Stack: •Mobile: Kotlin, Jetpack Compose, Clean Architecture, Hilt, Room, Flow. •Web (Admin & Booking): React.js, Tailwind CSS, TanStack [...] Spec-Kit — real project, real results, one serious warning. Wanted: Junior Android Developer. R",
       "apply_email": ""
     },
     {
@@ -452,6 +461,15 @@
       "apply_email": ""
     },
     {
+      "title": "Saudi Arabia's Real Estate Transformation with Oivan and PropTech | Oivan posted on the topic",
+      "company": "Posted by Oivan",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/oivan_oivan-globalproptechsummit-proptech-activity-7513536862846599168-t8RT",
+      "published": "2026-10-09",
+      "snippet": "AI coding agents are moving fast - but for many Saudi organizations, control still matters. 🔐 Coder's newly released Agents beta brings AI development workflows into self-hosted and even air-gapped environments. Developers can delegate coding and research tasks, while engineering leaders keep control over infrastructure, access, models, and network boundaries. For government, finance, and enterprise teams in the KSA, Coder gives teams full control over how agents run, what models they use, [...] How can in-house software teams move faster with AI without opening the door to security, quality,",
+      "apply_email": ""
+    },
+    {
       "title": "Automating Solution Design with AI Agent | Mohamed Samir posted on the topic",
       "company": "Posted by Mohamed Samir Ali",
       "location": "Iran",
@@ -515,6 +533,51 @@
       "apply_email": ""
     },
     {
+      "title": "Improve Error Messages with Nielsen's 9th Usability Heuristic | Barbara karimi posted on the topic",
+      "company": "Posted by Barbara Karimi7713",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7518999233102917632-MZzt",
+      "published": "2026-10-22",
+      "snippet": "AI can generate wireframes, flows, even full UI screens now. But somehow… it still creates buttons like: “Submit Final Continue Confirm Next” 🙂 I’ve been testing a lot of AI tools lately, and noticed that AI is great at generating interfaces. But.. designers are still needed to make them usable and add emphathy. Because good UX isn’t just: → prompts → components → pretty screens It’s understanding why users hesitate, get confused, or abandon a flow. [...] More clarity. #UXDesign #UIDesign #ProductDesign #UserExperience #DesignThinking #UXResearch #ProductStrategy #Figma [...] If your design on",
+      "apply_email": ""
+    },
+    {
+      "title": "Commure and Mediclinic Middle East AI Partnership | Tanay Tandon posted on the topic",
+      "company": "Posted by Tanaytandon",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/tanaytandon_excited-about-the-partnership-between-commure-activity-7518935768334176256-YrnA",
+      "published": "2026-10-22",
+      "snippet": "Career Productivity Finance Soft Skills & Emotional Intelligence Project Management Education Technology Leadership Ecommerce User Experience ## Sign in to view more content Create your free account or sign in to continue your search New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Never miss a beat on the app Don’t have the app? Get it in the Microsoft Store. Open the app [...] No alternative text description for this image 97 4 Comments Like Comment Mohamed Thariq 3d Report this comment Great!! Like",
+      "apply_email": ""
+    },
+    {
+      "title": "Saudi e-signature integrations and architecture | Hamada Emam posted on the topic",
+      "company": "Posted by Hamada Emam Tech",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/hamada-emam-tech_sadq-esignature-digitalsignature-activity-7515649730136346624-NJ4N",
+      "published": "2026-10-18",
+      "snippet": "external calls on the main HTTP thread. Push them to a Redis queue so the user gets an instant response. Graceful Degradation & Fallbacks: If the primary service is down, the system should automatically switch to a secondary provider (e.g., routing SMS from Twilio to Vonage) without the user ever noticing. Your application's uptime should never depend on another company's infrastructure. Tech Leads & Backend Engineers: How do you handle external API timeouts? Do you build custom Circuit [...] الكاملة : 👉 1. خليك proactive بالمعلومة ما تستناش لما يسألك \"خلصت؟\". عود نفسك تبعت/تقول update يومي مخ",
+      "apply_email": ""
+    },
+    {
+      "title": "Agents are tool users; that’s obvious. Give them a better web search tool, and they’ll do a much better job. What’s less obvious is that age",
+      "company": "Posted by Amix3k",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/amix3k_agents-are-tool-users-thats-obvious-give-activity-7513113946674065408-DG60",
+      "published": "2026-10-06",
+      "snippet": "Prompty — AI Prompt Library يسعدني مشاركة أحدث مشاريعي البرمجية وهو Web App يهدف إلى تنظيم وإدارة وإعادة استخدام AI Prompts بطريقة بسيطة وعملية جدًا . The project includes features such as search & filtering, favorites, adding, editing, deleting, Dark/Light Mode, responsive design, and Local Storage persistence. Built with: React.js, JavaScript, Vite, CSS. Prompty is currently a front-end-focused project and remains open for further development, with future possibilities such as user [...] 🚨 Your app works. Your UI looks beautiful. Your AI coding assistant says everything is done. So why is yo",
+      "apply_email": ""
+    },
+    {
+      "title": "استخدام برنامهنویس (Back-End (python در راهبردهای خلاق آرمان | جابینجا | Arman Solutions",
+      "company": "Posted by Armansolutions",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/armansolutions_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3-back-end-python-%D8%AF%D8%B1-activity-7513119363164598273-Zw1K",
+      "published": "2026-10-06",
+      "snippet": "ما به دنبال یک Backend Developer با حداقل ۴ سال تجربه هستیم تا در توسعه و پیشبرد پروژه صباویژن کنار ما باشه. اگر به Python مسلط هستید و تجربه عملی با Go دارید و با Django/Flask، REST، Microservices، Git و Linux کار کردهاید، خوشحال میشیم با شما آشنا بشیم. آشنایی با Celery، Redis، PostgreSQL و Docker امتیاز محسوب میشه. همکاری به صورت تماموقت امکان دورکاری اگر به ساختن راهکارهای فنی مقیاسپذیر و کار روی پروژههای چالشبرانگیز علاقهمندید، جای شما در تیم ما خالیه. رزومهتون رو از طریق لینک زیر برای ما [...] لینک زیر برای ما ارسال کنید. #Hiring #BackendDeveloper #Python #Go #Golang #SoftwareEngineering",
+      "apply_email": ""
+    },
+    {
       "title": "Sonnit Partners with UX Breakfast for Exclusive Benefits | Sonnit posted on the topic",
       "company": "Posted by Sonnit Ai",
       "location": "Iran",
@@ -542,39 +605,12 @@
       "apply_email": ""
     },
     {
-      "title": "Commure and Mediclinic Middle East AI Partnership | Tanay Tandon posted on the topic",
-      "company": "Posted by Tanaytandon",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/tanaytandon_excited-about-the-partnership-between-commure-activity-7518935768334176256-YrnA",
-      "published": "2026-10-22",
-      "snippet": "No alternative text description for this image 97 4 Comments Like Comment Mohamed Thariq 3d Report this comment Great!! Like Reply 1 Reaction Jaysen Valdes 1w Report this comment Woahhh!! This is phenomenal! 😁 Like Reply 1 Reaction See more comments To view or add a comment, sign in ## More Relevant Posts Sam Ascher + Report this post [...] collaboration, we continue to explore how technology can support clinical expertise and enhance the patient experience, while keeping human connection at the heart of care. Future Health – A Global Initiative by Abu Dhabi #MediclinicMiddleEast #Commure #Hea",
-      "apply_email": ""
-    },
-    {
       "title": "از خانم یادگاری ممنونم که امروز حالوهوای من را تغییر دادند و باعث شدند در دورهمی تبلیغاتیای شرکت کنم که اصلاً ارتباطی با برنامهنویسی ندارد.",
       "company": "Posted by Pooriavakili",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/pooriavakili_%D8%A7%D8%B2-%D8%AE%D8%A7%D9%86%D9%85-%DB%8C%D8%A7%D8%AF%DA%AF%D8%A7%D8%B1%DB%8C-%D9%85%D9%85%D9%86%D9%88%D9%86%D9%85-%DA%A9%D9%87-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D8%AD%D8%A7%D9%84%D9%88%D9%87%D9%88%D8%A7%DB%8C-activity-7523096677759733761-eMPn",
       "published": "2026-11-02",
       "snippet": "To view or add a comment, sign in 22,072 followers 1,661 Posts 14 Articles View Profile Follow ## More from this author ### در نکس جی اس Route Handler Pooria AshkevarVakili 2w ### UX برای Frontend Developer؛ از تجربه کاربر تا مهندسی و معماری نرمافزار Pooria AshkevarVakili 1mo ### \\\\رزومه برنامهنویس، رزومه فروشنده نیست!\\\\ Pooria AshkevarVakili 1mo ## Explore content categories [...] Career Productivity Finance Soft Skills & Emotional Intelligence Project Management Education Technology Leadership Ecommerce User Experience ## Sign in to view more content Create your free account or sign in to co",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #frontenddeveloper #nextjs #react #ai #remotejob #vibecoding #smenode | Parmida Mohammadzadehsarab",
-      "company": "Posted by Parmida Mohammadzadeh",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/parmida-mohammadzadeh_hiring-frontenddeveloper-nextjs-activity-7513635195133161472-k7xW",
-      "published": "2026-10-07",
-      "snippet": "استخدام | Frontend Developer (AI Product) 🚀 برای ساختن رابط کاربری یک محصول SaaS مبتنی بر AI، دنبال یک Frontend Developer دقیق و خلاق هستیم. کسی که هم کد تمیز بزند و هم تجربهی کاربر براش مهم باشد. 🔹 نوع همکاری: Full-time | Remote ✅ الزامات فنی: • تسلط بر TypeScript، React و Next.js (App Router و Server Components) • تجربهی ساخت UI با Tailwind CSS و کامپوننتهای قابل استفادهی مجدد (ترجیحاً shadcn/ui) • تجربهی کار با API و دادهی typed (REST، JSON، Zod) و مدیریت state و data fetching • آشنایی با [...] کار در محیط Startup یا تیمهای Remote ✨ اگر به AI علاقهی جدی داری، جزئیات رابط کاربری برات مهمه، س",
-      "apply_email": ""
-    },
-    {
-      "title": "Improve Error Messages with Nielsen's 9th Usability Heuristic | Barbara karimi posted on the topic",
-      "company": "Posted by Barbara Karimi7713",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7518999233102917632-MZzt",
-      "published": "2026-10-22",
-      "snippet": "AI can generate wireframes, flows, even full UI screens now. But somehow… it still creates buttons like: “Submit Final Continue Confirm Next” 🙂 I’ve been testing a lot of AI tools lately, and noticed that AI is great at generating interfaces. But.. designers are still needed to make them usable and add emphathy. Because good UX isn’t just: → prompts → components → pretty screens It’s understanding why users hesitate, get confused, or abandon a flow. [...] More clarity. #UXDesign #UIDesign #ProductDesign #UserExperience #DesignThinking #UXResearch #ProductStrategy #Figma [...] If your design on",
       "apply_email": ""
     },
     {
@@ -620,15 +656,6 @@
       "url": "https://www.linkedin.com/posts/aitdco-tafahom_hiring-jobopportunity-fullstackdeveloper-activity-7512486223433760768-bN6h",
       "published": "2026-10-04",
       "snippet": "استخدام Full Stack Developer ما در تفاهم (AITD) به دنبال یک Full Stack Developer توانمند و مسئلهمحور هستیم تا در طراحی، توسعه و نگهداری نرمافزارها و پلتفرمهای سازمانی در کنار تیم فنی ما فعالیت کند. اگر به توسعه سیستمهای Enterprise، Real-Time و Data-Driven علاقهمند هستید و از حل مسائل پیچیده نرمافزاری لذت میبرید، خوشحال میشویم با شما همکار شویم. 🔹 مسئولیتهای اصلی ▪️ توسعه و نگهداری نرمافزارهای مبتنی بر .NET / .NET Core ▪️ طراحی و توسعه Backend و Web API / REST API ▪️ طراحی، توسعه و بهینهسازی [...] Programming و Multi-threading ▪️درک مناسب از Software Architecture و Clean Code ⭐ مزیتهای مهم تجرب",
-      "apply_email": ""
-    },
-    {
-      "title": "Saudi Arabia's Real Estate Transformation with Oivan and PropTech | Oivan posted on the topic",
-      "company": "Posted by Oivan",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/oivan_oivan-globalproptechsummit-proptech-activity-7513536862846599168-t8RT",
-      "published": "2026-10-09",
-      "snippet": "AI coding agents are moving fast - but for many Saudi organizations, control still matters. 🔐 Coder's newly released Agents beta brings AI development workflows into self-hosted and even air-gapped environments. Developers can delegate coding and research tasks, while engineering leaders keep control over infrastructure, access, models, and network boundaries. For government, finance, and enterprise teams in the KSA, Coder gives teams full control over how agents run, what models they use, [...] models they use, and how they access code and systems. It’s model-agnostic by design, so you can us",
       "apply_email": ""
     },
     {
@@ -710,15 +737,6 @@
       "url": "https://www.linkedin.com/posts/eyaldaniel_%D7%9C%D7%90%D7%A8%D7%92%D7%95%D7%9F-%D7%A4%D7%99%D7%A0%D7%A0%D7%A1%D7%99-%D7%9E%D7%95%D7%91%D7%99%D7%9C-%D7%93%D7%A8%D7%95%D7%A9%D7%94-backend-developer-activity-7512776410084773888-lViJ",
       "published": "2026-10-05",
       "snippet": "Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) తెలుగు (Telugu) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish) Українська (Ukrainian) Tiếng Việt (Vietnamese) 简体中文 (Chinese (Simplified)) 正體中文 (Chinese (Traditional)) [...] Sign inJoin now বাংলা (Bangla) Čeština (Czech) Dansk (Danish) Deutsch (German) Ελληνικά (Greek) English (English) Español (Spanish) فارسی (Persian) Suomi (Finnish) Français (French) हिंदी (Hindi) Magyar (Hungarian) Bahasa Indonesia (Indonesian) Italiano",
-      "apply_email": ""
-    },
-    {
-      "title": "Self-Hosted AI for Mobile Apps: More Control and Flexibility | Raghd Mahmoud posted on the topic",
-      "company": "Posted by Raghd Mahmoud",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/raghd-mahmoud-320812280_ai-mobiledevelopment-selfhostedai-activity-7516524665679339520-Hxjb",
-      "published": "2026-10-15",
-      "snippet": "patient status and consultation flow. 3. Administrative Web Dashboard (Management & Accounting) •Financial Intelligence: Advanced accounting module distinguishing daily revenue from accumulated debts/credits. •AI-Driven Implementation: Utilized advanced AI assistance to streamline the development of data-heavy analytics and inventory control systems. Technical Stack: •Mobile: Kotlin, Jetpack Compose, Clean Architecture, Hilt, Room, Flow. •Web (Admin & Booking): React.js, Tailwind CSS, TanStack [...] Spec-Kit — real project, real results, one serious warning. Wanted: Junior Android Developer. R",
       "apply_email": ""
     },
     {
@@ -1061,24 +1079,6 @@
       "url": "https://www.linkedin.com/posts/mostafa-radwan-elkayserli_please-share-activity-7510181900179922944-2s_n",
       "published": "2026-09-28",
       "snippet": "شير #ضرورى فضلا ياريت محدش يتجاهل المنشور أنا حصل ليا #LAYOFF من 7 شهور بدور على فرصة ك Senior Frontend Developer شغال ب React و Nextjs و Typescript و ادوات",
-      "apply_email": ""
-    },
-    {
-      "title": "امروز هفته سوم کورس آمادگی استخدام آقا بابک عزیز بود ‏‏Babak Doraniarab‏‏ و میتونم بگم",
-      "company": "Posted by Reza Dadgar",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/reza-dadgar-820889242_%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D9%87%D9%81%D8%AA%D9%87-%D8%B3%D9%88%D9%85-%DA%A9%D9%88%D8%B1%D8%B3-%D8%A2%D9%85%D8%A7%D8%AF%DA%AF%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A2%D9%82%D8%A7-%D8%A8%D8%A7%D8%A8%DA%A9-activity-7510078159204229121-IB6p",
-      "published": "2026-09-27",
-      "snippet": "امروز هفته سوم کورس آمادگی استخدام آقا بابک عزیز بود ‏‏Babak Doraniarab‏‏ و میتونم بگم بعد از همون هفته اول فهمیدم چقدر خوشحالم برای شرکت تو این دوره، همیشه",
-      "apply_email": ""
-    },
-    {
-      "title": "فرصة شغل من البيت شركة زكسس بتطلب مصمم جرافيك ...",
-      "company": "Posted by Omar Yousry",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/omar-yousry-a7119317a_%D9%81%D8%B1%D8%B5%D8%A9-%D8%B4%D8%BA%D9%84-%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%B4%D8%B1%D9%83%D8%A9-%D8%B2%D9%83%D8%B3%D8%B3-%D8%A8%D8%AA%D8%B7%D9%84%D8%A8-%D9%85%D8%B5%D9%85%D9%85-activity-7510192028539084800-EKXs",
-      "published": "2026-09-28",
-      "snippet": "فرصة شغل من البيت شركة زكسس بتطلب مصمم جرافيك (Graphic Designer) راتب 400 دولار امريكي الشغل: تصميمات سوشيال ميديا ومواد إعلانية باستخدام فوتوشوب",
       "apply_email": ""
     }
   ]
