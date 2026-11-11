@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:53:47+00:00",
+  "updated_at": "2026-11-11T19:30:05+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -17,6 +17,15 @@
       "url": "https://www.linkedin.com/posts/maktabkhooneh_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D9%85%DA%A9%D8%AA%D8%A8%D8%AE%D9%88%D9%86%D9%87-activity-7525807018830471169-hRLF",
       "published": "2026-11-10",
       "snippet": "هممسیر آیندهی آموزش در ایران باش! 💻✨ 📢 موقعیت شغلی: برنامهنویس فرانتاند (Vue/Nuxt) / Frontend Developer ما در مکتبخونه به دنبال یک برنامهنویس فرانتاند هستیم که با توسعه رابطهای کاربری سریع، بهینه و کاربرپسند، در بهبود تجربه یادگیری میلیونها کاربر فارسیزبان نقش داشته باشه. اگر حداقل ۲ سال تجربه حرفهای در توسعه فرانتاند داری، به Vue.js و Nuxt مسلطی، با JavaScript و TypeScript کار کردی و تجربه استفاده از ابزارهای AI Coding رو داری، جای تو در تیم فنی ما خالیه! 📍 تهران | تماموقت | امکان همکاری [...] No alternative text description for this image 176 15 Comments Like Comment Samiyeh Tavalla 3h Repor",
+      "apply_email": ""
+    },
+    {
+      "title": "#فرصت_شغلی #استخدام #برنامه_نویسی #frontenddeveloper #reactjs #typescript #javascript #opentowork | Yasaman M. | 30 comments",
+      "company": "Posted by Mohammadiyasaman",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammadiyasaman_%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-activity-7520905775045697536-Ikma",
+      "published": "2026-10-27",
+      "snippet": "🚀 آماده همکاری در فرصتهای جدید شغلی | Frontend Developer سلام به دوستان و همراهان لینکدین 👋🏻 این روزها به دنبال فرصتهای شغلی جدید در حوزه Frontend Development هستم و خوشحال میشم با تیمها و مجموعههایی که به دنبال همکاری با یک توسعهدهنده فرانتاند باتجربه هستن، در ارتباط باشم. حدود ۵ سال تجربه در توسعه نرمافزار دارم و در این مدت با تکنولوژیها و ابزارهای مختلفی کار کردم، از جمله: 🔹 React.js، Next.js و TypeScript 🔹 JavaScript (ES6+) 🔹 Redux Toolkit، React Query و Recoil 🔹 React Hook Form، Yup و REST [...] Form، Yup و REST APIs 🔹 Material UI، Tailwind CSS، Sass و Bootstrap 🔹 Git، Azure DevOps و پیاد",
       "apply_email": ""
     },
     {
@@ -74,15 +83,6 @@
       "apply_email": ""
     },
     {
-      "title": "آماده همکاری در فرصت‌های جدید شغلی | Frontend Developer سلام به دوستان و همراهان لینکدین",
-      "company": "Posted by Mohammadiyasaman",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammadiyasaman_%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-activity-7520905775045697536-Ikma",
-      "published": "2026-10-27",
-      "snippet": "آماده همکاری در فرصت‌های جدید شغلی | Frontend Developer سلام به دوستان و همراهان لینکدین این روزها به دنبال فرصت‌های شغلی جدید در حوزه Frontend",
-      "apply_email": ""
-    },
-    {
       "title": "#استخدام #فرصت_شغلی #استخدام_تهران #دعوت_به_همکاری #جذب_نیرو #برنامه_نویس #juniordeveloper #python #fastapi #postgresql #sql #javascript #ht",
       "company": "Posted by Samaneh Saraeian",
       "location": "Tehran, Iran",
@@ -101,75 +101,21 @@
       "apply_email": ""
     },
     {
-      "title": "Saudi e-signature integrations and architecture | Hamada Emam posted on the topic",
-      "company": "Posted by Hamada Emam Tech",
+      "title": "دعوت به همکاری برنامهنویس Frontend | React و Next.js برای توسعه رابط کاربری یک پروژه وب،",
+      "company": "Posted by Dorlancer",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/hamada-emam-tech_sadq-esignature-digitalsignature-activity-7515649730136346624-NJ4N",
-      "published": "2026-10-18",
-      "snippet": "external calls on the main HTTP thread. Push them to a Redis queue so the user gets an instant response. Graceful Degradation & Fallbacks: If the primary service is down, the system should automatically switch to a secondary provider (e.g., routing SMS from Twilio to Vonage) without the user ever noticing. Your application's uptime should never depend on another company's infrastructure. Tech Leads & Backend Engineers: How do you handle external API timeouts? Do you build custom Circuit [...] الكاملة : 👉 1. خليك proactive بالمعلومة ما تستناش لما يسألك \"خلصت؟\". عود نفسك تبعت/تقول update يومي مخ",
+      "url": "https://www.linkedin.com/posts/dorlancer_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%81%D8%B1%D8%A7%D9%86%D8%AA%D8%A7%D9%86%D8%AF-%D8%B1%DB%8C%D8%A7%DA%A9%D8%AA-activity-7519344482262126593-RKd9",
+      "published": "2026-10-23",
+      "snippet": "دعوت به همکاری برنامهنویس Frontend | React و Next.js برای توسعه رابط کاربری یک پروژه وب، به یک توسعهدهنده فرانتاند مسلط به اکوسیستم React",
       "apply_email": ""
     },
     {
-      "title": "#c #استخدام #backenddeveloper #dotnet #backend #microservices #fintech | Hadi Salehy Afkham | 26 comments",
-      "company": "Posted by Hadi Salehy",
-      "location": "Tehran, Iran",
-      "url": "https://www.linkedin.com/posts/hadi-salehy_c-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-backenddeveloper-activity-7520783923522576384-rw-z",
-      "published": "2026-10-27",
-      "snippet": "استخدام Backend Developer (.NET) – سطح Mid-level 🏢 حوزه امور مالی، سرمایهگذاری و تحلیل کسبوکار 📍 تهران، خیابان مطهری | تماموقت و حضوری 🕗 شنبه تا چهارشنبه، ۸ تا ۱۶ (با نیم ساعت شناوری) حقوق: توافقی مسئولیتها طراحی و توسعه سرویسهای Backend با #C و .NET پیادهسازی APIها و ارتباط بین سرویسها در معماری Microservice نوشتن کد تمیز، قابل نگهداری و تستپذیر همکاری با تیمهای محصول و تحلیل برای تحویل ویژگیهای جدید شرایط الزامی حداقل مدرک لیسانس (ترجیحاً رشته مرتبط) برای آقایان: داشتن کارت پایان خدمت یا [...] کارت پایان خدمت یا معافیت مهارتها حداقل ۳ سال سابقه کار در توسعه Backend با .NET تسلط بر OOP و Desi",
-      "apply_email": ""
-    },
-    {
-      "title": "#استخدام #laravel #php #backenddeveloper #seniordeveloper #systemdesign #hiring | Mohadese Molaei | 44 comments",
-      "company": "Posted by Mohadese Molaei",
-      "location": "Mashhad, Iran",
-      "url": "https://www.linkedin.com/posts/mohadese-molaei-42ab31277_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-laravel-php-activity-7517879870476079105--K0a",
-      "published": "2026-10-19",
-      "snippet": "قراره یک همتیمی جدید به تیم فنی ما اضافه بشه 👋 ما در مجموعه سایت ساز سیفایو برای موقعیت Senior Backend Developer به کسی نیاز داریم که تجربه عملی خوبی در توسعه بکاند داشته باشه، به PHP و Laravel مسلط باشه و از تحلیل چالشهای فنی و طراحی اصولی سیستمها لذت ببره. مهارتهایی که برامون مهمه: 🔹 تسلط به PHP و Laravel 🔹 تسلط به تحلیل فنی و System Design 🔹 حداقل ۵ سال سابقه مرتبط 🔹 امکان همکاری بهصورت تماموقت و حضوری در مشهد. 📍 آشنایی با React یا معماری WordPress و توسعه پلاگین هم یک امتیاز مثبت محسوب [...] امتیاز مثبت محسوب میشه. اگر فکر میکنید این موقعیت برای شما مناسبه، رزومه یا لینک پروفایلتون رو از ط",
-      "apply_email": ""
-    },
-    {
-      "title": "#javadeveloper #springboot #microservices #fintech #بانکداری_دیجیتال #استخدام #backenddeveloper #springcloud | Mostafa Hosseinzadeh | 15 com",
-      "company": "Posted by Mostafa Hosseinzadeh",
+      "title": "Air-Gapping Not Enough for Secure AI Model Deployment | Craig McLuckie posted on the topic",
+      "company": "Posted by Craigmcluckie",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mostafa-hosseinzadeh_javadeveloper-springboot-microservices-activity-7516437560819335168-rv2K",
-      "published": "2026-10-15",
-      "snippet": "دقت در حل مسئله و اولویتدادن به صحت داده بر سرعت توسعه توانایی مستندسازی و ارائه گزارش شفاف از پیشرفت کار حداقل ۳ سال تجربه کاری در توسعه سرویسهای backend با Java مزایا: بیمه تکمیلی صبحانه ناهار پاداش های فصلی بسته ها و هدایای مناسبتی ساعت کاری از ۷ تا ۱۴.۳۰ با امکان شناوری نوع همکاری: تماموقت | نحوه همکاری: حضوری اگر در توسعه سرویسهای مالی باتجربه هستید و دوست دارید در کنار یک تیم فنی روی زیرساختهای حیاتی کار کنید، خوشحال میشویم رزومهتان را برای ما در دایرکت یا ایمیل زیر ارسال کنید. [...] فرصتهای شغلی | Java Developer (Mid / Senior) شرکت دادهورزی سداد به دنبال جذب چندین توسعهدهنده Java باتجرب",
-      "apply_email": ""
-    },
-    {
-      "title": "#استخدام #pythondeveloper #python #backenddevelopment #fastapi #django #restapi #microservices #softwareengineering #fintech #داده_ورزی_سداد",
-      "company": "Posted by Vahidsqp",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/vahidsqp_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-pythondeveloper-python-activity-7516071054596030464-_C8S",
+      "url": "https://www.linkedin.com/posts/craigmcluckie_most-of-the-organizations-i-talk-to-about-activity-7516245320767373312-KIwi",
       "published": "2026-10-14",
-      "snippet": "🚀 فرصت همکاری برای Python Developer در شرکت دادهورزی سداد شرکت دادهورزی سداد برای توسعه تیم زیرساخت SBU کارت و پرداخت به دنبال جذب یک Python Developer با تجربه در توسعه سرویسهای Backend، طراحی API و پیادهسازی راهکارهای نرمافزاری مقیاسپذیر است. اگر به Software Development، Backend Engineering، طراحی Microservices و توسعه سرویسهای امن و قابل اتکا علاقهمند هستید، خوشحال میشویم با شما آشنا شویم. 🔹 مهارتهای موردنیاز حداقل ۳ سال تجربه کار در حوزه توسعه نرمافزار با Python، همراه با تجربه و تسلط عملی [...] زیرساخت سرویسهای بانکی را پاسخ دهند. همچنین استفاده از ابزارهای AI برای کمک به توسعه کد، تولید ت",
-      "apply_email": ""
-    },
-    {
-      "title": "🚀 We’re Hiring at Tapsi Food! We have new openings on the Tapsi Food engineering team. 😊 We are currently transitioning from our rapid-growt",
-      "company": "Posted by Alireza Saffari",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/alireza-saffari_were-hiring-at-tapsi-food-we-have-new-activity-7515779427860070400-cqIB",
-      "published": "2026-10-13",
-      "snippet": "🔹 Senior Backend Developer – .NET If you are passionate about high-scale technical challenges and thriving in a dynamic startup environment—or if you know someone who is—I would love to receive your resume or have you share this post with them. 🙌 🔗 Apply here: 📌 Engineering Manager: 📌 Technical Team Lead: 📌 Senior Backend Developer: [...] 🚀 We’re Hiring at Tapsi Food! We have new openings on the Tapsi Food engineering team. 😊 We are currently transitioning from our rapid-growth startup phase and gearing up to scale into a much larger market. This exciting journey brings significant challenges",
-      "apply_email": ""
-    },
-    {
-      "title": "#رزومه #جویای_شغل #استخدام #ai #resume #opentowork",
-      "company": "Posted by Mrsaffar",
-      "location": "Tehran, Iran",
-      "url": "https://www.linkedin.com/posts/mrsaffar_%D8%B1%D8%B2%D9%88%D9%85%D9%87-%D8%AC%D9%88%DB%8C%D8%A7%DB%8C%D8%B4%D8%BA%D9%84-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-activity-7518146016672423936-1xv8",
-      "published": "2026-10-20",
-      "snippet": "... استخدام برنامه‌نویس» دقیق‌تر بگویی: «من ۳ سال تجربه Java و Spring دارم، دنبال موقعیت Backend در تهران یا Remote هستم و ترجیح می‌دهم در تیمی کار کنم که روی",
-      "apply_email": ""
-    },
-    {
-      "title": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن",
-      "company": "Posted by Mrsaffar",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mrsaffar_%D8%B1%D8%B2%D9%88%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-activity-7519962840225554432-JTlw",
-      "published": "2026-10-25",
-      "snippet": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن است بخش قابل توجهی از فرصت‌های مناسب خودش را اصلاً نبیند. چون یک شرکت",
+      "snippet": "For the love of whoever, let's change the AI security slop meme. \"AI just writes insecure slop\" — I think it's nonsense. If you hired a developer, gave them zero context, no security requirements, no training, no examples and no feedback loop — you'd get garbage code too. In my experience, agents aren't magic. They make mistakes. They hallucinate. They miss edge cases. But they're improving exponentially faster than any human ever could. The singularity isn't some distant sci-fi concept. It's [...] agents across my workflow — architecture agents reviewing designs before I write code, security",
       "apply_email": ""
     },
     {
@@ -178,79 +124,7 @@
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/anaram-yaghoobi-notash_c-hiring-fullstackdeveloper-activity-7520808130037870592-1s23",
       "published": "2026-10-27",
-      "snippet": "🚀 We’re Hiring | Full-Stack Developer به خانواده بزرگ Golrang Tarabar میپیوندیم و برای توسعه تیم فنی، به دنبال جذب یک Full-Stack Developer متخصص و باانگیزه هستیم. 🔹 شرایط و مهارتهای موردنیاز: \\ حداقل ۵ سال تجربه کاری مرتبط \\ تسلط به #C و ‎.NET / .NET Core \\ تسلط به Angular \\ تجربه کار با SQL Server، Entity Framework Core و Dapper \\ آشنایی با RabbitMQ و Redis \\ تسلط به Git و Azure DevOps \\ تجربه طراحی، توسعه و پیادهسازی APIهای داخلی و خارجی \\ تجربه کار با معماریهای Microservices \\ سابقه کار روی [...] JOBUT.IR(جاب یوتی) Like Reply 1 Reaction 2 Reactions m.hossein rahimloo 13h Report this comment",
-      "apply_email": ""
-    },
-    {
-      "title": "Polly .NET Library for Resilience and Fault Handling | Mohamed Ashraf posted on the topic",
-      "company": "Posted by Mohamed Ashraf",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohamed-ashraf-016202173_dotnet-backend-softwareengineering-activity-7516212708732751872-wteK",
-      "published": "2026-10-14",
-      "snippet": "without introducing new problems. 💬 QUESTION FOR BACKEND DEVELOPERS: When integrating an unreliable third-party API in ASP.NET Core, how would you design your resilience strategy? Would you start with retries and circuit breakers, or would you handle the problem differently depending on the business operation? #dotnet #CSharp #BackendDevelopment #SystemDesign #Microservices #SoftwareEngineering #DistributedSystems #APIDesign [...] حماية مثل: - إعادة المحاولة التلقائية (Retry). - قطع الاتصال بالخدمات العطلانة لمنع انهيار النظام (Circuit Breaker). - حد أقصى لوقت الانتظار (Timeout). - إرجاع خطة أ",
-      "apply_email": ""
-    },
-    {
-      "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
-      "company": "Posted by Doaa Mahmoud Hashish",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
-      "published": "2026-10-23",
-      "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] performance costs. #Database #DatabaseDesign #Transactions #SQL #Concurrency #BackendDevelopment #SoftwareEngineering #SystemDesign #Distribute",
-      "apply_email": ""
-    },
-    {
-      "title": "موقعیت شغلی ریموت دلاری برای Senior GOLANG Developer ریموت ⏰ ساعات کاری منعطف 🗣️ سطح طبان",
-      "company": "Posted by Abbas Hoseini",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/abbas-hoseini_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%B4%D8%BA%D9%84%DB%8C-%D8%B1%DB%8C%D9%85%D9%88%D8%AA-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-senior-golang-activity-7525519774391500800-MNvp",
-      "published": "2026-11-09",
-      "snippet": "موقعیت شغلی ریموت دلاری برای Senior GOLANG Developer ریموت ⏰ ساعات کاری منعطف 🗣️ سطح طبان انگلیسی: C1 level or higher حقوق : $4,000 What You'll",
-      "apply_email": ""
-    },
-    {
-      "title": "🚀 We’re Hiring | Full Stack Developer – React.js + Java | Immediate / Serving Candidates We are looking for experienced Full Stack Developer",
-      "company": "Posted by Astha Gupta",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/astha-gupta-74b10925a_were-hiring-full-stack-developer-activity-7523630119043858433-EOR6",
-      "published": "2026-11-04",
-      "snippet": "🚀 We’re Hiring | Full Stack Developer – React.js + Java | Immediate / Serving Candidates We are looking for experienced Full Stack Developers with a strong focus on Frontend Development (80%) and Backend Development (20%) \"React.js + Java\" (Java is mandatory in Backend) 📍 Location: Gurugram (Hybrid) 💼 Experience: 10 - 13 Years 👨💻 Role: Full Stack Developer – Frontend Heavy CTC: Up to ₹40 LPA 🔍 Key Skills Required: Strong hands-on experience with React.js, JavaScript, and TypeScript Expertise in [...] all the mentioned criteria will be shortlisted.\" 📩 Interested candidates can share their updat",
-      "apply_email": ""
-    },
-    {
-      "title": "🚀 HIRING | Senior .NET Full Stack Developer (.Net+ React+Azure) | Pune Join our Product Engineering Team and build scalable, high-impact sol",
-      "company": "Posted by Ekta Shriwas",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ekta-shriwas-b479a481_hiring-senior-net-full-stack-developer-activity-7524353393121763328-QVtx",
-      "published": "2026-11-06",
-      "snippet": "🚀 HIRING | Senior .NET Full Stack Developer (.Net+ React+Azure) | Pune Join our Product Engineering Team and build scalable, high-impact solutions with modern technologies. 👉 Apply Now: yekata.gshriwas@ust.coyekata.gshriwas@ust.com 🔹Experience- 6-9 Years 🔹 Location: Pune 🔹 Notice Period: Immediate Joiners Only 🛠️ Key Skills:• .NET 8• C#• React• Microservices• Azure• SQL Server •Kubernetes If you’re passionate about technology, engineering excellence, and building impactful products, we’d love [...] 30 8 Comments Like Comment Hari Kanje 16h Report this comment Interest and immediate joiner Like",
-      "apply_email": "yekata.gshriwas@ust.coyekata.gshriwas"
-    },
-    {
-      "title": "Nagarro is seeking candidates for Full Stack Engineer. Interested applicants should send their resumes to harshita.shukla@nagarro.com Key de",
-      "company": "Posted by Harshita Shukla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/harshita-shukla-36b43239_nagarro-is-seeking-candidates-for-full-stack-activity-7519318352931119104-D_60",
-      "published": "2026-10-23",
-      "snippet": "Key details for the position include: - Notice Period: Immediate joiners-30 days only - Experience Required: 4-6 years - Location: Pune The interview process will consist of: - Aptitude Test - Technical Discussion - Project Interview Role Overview- We are seeking an experienced Full Stack Developer with strong expertise in Python, ReactJS, and FastAPI to develop scalable, secure, and high-performance web applications. Key Responsibilities- Develop responsive frontend applications using ReactJS, [...] Nagarro is seeking candidates for Full Stack Engineer. Interested applicants should send their",
-      "apply_email": ""
-    },
-    {
-      "title": "Boost Full Stack Resume with Tiny Code Build System | JobLanderz.VIP posted on the topic",
-      "company": "Posted by Joblanderz Vip",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/joblanderz-vip_fullstackdeveloper-softwareengineering-activity-7517468939623534592-V7VJ",
-      "published": "2026-10-18",
-      "snippet": "💻 Full Stack Developers: The solitary Modular Code Hierarchy modification that silently transforms results – Activate it ahead of searching! 💡 Monolithic repository organization obscures true software engineering design capability. 🚀 Modern technical hiring teams actively target developers with clean architectural vision. ⚡ Refactor your codebase repository presentation to trigger direct engineering lead interviews. Modern enterprise tech hiring managers evaluate candidate experience using [...] 💻 Full Stack Developers: This Part of Your Resume Featuring Silent Skill Alignment Determines Every",
-      "apply_email": ""
-    },
-    {
-      "title": "Radhika Pandya posted this",
-      "company": "Posted by Radhika Pandya",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/radhika-pandya-a445bb18a_were-hiring-senior-full-stack-net-developer-activity-7524404882804707328-Uib1",
-      "published": "2026-11-06",
-      "snippet": "We're Hiring: Senior Full Stack .NET Developer || #Remote || #FTE Are you an experienced Full Stack Developer looking for your next challenge?",
+      "snippet": "🚀 We’re Hiring | Full-Stack Developer به خانواده بزرگ Golrang Tarabar میپیوندیم و برای توسعه تیم فنی، به دنبال جذب یک Full-Stack Developer متخصص و باانگیزه هستیم. 🔹 شرایط و مهارتهای موردنیاز: \\ حداقل ۵ سال تجربه کاری مرتبط \\ تسلط به #C و ‎.NET / .NET Core \\ تسلط به Angular \\ تجربه کار با SQL Server، Entity Framework Core و Dapper \\ آشنایی با RabbitMQ و Redis \\ تسلط به Git و Azure DevOps \\ تجربه طراحی، توسعه و پیادهسازی APIهای داخلی و خارجی \\ تجربه کار با معماریهای Microservices \\ سابقه کار روی [...] \\ سابقه کار روی سیستمهای سازمانی و مقیاسپذیر 💡 اگر تجربه توسعه نرمافزارهای سازمانی را دارید، به",
       "apply_email": ""
     },
     {
@@ -263,57 +137,12 @@
       "apply_email": ""
     },
     {
-      "title": "Steve King - Senior Full Stack Developer",
-      "company": "Posted by Steve King",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/-steve-king_senior-full-stack-developer-activity-7523717833852334080-zMhx",
-      "published": "2026-11-04",
-      "snippet": "I'm hiring: Senior Backend Engineer, Core UI Platform Services (London) We're building something new at the heart of Markets Post-Trade, and I'm looking for",
-      "apply_email": ""
-    },
-    {
-      "title": "Suresh Kumar - Looking for Senior Full-Stack Developer",
-      "company": "Posted by Suresh Kumar",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/suresh-kumar-a4364720_looking-for-senior-full-stack-developer-activity-7524514857761718272-Dxts",
-      "published": "2026-11-06",
-      "snippet": "Looking for Senior Full-Stack Developer – Azure & AI- Full Time@ Stamford, CT. 15+ years of software development or data engineering experience.",
-      "apply_email": ""
-    },
-    {
-      "title": "Tarun Kumar - We are hiring for C2H Position",
-      "company": "Posted by Tarun Kumar",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/tarun-kumar-367966140_we-are-hiring-for-c2h-position-full-stack-activity-7524533622746374145-Qvmk",
-      "published": "2026-11-06",
-      "snippet": "We are hiring for C2H Position || Full Stack Java Developer - Philadelphia, PA (Hybrid) || Must be Local || USC and GC and GC-EAD Only Position - Full Stack",
-      "apply_email": ""
-    },
-    {
-      "title": "Launch Your Career with a Remote Full Stack Developer ...",
-      "company": "Posted by Business Web Solutions Usa",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/business-web-solutions-usa_launch-your-career-with-a-remote-full-stack-activity-7524336323403464704-GgMo",
-      "published": "2026-11-06",
-      "snippet": "Launch Your Career with a Remote Full Stack Developer Internship Business Web Solutions (BWS) is inviting applications for a remote Full Stack Web Developer",
-      "apply_email": ""
-    },
-    {
       "title": "الزملاء الاعزاء ، 👋 اي مصدر عندك او منهج و حاب تستمع بقراءته وتوضيحه بامكانك استخدام البرومبت ادناه بواسطة برنامج claude او manus لتحويله ال",
       "company": "Posted by Shaheen Al Shaheen En93",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/shaheen-al-shaheen-en93_%D8%A7%D9%84%D8%B2%D9%85%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B9%D8%B2%D8%A7%D8%A1-%D8%A7%D9%8A-%D9%85%D8%B5%D8%AF%D8%B1-%D8%B9%D9%86%D8%AF%D9%83-%D8%A7%D9%88-%D9%85%D9%86%D9%87%D8%AC-activity-7524041091424403456-x5eP",
       "published": "2026-11-05",
       "snippet": "الزملاء الاعزاء ، 👋 اي مصدر عندك او منهج و حاب تستمع بقراءته وتوضيحه بامكانك استخدام البرومبت ادناه بواسطة برنامج claude او manus لتحويله الى تفاعلي وكذلك كورسات التدريب : Prompt: Convert Any Book into an Interactive Digital Learning Platform Act as an expert Instructional Designer and Full-Stack Developer. Transform the uploaded book, PDF, or technical document into a fully interactive digital learning platform. Your task is to: 1. Analyze the entire source and organize its content into [...] 7 Like Comment To view or add a comment, sign in 12,153 followers 284 Posts View Profile Follow ## Ex",
-      "apply_email": ""
-    },
-    {
-      "title": "Pallavi Singh - Hello Everyone, Java Full Stack Developer",
-      "company": "Posted by Pallavi Singh",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/pallavi-singh-993483189_hello-everyone-java-full-stack-developer-activity-7524115785640943616-jEUM",
-      "published": "2026-11-05",
-      "snippet": "Hello Everyone, Java Full Stack Developer – Angular & Azure Atlanta, GA (5 Day onsite, F2F interview mandatory) 12+ months contract Must Have: Java,",
       "apply_email": ""
     },
     {
@@ -326,21 +155,48 @@
       "apply_email": ""
     },
     {
-      "title": "AI Is Making Software Development Faster. | Farshid bahmani",
-      "company": "Posted by Farshidbahmani",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/farshidbahmani_ai-cybersecurity-devsecops-activity-7519858310544592896-vlcq",
-      "published": "2026-10-24",
-      "snippet": "a good reminder for me: Frontend optimization improves the user experience, but database optimization often solves the real performance problem. When your data grows, your query strategy matters. CREATE EXTENSION IF NOT EXISTS pg\\_trgm; CREATE INDEX idx\\_items\\_name\\_trgm ON items USING gin (name gin\\_trgm\\_ops); #PostgreSQL #DatabaseOptimization #BackendDevelopment #FullStackDeveloper #WebDevelopment #PerformanceOptimization #SQL #NodeJS #SoftwareDevelopment #DatabaseIndexing #CleanCode [...] its shoulders. Do you think having a deep understanding of concepts like PKI is essential for a devel",
-      "apply_email": ""
-    },
-    {
       "title": "What if the same AI we fear could introduce security vulnerabilities is also our strongest defense against them? | Hassan Abbas",
       "company": "Posted by Hassanabbasraza",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/hassanabbasraza_artificialintelligence-cybersecurity-softwareengineering-activity-7519075395531493376-YeZz",
       "published": "2026-10-22",
-      "snippet": "and manage access. 💡One thought I took away from the workshop is: Building an intelligent system is not only about what it can do, but also about what it can safely be trusted with. This is especially relevant to me as I continue developing my skills in Full-Stack Development, Backend Engineering, and secure software design. Understanding how security and data protection fit into the development process is an important part of becoming a responsible engineer. A sincere thank you to Dr. Eng. [...] you to Dr. Eng. Nourhan Abuzayed for delivering an insightful and practical workshop and for highl",
+      "snippet": "and manage access. 💡One thought I took away from the workshop is: Building an intelligent system is not only about what it can do, but also about what it can safely be trusted with. This is especially relevant to me as I continue developing my skills in Full-Stack Development, Backend Engineering, and secure software design. Understanding how security and data protection fit into the development process is an important part of becoming a responsible engineer. A sincere thank you to Dr. Eng. [...] test case creation. This level of specialization means significantly accelerated development cycle",
+      "apply_email": ""
+    },
+    {
+      "title": "AI Speeds Development, but Is It Compromising Security? | Abed Mouhamed Yassin posted on the topic",
+      "company": "Posted by Abed Mouhamed Yassin",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/abed-mouhamed-yassin-81ab54212_artificialintelligence-cybersecurity-fullstackdevelopment-activity-7516408320048521216-IK4T",
+      "published": "2026-10-15",
+      "snippet": "point: a working application is not necessarily a secure application. In my view, security should be part of every AI-assisted development workflow: 🔹 Protect APIs, credentials, and sensitive data. 🔹 Review AI-generated code instead of blindly trusting it. 🔹 Test configurations and access controls before deployment. 🔹 Treat security as a design requirement, not an afterthought. As a Computer Engineering student specializing in Business Intelligence and interested in Full Stack Development, I [...] and manage access. 💡One thought I took away from the workshop is: Building an intelligent system",
+      "apply_email": ""
+    },
+    {
+      "title": "Tech Advancements Boost Quality of Life | Mohammad Habashneh posted on the topic",
+      "company": "Posted by Mohammad Habashneh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammad-habashneh_advancement-of-technology-and-access-to-technology-activity-7518605836429189120-Wdm8",
+      "published": "2026-10-21",
+      "snippet": "دي Prompts قوية ومجرّبة تكتبها كـ Comment أو أول الملف علشان GitHub Copilot يطلع أحسن ما عنده 💪 مظبوطة لـ .NET Core + Clean Architecture + Unit Testing. ⸻ 🧩 Prompt جاهز لـ Clean Architecture (.NET Core) ✅ Prompt أساسي (اكتبه في أول الملف أو Solution) /\\ You are a senior .NET architect. Generate code following Clean Architecture principles: - Layers: Domain, Application, Infrastructure, API - Apply SOLID principles - Use Dependency Injection - Use Repository pattern - Use CQRS (Commands & [...] CQRS (Commands & Queries) - Avoid business logic in Controllers - Use async/await everywhere - Use DT",
+      "apply_email": ""
+    },
+    {
+      "title": "Agentic AI for Software Developers: A New Approach to Coding | Abdallah Farag posted on the topic",
+      "company": "Posted by Abdallah Farag",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/abdallah-farag-912b06b0_agenticai-softwaredevelopment-dotnet-activity-7515504441987584000-kkUl",
+      "published": "2026-10-12",
+      "snippet": "Vincent Wargnier AI Agents × Full-Stack SaaS Engineer | Automating automations that automate automations. AI took my job. So I took over the AI. 200× the output. Tell me the job. I ship the agent. [...] to use it. Example: GetLastOrder(userId), CancelOrder(orderId), RefundToWallet(orderId, amount), RefundToCard(orderId, amount) The AI can't do anything you didn't give it a function for. 3️⃣ The loop = literally a while loop while (!goalReached) → the AI picks the next function → your code runs it → the result goes back to the AI Example: RefundToWallet() returns \"wallet not activated.\" Followi",
+      "apply_email": ""
+    },
+    {
+      "title": "AI Is Making Software Development Faster. | Farshid bahmani",
+      "company": "Posted by Farshidbahmani",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/farshidbahmani_ai-cybersecurity-devsecops-activity-7519858310544592896-vlcq",
+      "published": "2026-10-24",
+      "snippet": "its shoulders. Do you think having a deep understanding of concepts like PKI is essential for a developer today? 👇 #PKI #Cryptography #CyberSecurity #WebDevelopment #Backend #FullStack #Java #SpringBoot [...] \"log-opts\": { \"max-size\": \"10m\", \"max-file\": \"3\" } } Catch: this only applies to containers created after the daemon restart. Existing containers have to be recreated. 2. journald: SystemMaxUse=500M in /etc/systemd/journald.conf, then restart systemd-journald. 3. Laravel: use the daily log channel with a retention limit (LOG\\_CHANNEL=daily, LOG\\_DAILY\\_DAYS=14) instead of one laravel.log",
       "apply_email": ""
     },
     {
@@ -362,6 +218,24 @@
       "apply_email": ""
     },
     {
+      "title": "#استخدام #laravel #php #backenddeveloper #seniordeveloper #systemdesign #hiring | Mohadese Molaei | 44 comments",
+      "company": "Posted by Mohadese Molaei",
+      "location": "Mashhad, Iran",
+      "url": "https://www.linkedin.com/posts/mohadese-molaei-42ab31277_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-laravel-php-activity-7517879870476079105--K0a",
+      "published": "2026-10-19",
+      "snippet": "قراره یک همتیمی جدید به تیم فنی ما اضافه بشه 👋 ما در مجموعه سایت ساز سیفایو برای موقعیت Senior Backend Developer به کسی نیاز داریم که تجربه عملی خوبی در توسعه بکاند داشته باشه، به PHP و Laravel مسلط باشه و از تحلیل چالشهای فنی و طراحی اصولی سیستمها لذت ببره. مهارتهایی که برامون مهمه: 🔹 تسلط به PHP و Laravel 🔹 تسلط به تحلیل فنی و System Design 🔹 حداقل ۵ سال سابقه مرتبط 🔹 امکان همکاری بهصورت تماموقت و حضوری در مشهد. 📍 آشنایی با React یا معماری WordPress و توسعه پلاگین هم یک امتیاز مثبت محسوب [...] امتیاز مثبت محسوب میشه. اگر فکر میکنید این موقعیت برای شما مناسبه، رزومه یا لینک پروفایلتون رو از ط",
+      "apply_email": ""
+    },
+    {
+      "title": "One App for Six Roles with Kotlin Multiplatform",
+      "company": "Posted by Eslam Ghazy",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/eslam-ghazy-7912bb183_kotlinmultiplatform-composemultiplatform-activity-7517359659632971776-UBRF",
+      "published": "2026-10-17",
+      "snippet": "App templates built with Kotlin Multiplatform and React Native. A Material Design template. A WebView template. Templates are a different kind of challenge",
+      "apply_email": ""
+    },
+    {
       "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
       "company": "Posted by Islam Abdalla",
       "location": "Iran",
@@ -371,12 +245,21 @@
       "apply_email": ""
     },
     {
-      "title": "Edura Educational Platform Built with Flutter and Supabase | Ziyad Sobhy posted on the topic",
-      "company": "Posted by Zeyadsobhy",
+      "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
+      "company": "Posted by Doaa Mahmoud Hashish",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/zeyadsobhy_flutter-supabase-dart-activity-7516226426380079105-iIu2",
+      "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
+      "published": "2026-10-23",
+      "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] + No alternative text description for this image 37 3 Comments Like Comment To view or add a comment, sign in 2,224 followers 51 Posts 1 Articl",
+      "apply_email": ""
+    },
+    {
+      "title": "#استخدام #pythondeveloper #python #backenddevelopment #fastapi #django #restapi #microservices #softwareengineering #fintech #داده_ورزی_سداد",
+      "company": "Posted by Vahidsqp",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/vahidsqp_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-pythondeveloper-python-activity-7516071054596030464-_C8S",
       "published": "2026-10-14",
-      "snippet": "• Storage: Supabase Storage • Local Data: Hive • AI: Gemini API (Gemini Flash Lite) • Networking: Dio + Dartz • Routing & Dependency Injection: GoRouter + GetIt • Testing: Unit & Widget Testing One of the things I’m most proud of is that I didn’t focus only on the frontend—I built and integrated the backend, database structure, APIs, authentication, storage, local data handling, notifications, and AI features to bring the whole product together. A huge thank you to my instructor Rana Mohy for [...] design for every pixel! Implemented `flutter\\_screenutil` to ensure a flawless experience across",
+      "snippet": "🚀 فرصت همکاری برای Python Developer در شرکت دادهورزی سداد شرکت دادهورزی سداد برای توسعه تیم زیرساخت SBU کارت و پرداخت به دنبال جذب یک Python Developer با تجربه در توسعه سرویسهای Backend، طراحی API و پیادهسازی راهکارهای نرمافزاری مقیاسپذیر است. اگر به Software Development، Backend Engineering، طراحی Microservices و توسعه سرویسهای امن و قابل اتکا علاقهمند هستید، خوشحال میشویم با شما آشنا شویم. 🔹 مهارتهای موردنیاز حداقل ۳ سال تجربه کار در حوزه توسعه نرمافزار با Python، همراه با تجربه و تسلط عملی [...] تجربه و تسلط عملی در موارد زیر: • تسلط به Python و مفاهیم برنامهنویسی شیگرا (OOP) • تجربه توسعه",
       "apply_email": ""
     },
     {
@@ -395,6 +278,15 @@
       "url": "https://www.linkedin.com/posts/dina-mahmoud-7404391bb_python-programming-dataanalysis-activity-7519548173263110144-Iv5v",
       "published": "2026-10-23",
       "snippet": "Perfect for parsing HTML and XML documents. Scrapy: A fast, robust framework for largescale web scraping and data mining. ⚙️ Specialized Tools SQLAlchemy: Powerful database toolkit and ORM. Celery: Distributed task queue for asynchronous operations. Pygame: Fun module for 2D game development. OpenCV: Open-source library for computer vision and object detection. 💡 Python + Libraries = Faster Development, Better Solutions, Bigger Opportunities. What is your absolute go-to Python library for your [...] to explore how Python and Scikit-learn can help build ML workflows that are easier to maintain,",
+      "apply_email": ""
+    },
+    {
+      "title": "Job Description About the Role: We are seeking a Senior AI Developer to focus on the development and deployment of AI models. You will be re",
+      "company": "Posted by Iran Aihouse",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/iran-aihouse_job-description-about-the-role-we-are-seeking-activity-7524396340915671040-z-5c",
+      "published": "2026-11-06",
+      "snippet": "performance in production environments • Collaborate with the research team to translate theoretical architectures into optimized, scalable code • Provide technical leadership to the development team and guide software development processes Technical Skills: • Fluent in object-oriented programming and design (with a focus on Python), version control systems (codebase, data, and model), and experiment tracking • Hands-on experience with model development frameworks and framework-specific [...] framework-specific optimization techniques • Strong skills in packaging ML models for reproducible wor",
       "apply_email": ""
     },
     {
@@ -422,24 +314,6 @@
       "url": "https://www.linkedin.com/posts/world-wide-network_artificialintelligence-machinelearning-activity-7519735613496029184-L-x2",
       "published": "2026-10-24",
       "snippet": "their first LLM API call using Python and Google Colab. Day 2 — Understand How LLMs Work We then went deeper into: Embeddings → Semantic Search → Transformers → Attention → Decoding → Prompt Engineering → Context Engineering One of the key shifts was understanding that AI systems can search based on meaning, not just exact keyword matching. Day 3 — Build with AI The final day brought everything together through: RAG — Retrieval-Augmented Generation Participants explored the full flow: Documents [...] AI 👉: 4️⃣ - Harvard - Introduction to AI with Python Learn AI basics for real-world tech Build",
-      "apply_email": ""
-    },
-    {
-      "title": "We are seeking a Senior AI Developer to focus on the ...",
-      "company": "Posted by Iran Aihouse",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/iran-aihouse_job-description-about-the-role-we-are-seeking-activity-7524396340915671040-z-5c",
-      "published": "2026-11-06",
-      "snippet": "مدلهای هوش مصنوعی برای اولین بار، در تحلیل زبان به خوبی یک متخصص انسانی عمل میکنند · زمانی که «نه» به معنی «بله» است · \"نگاهی به پیشرفتهترین هوش مصنوعی پیشبینی",
-      "apply_email": ""
-    },
-    {
-      "title": "Agentic AI for Software Developers: A New Approach to ...",
-      "company": "Posted by Abdallah Farag",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/abdallah-farag-912b06b0_agenticai-softwaredevelopment-dotnet-activity-7515504441987584000-kkUl",
-      "published": "2026-10-12",
-      "snippet": "What is Agentic AI, from a software developer's perspective? No buzzwords. Just the concepts we already use every day: if/else, functions, loops, and state.",
       "apply_email": ""
     },
     {
@@ -524,12 +398,174 @@
       "apply_email": ""
     },
     {
-      "title": "Air-Gapping Not Enough for Secure AI Model Deployment | Craig McLuckie posted on the topic",
-      "company": "Posted by Craigmcluckie",
+      "title": "Saudi e-signature integrations and architecture | Hamada Emam posted on the topic",
+      "company": "Posted by Hamada Emam Tech",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/craigmcluckie_most-of-the-organizations-i-talk-to-about-activity-7516245320767373312-KIwi",
+      "url": "https://www.linkedin.com/posts/hamada-emam-tech_sadq-esignature-digitalsignature-activity-7515649730136346624-NJ4N",
+      "published": "2026-10-18",
+      "snippet": "external calls on the main HTTP thread. Push them to a Redis queue so the user gets an instant response. Graceful Degradation & Fallbacks: If the primary service is down, the system should automatically switch to a secondary provider (e.g., routing SMS from Twilio to Vonage) without the user ever noticing. Your application's uptime should never depend on another company's infrastructure. Tech Leads & Backend Engineers: How do you handle external API timeouts? Do you build custom Circuit [...] الكاملة : 👉 1. خليك proactive بالمعلومة ما تستناش لما يسألك \"خلصت؟\". عود نفسك تبعت/تقول update يومي مخ",
+      "apply_email": ""
+    },
+    {
+      "title": "#c #استخدام #backenddeveloper #dotnet #backend #microservices #fintech | Hadi Salehy Afkham | 26 comments",
+      "company": "Posted by Hadi Salehy",
+      "location": "Tehran, Iran",
+      "url": "https://www.linkedin.com/posts/hadi-salehy_c-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-backenddeveloper-activity-7520783923522576384-rw-z",
+      "published": "2026-10-27",
+      "snippet": "استخدام Backend Developer (.NET) – سطح Mid-level 🏢 حوزه امور مالی، سرمایهگذاری و تحلیل کسبوکار 📍 تهران، خیابان مطهری | تماموقت و حضوری 🕗 شنبه تا چهارشنبه، ۸ تا ۱۶ (با نیم ساعت شناوری) حقوق: توافقی مسئولیتها طراحی و توسعه سرویسهای Backend با #C و .NET پیادهسازی APIها و ارتباط بین سرویسها در معماری Microservice نوشتن کد تمیز، قابل نگهداری و تستپذیر همکاری با تیمهای محصول و تحلیل برای تحویل ویژگیهای جدید شرایط الزامی حداقل مدرک لیسانس (ترجیحاً رشته مرتبط) برای آقایان: داشتن کارت پایان خدمت یا [...] کارت پایان خدمت یا معافیت مهارتها حداقل ۳ سال سابقه کار در توسعه Backend با .NET تسلط بر OOP و Desi",
+      "apply_email": ""
+    },
+    {
+      "title": "#javadeveloper #springboot #microservices #fintech #بانکداری_دیجیتال #استخدام #backenddeveloper #springcloud | Mostafa Hosseinzadeh | 15 com",
+      "company": "Posted by Mostafa Hosseinzadeh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mostafa-hosseinzadeh_javadeveloper-springboot-microservices-activity-7516437560819335168-rv2K",
+      "published": "2026-10-15",
+      "snippet": "دقت در حل مسئله و اولویتدادن به صحت داده بر سرعت توسعه توانایی مستندسازی و ارائه گزارش شفاف از پیشرفت کار حداقل ۳ سال تجربه کاری در توسعه سرویسهای backend با Java مزایا: بیمه تکمیلی صبحانه ناهار پاداش های فصلی بسته ها و هدایای مناسبتی ساعت کاری از ۷ تا ۱۴.۳۰ با امکان شناوری نوع همکاری: تماموقت | نحوه همکاری: حضوری اگر در توسعه سرویسهای مالی باتجربه هستید و دوست دارید در کنار یک تیم فنی روی زیرساختهای حیاتی کار کنید، خوشحال میشویم رزومهتان را برای ما در دایرکت یا ایمیل زیر ارسال کنید. [...] فرصتهای شغلی | Java Developer (Mid / Senior) شرکت دادهورزی سداد به دنبال جذب چندین توسعهدهنده Java باتجرب",
+      "apply_email": ""
+    },
+    {
+      "title": "🚀 We’re Hiring at Tapsi Food! We have new openings on the Tapsi Food engineering team. 😊 We are currently transitioning from our rapid-growt",
+      "company": "Posted by Alireza Saffari",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/alireza-saffari_were-hiring-at-tapsi-food-we-have-new-activity-7515779427860070400-cqIB",
+      "published": "2026-10-13",
+      "snippet": "🔹 Senior Backend Developer – .NET If you are passionate about high-scale technical challenges and thriving in a dynamic startup environment—or if you know someone who is—I would love to receive your resume or have you share this post with them. 🙌 🔗 Apply here: 📌 Engineering Manager: 📌 Technical Team Lead: 📌 Senior Backend Developer: [...] 🚀 We’re Hiring at Tapsi Food! We have new openings on the Tapsi Food engineering team. 😊 We are currently transitioning from our rapid-growth startup phase and gearing up to scale into a much larger market. This exciting journey brings significant challenges",
+      "apply_email": ""
+    },
+    {
+      "title": "#رزومه #جویای_شغل #استخدام #ai #resume #opentowork",
+      "company": "Posted by Mrsaffar",
+      "location": "Tehran, Iran",
+      "url": "https://www.linkedin.com/posts/mrsaffar_%D8%B1%D8%B2%D9%88%D9%85%D9%87-%D8%AC%D9%88%DB%8C%D8%A7%DB%8C%D8%B4%D8%BA%D9%84-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-activity-7518146016672423936-1xv8",
+      "published": "2026-10-20",
+      "snippet": "... استخدام برنامه‌نویس» دقیق‌تر بگویی: «من ۳ سال تجربه Java و Spring دارم، دنبال موقعیت Backend در تهران یا Remote هستم و ترجیح می‌دهم در تیمی کار کنم که روی",
+      "apply_email": ""
+    },
+    {
+      "title": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن",
+      "company": "Posted by Mrsaffar",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mrsaffar_%D8%B1%D8%B2%D9%88%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-activity-7519962840225554432-JTlw",
+      "published": "2026-10-25",
+      "snippet": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن است بخش قابل توجهی از فرصت‌های مناسب خودش را اصلاً نبیند. چون یک شرکت",
+      "apply_email": ""
+    },
+    {
+      "title": "Polly .NET Library for Resilience and Fault Handling | Mohamed Ashraf posted on the topic",
+      "company": "Posted by Mohamed Ashraf",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohamed-ashraf-016202173_dotnet-backend-softwareengineering-activity-7516212708732751872-wteK",
       "published": "2026-10-14",
-      "snippet": "For the love of whoever, let's change the AI security slop meme. \"AI just writes insecure slop\" — I think it's nonsense. If you hired a developer, gave them zero context, no security requirements, no training, no examples and no feedback loop — you'd get garbage code too. In my experience, agents aren't magic. They make mistakes. They hallucinate. They miss edge cases. But they're improving exponentially faster than any human ever could. The singularity isn't some distant sci-fi concept. It's [...] agents across my workflow — architecture agents reviewing designs before I write code, security",
+      "snippet": "without introducing new problems. 💬 QUESTION FOR BACKEND DEVELOPERS: When integrating an unreliable third-party API in ASP.NET Core, how would you design your resilience strategy? Would you start with retries and circuit breakers, or would you handle the problem differently depending on the business operation? #dotnet #CSharp #BackendDevelopment #SystemDesign #Microservices #SoftwareEngineering #DistributedSystems #APIDesign [...] حماية مثل: - إعادة المحاولة التلقائية (Retry). - قطع الاتصال بالخدمات العطلانة لمنع انهيار النظام (Circuit Breaker). - حد أقصى لوقت الانتظار (Timeout). - إرجاع خطة أ",
+      "apply_email": ""
+    },
+    {
+      "title": "موقعیت شغلی ریموت دلاری برای Senior GOLANG Developer ریموت ⏰ ساعات کاری منعطف 🗣️ سطح طبان",
+      "company": "Posted by Abbas Hoseini",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/abbas-hoseini_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%B4%D8%BA%D9%84%DB%8C-%D8%B1%DB%8C%D9%85%D9%88%D8%AA-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-senior-golang-activity-7525519774391500800-MNvp",
+      "published": "2026-11-09",
+      "snippet": "موقعیت شغلی ریموت دلاری برای Senior GOLANG Developer ریموت ⏰ ساعات کاری منعطف 🗣️ سطح طبان انگلیسی: C1 level or higher حقوق : $4,000 What You'll",
+      "apply_email": ""
+    },
+    {
+      "title": "🚀 We’re Hiring | Full Stack Developer – React.js + Java | Immediate / Serving Candidates We are looking for experienced Full Stack Developer",
+      "company": "Posted by Astha Gupta",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/astha-gupta-74b10925a_were-hiring-full-stack-developer-activity-7523630119043858433-EOR6",
+      "published": "2026-11-04",
+      "snippet": "🚀 We’re Hiring | Full Stack Developer – React.js + Java | Immediate / Serving Candidates We are looking for experienced Full Stack Developers with a strong focus on Frontend Development (80%) and Backend Development (20%) \"React.js + Java\" (Java is mandatory in Backend) 📍 Location: Gurugram (Hybrid) 💼 Experience: 10 - 13 Years 👨💻 Role: Full Stack Developer – Frontend Heavy CTC: Up to ₹40 LPA 🔍 Key Skills Required: Strong hands-on experience with React.js, JavaScript, and TypeScript Expertise in [...] all the mentioned criteria will be shortlisted.\" 📩 Interested candidates can share their updat",
+      "apply_email": ""
+    },
+    {
+      "title": "🚀 HIRING | Senior .NET Full Stack Developer (.Net+ React+Azure) | Pune Join our Product Engineering Team and build scalable, high-impact sol",
+      "company": "Posted by Ekta Shriwas",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ekta-shriwas-b479a481_hiring-senior-net-full-stack-developer-activity-7524353393121763328-QVtx",
+      "published": "2026-11-06",
+      "snippet": "🚀 HIRING | Senior .NET Full Stack Developer (.Net+ React+Azure) | Pune Join our Product Engineering Team and build scalable, high-impact solutions with modern technologies. 👉 Apply Now: yekata.gshriwas@ust.coyekata.gshriwas@ust.com 🔹Experience- 6-9 Years 🔹 Location: Pune 🔹 Notice Period: Immediate Joiners Only 🛠️ Key Skills:• .NET 8• C#• React• Microservices• Azure• SQL Server •Kubernetes If you’re passionate about technology, engineering excellence, and building impactful products, we’d love [...] 30 8 Comments Like Comment Hari Kanje 16h Report this comment Interest and immediate joiner Like",
+      "apply_email": "yekata.gshriwas@ust.coyekata.gshriwas"
+    },
+    {
+      "title": "Nagarro is seeking candidates for Full Stack Engineer. Interested applicants should send their resumes to harshita.shukla@nagarro.com Key de",
+      "company": "Posted by Harshita Shukla",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/harshita-shukla-36b43239_nagarro-is-seeking-candidates-for-full-stack-activity-7519318352931119104-D_60",
+      "published": "2026-10-23",
+      "snippet": "Key details for the position include: - Notice Period: Immediate joiners-30 days only - Experience Required: 4-6 years - Location: Pune The interview process will consist of: - Aptitude Test - Technical Discussion - Project Interview Role Overview- We are seeking an experienced Full Stack Developer with strong expertise in Python, ReactJS, and FastAPI to develop scalable, secure, and high-performance web applications. Key Responsibilities- Develop responsive frontend applications using ReactJS, [...] Nagarro is seeking candidates for Full Stack Engineer. Interested applicants should send their",
+      "apply_email": ""
+    },
+    {
+      "title": "Boost Full Stack Resume with Tiny Code Build System | JobLanderz.VIP posted on the topic",
+      "company": "Posted by Joblanderz Vip",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/joblanderz-vip_fullstackdeveloper-softwareengineering-activity-7517468939623534592-V7VJ",
+      "published": "2026-10-18",
+      "snippet": "💻 Full Stack Developers: The solitary Modular Code Hierarchy modification that silently transforms results – Activate it ahead of searching! 💡 Monolithic repository organization obscures true software engineering design capability. 🚀 Modern technical hiring teams actively target developers with clean architectural vision. ⚡ Refactor your codebase repository presentation to trigger direct engineering lead interviews. Modern enterprise tech hiring managers evaluate candidate experience using [...] 💻 Full Stack Developers: This Part of Your Resume Featuring Silent Skill Alignment Determines Every",
+      "apply_email": ""
+    },
+    {
+      "title": "Radhika Pandya posted this",
+      "company": "Posted by Radhika Pandya",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/radhika-pandya-a445bb18a_were-hiring-senior-full-stack-net-developer-activity-7524404882804707328-Uib1",
+      "published": "2026-11-06",
+      "snippet": "We're Hiring: Senior Full Stack .NET Developer || #Remote || #FTE Are you an experienced Full Stack Developer looking for your next challenge?",
+      "apply_email": ""
+    },
+    {
+      "title": "Steve King - Senior Full Stack Developer",
+      "company": "Posted by Steve King",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/-steve-king_senior-full-stack-developer-activity-7523717833852334080-zMhx",
+      "published": "2026-11-04",
+      "snippet": "I'm hiring: Senior Backend Engineer, Core UI Platform Services (London) We're building something new at the heart of Markets Post-Trade, and I'm looking for",
+      "apply_email": ""
+    },
+    {
+      "title": "Suresh Kumar - Looking for Senior Full-Stack Developer",
+      "company": "Posted by Suresh Kumar",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/suresh-kumar-a4364720_looking-for-senior-full-stack-developer-activity-7524514857761718272-Dxts",
+      "published": "2026-11-06",
+      "snippet": "Looking for Senior Full-Stack Developer – Azure & AI- Full Time@ Stamford, CT. 15+ years of software development or data engineering experience.",
+      "apply_email": ""
+    },
+    {
+      "title": "Tarun Kumar - We are hiring for C2H Position",
+      "company": "Posted by Tarun Kumar",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/tarun-kumar-367966140_we-are-hiring-for-c2h-position-full-stack-activity-7524533622746374145-Qvmk",
+      "published": "2026-11-06",
+      "snippet": "We are hiring for C2H Position || Full Stack Java Developer - Philadelphia, PA (Hybrid) || Must be Local || USC and GC and GC-EAD Only Position - Full Stack",
+      "apply_email": ""
+    },
+    {
+      "title": "Launch Your Career with a Remote Full Stack Developer ...",
+      "company": "Posted by Business Web Solutions Usa",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/business-web-solutions-usa_launch-your-career-with-a-remote-full-stack-activity-7524336323403464704-GgMo",
+      "published": "2026-11-06",
+      "snippet": "Launch Your Career with a Remote Full Stack Developer Internship Business Web Solutions (BWS) is inviting applications for a remote Full Stack Web Developer",
+      "apply_email": ""
+    },
+    {
+      "title": "Pallavi Singh - Hello Everyone, Java Full Stack Developer",
+      "company": "Posted by Pallavi Singh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/pallavi-singh-993483189_hello-everyone-java-full-stack-developer-activity-7524115785640943616-jEUM",
+      "published": "2026-11-05",
+      "snippet": "Hello Everyone, Java Full Stack Developer – Angular & Azure Atlanta, GA (5 Day onsite, F2F interview mandatory) 12+ months contract Must Have: Java,",
+      "apply_email": ""
+    },
+    {
+      "title": "Edura Educational Platform Built with Flutter and Supabase | Ziyad Sobhy posted on the topic",
+      "company": "Posted by Zeyadsobhy",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/zeyadsobhy_flutter-supabase-dart-activity-7516226426380079105-iIu2",
+      "published": "2026-10-14",
+      "snippet": "• Storage: Supabase Storage • Local Data: Hive • AI: Gemini API (Gemini Flash Lite) • Networking: Dio + Dartz • Routing & Dependency Injection: GoRouter + GetIt • Testing: Unit & Widget Testing One of the things I’m most proud of is that I didn’t focus only on the frontend—I built and integrated the backend, database structure, APIs, authentication, storage, local data handling, notifications, and AI features to bring the whole product together. A huge thank you to my instructor Rana Mohy for [...] design for every pixel! Implemented `flutter\\_screenutil` to ensure a flawless experience across",
       "apply_email": ""
     },
     {
@@ -548,24 +584,6 @@
       "url": "https://www.linkedin.com/posts/marwan-mohamed-esam_csharp-dotnet-softwareengineering-activity-7519910898581520384-gnA4",
       "published": "2026-10-25",
       "snippet": "IAsyncEnumerable when dealing with asynchronous data sources and HTTP APIs. One important distinction: 📍yield return itself doesn’t automatically mean “HTTP streaming”. It gives you an iterator. Whether data is actually streamed over HTTP depends on the rest of the pipeline. So next time you’re dealing with a large collection, ask yourself: Do I really need all the data in memory at once? Or can I process it as a sequence? #dotnet #csharp #backend #programming #softwareengineering #performance [...] When to Use Async Await for Backend Performance Understanding async thread pool behavior in .NE",
-      "apply_email": ""
-    },
-    {
-      "title": "AI Speeds Development, but Is It Compromising Security? | Abed Mouhamed Yassin posted on the topic",
-      "company": "Posted by Abed Mouhamed Yassin",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/abed-mouhamed-yassin-81ab54212_artificialintelligence-cybersecurity-fullstackdevelopment-activity-7516408320048521216-IK4T",
-      "published": "2026-10-15",
-      "snippet": "and manage access. 💡One thought I took away from the workshop is: Building an intelligent system is not only about what it can do, but also about what it can safely be trusted with. This is especially relevant to me as I continue developing my skills in Full-Stack Development, Backend Engineering, and secure software design. Understanding how security and data protection fit into the development process is an important part of becoming a responsible engineer. A sincere thank you to Dr. Eng. [...] point: a working application is not necessarily a secure application. In my view, security should",
-      "apply_email": ""
-    },
-    {
-      "title": "Tech Advancements Boost Quality of Life | Mohammad Habashneh posted on the topic",
-      "company": "Posted by Mohammad Habashneh",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammad-habashneh_advancement-of-technology-and-access-to-technology-activity-7518605836429189120-Wdm8",
-      "published": "2026-10-21",
-      "snippet": "CQRS (Commands & Queries) - Avoid business logic in Controllers - Use async/await everywhere - Use DTOs and AutoMapper - Handle errors using Result pattern - Write clean, readable, maintainable code \\/ 🟦 Prompt لكل Layer (احترافي جدًا) 🟨 Domain Layer // Domain layer: // - Entities // - Value Objects // - Domain Events // - No dependencies on other layers 🟩 Application Layer // Application layer: // - Use Cases // - CQRS (Commands & Queries) // - Interfaces only (no EF Core) // - Validation [...] ✅ Use only modern, stable libraries. Avoid deprecated or insecure packages. ✅ Add inline comments a",
       "apply_email": ""
     },
     {
@@ -1061,24 +1079,6 @@
       "url": "https://www.linkedin.com/posts/yousef-elkhawanki-b51456219_yousef-elkhawanki-overview-activity-7512079337345560576-qCpr",
       "published": "2026-10-03",
       "snippet": "Odoo 19 labels with gLabels: design on your desktop, print from Odoo We have released three connected pieces, all open source: 🐍 python-glabels: Python bindings for gLabels-qt (pip install python-glabels). Self-contained: Qt, label templates and fonts are inside, so a server can render labels without gLabels installed. 🖥 gLabels for Odoo: the desktop label designer, connected to Odoo with an API key. • Pick a model and its fields, including related records (product\\_tmpl\\_id.name, variant [...] + No alternative text description for this image 65 8 Comments Like Comment To view or add a comment",
-      "apply_email": ""
-    },
-    {
-      "title": "#frontend #webdevelopment #css #reactjs #tailwindcss #nextjs #fullstack #typescript | Ahmad Elshowair",
-      "company": "Posted by Ahmad Elshowair",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ahmad-elshowair_frontend-webdevelopment-css-activity-7512142115888431104-b8Rc",
-      "published": "2026-10-03",
-      "snippet": "language, because longer text can break layouts It looks like a small feature, but it touches the frontend, the backend, and the database together. How do you handle multiple languages in your React projects? #React #NodeJS #WebDevelopment #SoftwareDeveloper #JavaScript [...] #FullStackDeveloper #WebDevelopment [...] Shipping a bilingual (English/Arabic) Progressive Web App that feels instant—even on flaky mobile connections or completely offline—taught me a lot about modern React and Next.js architecture. When I built Kun Min Aldhaakirin (كن من الذاكرين) using Next.js 15, React 19, TypeScript",
-      "apply_email": ""
-    },
-    {
-      "title": "#cplusplus #cpp #datastructures #queue #dynamicarray #oop #programming #algorithms #problemsolving #datastructuresandalgorithms | Mohammad H",
-      "company": "Posted by Mohammad Hamdan",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammad-hamdan-0b7b6b30a_cplusplus-cpp-datastructures-activity-7512009844112003073-mYNN",
-      "published": "2026-10-03",
-      "snippet": "input, colored console output. Array Utilities: read, print, shuffle, copy, sum, average, odd/even/positive/negative counts, palindrome check, and more. 💡 Recommended Reuse Approach – Central Library Folder: Create a dedicated folder on your system, for example: C:\\MyCppLibraries\\ Place all header files in this folder: MyMathUtilityLib.h MyRandomUtilityLib.h MyInputOutputLib.h MyArrayUtilityLib.h For any new project, add the folder to your include path in Visual Studio: Project Properties → [...] Properties → C/C++ → General → Additional Include Directories → C:\\MyCppLibraries\\ In your project",
       "apply_email": ""
     }
   ]
