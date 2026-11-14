@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:31:30+00:00",
+  "updated_at": "2026-11-14T06:02:33+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -71,6 +71,15 @@
       "url": "https://www.linkedin.com/posts/bijankhazaei_sheypoor-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-hiring-activity-7522934118125555712-r7bu",
       "published": "2026-11-02",
       "snippet": "برای تیم فنی شیپور دنبال همکار میگردیم. پوزیشنهایی که الان با اولویت باز هستن: 🔵 Frontend Developer 🔵 Backend Developer اگه برای خودتون جذابه یا کسی رو میشناسید که بتونه کمک کنه، ممنون میشم معرفی کنید. شیپور رو میشناسید — پلتفرمی که هر روز میلیونها نفر باهاش چیزی میفروشن، میخرن، یه تصمیم مالی میگیرن. تیم فنی ما خیلی بزرگ نیست. یعنی کارتون مستقیم روی محصول تأثیر میذاره — نه گم میشه لای صد تا ticket. دنبال کسی میگردیم که: -به کیفیت کارش اهمیت بده - مسئلهمحور باشه، نه فقط task-محور - راحت نظر بده [...] کارفرمای گرامی میتونید در این پلتفرم فرد مورد نیاز رو با هر مهارتی پیدا کنید و رزومه ی افراد و",
+      "apply_email": ""
+    },
+    {
+      "title": "From .NET to AI Engineering with C# and AI | Yomna Magdy posted on the topic",
+      "company": "Posted by Yomna Magdy",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/yomna-magdy-63b62274_aspnet-core-an-open-source-web-development-activity-7519128792943202304-tpUM",
+      "published": "2026-10-22",
+      "snippet": "💻 I Don’t Limit Myself to One Programming Language. I Focus on Building Solutions. 🚀 As a developer, I believe that the right technology depends on the problem we’re trying to solve. My focus goes beyond frontend development. I also work on backend systems, databases, APIs, integrations, and deployment to build complete web applications. 🖥️ Frontend Development HTML, CSS, JavaScript, React, Next.js, Vue.js, and more. ⚙️ Backend Development PHP, Laravel, Node.js, Python, Java, C#, and backend [...] Ever wondered what actually goes into building an app? You see a website. You click a button. Dat",
       "apply_email": ""
     },
     {
@@ -146,33 +155,6 @@
       "apply_email": ""
     },
     {
-      "title": "From .NET to AI Engineering with C# and AI | Yomna Magdy posted on the topic",
-      "company": "Posted by Yomna Magdy",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/yomna-magdy-63b62274_aspnet-core-an-open-source-web-development-activity-7519128792943202304-tpUM",
-      "published": "2026-10-22",
-      "snippet": "Want to become a job-ready .NET + Angular Developer with AI exposure before December 2026? You don’t need to learn everything at once. You need the right roadmap, consistent practice, and real-world projects. Here are the 5 steps to focus on 👇 1️⃣ Master C# & .NET → C# fundamentals, OOP, SOLID, LINQ, Collections, Async/Await, DI, Design Patterns & .NET 8+ 2️⃣ Become a Strong Backend Developer → ASP.NET Core Web API, REST APIs, JWT, EF Core, SQL Server, Clean Architecture, CQRS, Middleware & [...] 💻 I Don’t Limit Myself to One Programming Language. I Focus on Building Solutions. 🚀 As a develope",
-      "apply_email": ""
-    },
-    {
-      "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
-      "company": "Posted by Doaa Mahmoud Hashish",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
-      "published": "2026-10-23",
-      "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] الصحيح مع الـ Concurrency والـ Failures والحفاظ على الـ Data Consistency. ━━━━━━━━━━━━━━━━━━━━ 💬 Let's discuss | خلينا نتناقش When handling con",
-      "apply_email": ""
-    },
-    {
-      "title": "Polly .NET Library for Resilience and Fault Handling | Mohamed Ashraf posted on the topic",
-      "company": "Posted by Mohamed Ashraf",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohamed-ashraf-016202173_dotnet-backend-softwareengineering-activity-7516212708732751872-wteK",
-      "published": "2026-10-14",
-      "snippet": "without introducing new problems. 💬 QUESTION FOR BACKEND DEVELOPERS: When integrating an unreliable third-party API in ASP.NET Core, how would you design your resilience strategy? Would you start with retries and circuit breakers, or would you handle the problem differently depending on the business operation? #dotnet #CSharp #BackendDevelopment #SystemDesign #Microservices #SoftwareEngineering #DistributedSystems #APIDesign [...] availability and reliability. - Prevents cascading failures across interconnected services. - Keeps your codebase clean, structured, and easy to maintain. Are you us",
-      "apply_email": ""
-    },
-    {
       "title": "#keyformance #teamkeyformance #backenddevelopment #problemsolving #teamgrowth | Keyformance",
       "company": "Posted by Keyformance",
       "location": "Iran",
@@ -187,7 +169,16 @@
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/marwan-mohamed-esam_csharp-dotnet-softwareengineering-activity-7519910898581520384-gnA4",
       "published": "2026-10-25",
-      "snippet": "IAsyncEnumerable when dealing with asynchronous data sources and HTTP APIs. One important distinction: 📍yield return itself doesn’t automatically mean “HTTP streaming”. It gives you an iterator. Whether data is actually streamed over HTTP depends on the rest of the pipeline. So next time you’re dealing with a large collection, ask yourself: Do I really need all the data in memory at once? Or can I process it as a sequence? #dotnet #csharp #backend #programming #softwareengineering #performance [...] When to Use Async Await for Backend Performance Understanding async thread pool behavior in .NE",
+      "snippet": "starting point with the things I commonly need when building ASP.NET Core APIs — without adding unnecessary complexity. I've also documented the project in detail, including the why and how behind the different parts of the architecture and how to extend the template when building a new feature. If you're interested in checking it out, the repository is here: 🔗 #DotNet #ASPNetCore #CSharp #SoftwareEngineering #OpenSource #BackendDevelopment #CleanArchitecture #WebAPI #GitHub [...] definitions for filtering, ordering, includes, and pagination. - API Versioning - Serilog & Seq: for structured lo",
+      "apply_email": ""
+    },
+    {
+      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
+      "company": "Posted by Islam Abdalla",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
+      "published": "2026-10-18",
+      "snippet": "The strongest line in this policy is not about AI at all - it is \"Define the design and implementation approach before asking AI to generate code.\" I build with Django/DRF daily and use AI tooling, and that is exactly the discipline that keeps it useful: the design comes first, the model fills in the plan, and the review loop stays human. AI in small, reviewable steps is the same shape as how I handled a LangGraph shopping assistant - the agent proposes, deterministic backend code validates and [...] 𝙩𝙤 𝙥𝙧𝙤𝙘𝙚𝙨𝙨 𝙘𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙧𝙚𝙦𝙪𝙚𝙨𝙩𝙨.\" The AI generates the API, validation logic, database integratio",
       "apply_email": ""
     },
     {
@@ -281,30 +272,12 @@
       "apply_email": ""
     },
     {
-      "title": "TeacherOnline: One App for Six Roles with Kotlin Multiplatform | Eslam Ghazy posted on the topic",
-      "company": "Posted by Eslam Ghazy",
+      "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
+      "company": "Posted by Doaa Mahmoud Hashish",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/eslam-ghazy-7912bb183_kotlinmultiplatform-composemultiplatform-activity-7517359659632971776-UBRF",
-      "published": "2026-10-17",
-      "snippet": "Some of our most recent work lives on CodeCanyon. App templates built with Kotlin Multiplatform and React Native. A Material Design template. A WebView template. Templates are a different kind of challenge. Other developers will read your code, extend it, and build on it. That means clean structure, clear naming, and documentation that actually helps. Writing code for other developers is one of the best tests of engineering quality. Do you prefer starting from a template or building from [...] or building from scratch? #KotlinMultiplatform #ReactNative #HeroApps [...] Design & Jetpack Compose",
-      "apply_email": ""
-    },
-    {
-      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
-      "company": "Posted by Islam Abdalla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
-      "published": "2026-10-18",
-      "snippet": "writing everything manually, the developer naturally builds up context as they work through the problem. With AI, a substantial amount of code can appear very quickly. The productivity gain can be enormous, but our understanding needs to keep pace with it. I'm increasingly interested in treating AI as part of the development workflow rather than simply as a code generator. Let it investigate, suggest, challenge, implement and test, but keep the human developer responsible for understanding and [...] AI-assisted development is becoming remarkably capable. Give a coding agent enough context and",
-      "apply_email": ""
-    },
-    {
-      "title": "#استخدام #pythondeveloper #python #backenddevelopment #fastapi #django #restapi #microservices #softwareengineering #fintech #داده_ورزی_سداد",
-      "company": "Posted by Vahidsqp",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/vahidsqp_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-pythondeveloper-python-activity-7516071054596030464-_C8S",
-      "published": "2026-10-14",
-      "snippet": "🚀 فرصت همکاری برای Python Developer در شرکت دادهورزی سداد شرکت دادهورزی سداد برای توسعه تیم زیرساخت SBU کارت و پرداخت به دنبال جذب یک Python Developer با تجربه در توسعه سرویسهای Backend، طراحی API و پیادهسازی راهکارهای نرمافزاری مقیاسپذیر است. اگر به Software Development، Backend Engineering، طراحی Microservices و توسعه سرویسهای امن و قابل اتکا علاقهمند هستید، خوشحال میشویم با شما آشنا شویم. 🔹 مهارتهای موردنیاز حداقل ۳ سال تجربه کار در حوزه توسعه نرمافزار با Python، همراه با تجربه و تسلط عملی [...] تجربه و تسلط عملی در موارد زیر: • تسلط به Python و مفاهیم برنامهنویسی شیگرا (OOP) • تجربه توسعه",
+      "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
+      "published": "2026-10-23",
+      "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] + No alternative text description for this image 37 3 Comments Like Comment To view or add a comment, sign in 2,224 followers 51 Posts 1 Articl",
       "apply_email": ""
     },
     {
@@ -398,12 +371,66 @@
       "apply_email": ""
     },
     {
+      "title": "موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای",
+      "company": "Posted by Winatalent Fa",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/winatalent-fa_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%A8%DB%8C%D9%86%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A8%D8%A7-%D8%AF%D8%B1%D8%A2%D9%85%D8%AF-%D8%A7%D8%B1%D8%B2%DB%8C-%D8%AF%D8%B1-winatalent-activity-7522257119228706816-YVXS",
+      "published": "2026-10-31",
+      "snippet": "# WINaTALENT\\_fa’s Post View organization page for WINaTALENT_fa 15,872 followers Report this post موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای بر روی آنها وارد لینک زیر شوید و یا رزومه خود را به آدرس (info@winatalent.com) ایمیل فرمایید: پس از اپلای شما برای هر یک از پوزیشنهای WINaTALENT، رزومه شما پس از بررسی اولیه توسط تیم ما، مستقیما برای شرکت استخدام کننده ارسال میشود. [...] 🌐 Senior Product Ui/UX Designer & Consultant. Like Reply 1 Reaction Nastaran Mohammadi 17h Report this comment #up Like Re",
+      "apply_email": "info@winatalent.com"
+    },
+    {
+      "title": "#استخدام #طراحی_رابط_کاربری #تجربه_کاربری #uiux #رباتیک #accesscontrol #پاره_وقت | Alireza Jafari | 14 comments",
+      "company": "Posted by Alireza Jafari Ai",
+      "location": "Tehran, Iran",
+      "url": "https://www.linkedin.com/posts/alireza-jafari-ai_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D8%B1%D8%A7%D8%A8%D8%B7%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-activity-7524725884277235712-zw7O",
+      "published": "2026-11-07",
+      "snippet": "پنلها و داشبوردهای مدیریتی • همکاری با تیم فنی برای پیادهسازی دقیق طرحها توانمندیهای مورد انتظار: • تسلط به Figma و اصول طراحی UI/UX • توانایی توضیح و دفاع از تصمیمهای طراحی • داشتن نمونهکار مرتبط؛ تجربه طراحی محصولات صنعتی یا سازمانی مزیت محسوب میشود 🤝 نوع همکاری: مشاورهای یا پارهوقت 📍 محدوده کار: پونک، تهران 📩 لطفاً رزومه و لینک نمونهکارهای خود را از طریق دایرکت لینکدین یا ایمیل cto@sepidsystem.com ارسال کنید. اگر فرد مناسبی میشناسید، ممنون میشویم این فرصت را با او به اشتراک بگذارید. #استخدام [...] دعوت به همکاری طراح UI/UX | مشاورهای یا پارهوقت در سپید سیستم به دنبال همکاری با یک طراح UI/UX",
+      "apply_email": "cto@sepidsystem.com"
+    },
+    {
       "title": "Improve Error Messages with Nielsen's 9th Usability Heuristic | Barbara karimi posted on the topic",
       "company": "Posted by Barbara Karimi7713",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7518999233102917632-MZzt",
       "published": "2026-10-22",
       "snippet": "AI can generate wireframes, flows, even full UI screens now. But somehow… it still creates buttons like: “Submit Final Continue Confirm Next” 🙂 I’ve been testing a lot of AI tools lately, and noticed that AI is great at generating interfaces. But.. designers are still needed to make them usable and add emphathy. Because good UX isn’t just: → prompts → components → pretty screens It’s understanding why users hesitate, get confused, or abandon a flow. [...] To view or add a comment, sign in Showing all the information is only half the job. Users still need to understand what matters—and where to",
+      "apply_email": ""
+    },
+    {
+      "title": "Simplify Product Design with Grouped Information | Barbara karimi posted on the topic",
+      "company": "Posted by Barbara Karimi7713",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7517953608588369920-AsQ3",
+      "published": "2026-10-19",
+      "snippet": "Like Comment To view or add a comment, sign in Shadi Ramezani + Report this post The biggest shift in UI/UX isn’t AI replacing designers. It’s AI revealing who was actually designing—and who was just operating tools. For years, tool proficiency was mistaken for design skill. Now AI can generate interfaces in seconds. Design is no longer about making screens. It’s about making decisions. + No alternative text description for this image 7 2 Comments Like Comment [...] A screen isn’t ready for handoff until its states are designed.In this nutrition app prototype, I explored empty, filled, error,",
+      "apply_email": ""
+    },
+    {
+      "title": "Polly .NET Library for Resilience and Fault Handling | Mohamed Ashraf posted on the topic",
+      "company": "Posted by Mohamed Ashraf",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohamed-ashraf-016202173_dotnet-backend-softwareengineering-activity-7516212708732751872-wteK",
+      "published": "2026-10-14",
+      "snippet": "without introducing new problems. 💬 QUESTION FOR BACKEND DEVELOPERS: When integrating an unreliable third-party API in ASP.NET Core, how would you design your resilience strategy? Would you start with retries and circuit breakers, or would you handle the problem differently depending on the business operation? #dotnet #CSharp #BackendDevelopment #SystemDesign #Microservices #SoftwareEngineering #DistributedSystems #APIDesign [...] availability and reliability. - Prevents cascading failures across interconnected services. - Keeps your codebase clean, structured, and easy to maintain. Are you us",
+      "apply_email": ""
+    },
+    {
+      "title": "TeacherOnline: One App for Six Roles with Kotlin Multiplatform | Eslam Ghazy posted on the topic",
+      "company": "Posted by Eslam Ghazy",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/eslam-ghazy-7912bb183_kotlinmultiplatform-composemultiplatform-activity-7517359659632971776-UBRF",
+      "published": "2026-10-17",
+      "snippet": "Some of our most recent work lives on CodeCanyon. App templates built with Kotlin Multiplatform and React Native. A Material Design template. A WebView template. Templates are a different kind of challenge. Other developers will read your code, extend it, and build on it. That means clean structure, clear naming, and documentation that actually helps. Writing code for other developers is one of the best tests of engineering quality. Do you prefer starting from a template or building from [...] or building from scratch? #KotlinMultiplatform #ReactNative #HeroApps [...] Design & Jetpack Compose",
+      "apply_email": ""
+    },
+    {
+      "title": "#استخدام #pythondeveloper #python #backenddevelopment #fastapi #django #restapi #microservices #softwareengineering #fintech #داده_ورزی_سداد",
+      "company": "Posted by Vahidsqp",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/vahidsqp_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-pythondeveloper-python-activity-7516071054596030464-_C8S",
+      "published": "2026-10-14",
+      "snippet": "🚀 فرصت همکاری برای Python Developer در شرکت دادهورزی سداد شرکت دادهورزی سداد برای توسعه تیم زیرساخت SBU کارت و پرداخت به دنبال جذب یک Python Developer با تجربه در توسعه سرویسهای Backend، طراحی API و پیادهسازی راهکارهای نرمافزاری مقیاسپذیر است. اگر به Software Development، Backend Engineering، طراحی Microservices و توسعه سرویسهای امن و قابل اتکا علاقهمند هستید، خوشحال میشویم با شما آشنا شویم. 🔹 مهارتهای موردنیاز حداقل ۳ سال تجربه کار در حوزه توسعه نرمافزار با Python، همراه با تجربه و تسلط عملی [...] تجربه و تسلط عملی در موارد زیر: • تسلط به Python و مفاهیم برنامهنویسی شیگرا (OOP) • تجربه توسعه",
       "apply_email": ""
     },
     {
@@ -443,15 +470,6 @@
       "apply_email": ""
     },
     {
-      "title": "موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای",
-      "company": "Posted by Winatalent Fa",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/winatalent-fa_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%A8%DB%8C%D9%86%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A8%D8%A7-%D8%AF%D8%B1%D8%A2%D9%85%D8%AF-%D8%A7%D8%B1%D8%B2%DB%8C-%D8%AF%D8%B1-winatalent-activity-7522257119228706816-YVXS",
-      "published": "2026-10-31",
-      "snippet": "# WINaTALENT\\_fa’s Post View organization page for WINaTALENT_fa 15,872 followers Report this post موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای بر روی آنها وارد لینک زیر شوید و یا رزومه خود را به آدرس (info@winatalent.com) ایمیل فرمایید: پس از اپلای شما برای هر یک از پوزیشنهای WINaTALENT، رزومه شما پس از بررسی اولیه توسط تیم ما، مستقیما برای شرکت استخدام کننده ارسال میشود. [...] 🌐 Senior Product Ui/UX Designer & Consultant. Like Reply 1 Reaction Nastaran Mohammadi 17h Report this comment #up Like Re",
-      "apply_email": "info@winatalent.com"
-    },
-    {
       "title": "استخدام در حوزه فناوری مالی | همکاری کاملاً دورکاری برای همکاری با یک مجموعه فعال در حوزه Financial Technology (FinTech)، بهدنبال جذب متخصصا",
       "company": "Posted by Zeinab Khakpour",
       "location": "Iran",
@@ -459,15 +477,6 @@
       "published": "2026-11-07",
       "snippet": "استخدام در حوزه فناوری مالی | همکاری کاملاً دورکاری برای همکاری با یک مجموعه فعال در حوزه Financial Technology (FinTech)، بهدنبال جذب متخصصان باتجربه در موقعیتهای زیر هستیم: موقعیتهای شغلی: Senior Data Engineer Senior Backend Engineer Backend Engineer – AI Assistant Senior Product UI/UX Designer Scrum Master / Technical Delivery Lead Frontend Engineer CTO شرایط همکاری: نوع همکاری: تماموقت، دورکاری (Remote) حوزه فعالیت: فناوری و محصولات مالی نوع قرارداد: رسمی و قراردادی پرداخت حقوق: به ریال [...] Career Productivity Finance Soft Skills & Emotional Intelligence Project Management Education Techn",
       "apply_email": ""
-    },
-    {
-      "title": "#استخدام #طراحی_رابط_کاربری #تجربه_کاربری #uiux #رباتیک #accesscontrol #پاره_وقت | Alireza Jafari | 14 comments",
-      "company": "Posted by Alireza Jafari Ai",
-      "location": "Tehran, Iran",
-      "url": "https://www.linkedin.com/posts/alireza-jafari-ai_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D8%B1%D8%A7%D8%A8%D8%B7%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-activity-7524725884277235712-zw7O",
-      "published": "2026-11-07",
-      "snippet": "پنلها و داشبوردهای مدیریتی • همکاری با تیم فنی برای پیادهسازی دقیق طرحها توانمندیهای مورد انتظار: • تسلط به Figma و اصول طراحی UI/UX • توانایی توضیح و دفاع از تصمیمهای طراحی • داشتن نمونهکار مرتبط؛ تجربه طراحی محصولات صنعتی یا سازمانی مزیت محسوب میشود 🤝 نوع همکاری: مشاورهای یا پارهوقت 📍 محدوده کار: پونک، تهران 📩 لطفاً رزومه و لینک نمونهکارهای خود را از طریق دایرکت لینکدین یا ایمیل cto@sepidsystem.com ارسال کنید. اگر فرد مناسبی میشناسید، ممنون میشویم این فرصت را با او به اشتراک بگذارید. #استخدام [...] دعوت به همکاری طراح UI/UX | مشاورهای یا پارهوقت در سپید سیستم به دنبال همکاری با یک طراح UI/UX",
-      "apply_email": "cto@sepidsystem.com"
     },
     {
       "title": "Commure and Mediclinic Middle East AI Partnership | Tanay Tandon posted on the topic",
@@ -647,15 +656,6 @@
       "url": "https://www.linkedin.com/posts/pallavi-singh-993483189_hello-everyone-java-full-stack-developer-activity-7524115785640943616-jEUM",
       "published": "2026-11-05",
       "snippet": "Hello Everyone, Java Full Stack Developer – Angular & Azure Atlanta, GA (5 Day onsite, F2F interview mandatory) 12+ months contract Must Have: Java,",
-      "apply_email": ""
-    },
-    {
-      "title": "Simplify Product Design with Grouped Information | Barbara karimi posted on the topic",
-      "company": "Posted by Barbara Karimi7713",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7517953608588369920-AsQ3",
-      "published": "2026-10-19",
-      "snippet": "Like Comment To view or add a comment, sign in Shadi Ramezani + Report this post The biggest shift in UI/UX isn’t AI replacing designers. It’s AI revealing who was actually designing—and who was just operating tools. For years, tool proficiency was mistaken for design skill. Now AI can generate interfaces in seconds. Design is no longer about making screens. It’s about making decisions. + No alternative text description for this image 7 2 Comments Like Comment [...] A screen isn’t ready for handoff until its states are designed.In this nutrition app prototype, I explored empty, filled, error,",
       "apply_email": ""
     },
     {
