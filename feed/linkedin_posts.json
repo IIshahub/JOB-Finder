@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T06:08:14+00:00",
+  "updated_at": "2026-11-15T18:44:51+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -128,6 +128,15 @@
       "apply_email": ""
     },
     {
+      "title": "#hiring #backenddeveloper #dotnet #softwaredevelopment | Keysun Data Processing",
+      "company": "Posted by Keysun Data Processing",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/keysun-data-processing_hiring-backenddeveloper-dotnet-activity-7527353481142112256-1UDb",
+      "published": "2026-11-14",
+      "snippet": "استخدام Senior Backend Developer شرکت دادهپردازی کیسان نقش Senior Backend Developer فراتر از توسعه کد است؛ این موقعیت مسئولیت توسعه و بهبود سرویسهای سمت سرور، ارتقای کیفیت فنی و هدایت کارشناسان بکاند را بر عهده دارد. ✅ مسئولیتهای اصلی - طراحی و توسعه سرویسهای Backend با C# / .NET 8+ و ASP.NET Core -طراحی و پیادهسازی معماری میکروسرویس -طراحی مدل داده و بهینهسازی کوئریها روی SQL Server و EF Core -کار با RabbitMQ، Redis ، ElasticSearch و Keycloak در سناریوهای واقعی ترافیک بالا -پیادهسازی [...] حرفهای در توسعه Backend با .NET - حداقل ۲ سال تجربه در نقش Senior یا Tech Lead - سابقه واقعی در تحویل پر",
+      "apply_email": ""
+    },
+    {
       "title": "#hiring #dotnet #csharp #backenddeveloper #microservices #banking #fintech #softwarearchitecture #owasp #asvs #devsecops #applicationsecurit",
       "company": "Posted by Aren Najafi",
       "location": "Iran",
@@ -143,33 +152,6 @@
       "url": "https://www.linkedin.com/posts/mohadese-molaei-42ab31277_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-laravel-php-activity-7517879870476079105--K0a",
       "published": "2026-10-19",
       "snippet": "قراره یک همتیمی جدید به تیم فنی ما اضافه بشه 👋 ما در مجموعه سایت ساز سیفایو برای موقعیت Senior Backend Developer به کسی نیاز داریم که تجربه عملی خوبی در توسعه بکاند داشته باشه، به PHP و Laravel مسلط باشه و از تحلیل چالشهای فنی و طراحی اصولی سیستمها لذت ببره. مهارتهایی که برامون مهمه: 🔹 تسلط به PHP و Laravel 🔹 تسلط به تحلیل فنی و System Design 🔹 حداقل ۵ سال سابقه مرتبط 🔹 امکان همکاری بهصورت تماموقت و حضوری در مشهد. 📍 آشنایی با React یا معماری WordPress و توسعه پلاگین هم یک امتیاز مثبت محسوب [...] امتیاز مثبت محسوب میشه. اگر فکر میکنید این موقعیت برای شما مناسبه، رزومه یا لینک پروفایلتون رو از ط",
-      "apply_email": ""
-    },
-    {
-      "title": "استخدام Senior Backend Developer شرکت داده‌پردازی کیسان نقش Senior Backend Developer",
-      "company": "Posted by Keysun Data Processing",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/keysun-data-processing_hiring-backenddeveloper-dotnet-activity-7527353481142112256-1UDb",
-      "published": "2026-11-14",
-      "snippet": "استخدام Senior Backend Developer شرکت داده‌پردازی کیسان نقش Senior Backend Developer فراتر از توسعه کد است؛ این موقعیت مسئولیت توسعه و بهبود سرویس‌های سمت",
-      "apply_email": ""
-    },
-    {
-      "title": "#javadeveloper #springboot #microservices #fintech #بانکداری_دیجیتال #استخدام #backenddeveloper #springcloud | Mostafa Hosseinzadeh | 15 com",
-      "company": "Posted by Mostafa Hosseinzadeh",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mostafa-hosseinzadeh_javadeveloper-springboot-microservices-activity-7516437560819335168-rv2K",
-      "published": "2026-10-15",
-      "snippet": "دقت در حل مسئله و اولویتدادن به صحت داده بر سرعت توسعه توانایی مستندسازی و ارائه گزارش شفاف از پیشرفت کار حداقل ۳ سال تجربه کاری در توسعه سرویسهای backend با Java مزایا: بیمه تکمیلی صبحانه ناهار پاداش های فصلی بسته ها و هدایای مناسبتی ساعت کاری از ۷ تا ۱۴.۳۰ با امکان شناوری نوع همکاری: تماموقت | نحوه همکاری: حضوری اگر در توسعه سرویسهای مالی باتجربه هستید و دوست دارید در کنار یک تیم فنی روی زیرساختهای حیاتی کار کنید، خوشحال میشویم رزومهتان را برای ما در دایرکت یا ایمیل زیر ارسال کنید. [...] فرصتهای شغلی | Java Developer (Mid / Senior) شرکت دادهورزی سداد به دنبال جذب چندین توسعهدهنده Java باتجرب",
-      "apply_email": ""
-    },
-    {
-      "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
-      "company": "Posted by Doaa Mahmoud Hashish",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
-      "published": "2026-10-23",
-      "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] الصحيح مع الـ Concurrency والـ Failures والحفاظ على الـ Data Consistency. ━━━━━━━━━━━━━━━━━━━━ 💬 Let's discuss | خلينا نتناقش When handling con",
       "apply_email": ""
     },
     {
@@ -191,12 +173,30 @@
       "apply_email": ""
     },
     {
+      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
+      "company": "Posted by Islam Abdalla",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
+      "published": "2026-10-18",
+      "snippet": "The strongest line in this policy is not about AI at all - it is \"Define the design and implementation approach before asking AI to generate code.\" I build with Django/DRF daily and use AI tooling, and that is exactly the discipline that keeps it useful: the design comes first, the model fills in the plan, and the review loop stays human. AI in small, reviewable steps is the same shape as how I handled a LangGraph shopping assistant - the agent proposes, deterministic backend code validates and [...] 𝙩𝙤 𝙥𝙧𝙤𝙘𝙚𝙨𝙨 𝙘𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙧𝙚𝙦𝙪𝙚𝙨𝙩𝙨.\" The AI generates the API, validation logic, database integratio",
+      "apply_email": ""
+    },
+    {
       "title": "Software engineering used to be about translating business requirements into code. Today, it feels close to being a solved problem: we can d",
       "company": "Posted by Ammon Schiffer",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/ammon-schiffer-87b7b11b7_software-engineering-used-to-be-about-translating-activity-7517002541956698112-Ko7W",
       "published": "2026-10-16",
       "snippet": "I ran an experiment last week: I gave an AI agent commit access to my open source trading infrastructure. Not a toy project — a real production-grade stack with: • 7 Python repositories • millions of downloads • live trading systems After one week: • 500+ files changed • 100+ PRs created • entire stack updated and released • 2 race conditions discovered and fixed • all open bug reports resolved Cost: ~€100 What surprised me most wasn’t speed — it was consistency. The agent didn’t get tired, [...] is powerful. The Unicorn Binance Suite is a good example. I’ve been maintaining it as an open-sour",
+      "apply_email": ""
+    },
+    {
+      "title": "استخدام توسعهدهنده Full-Stack | Amir mohammad Fatahi",
+      "company": "Posted by Amir Mohammad Fatahi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/amir-mohammad-fatahi-93a879220_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%AA%D9%88%D8%B3%D8%B9%D9%87%D8%AF%D9%87%D9%86%D8%AF%D9%87-full-stack-activity-7527641503850995713-KVZ9",
+      "published": "2026-11-15",
+      "snippet": "حل مسائل فنی و توسعه مستقل قابلیتهای جدید است. مهارتهای مورد نیاز: • تسلط به JavaScript / TypeScript • تجربه کار با React و Next.js (App Router) • آشنایی با توسعه Backend و REST API • تجربه کار با PostgreSQL و ORMهایی مانند Prisma • تسلط به HTML، CSS و طراحی Responsive • آشنایی باGit، Debugging و کار با پروژههای موجود • آشنایی عملی با Linux و استقرار برنامههای Node.js آشنایی باTailwind CSS ، سیستمهای احراز هویت و مدیریت دسترسی، تستنویسی و استفاده از ابزارهای AI در فرایند توسعه نرمافزار، امتیاز [...] نرمافزار، امتیاز محسوب میشود. شرح مسئولیتها: • توسعه و بهبود قابلیتهای Frontend و Backend • برر",
       "apply_email": ""
     },
     {
@@ -272,12 +272,12 @@
       "apply_email": ""
     },
     {
-      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
-      "company": "Posted by Islam Abdalla",
+      "title": "TeacherOnline: One App for Six Roles with Kotlin Multiplatform | Eslam Ghazy posted on the topic",
+      "company": "Posted by Eslam Ghazy",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
-      "published": "2026-10-18",
-      "snippet": "writing everything manually, the developer naturally builds up context as they work through the problem. With AI, a substantial amount of code can appear very quickly. The productivity gain can be enormous, but our understanding needs to keep pace with it. I'm increasingly interested in treating AI as part of the development workflow rather than simply as a code generator. Let it investigate, suggest, challenge, implement and test, but keep the human developer responsible for understanding and [...] AI-assisted development is becoming remarkably capable. Give a coding agent enough context and",
+      "url": "https://www.linkedin.com/posts/eslam-ghazy-7912bb183_kotlinmultiplatform-composemultiplatform-activity-7517359659632971776-UBRF",
+      "published": "2026-10-17",
+      "snippet": "Some of our most recent work lives on CodeCanyon. App templates built with Kotlin Multiplatform and React Native. A Material Design template. A WebView template. Templates are a different kind of challenge. Other developers will read your code, extend it, and build on it. That means clean structure, clear naming, and documentation that actually helps. Writing code for other developers is one of the best tests of engineering quality. Do you prefer starting from a template or building from [...] or building from scratch? #KotlinMultiplatform #ReactNative #HeroApps [...] Design & Jetpack Compose",
       "apply_email": ""
     },
     {
@@ -290,6 +290,15 @@
       "apply_email": ""
     },
     {
+      "title": "CPython Developer in Residence - Python Software Foundation - Career Page | Python Software Foundation",
+      "company": "Posted by Thepsf",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/thepsf_cpython-developer-in-residence-python-software-activity-7518708050833297408-pqup",
+      "published": "2026-10-22",
+      "snippet": "# Python Software Foundation’s Post View organization page for Python Software Foundation Python Software Foundation 161,788 followers Report this post The PSF is hiring a CPython Developer in Residence! Full-time, remote, $70K–170K (US) or comparable contractor rates abroad. Help keep Python’s core healthy and support the volunteers who maintain it. Apply by Nov 19: #Python CPython Developer in Residence - Python Software Foundation - Career Page [...] CPython Developer in Residence - Python Software Foundation - Career Page pythonsoftwarefoundation.applytojob.com 141 4 Comments Like Comment",
+      "apply_email": ""
+    },
+    {
       "title": "Python Variable Scope: Local vs Global Variables | Dina Mahmoud posted on the topic",
       "company": "Posted by Dina Mahmoud",
       "location": "Iran",
@@ -299,12 +308,12 @@
       "apply_email": ""
     },
     {
-      "title": "Job Description About the Role: We are seeking a Senior AI Developer to focus on the development and deployment of AI models. You will be re",
-      "company": "Posted by Iran Aihouse",
+      "title": "فرصت همکاری | Senior Full-Stack Developer (Python / React) ما برای توسعه تیممون در حوزه",
+      "company": "Posted by Moeinnajafi1998",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/iran-aihouse_job-description-about-the-role-we-are-seeking-activity-7524396340915671040-z-5c",
-      "published": "2026-11-06",
-      "snippet": "performance in production environments • Collaborate with the research team to translate theoretical architectures into optimized, scalable code • Provide technical leadership to the development team and guide software development processes Technical Skills: • Fluent in object-oriented programming and design (with a focus on Python), version control systems (codebase, data, and model), and experiment tracking • Hands-on experience with model development frameworks and framework-specific [...] framework-specific optimization techniques • Strong skills in packaging ML models for reproducible wor",
+      "url": "https://www.linkedin.com/posts/moeinnajafi1998_hiring-seniorfullstackdeveloper-python-activity-7527691880944504832-AMke",
+      "published": "2026-11-15",
+      "snippet": "فرصت همکاری | Senior Full-Stack Developer (Python / React) ما برای توسعه تیممون در حوزه فینتک (FinTech) به دنبال دو توسعهدهنده ارشد فولاستک با تجربه عملی و",
       "apply_email": ""
     },
     {
@@ -353,15 +362,6 @@
       "apply_email": ""
     },
     {
-      "title": "TeacherOnline: One App for Six Roles with Kotlin Multiplatform | Eslam Ghazy posted on the topic",
-      "company": "Posted by Eslam Ghazy",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/eslam-ghazy-7912bb183_kotlinmultiplatform-composemultiplatform-activity-7517359659632971776-UBRF",
-      "published": "2026-10-17",
-      "snippet": "Some of our most recent work lives on CodeCanyon. App templates built with Kotlin Multiplatform and React Native. A Material Design template. A WebView template. Templates are a different kind of challenge. Other developers will read your code, extend it, and build on it. That means clean structure, clear naming, and documentation that actually helps. Writing code for other developers is one of the best tests of engineering quality. Do you prefer starting from a template or building from [...] or building from scratch? #KotlinMultiplatform #ReactNative #HeroApps [...] Design & Jetpack Compose",
-      "apply_email": ""
-    },
-    {
       "title": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز",
       "company": "Posted by Solmaz Cheraghi",
       "location": "Iran",
@@ -396,6 +396,60 @@
       "published": "2026-10-31",
       "snippet": "# WINaTALENT\\_fa’s Post View organization page for WINaTALENT_fa 15,872 followers Report this post موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای بر روی آنها وارد لینک زیر شوید و یا رزومه خود را به آدرس (info@winatalent.com) ایمیل فرمایید: پس از اپلای شما برای هر یک از پوزیشنهای WINaTALENT، رزومه شما پس از بررسی اولیه توسط تیم ما، مستقیما برای شرکت استخدام کننده ارسال میشود. [...] 🌐 Senior Product Ui/UX Designer & Consultant. Like Reply 1 Reaction Nastaran Mohammadi 17h Report this comment #up Like Re",
       "apply_email": "info@winatalent.com"
+    },
+    {
+      "title": "#کارآموزی #طراحی_محصول #تجربه_کاربری #رابط_کاربری #استخدام | Samy Vahdat | 159 comments",
+      "company": "Posted by Samyuxd",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/samyuxd_%DA%A9%D8%A7%D8%B1%D8%A2%D9%85%D9%88%D8%B2%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D9%85%D8%AD%D8%B5%D9%88%D9%84-%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-activity-7527369092941512704-gCxH",
+      "published": "2026-11-14",
+      "snippet": "همکاری: 💻 ریموت و آنلاین 💰 همراه با حقوق 💼 امکان استخدام 📅 سه ماه همکاری 🕑 شروع 1 آذر ماه اگه به طراحی UX/UI علاقه مندی و دوست داری تجربه کار تیمی روی یک محصول واقعی رو داشته باشی، این فرصت رو از دست نده! 👇 برای دریافت جزئیات کامل فرصت کارآموزی و نحوه ارسال رزومه، «کارآموزی» رو کامنت کن تا اطلاعات برات ارسال بشه. #کارآموزی #طراحی\\_محصول #تجربه\\_کاربری #رابط\\_کاربری #استخدام [...] 📌 شرایط کلی همکاری: 💻 ریموت و آنلاین 💰 همراه با حقوق 💼 امکان استخدام 📅 سه ماه همکاری 🕑 شروع 1 آذر ماه اگه به طراحی UX/UI علاقه ‌مندی و دوست داری تجربه کار تیمی روی یک محصول واقعی رو داشته باشی، این فرصت رو از دست نده!",
+      "apply_email": ""
+    },
+    {
+      "title": "#twaddan #hiring #uiuxdesigner #uaejobs #careers | Assel Jehad",
+      "company": "Posted by Aseel Jehad",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aseel-jehad-23b0b518b_twaddan-is-looking-for-a-creative-and-talented-activity-7525443146189852672-2tFs",
+      "published": "2026-11-09",
+      "snippet": "Twaddan is looking for a creative and talented UI/UX Designer to join our team. Requirement: Must be currently based in the UAE.",
+      "apply_email": ""
+    },
+    {
+      "title": "... (UI/UX) توسعه و شخصی‌سازی قالب‌ها و افزونه‌های وردپرس مدیریت و بهینه‌سازی وب‌سایت‌ها",
+      "company": "Posted by Mona Alikhani",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mona-alikhani-017491386_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D9%88%D8%A8-activity-7527245294854619136-Yj0S",
+      "published": "2026-11-14",
+      "snippet": "... (UI/UX) توسعه و شخصی‌سازی قالب‌ها و افزونه‌های وردپرس مدیریت و بهینه‌سازی وب‌سایت‌ها و آشنایی با اصول SEO طراحی گرافیک و تولید",
+      "apply_email": ""
+    },
+    {
+      "title": "#javadeveloper #springboot #microservices #fintech #بانکداری_دیجیتال #استخدام #backenddeveloper #springcloud | Mostafa Hosseinzadeh | 15 com",
+      "company": "Posted by Mostafa Hosseinzadeh",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mostafa-hosseinzadeh_javadeveloper-springboot-microservices-activity-7516437560819335168-rv2K",
+      "published": "2026-10-15",
+      "snippet": "دقت در حل مسئله و اولویتدادن به صحت داده بر سرعت توسعه توانایی مستندسازی و ارائه گزارش شفاف از پیشرفت کار حداقل ۳ سال تجربه کاری در توسعه سرویسهای backend با Java مزایا: بیمه تکمیلی صبحانه ناهار پاداش های فصلی بسته ها و هدایای مناسبتی ساعت کاری از ۷ تا ۱۴.۳۰ با امکان شناوری نوع همکاری: تماموقت | نحوه همکاری: حضوری اگر در توسعه سرویسهای مالی باتجربه هستید و دوست دارید در کنار یک تیم فنی روی زیرساختهای حیاتی کار کنید، خوشحال میشویم رزومهتان را برای ما در دایرکت یا ایمیل زیر ارسال کنید. [...] فرصتهای شغلی | Java Developer (Mid / Senior) شرکت دادهورزی سداد به دنبال جذب چندین توسعهدهنده Java باتجرب",
+      "apply_email": ""
+    },
+    {
+      "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
+      "company": "Posted by Doaa Mahmoud Hashish",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/doaa-mahmoud-hashish_dotnet-csharp-softwareengineering-activity-7519332628890718209-YSMg",
+      "published": "2026-10-23",
+      "snippet": "what should happen next. The right choice depends on the data, transaction boundaries, expected contention, and user experience. A database should not silently decide whose work matters more simply because their request arrived last. That's the concurrency problem I'm learning to recognise and solve as a backend developer. #BackendEngineering #DatabaseConcurrency #Golang #PostgreSQL #SystemDesign #LearningInPublic #coding #learning #jobs #fresher [...] الصحيح مع الـ Concurrency والـ Failures والحفاظ على الـ Data Consistency. ━━━━━━━━━━━━━━━━━━━━ 💬 Let's discuss | خلينا نتناقش When handling con",
+      "apply_email": ""
+    },
+    {
+      "title": "Job Description About the Role: We are seeking a Senior AI Developer to focus on the development and deployment of AI models. You will be re",
+      "company": "Posted by Iran Aihouse",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/iran-aihouse_job-description-about-the-role-we-are-seeking-activity-7524396340915671040-z-5c",
+      "published": "2026-11-06",
+      "snippet": "performance in production environments • Collaborate with the research team to translate theoretical architectures into optimized, scalable code • Provide technical leadership to the development team and guide software development processes Technical Skills: • Fluent in object-oriented programming and design (with a focus on Python), version control systems (codebase, data, and model), and experiment tracking • Hands-on experience with model development frameworks and framework-specific [...] framework-specific optimization techniques • Strong skills in packaging ML models for reproducible wor",
+      "apply_email": ""
     },
     {
       "title": "Improve Error Messages with Nielsen's 9th Usability Heuristic | Barbara karimi posted on the topic",
@@ -1025,60 +1079,6 @@
       "url": "https://www.linkedin.com/posts/pooriavakili_%DA%86%D8%B7%D9%88%D8%B1-%D8%B4%D8%AF-%DA%A9%D9%87-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%DB%B9-%D9%85%D8%A7%D9%87-%D8%A8%DB%8C%DA%A9%D8%A7%D8%B1%DB%8C-%DA%A9%D8%A7%D8%B1-%D9%BE%DB%8C%D8%AF%D8%A7-activity-7521275831193731072-bWJ4",
       "published": "2026-10-28",
       "snippet": "UX برای Frontend Developer؛ از تجربه کاربر تا مهندسی و معماری نرمافزار. Pooria AshkevarVakili 1mo · **رزومه برنامهنویس، رزومه فروشنده نیست!** Pooria ...Read more",
-      "apply_email": ""
-    },
-    {
-      "title": "#backenddeveloper #backenddevelopment #softwareengineering #itjobs #techjobs #hiring #careergrowth #استخدام #جذب #فرصت_شغلی #مهرکام #مهرکام_",
-      "company": "Posted by Alirezavahedy",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/alirezavahedy_backenddeveloper-backenddevelopment-softwareengineering-activity-7512464348603150336-310k",
-      "published": "2026-10-04",
-      "snippet": "Backend Developer فرصتی برای ساختن در مقیاس واقعی اگر علاقهمندید روی سرویسها و سامانههایی کار کنید که روزانه توسط کاربران واقعی در اکوسیستم بانکی و مالی مورد استفاده قرار میگیرند، این فرصت میتواند گام مهمی در مسیر حرفهای شما باشد. مهرکام تِک (هلدینگ فناوری اطلاعات بانک قرضالحسنه مهر ایران)، در مسیر توسعه محصولات و خدمات دیجیتال خود، به دنبال یک Backend Developer توانمند و مسئلهمحور است. در این نقش، در کنار تیمهای تخصصی فناوری، روی طراحی و توسعه سرویسهای Backend، توسعه APIها، کار با پایگاههای [...] حرفهای و پویا، فرصت دارید مسیر حرفهای خود را توسعه دهید و برای چالشهای بزرگتر آماده شوید. اگر آما",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #jobopportunity #fullstackdeveloper #dotnet #csharp #dotnetcore #postgresql #backenddeveloper #softwaredeveloper #softwareengineerin",
-      "company": "Posted by Aitdco Tafahom",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/aitdco-tafahom_hiring-jobopportunity-fullstackdeveloper-activity-7512486223433760768-bN6h",
-      "published": "2026-10-04",
-      "snippet": "استخدام Full Stack Developer ما در تفاهم (AITD) به دنبال یک Full Stack Developer توانمند و مسئلهمحور هستیم تا در طراحی، توسعه و نگهداری نرمافزارها و پلتفرمهای سازمانی در کنار تیم فنی ما فعالیت کند. اگر به توسعه سیستمهای Enterprise، Real-Time و Data-Driven علاقهمند هستید و از حل مسائل پیچیده نرمافزاری لذت میبرید، خوشحال میشویم با شما همکار شویم. 🔹 مسئولیتهای اصلی ▪️ توسعه و نگهداری نرمافزارهای مبتنی بر .NET / .NET Core ▪️ طراحی و توسعه Backend و Web API / REST API ▪️ طراحی، توسعه و بهینهسازی [...] Programming و Multi-threading ▪️درک مناسب از Software Architecture و Clean Code ⭐ مزیتهای مهم تجرب",
-      "apply_email": ""
-    },
-    {
-      "title": "Building Strong Websites with AI Design Models | Farzam Habibi ...",
-      "company": "Posted by Farzamhabibi",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/farzamhabibi_big-language-models-now-design-the-best-looking-activity-7519469487067394049-dwD8",
-      "published": "2026-10-23",
-      "snippet": "This is where Web Workers transform AI-driven frontend architectures. The Bottleneck: The Single-Threaded Trap JavaScript executes user",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #seniorbackenddeveloper #nodejs #nestjs #gamebackend #backendengineering #استخدام #فرصت_شغلی | TOD Game Studio | 11 comments",
-      "company": "Posted by Tod Studio",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/tod-studio_hiring-seniorbackenddeveloper-nodejs-activity-7512116063476621312-LJHX",
-      "published": "2026-10-03",
-      "snippet": "🚀 We're Hiring | Senior Backend Developer اگر به Backend، معماری نرمافزار و صنعت گیم علاقهمندی و از حل مسائل پیچیده فنی و ساخت سرویسهای پایدار و مقیاسپذیر لذت میبری، شاید جای تو در تیم ما باشد. 💙 💻 Senior Backend Developer | Backend & Game Development ما در تیم توسعه و نشر بازیهای موبایلی TOD به دنبال یک Senior Backend Developer هستیم؛ فردی باتجربه که علاوه بر توسعه، در Architecture، حل مسائل Production و بهبود Scalability و Reliability نقش فعالی داشته باشد. 🎮 📌 برای این موقعیت، انتظار داریم: 💻 [...] Battle یا Real-time Communication امتیاز مهمی محسوب میشود. 🤖 استفاده مؤثر از AI Tools برای Cod",
-      "apply_email": ""
-    },
-    {
-      "title": "#استخدام #java #backenddeveloper #seniorjavadeveloper #زیتل #zitel #fanaptelecom | Mohsen Safarnia | 22 comments",
-      "company": "Posted by Mohsensafarnia",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohsensafarnia_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-java-backenddeveloper-activity-7512205957536477184-JTL6",
-      "published": "2026-10-03",
-      "snippet": "یه موقعیت شغلی جدید توی تیم نرمافزار فناپ تلکام داریم 👇 دنبال Senior Backend Developer (Java) هستیم؛ فردی باتجربه که به Java، Spring و Hibernate مسلط باشه و تجربه کار با دیتابیسهای MySQL یا Oracle رو داشته باشه. آشنایی با مفاهیم Microservice و حوزه Telecom هم مزیت محسوب میشه. 📍 همکاری تماموقت 📍 محیط کاری حرفهای و فرصت رشد 📍 حقوق و مزایای رقابتی + بیمه تکمیلی اگر خودتون دنبال چنین فرصتی هستید یا فرد مناسبی رو میشناسید، خوشحال میشم این آگهی رو براش بفرستید تا بیشتر دیده بشه. 📩 ارسال رزومه از [...] 📩 ارسال رزومه از دایرکت همین صفحه : #استخدام #Java #BackendDeveloper #SeniorJavaDeveloper #زیتل #Zi",
-      "apply_email": ""
-    },
-    {
-      "title": "امروز در لینکدین دیدم یک آگهی استخدام شامل تمام حوزه ها از قبیل بک فرانت موبایل دواپس",
-      "company": "Posted by Pooriavakili",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/pooriavakili_%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%DA%A9%D8%AF%DB%8C%D9%86-%D8%AF%DB%8C%D8%AF%D9%85-%DB%8C%DA%A9-%D8%A2%DA%AF%D9%87%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B4%D8%A7%D9%85%D9%84-activity-7511689897401917454-nTYQ",
-      "published": "2026-10-02",
-      "snippet": "امروز در لینکدین دیدم یک آگهی استخدام شامل تمام حوزه ها از قبیل بک فرانت موبایل دواپس دواپس هوش مصنوعی ماشین لرنینگ برای استخدام در لینکدین فرستاده است بعد",
       "apply_email": ""
     }
   ]
