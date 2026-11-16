@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T06:06:38+00:00",
+  "updated_at": "2026-11-16T21:55:10+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -74,12 +74,12 @@
       "apply_email": ""
     },
     {
-      "title": "From .NET to AI Engineering with C# and AI | Yomna Magdy posted on the topic",
-      "company": "Posted by Yomna Magdy",
+      "title": "موقعیت شغلی ریموت دلاری برای **Full Stack JavaScript Developer** 💻 🌍 ریموت ⏰ ساعات کاری منعطف 🗣️ سطح زبان انگلیسی: C1 Level or Higher 💰 حقوق",
+      "company": "Posted by Abbas Hoseini",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/yomna-magdy-63b62274_aspnet-core-an-open-source-web-development-activity-7519128792943202304-tpUM",
-      "published": "2026-10-22",
-      "snippet": "💻 I Don’t Limit Myself to One Programming Language. I Focus on Building Solutions. 🚀 As a developer, I believe that the right technology depends on the problem we’re trying to solve. My focus goes beyond frontend development. I also work on backend systems, databases, APIs, integrations, and deployment to build complete web applications. 🖥️ Frontend Development HTML, CSS, JavaScript, React, Next.js, Vue.js, and more. ⚙️ Backend Development PHP, Laravel, Node.js, Python, Java, C#, and backend [...] Ever wondered what actually goes into building an app? You see a website. You click a button. Dat",
+      "url": "https://www.linkedin.com/posts/abbas-hoseini_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%B4%D8%BA%D9%84%DB%8C-%D8%B1%DB%8C%D9%85%D9%88%D8%AA-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-full-stack-activity-7525520705665531905-xlHW",
+      "published": "2026-11-09",
+      "snippet": "Frontend: Deployed on Vercel with SPA rewrite rules for zero 404s 💡 Key Takeaway: Transitioning from Laravel's built-in conventions to architecting every layer manually in Express & React gave me a much deeper appreciation for stateless authentication, middleware design patterns, and cross-origin security. 🔗 Check it out live: • Live Application: • Live Backend API • GitHub Repository: Would love to hear your feedback in the comments! 👇 #FullStackDevelopment #ReactJS #NodeJS #ExpressJS #MySQL [...] The ideal candidate will have strong hands-on expertise in Node.js, JavaScript, React.js, and ba",
       "apply_email": ""
     },
     {
@@ -155,6 +155,15 @@
       "apply_email": ""
     },
     {
+      "title": "From .NET to AI Engineering with C# and AI | Yomna Magdy posted on the topic",
+      "company": "Posted by Yomna Magdy",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/yomna-magdy-63b62274_aspnet-core-an-open-source-web-development-activity-7519128792943202304-tpUM",
+      "published": "2026-10-22",
+      "snippet": "Want to become a job-ready .NET + Angular Developer with AI exposure before December 2026? You don’t need to learn everything at once. You need the right roadmap, consistent practice, and real-world projects. Here are the 5 steps to focus on 👇 1️⃣ Master C# & .NET → C# fundamentals, OOP, SOLID, LINQ, Collections, Async/Await, DI, Design Patterns & .NET 8+ 2️⃣ Become a Strong Backend Developer → ASP.NET Core Web API, REST APIs, JWT, EF Core, SQL Server, Clean Architecture, CQRS, Middleware & [...] 💻 I Don’t Limit Myself to One Programming Language. I Focus on Building Solutions. 🚀 As a develope",
+      "apply_email": ""
+    },
+    {
       "title": "Preventing Lost Updates in .NET with Concurrency Control | Doaa Mahmoud posted on the topic",
       "company": "Posted by Doaa Mahmoud Hashish",
       "location": "Iran",
@@ -227,21 +236,48 @@
       "apply_email": "sam.golzad@gmail.com"
     },
     {
-      "title": "تسلط به Node.js و آشنایی کاربردی با… | Hadis Sabouri",
-      "company": "Posted by Hadis Sabouri",
+      "title": "Full Stack Developer Job in Chiang Mai Thailand | Azendo posted on the topic",
+      "company": "Posted by Azendo Outsourcing",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/hadis-sabouri-463577310_%D8%AF%D8%B9%D9%88%D8%AA-%D8%A8%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-senior-full-stack-developer-activity-7526604282696036354-m84y",
-      "published": "2026-11-12",
-      "snippet": "دعوت به همکاری | Senior Full-Stack Developer مهارت‌های فنی موردنیاز: - تسلط به PHP و Laravel - تسلط به JavaScript، TypeScript و Vue.js (آشنایی با Vuetify)",
+      "url": "https://www.linkedin.com/posts/azendo-outsourcing_azendo-hiring-fullstackdeveloper-activity-7525449764457611264-5QDv",
+      "published": "2026-11-09",
+      "snippet": "Go, or Node.js • Implement robust web security standards and protect against common attack vectors • Leverage AI-assisted coding tools while rigorously reviewing and validating output 💻 What we're looking for: • 5+ years of commercial experience building web systems • Strong proficiency in PHP, Go, or Node.js • Solid API design (REST) and practical web security knowledge • Working knowledge of both SQL and NoSQL databases • Good command of spoken and written English 📩 Interested? Send your [...] 🚀 We’re Hiring | Full Stack Developer | Chiang Mai, Thailand Passionate about software development",
       "apply_email": ""
     },
     {
-      "title": "موقعیت شغلی ریموت دلاری برای **Full Stack JavaScript Developer** ریموت ⏰ ساعات کاری منعطف",
-      "company": "Posted by Abbas Hoseini",
+      "title": "Hiring: *Full-Stack Developer* We ...",
+      "company": "Posted by Hafiz Muhammad Saad Hr",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/abbas-hoseini_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%B4%D8%BA%D9%84%DB%8C-%D8%B1%DB%8C%D9%85%D9%88%D8%AA-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-full-stack-activity-7525520705665531905-xlHW",
+      "url": "https://www.linkedin.com/posts/hafiz-muhammad-saad-hr_hiring-full-stack-developer-we-are-looking-activity-7525606114848104449-Zpts",
       "published": "2026-11-09",
-      "snippet": "موقعیت شغلی ریموت دلاری برای **Full Stack JavaScript Developer** ریموت ⏰ ساعات کاری منعطف 🗣️ سطح زبان انگلیسی: C1 Level or Higher حقوق: $2,000",
+      "snippet": "- Strong full-stack development expertise. - Experience building web applications and mobile applications. - Ability to develop scalable backend systems and",
+      "apply_email": ""
+    },
+    {
+      "title": "I'm a Full-Stack Developer with 8+ years of experience building and maintaining web",
+      "company": "Posted by Brieaseltine",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/brieaseltine_calling-all-full-stack-web-developers-activity-7527805198514245632-gg8O",
+      "published": "2026-11-15",
+      "snippet": "I'm a Full-Stack Developer with 8+ years of experience building and maintaining web applications, working across frontend and backend technologies. I've",
+      "apply_email": ""
+    },
+    {
+      "title": "I bring full-stack development expertise across iOS, Android, UI/UX, backend",
+      "company": "Posted by Lavonda Harmon",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/lavonda-harmon-893955357_looking-for-an-app-developer-technical-activity-7525674407802122240-XP2J",
+      "published": "2026-11-09",
+      "snippet": "I bring full-stack development expertise across iOS, Android, UI/UX, backend architecture, and API integrations. My focus is building scalable, intuitive,",
+      "apply_email": ""
+    },
+    {
+      "title": "I'm a full-stack developer. I can tune a query, set up replication, and wire Redis into a",
+      "company": "Posted by Bulanekv",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/bulanekv_tell-me-your-stack-in-the-comments-i-will-activity-7520501297758752768-6TPD",
+      "published": "2026-10-26",
+      "snippet": "I'm a full-stack developer. I can tune a query, set up replication, and wire Redis into a NestJS app. But if someone asked me to design a system for ten",
       "apply_email": ""
     },
     {
@@ -254,12 +290,21 @@
       "apply_email": ""
     },
     {
-      "title": "Highly recommended! | Hassan Abuhassna",
-      "company": "Posted by Hassanabuhassna",
+      "title": "Want to Become a Full Stack Developer? Start with the Right Learning Path. Learning a",
+      "company": "Posted by Adane1988",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/hassanabuhassna_highly-recommended-activity-7520869050932031489-a-26",
-      "published": "2026-10-27",
-      "snippet": "• Built and evaluated an agentic RAG system against 150 questions, improving retrieval MRR from 0.73 to 0.89 and answer accuracy from 3.92 to 4.44/5. I’m seeking remote opportunities as a Senior Software Engineer, AI Engineer, Full-Stack Developer, or Senior WordPress Developer, including roles focused on AI-Assisted Software Engineering (AISE) using Claude Code, Codex, Cursor, and other AI development tools. If your team needs someone who turns business requirements into working software, [...] تطوير إضافات مخصصة لمزامنة البيانات والمحتوى لشبكة Die Mitte التي تضم أكثر من ٣٠٠ موقع. • بناء وتقي",
+      "url": "https://www.linkedin.com/posts/adane1988_want-to-become-a-full-stack-developer-start-activity-7526882740399439873-T0ft",
+      "published": "2026-11-13",
+      "snippet": "Want to Become a Full Stack Developer? Start with the Right Learning Path. Learning a programming language is not enough to become a good developer.",
+      "apply_email": ""
+    },
+    {
+      "title": "If a client can build an app with AI, why would they hire you? Freelancers ask me some version of this in my DMs almost every day, so I thou",
+      "company": "Posted by Iftakharrahmany",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/iftakharrahmany_if-a-client-can-build-an-app-with-ai-why-activity-7524229906617073664-saVD",
+      "published": "2026-11-05",
+      "snippet": "If a client can build an app with AI, why would they hire you? Freelancers ask me some version of this in my DMs almost every day, so I thought I'd share my take here. It takes me back to my early days on Upwork in 2021. I set up my profile as a full-stack developer and bid on every job I could find. Couple of months later, I had 0 clients, 0 feedback and almost no replies to my proposals. The market was crowded, and to a client I looked like everyone else. So I started looking at where the [...] them another one. Look at what they're struggling to make real. Maybe the app has to be ready for",
       "apply_email": ""
     },
     {
@@ -272,6 +317,24 @@
       "apply_email": ""
     },
     {
+      "title": "A full-stack human is someone who: > Has strong strategic thinking skills in their area",
+      "company": "Posted by Kyledulay",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/kyledulay_youve-heard-of-a-full-stack-developer-but-activity-7525641887425122304-4wxS",
+      "published": "2026-11-09",
+      "snippet": "A full-stack human is someone who: > Has strong strategic thinking skills in their area of expertise. Traditionally these would be C-suite level hires. > Is AI-",
+      "apply_email": ""
+    },
+    {
+      "title": "We've continued rolling out the /App skill and Copilot Managed Runtime globally to Frontier and Preview users. You can now build apps across",
+      "company": "Posted by Rycu",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/rycu_weve-continued-rolling-out-the-app-skill-activity-7518351514059329536-N34N",
+      "published": "2026-10-21",
+      "snippet": "Great move, Ryan Cunningham. We’ve been using Code to build apps and users love it, massive upgrade over canvas. The real win is bridging personas: pro devs stick to GitHub Copilot, while business users bounce between Studio and Code. Having a shared runtime so projects can actually cross that divide without governance headaches is huge. Curious how you see the handoff playing out in practice: does the business user hand off clean, production-ready scaffolding, or does the pro dev usually end [...] up. So the app ends up outside the governance rules on your environment group. I’m assuming the",
+      "apply_email": ""
+    },
+    {
       "title": "#استخدام #مشهد #کالاصنعتی #برنامهنویس #داتنت | Amir Jalali Movahed | 10 comments",
       "company": "Posted by Activity Wwzg",
       "location": "Mashhad, Iran",
@@ -281,21 +344,21 @@
       "apply_email": ""
     },
     {
+      "title": "Highly recommended! | Hassan Abuhassna",
+      "company": "Posted by Hassanabuhassna",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/hassanabuhassna_highly-recommended-activity-7520869050932031489-a-26",
+      "published": "2026-10-27",
+      "snippet": "After 16+ years in software development and 160+ client projects, I’m opening the next chapter of my career. I’m a Senior Software Engineer and Certified Requirements Engineer who has also expanded into hands-on AI development. Some highlights of my work: • Built an AI proposal platform with evidence-grounded generation using Python, FastAPI, React, TypeScript, and Supabase. • Developed custom data and content synchronization plugins for Die Mitte’s network of 300+ websites. • Built and [...] working software, I’d love to connect. Comments, referrals, and shares are appreciated! بعد أكثر من ١٦",
+      "apply_email": ""
+    },
+    {
       "title": "TeacherOnline: One App for Six Roles with Kotlin Multiplatform | Eslam Ghazy posted on the topic",
       "company": "Posted by Eslam Ghazy",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/eslam-ghazy-7912bb183_kotlinmultiplatform-composemultiplatform-activity-7517359659632971776-UBRF",
       "published": "2026-10-17",
       "snippet": "Some of our most recent work lives on CodeCanyon. App templates built with Kotlin Multiplatform and React Native. A Material Design template. A WebView template. Templates are a different kind of challenge. Other developers will read your code, extend it, and build on it. That means clean structure, clear naming, and documentation that actually helps. Writing code for other developers is one of the best tests of engineering quality. Do you prefer starting from a template or building from [...] or building from scratch? #KotlinMultiplatform #ReactNative #HeroApps [...] Design & Jetpack Compose",
-      "apply_email": ""
-    },
-    {
-      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
-      "company": "Posted by Islam Abdalla",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
-      "published": "2026-10-18",
-      "snippet": "writing everything manually, the developer naturally builds up context as they work through the problem. With AI, a substantial amount of code can appear very quickly. The productivity gain can be enormous, but our understanding needs to keep pace with it. I'm increasingly interested in treating AI as part of the development workflow rather than simply as a code generator. Let it investigate, suggest, challenge, implement and test, but keep the human developer responsible for understanding and [...] AI-assisted development is becoming remarkably capable. Give a coding agent enough context and",
       "apply_email": ""
     },
     {
@@ -326,21 +389,102 @@
       "apply_email": ""
     },
     {
-      "title": "استخدام BI Developer (SQL Server & Power BI) شرح وظایف و مسئولیتها طراحی، توسعه و نگهداری داشبوردها و گزارشهای تحلیلی و مدیریتی با استفاده ا",
-      "company": "Posted by Mehdisafiri",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mehdisafiri_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-bi-developer-sql-server-power-activity-7522910325269155840-zwtO",
-      "published": "2026-11-02",
-      "snippet": "تحلیلی آشنایی با SQL Server Integration Services (SSIS) آشنایی با معماریهای لایهای Data Warehouse شامل Staging، ODS، DWH و Data Mart تجربه کار با Tabular Editor و DAX Studio آشنایی با Performance Tuning در Power BI و SQL Server تجربه استخراج اطلاعات از ERPها، بهویژه Microsoft Dynamics AX / D365 F&O آشنایی با سیستمهای مدیریت فرآیند کسبوکار (BPM) مانند Bizagi آشنایی با Git و مدیریت نسخه کد و پروژهها آشنایی با Python در حوزه پردازش و انتقال داده شرایط احراز حداقل ۲ سال تجربه کاری مرتبط در حوزه هوش [...] مرتبط در حوزه هوش تجاری و تحلیل داده تسلط عملی به SQL Server و Power BI توانایی حل مسئله و تحل",
-      "apply_email": ""
-    },
-    {
       "title": "Flowcharts for Clean Code and Data Analysis | Eslam Khaled posted on the topic",
       "company": "Posted by Eslam Khaled",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/eslam-khaled-b7251b258_dataanalytics-sql-python-activity-7519998698337050624-gNpF",
       "published": "2026-10-25",
       "snippet": "(EDA): Find initial patterns and hidden insights. 🕵️♂️ (اكتشاف الأنماط والبيانات المخفية). 🔹 Python/R Libraries: Use Pandas, NumPy, Matplotlib for powerful calculations and plotting. 🐍 (استخدام لغات البرمجة زي بايثون وآر للتعامل مع البيانات ورسمها). 🔹 Advanced Statistics: Hypotheses testing and Regression for predictive insights. 📉 (الإحصاء المتقدم للتوقع). 2️⃣ Business Intelligence Concepts: 🔹 Key Performance Indicators (KPIs): Tracking business health metrics (Sales, Churn, Conversion). 🎯 [...] What would you do? 👇 🚀 Next: Applying all of this with Python — real code, real data. (Check the f",
+      "apply_email": ""
+    },
+    {
+      "title": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز",
+      "company": "Posted by Solmaz Cheraghi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/solmaz-cheraghi_%D8%A8%D8%A8%D8%AE%D8%B4%DB%8C%D8%AF%D8%A7-%D9%88%D8%A7%D9%82%D8%B9%D8%A7-%D8%A8%D8%A7%D9%88%D8%B1%D9%85-%D9%86%D9%85%DB%8C%D8%B4%D9%87-%D8%A7%D8%B2-%DB%8C%D9%87-%D8%B7%D8%B1%D9%81-%D8%AE%D9%88%D8%B4%D8%AD%D8%A7%D9%84%D9%85-activity-7518121083472879617-ue8-",
+      "published": "2026-10-20",
+      "snippet": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز خیلی از کارفرماها دنبال استخدام UI/UX Designer با حقوقهای غیرواقعی و پایین هستن؟ برای رسیدن به این جایگاه باید سالها درس بخونی، زبان یاد بگیری و دهها مهارت دیگه رو یاد بگیری و همیشه هم خودت رو بروز نگه داری. بعد آخرش بعضی آگهیها حقوقی پیشنهاد میدن که با نهایت احترام به تمام کارگران زحمتکش ساختمانی، حتی از دستمزد خیلی از اونها هم کمتره. بحث مقایسه شغل ها [...] یه چیزیو مد نظر بگیرید خیلی از شرکتها موقعی که به زمان تحویل محصول نزدیک میشن و خیلی عقب هستند مج",
+      "apply_email": ""
+    },
+    {
+      "title": "من بارها نوشتم و باز هم بارها مینویسم، تخصص لایق احترامه و ربطی به درامد نداره. درآمد رو فقط و فقط عرضه و تقاضای بازار معین میکنه. | Ali Yaz",
+      "company": "Posted by Ali1997yazdani",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ali1997yazdani_%D9%85%D9%86-%D8%A8%D8%A7%D8%B1%D9%87%D8%A7-%D9%86%D9%88%D8%B4%D8%AA%D9%85-%D9%88-%D8%A8%D8%A7%D8%B2-%D9%87%D9%85-%D8%A8%D8%A7%D8%B1%D9%87%D8%A7-%D9%85%DB%8C%D9%86%D9%88%DB%8C%D8%B3%D9%85-%D8%AA%D8%AE%D8%B5%D8%B5-activity-7524449780731682816-C9Ir",
+      "published": "2026-11-06",
+      "snippet": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز خیلی از کارفرماها دنبال استخدام UI/UX Designer با حقوقهای غیرواقعی و پایین هستن؟ برای رسیدن به این جایگاه باید سالها درس بخونی، زبان یاد بگیری و دهها مهارت دیگه رو یاد بگیری و همیشه هم خودت رو بروز نگه داری. بعد آخرش بعضی آگهیها حقوقی پیشنهاد میدن که با نهایت احترام به تمام کارگران زحمتکش ساختمانی، حتی از دستمزد خیلی از اونها هم کمتره. بحث مقایسه شغل ها [...] # Ali Yazdani’s Post View profile for Ali Yazdani Ali Yazdani Report this post من بارها نوشتم و ب",
+      "apply_email": ""
+    },
+    {
+      "title": "#productdesigner #uiuxdesigner #uxdesign #productdesign #opentowork #استخدام | narjes shenavar | 13 comments",
+      "company": "Posted by Narjes Shenavar",
+      "location": "Shiraz, Iran",
+      "url": "https://www.linkedin.com/posts/narjes-shenavar-b57180389_productdesigner-uiuxdesigner-uxdesign-activity-7519694231125245952-1xVc",
+      "published": "2026-10-24",
+      "snippet": "Report this post به دنبال فرصت همکاری بهعنوان Product Designer / UI/UX Designer هستم؛ جایی که بتونم با تفکر طراحی، حل مسئله و درک نیاز کاربران، در خلق و بهبود محصولات دیجیتال نقش داشته باشم. 📍 دورکاری یا حضوری(شیراز) اگر تیم شما به دنبال طراح محصوله یا فرصت همکاری مناسبی میشناسید، خوشحال میشم در ارتباط باشیم. ممنون میشم با معرفی من به تیم ها و شرکت های مرتبط، در پیدا کردن فرصت مناسب همراهم باشید.🤍 🔗 پورتفولیو: #ProductDesigner #UIUXDesigner #UXDesign #ProductDesign #OpenToWork #استخدام [...] graphical user interface, text, application, email 78 13 Comments Like Comment Amin Afshar 4d Report th",
+      "apply_email": ""
+    },
+    {
+      "title": "موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای",
+      "company": "Posted by Winatalent Fa",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/winatalent-fa_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%A8%DB%8C%D9%86%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A8%D8%A7-%D8%AF%D8%B1%D8%A2%D9%85%D8%AF-%D8%A7%D8%B1%D8%B2%DB%8C-%D8%AF%D8%B1-winatalent-activity-7522257119228706816-YVXS",
+      "published": "2026-10-31",
+      "snippet": "# WINaTALENT\\_fa’s Post View organization page for WINaTALENT_fa 15,872 followers Report this post موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای بر روی آنها وارد لینک زیر شوید و یا رزومه خود را به آدرس (info@winatalent.com) ایمیل فرمایید: پس از اپلای شما برای هر یک از پوزیشنهای WINaTALENT، رزومه شما پس از بررسی اولیه توسط تیم ما، مستقیما برای شرکت استخدام کننده ارسال میشود. [...] 🌐 Senior Product Ui/UX Designer & Consultant. Like Reply 1 Reaction Nastaran Mohammadi 17h Report this comment #up Like Re",
+      "apply_email": "info@winatalent.com"
+    },
+    {
+      "title": "Assel Jehad - Twaddan",
+      "company": "Posted by Aseel Jehad",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aseel-jehad-23b0b518b_twaddan-hiring-uiuxdesigner-activity-7525443146189852672-4AhV",
+      "published": "2026-11-09",
+      "snippet": "فرصة وظيفية | (UI/UX Designer) تبحث شركة Twaddan عن مصمم UI/UX مبدع للانضمام إلى فريقها. المؤهلات والمهارات المطلوبة: - خبرة عملية لا تقل عن 4 سنوات في مجال",
+      "apply_email": ""
+    },
+    {
+      "title": "NEW OPPORTUNITY | UX/UI DESIGNER We are currently looking for a UX/UI Designer with 5+",
+      "company": "Posted by Aboobacker Inshad",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aboobacker-inshad_hiring-uxdesigner-uidesigner-activity-7525783840770953217-SwTG",
+      "published": "2026-11-10",
+      "snippet": "NEW OPPORTUNITY | UX/UI DESIGNER We are currently looking for a UX/UI Designer with 5+ years of experience to join a project in the UAE for a 6-month",
+      "apply_email": ""
+    },
+    {
+      "title": "Simplify Product Design with Grouped Information | Barbara karimi posted on the topic",
+      "company": "Posted by Barbara Karimi7713",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7517953608588369920-AsQ3",
+      "published": "2026-10-19",
+      "snippet": "Like Comment To view or add a comment, sign in Shadi Ramezani + Report this post The biggest shift in UI/UX isn’t AI replacing designers. It’s AI revealing who was actually designing—and who was just operating tools. For years, tool proficiency was mistaken for design skill. Now AI can generate interfaces in seconds. Design is no longer about making screens. It’s about making decisions. + No alternative text description for this image 7 2 Comments Like Comment [...] A screen isn’t ready for handoff until its states are designed.In this nutrition app prototype, I explored empty, filled, error,",
+      "apply_email": ""
+    },
+    {
+      "title": "تسلط به Node.js و آشنایی کاربردی با… | Hadis Sabouri",
+      "company": "Posted by Hadis Sabouri",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/hadis-sabouri-463577310_%D8%AF%D8%B9%D9%88%D8%AA-%D8%A8%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-senior-full-stack-developer-activity-7526604282696036354-m84y",
+      "published": "2026-11-12",
+      "snippet": "دعوت به همکاری | Senior Full-Stack Developer مهارت‌های فنی موردنیاز: - تسلط به PHP و Laravel - تسلط به JavaScript، TypeScript و Vue.js (آشنایی با Vuetify)",
+      "apply_email": ""
+    },
+    {
+      "title": "Narbase LLM Usage Policy: AI Support for Developers | Islam Abdalla posted on the topic",
+      "company": "Posted by Islam Abdalla",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/islam-abdalla_llm-usage-policy-at-narbase-technologies-activity-7517565803488047104-uMih",
+      "published": "2026-10-18",
+      "snippet": "writing everything manually, the developer naturally builds up context as they work through the problem. With AI, a substantial amount of code can appear very quickly. The productivity gain can be enormous, but our understanding needs to keep pace with it. I'm increasingly interested in treating AI as part of the development workflow rather than simply as a code generator. Let it investigate, suggest, challenge, implement and test, but keep the human developer responsible for understanding and [...] AI-assisted development is becoming remarkably capable. Give a coding agent enough context and",
+      "apply_email": ""
+    },
+    {
+      "title": "استخدام BI Developer (SQL Server & Power BI) شرح وظایف و مسئولیتها طراحی، توسعه و نگهداری داشبوردها و گزارشهای تحلیلی و مدیریتی با استفاده ا",
+      "company": "Posted by Mehdisafiri",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mehdisafiri_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-bi-developer-sql-server-power-activity-7522910325269155840-zwtO",
+      "published": "2026-11-02",
+      "snippet": "تحلیلی آشنایی با SQL Server Integration Services (SSIS) آشنایی با معماریهای لایهای Data Warehouse شامل Staging، ODS، DWH و Data Mart تجربه کار با Tabular Editor و DAX Studio آشنایی با Performance Tuning در Power BI و SQL Server تجربه استخراج اطلاعات از ERPها، بهویژه Microsoft Dynamics AX / D365 F&O آشنایی با سیستمهای مدیریت فرآیند کسبوکار (BPM) مانند Bizagi آشنایی با Git و مدیریت نسخه کد و پروژهها آشنایی با Python در حوزه پردازش و انتقال داده شرایط احراز حداقل ۲ سال تجربه کاری مرتبط در حوزه هوش [...] مرتبط در حوزه هوش تجاری و تحلیل داده تسلط عملی به SQL Server و Power BI توانایی حل مسئله و تحل",
       "apply_email": ""
     },
     {
@@ -368,42 +512,6 @@
       "url": "https://www.linkedin.com/posts/mohamed-samir-ali_automation-activity-7519803652178366464-kzVa",
       "published": "2026-10-24",
       "snippet": "interaction with governed enterprise data and deterministic business workflows. That’s where MCP, Dataverse, Power Automate, and Copilot Studio can work together to build more capable enterprise applications. 💬 Question for developers and solution architects: Would you use MCP to connect AI agents directly to Dataverse, or would you put a custom API and business logic layer between the agent and your core systems? #ModelContextProtocol #MCP #MicrosoftPowerPlatform #MicrosoftDataverse [...] applications with minimal coding. ⚙️ 𝗣𝗼𝘄𝗲𝗿 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲 – Automate workflows and connect Microsoft and third-",
-      "apply_email": ""
-    },
-    {
-      "title": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز",
-      "company": "Posted by Solmaz Cheraghi",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/solmaz-cheraghi_%D8%A8%D8%A8%D8%AE%D8%B4%DB%8C%D8%AF%D8%A7-%D9%88%D8%A7%D9%82%D8%B9%D8%A7-%D8%A8%D8%A7%D9%88%D8%B1%D9%85-%D9%86%D9%85%DB%8C%D8%B4%D9%87-%D8%A7%D8%B2-%DB%8C%D9%87-%D8%B7%D8%B1%D9%81-%D8%AE%D9%88%D8%B4%D8%AD%D8%A7%D9%84%D9%85-activity-7518121083472879617-ue8-",
-      "published": "2026-10-20",
-      "snippet": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز خیلی از کارفرماها دنبال استخدام UI/UX Designer با حقوقهای غیرواقعی و پایین هستن؟ برای رسیدن به این جایگاه باید سالها درس بخونی، زبان یاد بگیری و دهها مهارت دیگه رو یاد بگیری و همیشه هم خودت رو بروز نگه داری. بعد آخرش بعضی آگهیها حقوقی پیشنهاد میدن که با نهایت احترام به تمام کارگران زحمتکش ساختمانی، حتی از دستمزد خیلی از اونها هم کمتره. بحث مقایسه شغل ها [...] یه چیزیو مد نظر بگیرید خیلی از شرکتها موقعی که به زمان تحویل محصول نزدیک میشن و خیلی عقب هستند مج",
-      "apply_email": ""
-    },
-    {
-      "title": "من بارها نوشتم و باز هم بارها مینویسم، تخصص لایق احترامه و ربطی به درامد نداره. درآمد رو فقط و فقط عرضه و تقاضای بازار معین میکنه. | Ali Yaz",
-      "company": "Posted by Ali1997yazdani",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ali1997yazdani_%D9%85%D9%86-%D8%A8%D8%A7%D8%B1%D9%87%D8%A7-%D9%86%D9%88%D8%B4%D8%AA%D9%85-%D9%88-%D8%A8%D8%A7%D8%B2-%D9%87%D9%85-%D8%A8%D8%A7%D8%B1%D9%87%D8%A7-%D9%85%DB%8C%D9%86%D9%88%DB%8C%D8%B3%D9%85-%D8%AA%D8%AE%D8%B5%D8%B5-activity-7524449780731682816-C9Ir",
-      "published": "2026-11-06",
-      "snippet": "ببخشیدا واقعا باورم نمیشه! از یه طرف خوشحالم که بالاخره بعضی شرکتها ارزش تخصص رو درک میکنن، اما از طرف دیگه این سوال برام پیش میاد: چرا هنوز خیلی از کارفرماها دنبال استخدام UI/UX Designer با حقوقهای غیرواقعی و پایین هستن؟ برای رسیدن به این جایگاه باید سالها درس بخونی، زبان یاد بگیری و دهها مهارت دیگه رو یاد بگیری و همیشه هم خودت رو بروز نگه داری. بعد آخرش بعضی آگهیها حقوقی پیشنهاد میدن که با نهایت احترام به تمام کارگران زحمتکش ساختمانی، حتی از دستمزد خیلی از اونها هم کمتره. بحث مقایسه شغل ها [...] # Ali Yazdani’s Post View profile for Ali Yazdani Ali Yazdani Report this post من بارها نوشتم و ب",
-      "apply_email": ""
-    },
-    {
-      "title": "#twaddan #hiring #uiuxdesigner #uaejobs #careers | Assel Jehad",
-      "company": "Posted by Aseel Jehad",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/aseel-jehad-23b0b518b_twaddan-is-looking-for-a-creative-and-talented-activity-7525443146189852672-2tFs",
-      "published": "2026-11-09",
-      "snippet": "فرصة وظيفية | (UI/UX Designer) تبحث شركة Twaddan عن مصمم UI/UX مبدع للانضمام إلى فريقها. المؤهلات والمهارات المطلوبة: - خبرة عملية لا تقل عن 4 سنوات في مجال UI/UX. - إتقان استخدام Figma أو Sketch أو Adobe XD. - خبرة في تصميم تطبيقات الهواتف والمواقع الإلكترونية. - مهارة في استخدام Figma Auto Layout وإنشاء Components. - القدرة على كتابة Prompts فعّالة واستخدام أدوات الذكاء الاصطناعي مثل Figma Make وClaude AI. - معرفة بأنظمة التصميم والنماذج الأولية (Design Systems & Prototyping). تفاصيل الوظيفة: [...] 🚀 NEW OPPORTUNITY | UX/UI DESIGNER We are currently looking for a UX/UI Designer with 5+ years",
-      "apply_email": ""
-    },
-    {
-      "title": "#productdesigner #uiuxdesigner #uxdesign #productdesign #opentowork #استخدام | narjes shenavar | 13 comments",
-      "company": "Posted by Narjes Shenavar",
-      "location": "Shiraz, Iran",
-      "url": "https://www.linkedin.com/posts/narjes-shenavar-b57180389_productdesigner-uiuxdesigner-uxdesign-activity-7519694231125245952-1xVc",
-      "published": "2026-10-24",
-      "snippet": "Report this post به دنبال فرصت همکاری بهعنوان Product Designer / UI/UX Designer هستم؛ جایی که بتونم با تفکر طراحی، حل مسئله و درک نیاز کاربران، در خلق و بهبود محصولات دیجیتال نقش داشته باشم. 📍 دورکاری یا حضوری(شیراز) اگر تیم شما به دنبال طراح محصوله یا فرصت همکاری مناسبی میشناسید، خوشحال میشم در ارتباط باشیم. ممنون میشم با معرفی من به تیم ها و شرکت های مرتبط، در پیدا کردن فرصت مناسب همراهم باشید.🤍 🔗 پورتفولیو: #ProductDesigner #UIUXDesigner #UXDesign #ProductDesign #OpenToWork #استخدام [...] graphical user interface, text, application, email 78 13 Comments Like Comment Amin Afshar 4d Report th",
       "apply_email": ""
     },
     {
@@ -443,15 +551,6 @@
       "apply_email": ""
     },
     {
-      "title": "موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای",
-      "company": "Posted by Winatalent Fa",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/winatalent-fa_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%A8%DB%8C%D9%86%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A8%D8%A7-%D8%AF%D8%B1%D8%A2%D9%85%D8%AF-%D8%A7%D8%B1%D8%B2%DB%8C-%D8%AF%D8%B1-winatalent-activity-7522257119228706816-YVXS",
-      "published": "2026-10-31",
-      "snippet": "# WINaTALENT\\_fa’s Post View organization page for WINaTALENT_fa 15,872 followers Report this post موقعیت بینالمللی با درآمد ارزی در WINaTALENT: Freelance HMI / UI/UX Designer (Embedded Systems & Qt/QML) برای مشاهده جزییات پوزیشنها و اپلای بر روی آنها وارد لینک زیر شوید و یا رزومه خود را به آدرس (info@winatalent.com) ایمیل فرمایید: پس از اپلای شما برای هر یک از پوزیشنهای WINaTALENT، رزومه شما پس از بررسی اولیه توسط تیم ما، مستقیما برای شرکت استخدام کننده ارسال میشود. [...] 🌐 Senior Product Ui/UX Designer & Consultant. Like Reply 1 Reaction Nastaran Mohammadi 17h Report this comment #up Like Re",
-      "apply_email": "info@winatalent.com"
-    },
-    {
       "title": "#javadeveloper #springboot #microservices #fintech #بانکداری_دیجیتال #استخدام #backenddeveloper #springcloud | Mostafa Hosseinzadeh | 15 com",
       "company": "Posted by Mostafa Hosseinzadeh",
       "location": "Iran",
@@ -476,15 +575,6 @@
       "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7518999233102917632-MZzt",
       "published": "2026-10-22",
       "snippet": "AI can generate wireframes, flows, even full UI screens now. But somehow… it still creates buttons like: “Submit Final Continue Confirm Next” 🙂 I’ve been testing a lot of AI tools lately, and noticed that AI is great at generating interfaces. But.. designers are still needed to make them usable and add emphathy. Because good UX isn’t just: → prompts → components → pretty screens It’s understanding why users hesitate, get confused, or abandon a flow. [...] To view or add a comment, sign in Showing all the information is only half the job. Users still need to understand what matters—and where to",
-      "apply_email": ""
-    },
-    {
-      "title": "Simplify Product Design with Grouped Information | Barbara karimi posted on the topic",
-      "company": "Posted by Barbara Karimi7713",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/barbara-karimi7713_productdesign-uxdesign-uidesign-activity-7517953608588369920-AsQ3",
-      "published": "2026-10-19",
-      "snippet": "Like Comment To view or add a comment, sign in Shadi Ramezani + Report this post The biggest shift in UI/UX isn’t AI replacing designers. It’s AI revealing who was actually designing—and who was just operating tools. For years, tool proficiency was mistaken for design skill. Now AI can generate interfaces in seconds. Design is no longer about making screens. It’s about making decisions. + No alternative text description for this image 7 2 Comments Like Comment [...] A screen isn’t ready for handoff until its states are designed.In this nutrition app prototype, I explored empty, filled, error,",
       "apply_email": ""
     },
     {
@@ -989,96 +1079,6 @@
       "url": "https://www.linkedin.com/posts/maxim-berenshtein_a-sanitizer-is-not-a-rendering-policy-showing-activity-7513190058326372353-A8J4",
       "published": "2026-10-06",
       "snippet": "Senior Frontend Engineer and FE Tech Lead building scalable frontend systems with Angular, React, Vue.js, and TypeScript, and accelerating",
-      "apply_email": ""
-    },
-    {
-      "title": "#تکنوگلد #technogold #استخدام_دولوپر | Technogold | تکنوگلد | 22 comments",
-      "company": "Posted by Technogoldir",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/technogoldir_%D8%AA%DA%A9%D9%86%D9%88%DA%AF%D9%84%D8%AF-technogold-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%AF%D9%88%D9%84%D9%88%D9%BE%D8%B1-activity-7513204125992525824-OZb7",
-      "published": "2026-10-06",
-      "snippet": "Report this post استخدام Backend Developer اگر در توسعه Backend با Laravel تجربه دارید و به ساخت سرویسهای قابلاعتماد و مقیاسپذیر علاقهمندید، جای شما در تیم ما خالی است. در این نقش، در توسعه و بهبود سرویسهایی مشارکت میکنید که پای تراکنشهای مالی و تجربه واقعی کاربران در میان است. اگر از حل مسائل پیچیده فنی لذت میبرید، شاید همتیمی بعدی ما باشید. 💙 ارسال رزومه به: amirkamali.recruiter@gmail.com #تکنوگلد #technogold #استخدام\\_دولوپر No alternative text description for this image [...] 302 22 Comments Like Comment Ali Moghimi 3w Report this comment #hiring #backend Like Reply 2 Reactions 3 Reactions",
-      "apply_email": "amirkamali.recruiter@gmail.com"
-    },
-    {
-      "title": "استخدام برنامهنویس (Back-End (python در راهبردهای خلاق آرمان | جابینجا | Arman Solutions",
-      "company": "Posted by Armansolutions",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/armansolutions_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3-back-end-python-%D8%AF%D8%B1-activity-7513119363164598273-Zw1K",
-      "published": "2026-10-06",
-      "snippet": "ما به دنبال یک Backend Developer با حداقل ۴ سال تجربه هستیم تا در توسعه و پیشبرد پروژه صباویژن کنار ما باشه. اگر به Python مسلط هستید و تجربه عملی با Go دارید و با Django/Flask، REST، Microservices، Git و Linux کار کردهاید، خوشحال میشیم با شما آشنا بشیم. آشنایی با Celery، Redis، PostgreSQL و Docker امتیاز محسوب میشه. همکاری به صورت تماموقت امکان دورکاری اگر به ساختن راهکارهای فنی مقیاسپذیر و کار روی پروژههای چالشبرانگیز علاقهمندید، جای شما در تیم ما خالیه. رزومهتون رو از طریق لینک زیر برای ما [...] لینک زیر برای ما ارسال کنید. #Hiring #BackendDeveloper #Python #Go #Golang #SoftwareEngineering",
-      "apply_email": ""
-    },
-    {
-      "title": "Upgrade Oracle APEX Environment with uc-local-apex-dev | Karim El-Gezawy posted on the topic",
-      "company": "Posted by Karim El Gezawy",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/karim-el-gezawy-460752219_oracleapex-orclapex-oracledatabase-activity-7513244587965014016-GJDo",
-      "published": "2026-10-06",
-      "snippet": "High-speed code translation, but risks logic hallucinations, 3VL misinterpretations, and silent financial calculation errors. 🛠️ Manual Rewrites (GSIs): Total design freedom, but relies on human rediscovery of every undocumented trigger—leading to massive timeline and budget inflation. 🛡️ Deterministic Structural Automation (ReForms21): Uses compiler-grade AST automation to convert legacy logic into clean Java, React, and PostgreSQL with 100% business logic fidelity and zero AI hallucinations. [...] upgrade-apex الـ script بيتولى عملية الـ upgrade بدل ما تعمل كل الخطوات يدويًا. بعد التحديث؟ أن",
-      "apply_email": ""
-    },
-    {
-      "title": "#دعوت_به_همکاری #استخدام #بانکداری_متمرکز #نرم_افزار #برنامه_نویس #itjobs #hiring #software #softwaredevelopment #softwareengineering #coreb",
-      "company": "Posted by Mohamadx86",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohamadx86_%D8%AF%D8%B9%D9%88%D8%AA%D8%A8%D9%87%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%A7%D9%86%DA%A9%D8%AF%D8%A7%D8%B1%DB%8C%D9%85%D8%AA%D9%85%D8%B1%DA%A9%D8%B2-activity-7513292567187312640--qMQ",
-      "published": "2026-10-06",
-      "snippet": "توسعه 🎯 شرایط و مهارتهای مورد نیاز • ترجیحاً ۲ سال سابقه کاری مرتبط • آشنایی با مفاهیم برنامه نویسی و مهندسی نرم افزار • آشنایی با پایگاههای داده و مفاهیم تراکنش • توانایی تحلیل و حل مسائل پیچیده • توانایی کار تیمی و یادگیری مستمر ⭐آشنایی با مهارتهای زیر مزیت محسوب میشود • Java • Python • COBOL • CICS • IMS • JCL • MQ • XML • JSON • Web API ⭐ مزایای همکاری • همکاری در پروژههای ملی و مقیاسبالا • فعالیت در محیطی تخصصی و حرفهای • فرصت یادگیری و توسعه مهارتهای تخصصی • مزایای سازمانی و بیمههای [...] #ITJobs #Hiring #Software #SoftwareDevelopment #SoftwareEngineering #CoreBanking #CoreBankingDevelop",
-      "apply_email": ""
-    },
-    {
-      "title": "Legal Case Data Analysis with Python and NumPy | Ahmed Elkazafi posted on the topic",
-      "company": "Posted by Ahmed Elkazafi",
-      "location": "Qom, Iran",
-      "url": "https://www.linkedin.com/posts/ahmed-elkazafi-841953320_python-numpy-dataanalysis-activity-7516098808707960832--xfl",
-      "published": "2026-10-14",
-      "snippet": "كود برمجي في العقد تفعيل التحكيم عند النزاع: بمجرد تحقق شرط معين مثل عدم السداد يتولى النظام استدعاء آلية التحكيم تلقائيا اختيار المحكمين إلكترونيًا: عبر خوارزمية أو تصويت لامركزي لضمان الحياد إصدار الحكم: يُصدر القرار التحكيمي في صورة كود رقمي ويُنفذ تلقائيا مثل تحويل عملة مشفرة توثيق الحكم: يُسجل نهائيا على السلسلة (Blockchain) فيصبح غير قابل للتعديل أو الطعن من داخل النظام ذاته ثالثًا: مزايا تحكيم البلوك تشين السرعة والفعالية: تُختصر المدد الإجرائية التقليدية بفضل الأتمتة الشفافية الكاملة: [...] ⚖️ Legal Case Data Analysis Using Python & NumPy | Turning Legal Data into Actionable Insights I",
-      "apply_email": ""
-    },
-    {
-      "title": "Electron's decline: Tauri and .NET WinUI 3 rise | Ckristian Zoli posted on the topic",
-      "company": "Posted by Ckristianzoli",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ckristianzoli_softwareengineering-webdevelopment-electronjs-activity-7512795679161892864-8O6I",
-      "published": "2026-10-05",
-      "snippet": "matters. --- The difference between a beginner and an experienced React developer isn't knowing more hooks. It's understanding why a particular solution should exist in the first place. Write less code. Design better. Measure before optimizing. Build for the future. 🚀 What do you focus on first when a React application starts getting complex? Performance ⚡ | Architecture 🏗️ | State 🗂️ | Code Quality 🧩 #ReactJS #React #FrontendDevelopment #JavaScript #WebDevelopment #SoftwareArchitecture [...] + Web Frontend): Instead of forcing a bloated Chromium instance into your users machine, Tauri uses th",
-      "apply_email": ""
-    },
-    {
-      "title": "Build Enterprise Apps No-Code with Vulo AI Platform | Amr Mahfouz posted on the topic",
-      "company": "Posted by Amr Mahfouz",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/amr-mahfouz-1383694_no-code-platforms-can-create-fully-functional-activity-7512831277180596224-K2gS",
-      "published": "2026-10-05",
-      "snippet": "You drag buttons, text boxes, tables, forms, and charts from a sidebar and place them where you want them. 2. Visual Data Modeling (The Database): Instead of writing SQL queries to set up databases, it provides spreadsheet-like grids. You define rows, columns, and relationships (e.g., linking a \"Customer\" to an \"Order\") visually. 3. Logic & Automation Engines (The Behavior): Instead of writing complex loops and conditional statements, you set up If/Then logic blocks. For example: “If a user [...] operate through language. This middle layer and the UI tax we’ve paid for decades, is collapsing b",
-      "apply_email": ""
-    },
-    {
-      "title": "Agents are tool users; that’s obvious. Give them a better web search tool, and they’ll do a much better job. What’s less obvious is that age",
-      "company": "Posted by Amix3k",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/amix3k_agents-are-tool-users-thats-obvious-give-activity-7513113946674065408-DG60",
-      "published": "2026-10-06",
-      "snippet": "Prompty — AI Prompt Library يسعدني مشاركة أحدث مشاريعي البرمجية وهو Web App يهدف إلى تنظيم وإدارة وإعادة استخدام AI Prompts بطريقة بسيطة وعملية جدًا . The project includes features such as search & filtering, favorites, adding, editing, deleting, Dark/Light Mode, responsive design, and Local Storage persistence. Built with: React.js, JavaScript, Vite, CSS. Prompty is currently a front-end-focused project and remains open for further development, with future possibilities such as user [...] 🚨 Your app works. Your UI looks beautiful. Your AI coding assistant says everything is done. So why is yo",
-      "apply_email": ""
-    },
-    {
-      "title": "Sonnit Partners with UX Breakfast for Exclusive Benefits | Sonnit posted on the topic",
-      "company": "Posted by Sonnit Ai",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/sonnit-ai_were-excited-to-announce-our-partnership-activity-7512858694896951296-6sOQ",
-      "published": "2026-10-05",
-      "snippet": "UX is not disappearing it is expanding. Traditional UX remains the foundation, but AI introduces a new layer: designing intelligent agents that understand intent, explain decisions, earn trust and keep humans in control. The next generation of UX designers will design not only interfaces, but also AI behaviors, personalities and relationships. #UserExperience #AgentUX #AI #ConversationalAI #HumanCenteredDesign 6 Like Comment To view or add a comment, sign in Jad Alsalim [...] language switching naturally when people switch between Arabic and English mid-sentence, and delivers a structured eval",
-      "apply_email": ""
-    },
-    {
-      "title": "AI in Mobile Apps: Beyond Chatbots | Raghd Mahmoud posted on the topic",
-      "company": "Posted by Raghd Mahmoud",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/raghd-mahmoud-320812280_ai-artificialintelligence-mobileapps-activity-7513350612860854272-UvN3",
-      "published": "2026-10-06",
-      "snippet": "The best AI isn't necessarily the AI users interact with the most. It's the AI that creates the most value. 🚀 #AI #ArtificialIntelligence #MobileApps #ProductDesign #UXDesign #AIProductDesign #Innovation [...] AI Features That Make Apps More Intuitive The Role of AI in User Engagement Mobile User Experience and the Impact of AI How AI Will Influence UX Design AI Innovations That Improve User Experience How to Improve AI User Experience with Prompt Engineering Tips for Maximizing AI Prompt Use The Impact Of AI On User Experience Innovation How to Use AI for Improved Results How to Boost Product",
       "apply_email": ""
     }
   ]
