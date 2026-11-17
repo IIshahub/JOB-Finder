@@ -1,13 +1,723 @@
 {
-  "updated_at": "2026-11-16T21:55:10+00:00",
+  "updated_at": "2026-11-17T07:42:29+00:00",
   "jobs": [
+    {
+      "title": "Frontend Developer",
+      "company": "AgileGrid Solutions",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-agilegrid-solutions-4488189100",
+      "published": "2026-11-06",
+      "snippet": "BenefitsThis full-time opportunity offers the flexibility of working remotely from anywhere in the United States. You will have the opportunity to contribute to user-facing web applications while collaborating with colleagues across disciplines. The role supports ongoing professional development through hands-on work, code reviews, shared problem-solving, and exposure to frontend tools and practices. Compensation, benefits, and other employment details will be discussed during the hiring [...] About The RoleJobrapido is seeking a Frontend Developer to help build and maintain modern, user-frien",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
     {
       "title": "Frontend Developer (Remote)",
       "company": "RecruiterForge",
       "location": "United States | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-recruiterforge-4486940184",
+      "published": "2026-11-06",
+      "snippet": "Design, build, and improve user interfaces across desktop and mobile experiences. Collaborate with cross-functional teams to deliver features and improve the customer experience. Maintain responsive layouts, troubleshoot issues, and optimize web application performance. Serve as a technical resource for frontend best practices and code reviews. Stay current with relevant frontend technologies and industry developments. Required experience [...] ### React Developer Jobs #### Surge Software Honolulu, HI SDE - UIUX ### SDE - UIUX #### Dragos, Inc. United States Frontend Engineer ### Frontend Engi",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer (Remote)",
+      "company": "7Seventy Recruiting",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-7seventy-recruiting-4488933379",
       "published": "",
-      "snippet": "Title: Frontend Developer (Remote) at RecruiterForge — United States | LinkedIn Jobs ### Frontend Developer (Remote). ## Join or sign in to find your next job. Join to apply for the **Frontend Developer (Remote)** role at **RecruiterForge**. By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. #### RecruiterForge United States 5 days ago Over 200 applicants See who RecruiterForge has hired for this role. ## Join or sign in to save this job. Join to save **Frontend Developer (Remote)** at **RecruiterForge**. ### Use AI to assess how",
+      "snippet": "Experience: 6+ years of frontend engineering experience Core Areas: React, TypeScript, Frontend Architecture, State Management, Frontend Performance Optimization, AI-Powered User Interfaces, Production Releases, Frontend Testing Compensation: $160,000–$190,000 annually About the Role [...] Tailscale United States Front End Engineer II (Remote) ### Front End Engineer II (Remote) Torentify United States Web (UI/UX) Developer ### Web (UI/UX) Developer TalentHop United States Frontend UI/UX Developer (Remote Opportunity) ### Frontend UI/UX Developer (Remote Opportunity) VetsEZ Tampa, FL Front End",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Front-End Developer (Flex-Time) (Remote/Global)",
+      "company": "Motu Novu",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/front-end-developer-flex-time-remote-global-at-motu-novu-4487654126",
+      "published": "2026-11-09",
+      "snippet": "Report this job Basics Type: Independent Contractor Schedule: Flex-Time (15-25 hours / week) Education: Bachelor Degree in Computer Science, or a similar field, or equivalent experience Experience: 3+ Years Location: Remote Motu Novu seeks to retain the services of a motivated Front-End Developer to work with React to build modern, responsive user interfaces for custom applications built with back-end PHP and Symfony. What You Do [...] Develop and maintain React-based user interfaces. Collaborate with senior developers on full-stack features. Write clean, maintainable code following team stand",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Frontend Developer - Remote Work | REF#307241",
+      "company": "BairesDev",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/react-frontend-developer-remote-work-ref%23307241-at-bairesdev-4487009735",
+      "published": "2026-11-04",
+      "snippet": "BairesDev Panama CMS Developer (React & GraphQL) - Remote Work | REF#309508 ### CMS Developer (React & GraphQL) - Remote Work | REF#309508 BairesDev Mexico Frontend Developer (React) - Remote Work ### Frontend Developer (React) - Remote Work BairesDev Colombia Frontend Engineer (React/Next.js) - Remote Work ### Frontend Engineer (React/Next.js) - Remote Work BairesDev Belize React/Next.js Developer - Remote Work | REF#295401 [...] ### React Frontend Engineer (Redux) - Remote Work | REF#301719 #### BairesDev Veracruz, Mexico Frontend Developer (React) - Remote Work ### Frontend Developer (React",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "HiJob.work",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-hijob-work-4486650257",
+      "published": "2026-11-09",
+      "snippet": "United States $160,000.00 - $190,000.00 Frontend Engineer ### Frontend Engineer #### SMARTFOX United States $90,000.00 - $130,000.00 Frontend UI/UX Developer (Remote Opportunity) ### Frontend UI/UX Developer (Remote Opportunity) #### VetsEZ Tampa, FL Frontend Developer ### Frontend Developer #### Talemexa United States Front End Developer (Remote) ### Front End Developer (Remote) #### Halvik McLean, VA Front End Engineer II (Remote) [...] ### Front End Engineer II (Remote) #### Torentify United States Web Front-End Developer ### Web Front-End Developer #### Lenovo North Carolina, United States",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Front-End Engineer",
+      "company": "Raas Infotek",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/front-end-engineer-at-raas-infotek-4490929099",
+      "published": "",
+      "snippet": "Frontend Developer (Remote). Frontend Developer (Remote). 7Seventy Recruiting. United States $160,000 - $190,000 3 days ago. Front End Web",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend JavaScript Developer",
+      "company": "Alignerr",
+      "location": "Seattle, WA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/frontend-javascript-developer-at-alignerr-4482409217",
+      "published": "2026-10-20",
+      "snippet": "#### North United States Frontend Developer (Remote) ### Frontend Developer (Remote) #### 7Seventy Recruiting United States $160,000.00 - $190,000.00 Frontend Developer ### Frontend Developer #### Goldschmitt and Associates (G&A) United States Front End Software Engineer, Consumer Engineering ### Front End Software Engineer, Consumer Engineering #### Reddit, Inc. United States Frontend Engineer ### Frontend Engineer #### SMARTFOX [...] This is a fully remote, flexible contract role. You set your own schedule and work as much or as little as fits your life — anywhere from 10 to 40 hours per wee",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Engineer (React.Js, UX)",
+      "company": "Superworq",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/frontend-engineer-react-js-ux-at-superworq-4489206473",
+      "published": "",
+      "snippet": "WellSync Tampa, FL $130,000.00 - $150,000.00 Frontend UI/UX Developer (Remote Opportunity) ### Frontend UI/UX Developer (Remote Opportunity) VetsEZ Tampa, FL ## Similar Searches ### Web Integrator jobs 8,847 open jobs ### Web Development Specialist jobs 227,596 open jobs ### Senior Frontend Developer jobs 45,179 open jobs ### Web Developer jobs 39,398 open jobs ### Web Programmer jobs 4,657 open jobs ### Junior Web Developer jobs [...] About The RoleWe are seeking a skilled Frontend Engineer to join our Growth Engineering team, contributing to the development of customer-facing web experiences",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Junior Shopify Developer - Remote Work",
+      "company": "BairesDev",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/junior-shopify-developer-remote-work-at-bairesdev-4485770347",
+      "published": "2026-11-03",
+      "snippet": "#### INDI Staffing Services Latin America Junior React Developer - Remote Work ### Junior React Developer - Remote Work #### INDI Staffing Services Colombia Frontend Developer — Ecommerce ### Frontend Developer — Ecommerce #### Raicom Brazil Web Application Developer ### Web Application Developer #### Bobex.com No. 62, East Berbice-Corentyne, Guyana Web Developer ### Web Developer #### GeorgiaTEK Systems Inc. [...] ### Desenvolvedor Front-end Júnior #### Jobbol Manaus, Amazonas, Brazil ### Desenvolvedor Júnior #### Donuz Brazil WordPress Developer (Remote) ### WordPress Developer (Remote) ####",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Front-End Engineer",
+      "company": "HCLTech",
+      "location": "Hoboken, NJ | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/front-end-engineer-at-hcltech-4481484653",
+      "published": "2026-10-30",
+      "snippet": "### Software Engineer, Profile & Community, Web #### Airbnb United States Frontend Engineer ### Frontend Engineer #### SMARTFOX United States $90,000.00 - $130,000.00 Design Engineer ### Design Engineer #### Kick United States Front End Software Engineer, Media Player ### Front End Software Engineer, Media Player #### Reddit, Inc. United States Frontend Developer (Remote) ### Frontend Developer (Remote) #### 7Seventy Recruiting [...] #### Netflix United States Frontend UI/UX Developer ### Frontend UI/UX Developer #### Superworq United States Design Engineer ### Design Engineer #### Wealthbox U",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Haystack",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/4487685601",
+      "published": "",
+      "snippet": "### Frontend Engineer, Design Systems Stripe United States Software Engineer II (Frontend) ### Software Engineer II (Frontend) Teamworks United States $166,000.00 - $166,000.00 React Developer Jobs ### React Developer Jobs Surge Software Honolulu, HI Frontend Engineer ### Frontend Engineer Jabra Home, KS Front End Developer ### Front End Developer Talentfoot Executive Search United States ReactJS Frontend Developer [...] • Ability to read and safely modify PHP codebases. • Experience with AWS deployment pipelines and CloudWatch for debugging. • Familiarity with using AI coding assistants for c",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Web Development Engineer Jobs in United States (11,000+ Open Roles)",
+      "company": "Remotehunter",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/front-end-web-applications-developer-junior-5660-at-remotehunter-4486583381",
+      "published": "2026-11-05",
+      "snippet": "Actively Hiring NodeJS React Developer ### NodeJS React Developer #### Tata Consultancy Services Charlotte, NC Actively Hiring Frontend Engineer - Web ### Frontend Engineer - Web #### FurtherAI San Francisco, CA Senior Software Engineer- Full Stack ### Senior Software Engineer- Full Stack #### Crexi Los Angeles, CA Software Engineer I ### Software Engineer I #### Service Insurance Companies [...] Junior Software Developer ### Junior Software Developer #### Bizowie Cloud ERP Pittsburgh, PA Senior Front End Developer (Angular, TypeScript/ Node.JS, REST APIs) ### Senior Front End Developer (Angul",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "AgileGrid Solutions",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-agilegrid-solutions-4491013305",
+      "published": "",
+      "snippet": "### Frontend Developer # Frontend Developer #### AgileGrid Solutions United States See who AgileGrid Solutions has hired for this role See who AgileGrid Solutions has hired for this role - ### Seniority level Associate - ### Employment type Full-time - ### Industries Software Development Referrals increase your chances of interviewing at AgileGrid Solutions by 2x See who you know Get notified about new Frontend Developer jobs in United States. ## Similar jobs [...] - Front End Engineer ### Front End Engineer - Mid-level Front End Developer ### Mid-level Front End Developer [...] - Frontend Eng",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend Java Developer - Remote",
+      "company": "YO AI Labs",
+      "location": "Philadelphia, PA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/backend-java-developer-remote-at-yo-ai-labs-4485442554",
+      "published": "2026-11-01",
+      "snippet": "Design, develop, and maintain scalable backend applications using Java and Spring Boot. Build and maintain robust microservices architectures. Develop and integrate REST APIs and backend services. Review technical requirements and deliver clean, maintainable, and efficient code. Participate in code reviews and provide constructive technical feedback. Troubleshoot, debug, and optimize backend systems. Contribute to application performance, reliability, scalability, and security. [...] Backend Java Developer Job Type: Contractor Location: Remote Job OverviewWe are seeking experienced Backend Jav",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Backend Developer (Ruby on Rails & GCP) - Remote Work",
+      "company": "Bairesdev",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-ruby-on-rails-gcp-remote-work-at-bairesdev-4488612332",
+      "published": "",
+      "snippet": "Apply for Backend Developer (Ruby on Rails & GCP) - Remote Work at BairesDev in Latin America. Full-time Mid-Senior level role.",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Back End Developer",
+      "company": "NeuroDrift",
+      "location": "India | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/4489368220",
+      "published": "2026-11-15",
+      "snippet": "Preferred - Shipped a backend service to production - Data pipelines, queues or workflow automation - Cloud deployment and Docker - LLM API integrations How we work - AI-native team. Claude Code from day one, and we expect you to use AI tooling to ship faster. The setup - Fully remote - 50-60 hours a week, startup pace - IST, with availability for US-time client meetings - Immediate joiners only [...] #### FloBiz Bengaluru, Karnataka, India ₹2,500,000 - ₹3,000,000 7 months ago REMOTE (INDIA): Backend Engineer- SaaS platformImage 16### REMOTE (INDIA): Backend Engineer- SaaS platform #### Marrin",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Back End Developer",
+      "company": "RemoteHunter",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/back-end-developer-at-remotehunter-4489592406",
+      "published": "",
+      "snippet": "Design and optimize RESTful APIs using PHP and Laravel. Develop efficient PostgreSQL queries and database schemas. Build and maintain integrations with third-party APIs and internal services. Deploy and manage services using Docker in cloud environments. Write automated tests and integrate them into CI/CD pipelines. Maintain technical documentation for APIs, troubleshooting, and support. Monitor application health and performance using tools like Rollbar and AWS CloudWatch. [...] United States ## People also viewed Node.js Backend Engineer | 100% Remote | Full-Time W2 | No C2C ### Node.js Back",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Java Back End Developer",
+      "company": "Ocho",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/java-back-end-developer-at-ocho-4485771744",
+      "published": "2026-11-05",
+      "snippet": "Buffalo-Niagara Falls Area Java Developer - Remote ### Java Developer - Remote #### Superworq United States Software Engineer II - Backend (Remote) ### Software Engineer II - Backend (Remote) #### The Home Depot Atlanta, GA $90,000.00 - $170,000.00 Backend Engineer ### Backend Engineer #### Bayview Asset Management, LLC New York, NY Software Engineer ### Software Engineer #### Kobie St Louis, MO Software Engineer ### Software Engineer [...] Nice to have Experience with FedRAMP or government cloud environments Background in cloud security or security products Tech stack Kubernetes, Docker, Neo4",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Software Engineer II - Backend (Remote)",
+      "company": "The Home Depot",
+      "location": "Atlanta, GA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-remote-at-the-home-depot-4489034094",
+      "published": "2026-11-11",
+      "snippet": "- Java Backend developer ### Java Backend developer - Software Engineer II (Remote) ### Software Engineer II (Remote) - Senior Software Engineer (Remote) ### Senior Software Engineer (Remote) - Software Engineer II, Supply Chain Sourcing Core (Remote) ### Software Engineer II, Supply Chain Sourcing Core (Remote) [...] - Lead Full-Stack Engineer - Backend Focus ### Lead Full-Stack Engineer - Backend Focus - Software Engineer ### Software Engineer - Forward Deployed Engineer ### Forward Deployed Engineer - Senior Software Engineer - CIAM and Fraud Solutions (Remote) ### Senior Software Engineer",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Back-end Engineer (Java/Kafka/Springboot) - w2 only/Remote is fine",
+      "company": "Redolent, Inc",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/back-end-engineer-java-kafka-springboot-w2-only-remote-is-fine-at-redolent-inc-4480094219",
+      "published": "2026-10-22",
+      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Report this job We are actively looking for a Back-End Developer ( Hybrid role ) @Bentonville AR TITLE: Back-end Engineer (Java, Spring, kafka) - w2 only LOCATION: Bentonville, AR or Remote Full time Visa Elegibility - H4-EAD/GC/USC/TN/L2 No c2c Required Skills [...] Evlo AI Minneapolis, MN Java Backend Developer ### Java Backend Developer Photon Dallas, TX $100,000.00 - $120,000.00 Backend Engineer ### Backend Engineer Wealthfront Palo Alto, CA Backend Engineer ### Backend Engin",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Lead Backend Developer",
+      "company": "QualityAI",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-at-qualityai-4481130979",
+      "published": "",
+      "snippet": "### Staff Backend Engineer, Foundations Quo California, United States Staff Software Engineer (Backend) ### Staff Software Engineer (Backend) hims & hers United States Senior/Lead Backend Engineer (Remote) ### Senior/Lead Backend Engineer (Remote) Fuse Energy United States Senior Software Engineer, Backend Engineering ### Senior Software Engineer, Backend Engineering Maven Clinic United States Senior Backend Engineer ### Senior Backend Engineer [...] ### Simran K. Are you interested in working with the World’s leading AI-powered Quality Engineering Company? Ready to advance your career, team u",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Java Backend developer",
+      "company": "LTM",
+      "location": "Atlanta, GA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/java-backend-developer-at-ltm-4488533342",
+      "published": "",
+      "snippet": "- Java Backend Developer with Kafka and SQL ### Java Backend Developer with Kafka and SQL - Core Java Developer ### Core Java Developer [...] ### Java Backend developer ## LTM provided pay range This range is provided by LTM. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more. ### Base pay range $90,000.00/yr - $120,000.00/yr - ### Seniority level Entry level - ### Employment type Full-time - ### Industries IT Services and IT Consulting Referrals increase your chances of interviewing at LTM by 2x See who you know Get notified when a new job is",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Software Engineer (Full Stack Developer) - Remote",
+      "company": "Optum",
+      "location": "Austin, TX | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-full-stack-developer-remote-at-optum-4488149199",
+      "published": "2026-11-07",
+      "snippet": "Design, develop, test, and deploy full-stack features for enterprise web applications Build and maintain scalable microservices, REST APIs, and backend services using Node.js, .NET Core/C#, and Azure cloud services Develop responsive, component-based user interfaces using ReactJS and modern SPA frameworks Troubleshoot, diagnose, and resolve application issues to ensure reliability, performance, and availability [...] Experience with containerization and orchestration technologies such as Docker and Kubernetes Experience with DevOps practices, CI/CD/CT pipelines, and tools such as GitHub Action",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer- Remote",
+      "company": "Robert Half",
+      "location": "New Haven, CT | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-robert-half-4487267660",
+      "published": "2026-11-03",
+      "snippet": "We are seeking a Full Stack Developer to join a growing technology team supporting business-critical applications and integrations. This is a long-term contract opportunity with the potential to convert to a permanent position after approximately six months, depending on business needs and performance. The ideal candidate will have strong Java development experience and a background supporting web applications that interact with ERP systems, business processes, and enterprise integrations. [...] Experience supporting applications that integrate with ERP, MRP, or other enterprise business syste",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer, Sr. - Remote",
+      "company": "Torentify",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-sr-remote-at-torentify-4490332602",
+      "published": "",
+      "snippet": "The selected candidate will build secure, scalable, cloud-ready solutions across front-end and back-end systems, APIs, databases, and cloud environments. This position requires close collaboration with Product, DevSecOps, Cloud, Data, QA, and Migration teams to deliver mission-critical capabilities that meet federal performance, security, and compliance standards. Key Responsibilities Application & API Development [...] #### Titus United States Senior Full-Stack Software Engineer (Node.js) ### Senior Full-Stack Software Engineer (Node.js) #### Spatial Front, Inc United States Senior Full-Stack",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Remote Leverage",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4486456785",
+      "published": "2026-11-02",
+      "snippet": "#### Dots Mexico $30,000.00 - $50,000.00 Full Stack Developer (JavaScript, ReactJS, REST APIs) -Mexico Remote ### Full Stack Developer (JavaScript, ReactJS, REST APIs) -Mexico Remote #### Ellucian Mexico Full Stack Developer ### Full Stack Developer #### Softtek Mexico Software Engineer ### Software Engineer #### Traackr Mexico $55,000.00 - $70,000.00 Full Stack Developer (React + Node) - Remote Work [...] ### Software Engineer #### FullPond Latin America Remote Full Stack Developer (Frontend-Focused) - Mexico ### Remote Full Stack Developer (Frontend-Focused) - Mexico #### Brafton Inc. Mexico",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "TalentHop",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-talenthop-4487140407",
+      "published": "2026-11-09",
+      "snippet": "This is a Fully Remote Job About Our Client: This organization operates within the software development industry, focusing on creating modern, scalable, and responsive web applications. They address the challenge of building high-performance, user-friendly digital solutions by employing skilled development teams capable of handling full-stack web technologies. The company supports fully remote work arrangements and engages talent within the New York, United States area. [...] ### Full Stack Software Engineer (Remote) #### Unframe Austin, TX Full Stack Engineer (Remote Position) ### Full Stack",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer - WFH",
+      "company": "Torentify",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-wfh-at-torentify-4489416696",
+      "published": "2026-11-10",
+      "snippet": "Remote position within a 2-hour drive of Washington, DC. 40 hours per week, Monday through Friday. Core working hours are 9:00 a.m. to 3:00 p.m. local time. Travel requirement: 0–10%. Public Trust security requirement. Compensation and Benefits Salary range: $110,000–$114,000. Health, dental, vision, and life insurance. Comprehensive 401(k) plan with matching and immediate vesting. A company culture focused on employee wellbeing, innovation, engagement, and career development. [...] Atlassian San Francisco, CA Full Stack Developer ### Full Stack Developer TalentHop United States Full Stack Eng",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Remote Leverage",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4486466647",
+      "published": "2026-11-02",
+      "snippet": "### Full Stack Engineer #### Arca.ph Mexico Full Stack Engineer ### Full Stack Engineer #### Koin Montevideo, Uruguay Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 ### Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 #### BairesDev Guanajuato, Guanajuato, Mexico Full-Stack Developer – Node.js / TypeScript / React / AWS ### Full-Stack Developer – Node.js / TypeScript / React / AWS #### BC Tecnología [...] Design, build, and maintain internal web applications used across all departments. Develop full-stack features end-to-end, including frontend, backend APIs,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Remote Leverage",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4489148999",
+      "published": "2026-11-15",
+      "snippet": "#### Improving South America Mexico Full Stack Engineer ### Full Stack Engineer #### Arca.ph Mexico Full Stack Engineer ### Full Stack Engineer #### Koin Montevideo, Uruguay Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 ### Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 #### BairesDev Guanajuato, Guanajuato, Mexico Full-Stack Developer – Node.js / TypeScript / React / AWS [...] ### Full-Stack Developer – Node.js / TypeScript / React / AWS #### BC Tecnología Latin America Software Engineer ### Software Engineer #### FullPond Latin America Remote Full Stack D",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "TalentHop",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-talenthop-4489359492",
+      "published": "",
+      "snippet": "#### BJAK United States Full Stack Software Engineer (Remote) ### Full Stack Software Engineer (Remote) #### Unframe Albany, NY Full-Stack Engineer – Labor Marketplace ### Full-Stack Engineer – Labor Marketplace #### MCI United States Software Engineer (Full Stack) ### Software Engineer (Full Stack) #### Discern United States $150,000.00 - $200,000.00 Full-Stack Software Engineer (Backend-Leaning) | Fully Remote | Willow Processing [...] ### Full Stack Engineer (Remote Position) Entefy United States Full Stack Engineer ### Full Stack Engineer Roboflow United States Full Stack Developer ### Ful",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "SR. SOFTWARE DEVELOPER FULL STACK - REMOTE",
+      "company": "Palco, Inc.",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/sr-software-developer-full-stack-remote-at-palco-inc-4490156655",
+      "published": "",
+      "snippet": "We are seeking a highly skilled Senior Full Stack Developer to join our growing team. In this role, you will be responsible for designing,",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "IBM Maximo Full Stack Engineer - Remote",
+      "company": "Randstad Digital Americas",
+      "location": "New York, NY | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ibm-maximo-full-stack-engineer-remote-at-randstad-digital-americas-4489256850",
+      "published": "",
+      "snippet": "### Software Engineer #### Conduit Health New York, NY $150,000.00 - $225,000.00 Software Engineer, Product ### Software Engineer, Product #### Ambrook New York, NY Senior Full Stack Developer ### Senior Full Stack Developer #### Nixon Peabody LLP New York, NY Full-Stack Software Developer (Remote) ### Full-Stack Software Developer (Remote) #### NextGen Coding Company New York City Metropolitan Area Senior Software Engineer [...] #### Figma New York, NY Senior Full Stack Engineer ### Senior Full Stack Engineer #### Intelletec New York City Metropolitan Area Senior Software Engineer ### Senior",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "RecruiterForge",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-recruiterforge-4489565664",
+      "published": "2026-11-14",
+      "snippet": "The role supports remote work aligned with Eastern time. Expected hours are 9:00 am–5:00 pm Eastern unless otherwise directed by the manager; the office location is Columbia, Maryland. Occasional travel for training and project meetings is estimated at less than 5% per year. [...] ### Software Engineer #### MongoDB United States Full Stack Software Engineer (Remote) ### Full Stack Software Engineer (Remote) #### Unframe Austin, TX Full Stack Engineer (Remote Position) ### Full Stack Engineer (Remote Position) #### Entefy United States Full Stack Engineer ### Full Stack Engineer #### Roboflow U",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Web Developer",
+      "company": "Yes You Can!",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-web-developer-at-yes-you-can%21-4488870861",
+      "published": "2026-11-11",
+      "snippet": "### Full Stack Developer #### Dunhill Professional Search & Government Solutions United States $100,000.00 - $110,000.00 Full Stack Developer - Remote ### Full Stack Developer - Remote #### Superworq United States Full Stack Developer ### Full Stack Developer #### TekPillar® United States Full-Stack Engineer ### Full-Stack Engineer #### Splitero United States Software Developer ### Software Developer #### Intelex Technologies ULC [...] United States Software Engineer (Full Stack) ### Software Engineer (Full Stack) #### Discern United States $150,000.00 - $200,000.00 Full-Stack Software Enginee",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Intermediate Full Stack Developer",
+      "company": "Objective Area Solutions",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/intermediate-full-stack-developer-at-objective-area-solutions-4487892412",
+      "published": "",
+      "snippet": "TalentHop United States Software Engineer (Remote) ### Software Engineer (Remote) OPENLANE Carmel, IN Full Stack Software Engineer, Support Operations ### Full Stack Software Engineer, Support Operations ClickHouse Seattle, WA $154,000.00 - $215,000.00 Software Engineer ### Software Engineer iHeartMedia New York, United States ## Similar Searches ### Javascript Developer jobs 35,575 open jobs ### Java Software Engineer jobs [...] ### Intermediate Full Stack Software Engineer Super.com United States $114,000.00 - $158,000.00 Software Engineer ### Software Engineer Gray Swan United States Full S",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "NET Full Stack Developer",
+      "company": "RemoteHunter",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/net-full-stack-developer-at-remotehunter-4490934405",
+      "published": "",
+      "snippet": "The .NET FULL STACK DEVELOPER will design, develop, test, and support enterprise software applications and services using a relevant technology",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Crawford Thomas Recruiting",
+      "location": "Sandy Springs, GA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-crawford-thomas-recruiting-4481392505",
+      "published": "2026-10-22",
+      "snippet": "78,145 open jobs ### PHP Developer jobs 14,437 open jobs ### Contract Web Developer jobs 354 open jobs ### Java Application Developer jobs 16,016 open jobs ### Senior Web Developer jobs 46,615 open jobs ### Django Developer jobs 37,934 open jobs ### Associate Software Engineer jobs 223,979 open jobs ### Ruby on Rails Developer jobs 35,209 open jobs ### Web Developer jobs 39,398 open jobs ### Web Application Developer jobs [...] ### Full Stack Developer - IT Service Delivery World Wide Technology Atlanta, GA Full Stack Engineer ### Full Stack Engineer Mphasis Atlanta, GA Full Stack Engineer ###",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer (Python, Front End Development, AWS)",
+      "company": "Staffworxs",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-python-front-end-development-aws-at-staffworxs-4491512655",
+      "published": "",
+      "snippet": "Client is seeking an experienced Full Stack Developer with strong expertise in Python, AWS, and modern front-end development technologies. The",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React/Next.js Developer - Remote Work | REF#295401",
+      "company": "BairesDev",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/react-next-js-developer-remote-work-ref%23295401-at-bairesdev-4487016576",
+      "published": "2026-11-03",
+      "snippet": "Design and develop scalable frontend applications using React and Next.js (App and Pages Router). Implement efficient rendering strategies including Server-Side Rendering (SSR) and Static Site Generation (SSG). Build responsive and visually consistent components using Tailwind CSS and TypeScript. Optimize application performance to ensure fast load times and high Core Web Vitals scores. Deploy and manage web applications using Vercel or self-hosted infrastructure. [...] As a React/Next.js Developer, you will specialize in building high-performance web applications using modern rendering strate",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "AgileGrid Solutions",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-agilegrid-solutions-4491212141",
+      "published": "2026-11-15",
+      "snippet": "About The RoleBright Vision Technologies is seeking a React Developer to design, develop, test, and support enterprise software applications and services. In this remote, full-time role, you will contribute throughout the software delivery lifecycle, from interpreting requirements and building user-facing features to integrating services, preparing releases, and troubleshooting production issues. You will use React and related front-end technologies to create reliable, maintainable, and [...] Location: Remote | Employment: Full-time, direct W-2 | Salary: $115,000–$165,000 annually | Experience",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "Bright Vision Technologies",
+      "location": "Overland Park, KS | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-bright-vision-technologies-4482113435",
+      "published": "2026-10-27",
+      "snippet": "React Developer – RemoteBright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: React Developer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $120,000–$180,000 Annually [...] #### Teamworks United States $166,000.00 - $166,000.00 JavaScript Developer ### JavaScript Developer #### TaskVerse United States Software",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer - Remote Work",
+      "company": "INDI Staffing Services",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-remote-work-at-indi-staffing-services-4489968330",
+      "published": "2026-11-16",
+      "snippet": "Remote Work at INDI Staffing. Requirements: - 5+ years of experience in React. - Experience with Typescript. - Familiarity with caching systems. - Comfortable",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Developer",
+      "company": "Haystack",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/react-developer-at-haystack-4486658087",
+      "published": "2026-11-10",
+      "snippet": "7+ years of full stack software development experience Strong frontend proficiency with React, Next.js, JavaScript, and TypeScript Strong backend experience with Java, Spring Boot, microservices architecture, and REST APIs Demonstrated understanding of distributed systems and message streaming architectures What's On Offer Fully remote work environment Opportunity to work on large-scale enterprise systems Collaborative and agile engineering culture Apply via Haystack today! [...] #### Jabra Home, KS Frontend Developer (Remote) ### Frontend Developer (Remote) #### 7Seventy Recruiting United Sta",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Django React Developer - Remote Work",
+      "company": "BairesDev",
+      "location": "Latin America | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/django-react-developer-remote-work-at-bairesdev-4486046867",
+      "published": "2026-11-03",
+      "snippet": "Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide. When you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success. Django React Developer at BairesDev [...] As a Django React Developer, you will design and develop high-performance fullstack applications, uniting robust backend systems with dynamic user interfaces. You will collaborate acro",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Full Stack Developer W React and Vite",
+      "company": "Volantsoft Inc",
+      "location": "San Mateo, CA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-w-react-and-vite-at-volantsoft-inc-4481049236",
+      "published": "2026-10-24",
+      "snippet": "Required Skills Strong experience with React, Vite, TypeScript, JavaScript, and Node.js. Experience with PostgreSQL, Prisma ORM, and SQL optimization. Hands-on experience with AWS services. Knowledge of event-driven architecture, queues, and distributed systems. Understanding of concurrency, idempotency, and fault-tolerant integrations. Strong problem-solving and communication skills. This is a remote position. ### Seniority level Not Applicable ### Employment type [...] This range is provided by Volantsoft Inc. Your actual pay will be based on your skills and experience — talk with your recru",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "SDE I - Frontend (React + React Native)",
+      "company": "Flexiple",
+      "location": "India | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/4488724863",
+      "published": "2026-11-07",
+      "snippet": "### React Developer #### emagine Bengaluru, Karnataka, India Front End AI Engineer ### Front End AI Engineer #### Outmarket AI India Mobile Engineer - React Native (100% Remote) ### Mobile Engineer - React Native (100% Remote) #### Tether.io India Web Developer ### Web Developer #### Droisys India Middle Frontend Engineer ### Middle Frontend Engineer #### NodeShift India Frontend Developer ### Frontend Developer #### GoML [...] #### ClickHouse Bengaluru, Karnataka, India Junior JavaScript Developer - Remote work | REF#283760 ### Junior JavaScript Developer - Remote work | REF#283760 #### Baire",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "React Native Developer",
+      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
+      "location": "Nashville, TN | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/react-native-developer-at-machine-learning-technologies-llc-4489077574",
+      "published": "2026-11-12",
+      "snippet": "Job Title: React Native DeveloperLocation: Nashville, TN(Remote)Duration: 12 Months + ExtensionBill Rate: $64/hour (C2C)Job Type: W-2, 1099, C2CClient: To Be Discussed LaterWork Authorization: US Citizen, Green Card, OPT-EAD, CPT, H-1B, H4-EAD, OtherJob Description:We are looking for an experienced React Native Developer to design, develop, test, and maintain high-quality mobile applications for iOS and Android platforms. The ideal candidate should have strong hands-on experience with React [...] Domain Exposure: Consumer Staples Client: To Be Discussed Later Employment Type: W-2, 1099, C2C Wo",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Java React Developer",
+      "company": "Infosys",
+      "location": "Minneapolis, MN | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/java-react-developer-at-infosys-4489354193",
+      "published": "2026-11-14",
+      "snippet": "### Sr. Engineer - Fullstack - AI Enablement - Lead Software Engineer ### Lead Software Engineer - Associate Full Stack Software Engineer ### Associate Full Stack Software Engineer - GEN AI Developer ### GEN AI Developer - Full-Stack Software Engineer II | Java, React & AWS ### Full-Stack Software Engineer II | Java, React & AWS - Software Java Engineer II – Hybrid, Minneapolis ### Software Java Engineer II – Hybrid, Minneapolis - Senior Software Developer - Java [...] ### Java React Developer - ### Seniority level Entry level - ### Employment type Full-time - ### Industries IT Services and IT",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Python Developer",
+      "company": "Bright Vision Technologies",
+      "location": "Plainsboro, NJ | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-bright-vision-technologies-4486458403",
+      "published": "",
+      "snippet": "Senior Python Developer - RemoteBright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Senior Python Developer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $100,000–$160,000 Annually [...] Medallion United States Senior Backend Engineer ### Senior Backend Engineer Jeeves United States Senior Software Engineer #",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Contract Python Developer",
+      "company": "H & A Resources, LLC",
+      "location": "Greater Chicago Area | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/contract-python-developer-at-h-a-resources-llc-4484667808",
+      "published": "",
+      "snippet": "### Software Engineer - Python \\PLEASE no C2C\\ #### Curate Partners United States Python Engineer - Remote ### Python Engineer - Remote #### Superworq United States Software Engineer - Python (Advanced) ### Software Engineer - Python (Advanced) #### Alignerr United States $50.00 - $75.00 Software Engineer ### Software Engineer #### Eliassen Group United States Python Developer with AWS 100% Remote ### Python Developer with AWS 100% Remote [...] ### Backend Engineer (Mid-Level) #### Spade United States $170,000.00 - $200,000.00 Python full stack developer - 100% Remote ### Python full stack dev",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior Python Developer",
+      "company": "Eliassen Group",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-eliassen-group-4485835169",
+      "published": "2026-11-05",
+      "snippet": "DescriptionRemote Our client seeks a Senior Python Developer to build and operate components of a SaaS risk and compliance AI platform. The role requires hands-on development across data ingestion, storage, search, and cloud deployment. You will work primarily in Python on Linux, leverage AWS services, and contribute to both modernization and production support for a screening platform. [...] #### Zapcom Group Inc United States Senior Software Engineer ### Senior Software Engineer #### Pipe United States Senior / Staff Python Engineer - REMOTE ### Senior / Staff Python Engineer - REMOTE #### C",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Sr. Python Developer - Agent Runtime & MCP",
+      "company": "Zapcom Group Inc",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/sr-python-developer-agent-runtime-mcp-at-zapcom-group-inc-4489822382",
+      "published": "",
+      "snippet": "Direct message the job poster from Zapcom Group Inc Vasala Praveen Click here to view Vasala Praveen’s profile ### Vasala Praveen Hi everyone, Hope you're all doing well. It's nice to connect with you all We are looking for Sr. Python Developer - Agent Runtime & MCP (Remote). Please share your resume to praveen.vasala@zapcg.com if you are interested. Job Title · Sr. Python Developer - Agent Runtime & MCP (Remote) Location: Remote Experience: 6+ [...] Buffalo-Niagara Falls Area Senior Software Engineer (Python) - Remote ### Senior Software Engineer (Python) - Remote #### Mitratech United States",
+      "apply_email": "praveen.vasala@zapcg.com",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Game Developer - Remote",
+      "company": "YO IT Consulting",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/python-game-developer-remote-at-yo-it-consulting-4486358578",
+      "published": "2026-11-04",
+      "snippet": "Unisys New York, NY MID-LEVEL - Software Engineer - Python, gRPC - remote ### MID-LEVEL - Software Engineer - Python, gRPC - remote Mainz Brady Group United States Software Engineer ### Software Engineer Primordial Labs United States Backend Engineer ### Backend Engineer Phaxis New York, NY $180,000.00 - $250,000.00 Software Engineer (US Candidates only) ### Software Engineer (US Candidates only) Ottimate [...] #### Ascendion United States $70,000.00 - $90,000.00 Regular Gameplay Engineer (Mid Level) | Fully Remote ### Regular Gameplay Engineer (Mid Level) | Fully Remote #### Escape Velocity E",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "Creospan Inc.",
+      "location": "Chicago, IL | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-creospan-inc-4488601775",
+      "published": "",
+      "snippet": "Chicago, IL $300,000.00 - $500,000.00 ## People also viewed Python & JS Developer / Chicago / Remote ### Python & JS Developer / Chicago / Remote Motion Recruitment Chicago, IL $100,000.00 - $140,000.00 Full Stack Developer ### Full Stack Developer Edgehog Trading Chicago, IL Software Engineer, AI Tooling ### Software Engineer, AI Tooling Selby Jennings Chicago, IL $200,000.00 - $500,000.00 Associate, Software Engineer - SMA Solutions [...] We are looking for a strong, hands-on Senior Software Engineer with Python, FastAPI, and Google Cloud Platform (GCP) experience who can build and manage pr",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Python Developer",
+      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
+      "location": "Denver, CO | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-at-machine-learning-technologies-llc-4489429093",
+      "published": "2026-11-11",
+      "snippet": "Required Skills: Python Programming. Django, Flask, or FastAPI. REST API Development. SQL and PostgreSQL. MongoDB. Object-Oriented Programming. Git and Version Control. AWS or Azure. Unit Testing and Debugging. Docker. [...] Design and develop backend applications using Python. Build REST APIs and integrate external services. Develop applications using Django, Flask, or FastAPI. Write reusable, efficient, and maintainable code. Work with relational and NoSQL databases. Develop automation scripts to improve operational efficiency. Perform debugging, testing, and application optimization. Integr",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "User Interface/User Experience Designer (UI/UX Designer) (Remote)",
+      "company": "Multimedia Solutions",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/user-interface-user-experience-designer-ui-ux-designer-remote-at-multimedia-solutions-4488949578",
+      "published": "2026-11-13",
+      "snippet": "Collaborate with strategists, developers, and stakeholders to shape intuitive and engaging digital experiences Design user journeys, task flows, personas, and interaction models grounded in data and behavioral insights Produce high-fidelity mockups, responsive layouts, and component libraries using modern design tools Build interactive prototypes to demonstrate behavior, transitions, and workflows Participate in design critique, usability testing, and iterative refinement cycles [...] 3+ years of UI/UX design experience working on web or digital product teams Proven portfolio showcasing end-to",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer - Remote",
+      "company": "Superworq",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-superworq-4489744451",
+      "published": "",
+      "snippet": "This is a remote position with periodic travel requirements for user research, workshops, demonstrations, and customer engagements. in UI/UX",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI Designer (Remote)",
+      "company": "Joblet-AI",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-designer-remote-at-joblet-ai-4489099983",
+      "published": "",
+      "snippet": "### User Interface/User Experience Designer (UI/UX Designer) (Remote) #### Multimedia Solutions United States $80,000.00 - $120,000.00 UI/UX Designer ### UI/UX Designer #### Superworq United States UX/UI Designer (Remote) ### UX/UI Designer (Remote) #### GovCIO United States UX Designer ### UX Designer #### AgileGrid Solutions United States Product Designer ### Product Designer #### RXNT [...] #### RXNT United States $90,000.00 - $115,000.00 UX Designer ### UX Designer #### Superworq United States Associate User Experience Designer (Remote) ### Associate User Experience Designer (Remote) ####",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer – Games & AI Apps",
+      "company": "Biostate AI",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/4489276992",
+      "published": "2026-11-13",
+      "snippet": "Students and recent graduates with strong portfolios are welcome to apply! Work Arrangement Location: Remote Schedule: Flexible, approximately 20-30 hours/week initially, with opportunities for increased hours. Compensation: $20–40/hour, depending on experience&ability. Opportunity: Long-term collaboration with potential transition to full-time. How to Apply [...] #### ClassLink United States $80,000.00 - $90,000.00 Senior UI / UX Designer ### Senior UI / UX Designer #### Astrid Entertainment United States UI/UX Designer (Remote) ### UI/UX Designer (Remote) #### Koniag Government Services Wash",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "Superworq",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-superworq-4489741707",
+      "published": "2026-11-16",
+      "snippet": "About The RoleWe are seeking an experienced UI/UX Designer to join our remote team based anywhere in the USA, with a strong preference for candidates located in Las Vegas, NV. Reporting directly to the Head of Product, you will be embedded in a cross-functional pod alongside Product Managers, engineers, and data engineers. This role offers the opportunity to design across web and native iOS and Android platforms, focusing on key user funnels such as onboarding, discovery, matching, messaging, [...] ### UI/UX Designer (Remote) #### Koniag Government Services Washington, DC Associate User Experi",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "The Methodical Group",
+      "location": "Iowa, United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-the-methodical-group-4488610429",
+      "published": "",
+      "snippet": "### User Interface/User Experience Designer (UI/UX Designer) (Remote) #### Multimedia Solutions United States $80,000.00 - $120,000.00 UX/UI Designer (Remote) ### UX/UI Designer (Remote) #### GovCIO United States UX/UI Designer ### UX/UI Designer #### Provation United States UX Designer ### UX Designer #### Health-E Commerce United States UX Designer ### UX Designer #### DealerOn United States User Experience Designer at Aptiva Corp [...] Accessibility UI/UX Requirements Analyst Client: Iowa Department of Management (DOM) Hiring Department: Department of Information Technology (DoIT) Location:",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer (Remote)",
+      "company": "Wiraa",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-wiraa-4489005073",
+      "published": "",
+      "snippet": "This fully remote position will lead the user experience and interface design efforts for the new Regulated Garbage (RG) Module, transforming",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI Designer - 100% Remote Opportunity",
+      "company": "Torentify",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-designer-100%25-remote-opportunity-at-torentify-4488793770",
+      "published": "",
+      "snippet": "### UI/UX Product Designer Willsmarg Technologies LLC New York, United States Product Designer / UX/UI Designer ### Product Designer / UX/UI Designer PeopleFinders United States Product Designer ### Product Designer WebstaurantStore Lititz, PA $85,000.00 - $120,000.00 Product Designer ### Product Designer Prelim Los Angeles Metropolitan Area User Experience Designer - Online ### User Experience Designer - Online The Home Depot Atlanta, GA [...] #### Instagram United States $170,000.00 - $236,000.00 Product Designer ### Product Designer #### Thatch San Francisco, CA UX/UI Designer (Remote) ###",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer - Remote",
+      "company": "Wiraa",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-wiraa-4486037866",
+      "published": "",
+      "snippet": "LMI is seeking two experienced UI/UX Designers to join our remote team supporting next-generation software capabilities for U.S. Army",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior UX/UI Designer for Product (Freelance)",
+      "company": "Vi",
+      "location": "New York, NY | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/senior-ux-ui-designer-for-product-freelance-at-vi-4489863444",
+      "published": "",
+      "snippet": "### Senior Designer (UX) #### Curinos United States $140,000.00 - $150,000.00 UI/UX Designer - Remote ### UI/UX Designer - Remote #### Superworq United States Senior Product Designer ### Senior Product Designer #### Spark United States $145,000.00 - $165,000.00 Senior Product Designer ### Senior Product Designer #### Coder United States Sr. Product Designer ### Sr. Product Designer #### Robert Half [...] #### Hungryroot United States Senior Product Designer ### Senior Product Designer #### CodePath United States Senior Product Designer ### Senior Product Designer #### TRM Labs United States Pr",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Sr UX/UI Designer",
+      "company": "Moder",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/sr-ux-ui-designer-at-moder-4478584934",
+      "published": "",
+      "snippet": "Senior UX/UI Designer (Remote). Protective Life. United States $76,500 - $130,000 2 weeks ago. UI/UX Designer (Remote). UI/UX Designer (Remote).",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "Booz Allen Hamilton",
+      "location": "Washington, DC | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-booz-allen-hamilton-4490536115",
+      "published": "",
+      "snippet": "See who you know Get notified about new User Experience Designer jobs in Washington, DC. Sign in to create job alert ## Similar jobs UI/UX Designer (Remote) ### UI/UX Designer (Remote) #### Koniag Government Services Washington, DC UX Designer ### UX Designer #### Second Front Washington, DC $120,000.00 - $145,000.00 UX Designer ### UX Designer #### Accenture Federal Services Washington, DC User Experience Designer ### User Experience Designer [...] Remote: If this position is listed as remote, there may still be occasions when you are required to work in person at a Booz Allen or customer fac",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Product UX Designer",
+      "company": "National University",
+      "location": "Remote",
+      "url": "https://www.linkedin.com/jobs/view/product-ux-designer-at-national-university-4490130040",
+      "published": "",
+      "snippet": "UI/UX Designer (Remote). Koniag Government Services. Washington, DC 1 ... Senior User Interface Designer jobs · User Experience Specialist",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "UX/UI Designer",
+      "company": "Steampunk, Inc.",
+      "location": "McLean, VA | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/ux-ui-designer-at-steampunk-inc-4488241724",
+      "published": "",
+      "snippet": "UX Designer. UX Designer. Second Front. Washington, DC $120,000 - $145,000 2 months ago. UI/UX Designer (Remote). UI/UX Designer (Remote).",
+      "apply_email": "",
+      "source": "LinkedIn job"
+    },
+    {
+      "title": "Senior UI/UX Designer",
+      "company": "Netrolynx AI",
+      "location": "United States | LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/view/senior-ui-ux-designer-at-netrolynx-ai-4489706107",
+      "published": "",
+      "snippet": "Amentum is seeking a Senior UI/UX Designer to lead the strategy, design, and optimization of digital products across federal web platforms. You",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -62,26 +772,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Backend Developer (Ruby on Rails & GCP) - Remote Work",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/backend-developer-ruby-on-rails-gcp-remote-work-at-bairesdev-4488612332",
-      "published": "",
-      "snippet": "What You'll Do: - Develop features and APIs within Rails applications. - Deploy applications to managed cloud services. - Configure storage, queues, and databases used by the application. - Monitor performance and costs in production. - Troubleshoot runtime and scaling issues. - Support the team through testing and clear documentation. What we are looking for: - 4+ years of experience in back-end web development. - Proven expertise building applications with Ruby on Rails. [...] ### Backend Developer (Ruby on Rails) - Remote Work | REF#309172 #### BairesDev Nicaragua Ruby Engineer - Web Scrapi",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Backend Java Developer - Remote",
-      "company": "YO AI Labs",
-      "location": "Philadelphia, PA | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/backend-java-developer-remote-at-yo-ai-labs-4485442554",
-      "published": "2026-11-01",
-      "snippet": "Design, develop, and maintain scalable backend applications using Java and Spring Boot. Build and maintain robust microservices architectures. Develop and integrate REST APIs and backend services. Review technical requirements and deliver clean, maintainable, and efficient code. Participate in code reviews and provide constructive technical feedback. Troubleshoot, debug, and optimize backend systems. Contribute to application performance, reliability, scalability, and security. [...] Backend Java Developer Job Type: Contractor Location: Remote Job OverviewWe are seeking experienced Backend Jav",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Backend Developer",
       "company": "Torentify",
       "location": "United States | LinkedIn Jobs",
@@ -102,102 +792,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Back End Developer",
-      "company": "NeuroDrift",
-      "location": "India | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/4489368220",
-      "published": "2026-11-15",
-      "snippet": "Preferred - Shipped a backend service to production - Data pipelines, queues or workflow automation - Cloud deployment and Docker - LLM API integrations How we work - AI-native team. Claude Code from day one, and we expect you to use AI tooling to ship faster. The setup - Fully remote - 50-60 hours a week, startup pace - IST, with availability for US-time client meetings - Immediate joiners only [...] #### FloBiz Bengaluru, Karnataka, India ₹2,500,000 - ₹3,000,000 7 months ago REMOTE (INDIA): Backend Engineer- SaaS platformImage 16### REMOTE (INDIA): Backend Engineer- SaaS platform #### Marrin",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Java Back End Developer",
-      "company": "Ocho",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/java-back-end-developer-at-ocho-4485771744",
-      "published": "2026-11-05",
-      "snippet": "Buffalo-Niagara Falls Area Java Developer - Remote ### Java Developer - Remote #### Superworq United States Software Engineer II - Backend (Remote) ### Software Engineer II - Backend (Remote) #### The Home Depot Atlanta, GA $90,000.00 - $170,000.00 Backend Engineer ### Backend Engineer #### Bayview Asset Management, LLC New York, NY Software Engineer ### Software Engineer #### Kobie St Louis, MO Software Engineer ### Software Engineer [...] Nice to have Experience with FedRAMP or government cloud environments Background in cloud security or security products Tech stack Kubernetes, Docker, Neo4",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Back-end Engineer (Java/Kafka/Springboot) - w2 only/Remote is fine",
-      "company": "Redolent, Inc",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/back-end-engineer-java-kafka-springboot-w2-only-remote-is-fine-at-redolent-inc-4480094219",
-      "published": "2026-10-22",
-      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Report this job We are actively looking for a Back-End Developer ( Hybrid role ) @Bentonville AR TITLE: Back-end Engineer (Java, Spring, kafka) - w2 only LOCATION: Bentonville, AR or Remote Full time Visa Elegibility - H4-EAD/GC/USC/TN/L2 No c2c Required Skills [...] Evlo AI Minneapolis, MN Java Backend Developer ### Java Backend Developer Photon Dallas, TX $100,000.00 - $120,000.00 Backend Engineer ### Backend Engineer Wealthfront Palo Alto, CA Backend Engineer ### Backend Engin",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Java Backend developer",
-      "company": "LTM",
-      "location": "Atlanta, GA | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/java-backend-developer-at-ltm-4488533342",
-      "published": "",
-      "snippet": "Role Description Job Title: Java Backend developer. Location : Atlanta, GA (Remote ) Job Description. Must have hands on experience on Java",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Lead Backend Developer",
-      "company": "QualityAI",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-at-qualityai-4481130979",
-      "published": "",
-      "snippet": "### Staff Backend Engineer, Foundations Quo California, United States Staff Software Engineer (Backend) ### Staff Software Engineer (Backend) hims & hers United States Senior/Lead Backend Engineer (Remote) ### Senior/Lead Backend Engineer (Remote) Fuse Energy United States Senior Software Engineer, Backend Engineering ### Senior Software Engineer, Backend Engineering Maven Clinic United States Senior Backend Engineer ### Senior Backend Engineer [...] ### Simran K. Are you interested in working with the World’s leading AI-powered Quality Engineering Company? Ready to advance your career, team u",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Backend Developer",
       "company": "Comcast",
       "location": "Reston, VA | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/backend-developer-at-comcast-4489597016",
       "published": "",
       "snippet": "ensuring you can proudly bring your authentic self to the workplace. Join us. You’ll do the best work of your career right here at Comcast. (In most cases, Comcast prefers to have employees on-site collaborating unless the team has been designated as virtual due to the nature of their work. If a position is listed with both office locations and virtual offerings, Comcast may be willing to consider candidates who live greater than 100 miles from the office for the remote option.) [...] #### ZoomInfo Bethesda, MD Backend Engineer ### Backend Engineer #### Trucker Path Baltimore City County, MD S",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Software Engineer (Full Stack Developer) - Remote",
-      "company": "Optum",
-      "location": "Austin, TX | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-full-stack-developer-remote-at-optum-4488149199",
-      "published": "2026-11-07",
-      "snippet": "Design, develop, test, and deploy full-stack features for enterprise web applications Build and maintain scalable microservices, REST APIs, and backend services using Node.js, .NET Core/C#, and Azure cloud services Develop responsive, component-based user interfaces using ReactJS and modern SPA frameworks Troubleshoot, diagnose, and resolve application issues to ensure reliability, performance, and availability [...] Experience with containerization and orchestration technologies such as Docker and Kubernetes Experience with DevOps practices, CI/CD/CT pipelines, and tools such as GitHub Action",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer- Remote",
-      "company": "Robert Half",
-      "location": "New Haven, CT | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-remote-at-robert-half-4487267660",
-      "published": "2026-11-03",
-      "snippet": "We are seeking a Full Stack Developer to join a growing technology team supporting business-critical applications and integrations. This is a long-term contract opportunity with the potential to convert to a permanent position after approximately six months, depending on business needs and performance. The ideal candidate will have strong Java development experience and a background supporting web applications that interact with ERP systems, business processes, and enterprise integrations. [...] Participate in code reviews, testing, and deployment activities Contribute to CI/CD and automated b",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "TalentHop",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-talenthop-4489359492",
-      "published": "",
-      "snippet": "This is a Fully Remote Job. Design, develop, test, and deploy full-stack software throughout the SDLC. Java, Python, XML, and JSON.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer, Sr. - Remote",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-sr-remote-at-torentify-4490332602",
-      "published": "",
-      "snippet": "The selected candidate will build secure, scalable, cloud-ready solutions across front-end and back-end systems, APIs, databases, and cloud environments. This position requires close collaboration with Product, DevSecOps, Cloud, Data, QA, and Migration teams to deliver mission-critical capabilities that meet federal performance, security, and compliance standards. Key Responsibilities Application & API Development [...] #### Titus United States Senior Full-Stack Software Engineer (Node.js) ### Senior Full-Stack Software Engineer (Node.js) #### Spatial Front, Inc United States Senior Full-Stack",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -212,52 +812,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Full Stack Developer",
-      "company": "TalentHop",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-talenthop-4487140407",
-      "published": "2026-11-09",
-      "snippet": "This is a Fully Remote Job About Our Client: This organization operates within the software development industry, focusing on creating modern, scalable, and responsive web applications. They address the challenge of building high-performance, user-friendly digital solutions by employing skilled development teams capable of handling full-stack web technologies. The company supports fully remote work arrangements and engages talent within the New York, United States area. [...] ### Full Stack Software Engineer (Remote) #### Unframe Austin, TX Full Stack Engineer (Remote Position) ### Full Stack",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer - WFH",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-wfh-at-torentify-4489416696",
-      "published": "2026-11-10",
-      "snippet": "Remote position within a 2-hour drive of Washington, DC. 40 hours per week, Monday through Friday. Core working hours are 9:00 a.m. to 3:00 p.m. local time. Travel requirement: 0–10%. Public Trust security requirement. Compensation and Benefits Salary range: $110,000–$114,000. Health, dental, vision, and life insurance. Comprehensive 401(k) plan with matching and immediate vesting. A company culture focused on employee wellbeing, innovation, engagement, and career development. [...] Atlassian San Francisco, CA Full Stack Developer ### Full Stack Developer TalentHop United States Full Stack Eng",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Senior Full Stack Engineer (Node/React) - Remote",
       "company": "Kake",
       "location": "Brazil | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/4488937750",
       "published": "",
       "snippet": "### Senior Software Engineer (Full Stack | Node.js & React | AI Focus) #### Oowlish Florianópolis, Santa Catarina, Brazil Senior Full-Stack Developer con experiencia en Node.js y React.js – Remoto (LATAM) ### Senior Full-Stack Developer con experiencia en Node.js y React.js – Remoto (LATAM) #### Coderio Greater São Paulo Area Engenheiro(a) de Software Sênior ### Engenheiro(a) de Software Sênior #### Flash Brazil Fullstack Engineer II [...] ### Senior Full Stack Engineer #### MrBeast São Paulo, São Paulo, Brazil Profissional Fullstack (Next/React/IA) Sênior - Remoto ### Profissional Fullstack (",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "Remote Leverage",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4486466647",
-      "published": "2026-11-02",
-      "snippet": "### Full Stack Engineer #### Arca.ph Mexico Full Stack Engineer ### Full Stack Engineer #### Koin Montevideo, Uruguay Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 ### Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 #### BairesDev Guanajuato, Guanajuato, Mexico Full-Stack Developer – Node.js / TypeScript / React / AWS ### Full-Stack Developer – Node.js / TypeScript / React / AWS #### BC Tecnología [...] Design, build, and maintain internal web applications used across all departments. Develop full-stack features end-to-end, including frontend, backend APIs,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "Remote Leverage",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4489148999",
-      "published": "2026-11-15",
-      "snippet": "#### Improving South America Mexico Full Stack Engineer ### Full Stack Engineer #### Arca.ph Mexico Full Stack Engineer ### Full Stack Engineer #### Koin Montevideo, Uruguay Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 ### Full-Stack Developer (React + NestJS) - Remote Work | REF#308627 #### BairesDev Guanajuato, Guanajuato, Mexico Full-Stack Developer – Node.js / TypeScript / React / AWS [...] ### Full-Stack Developer – Node.js / TypeScript / React / AWS #### BC Tecnología Latin America Software Engineer ### Software Engineer #### FullPond Latin America Remote Full Stack D",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -282,36 +842,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "IBM Maximo Full Stack Engineer - Remote",
-      "company": "Randstad Digital Americas",
-      "location": "New York, NY | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/ibm-maximo-full-stack-engineer-remote-at-randstad-digital-americas-4489256850",
-      "published": "",
-      "snippet": "### Software Engineer #### Conduit Health New York, NY $150,000.00 - $225,000.00 Software Engineer, Product ### Software Engineer, Product #### Ambrook New York, NY Senior Full Stack Developer ### Senior Full Stack Developer #### Nixon Peabody LLP New York, NY Full-Stack Software Developer (Remote) ### Full-Stack Software Developer (Remote) #### NextGen Coding Company New York City Metropolitan Area Senior Software Engineer [...] #### Figma New York, NY Senior Full Stack Engineer ### Senior Full Stack Engineer #### Intelletec New York City Metropolitan Area Senior Software Engineer ### Senior",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "RecruiterForge",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-recruiterforge-4489565664",
-      "published": "2026-11-14",
-      "snippet": "The role supports remote work aligned with Eastern time. Expected hours are 9:00 am–5:00 pm Eastern unless otherwise directed by the manager; the office location is Columbia, Maryland. Occasional travel for training and project meetings is estimated at less than 5% per year. [...] ### Software Engineer #### MongoDB United States Full Stack Software Engineer (Remote) ### Full Stack Software Engineer (Remote) #### Unframe Austin, TX Full Stack Engineer (Remote Position) ### Full Stack Engineer (Remote Position) #### Entefy United States Full Stack Engineer ### Full Stack Engineer #### Roboflow U",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Web Developer",
-      "company": "Yes You Can!",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-web-developer-at-yes-you-can%21-4488870861",
-      "published": "2026-11-11",
-      "snippet": "### Full Stack Developer #### Dunhill Professional Search & Government Solutions United States $100,000.00 - $110,000.00 Full Stack Developer - Remote ### Full Stack Developer - Remote #### Superworq United States Full Stack Developer ### Full Stack Developer #### TekPillar® United States Full-Stack Engineer ### Full-Stack Engineer #### Splitero United States Software Developer ### Software Developer #### Intelex Technologies ULC [...] United States Software Engineer (Full Stack) ### Software Engineer (Full Stack) #### Discern United States $150,000.00 - $200,000.00 Full-Stack Software Enginee",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Lead Full Stack Developer /Orlando, FL (Remote)- Contractor",
       "company": "Suncap Technology",
       "location": "Remote",
@@ -332,82 +862,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Intermediate Full Stack Developer",
-      "company": "Objective Area Solutions",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/intermediate-full-stack-developer-at-objective-area-solutions-4487892412",
-      "published": "",
-      "snippet": "Full Stack Developer. ECS. Greater Richmond Region 4 days ago. Full Stack Software Engineer (Remote). Full Stack Software Engineer (Remote).",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React/Next.js Developer - Remote Work | REF#295401",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-next-js-developer-remote-work-ref%23295401-at-bairesdev-4487016576",
-      "published": "2026-11-03",
-      "snippet": "Design and develop scalable frontend applications using React and Next.js (App and Pages Router). Implement efficient rendering strategies including Server-Side Rendering (SSR) and Static Site Generation (SSG). Build responsive and visually consistent components using Tailwind CSS and TypeScript. Optimize application performance to ensure fast load times and high Core Web Vitals scores. Deploy and manage web applications using Vercel or self-hosted infrastructure. [...] As a React/Next.js Developer, you will specialize in building high-performance web applications using modern rendering strate",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Frontend Developer - Remote Work | REF#307241",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-frontend-developer-remote-work-ref%23307241-at-bairesdev-4487009735",
-      "published": "2026-11-04",
-      "snippet": "#### Addi Colombia React Developer - Remote Work ### React Developer - Remote Work #### INDI Staffing Services Mexico City, Mexico Desarrollador(a) Frontend (React / Next.js) ### Desarrollador(a) Frontend (React / Next.js) #### KOVA Corp Chile React Engineer - Remote, Latin America ### React Engineer - Remote, Latin America #### Bluelight Saltillo, Coahuila, Mexico React Engineer - Remote, Latin America ### React Engineer - Remote, Latin America [...] #### BairesDev Mexico React Frontend Engineer (Redux) - Remote Work | REF#302848 ### React Frontend Engineer (Redux) - Remote Work | REF#302848",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer",
-      "company": "Haystack",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-haystack-4486658087",
-      "published": "2026-11-10",
-      "snippet": "7+ years of full stack software development experience Strong frontend proficiency with React, Next.js, JavaScript, and TypeScript Strong backend experience with Java, Spring Boot, microservices architecture, and REST APIs Demonstrated understanding of distributed systems and message streaming architectures What's On Offer Fully remote work environment Opportunity to work on large-scale enterprise systems Collaborative and agile engineering culture Apply via Haystack today! [...] Omni Seattle, WA $160,000.00 - $250,000.00 Full Stack Software Developer (Remote locations) ### Full Stack Software",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Django React Developer - Remote Work",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/django-react-developer-remote-work-at-bairesdev-4486046867",
-      "published": "2026-11-03",
-      "snippet": "Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide. When you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success. Django React Developer at BairesDev [...] As a Django React Developer, you will design and develop high-performance fullstack applications, uniting robust backend systems with dynamic user interfaces. You will collaborate acro",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior Shopify Developer - Remote Work",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/junior-shopify-developer-remote-work-at-bairesdev-4485770347",
-      "published": "2026-11-03",
-      "snippet": "#### INDI Staffing Services Latin America Junior React Developer - Remote Work ### Junior React Developer - Remote Work #### INDI Staffing Services Colombia Frontend Developer — Ecommerce ### Frontend Developer — Ecommerce #### Raicom Brazil Web Application Developer ### Web Application Developer #### Bobex.com No. 62, East Berbice-Corentyne, Guyana Web Developer ### Web Developer #### GeorgiaTEK Systems Inc. [...] BairesDev Ecuador CMS Developer (Shopify & dbt) - Remote Work | REF#309505 ### CMS Developer (Shopify & dbt) - Remote Work | REF#309505 BairesDev Brazil Shopify Engineer - Remote Wo",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "GoLang React Developer",
       "company": "ImagineX",
       "location": "Atlanta, GA | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/golang-react-developer-at-imaginex-4488065183",
       "published": "",
       "snippet": "### Software Engineer II - Reliability Engineering Tooling (Remote) #### The Home Depot Atlanta, GA $90,000.00 - $150,000.00 Senior Software Engineer - Quicksilver - Distributed Key Value ### Senior Software Engineer - Quicksilver - Distributed Key Value #### Cloudflare Atlanta, GA Staff Engineer ### Staff Engineer #### Omnissa Atlanta, GA Fullstack Engineer ### Fullstack Engineer #### Reframe [...] ### Software Engineer #### Rainforest Atlanta, GA Software Engineer II ### Software Engineer II #### NCR Voyix Atlanta, GA Software Engineer ### Software Engineer #### The ReWork Group Atlanta Metr",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Developer (Remote)",
-      "company": "7Seventy Recruiting",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/frontend-developer-remote-at-7seventy-recruiting-4488933379",
-      "published": "",
-      "snippet": "Base pay range $160,000.00/yr - $190,000.00/yr. Full-Time Experience: 6+ years of frontend engineering experience Core Areas: React,",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -422,52 +882,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Frontend Engineer (React.Js, UX)",
-      "company": "Superworq",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/frontend-engineer-react-js-ux-at-superworq-4489206473",
-      "published": "",
-      "snippet": "Competitive salary range from $135,000 to $150,000 annually, with discretionary bonuses Fully remote work opportunity within the United States Collaborative and inclusive work environment focused on continuous improvement Opportunity to work on innovative products that positively impact people’s lives Access to professional growth within a leading global technology company Commitment to diversity, equity, and inclusion in the workplace [...] WellSync Tampa, FL $130,000.00 - $150,000.00 Frontend UI/UX Developer (Remote Opportunity) ### Frontend UI/UX Developer (Remote Opportunity) VetsEZ Tampa,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Native Developer",
-      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
-      "location": "Nashville, TN | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-native-developer-at-machine-learning-technologies-llc-4489077574",
-      "published": "2026-11-12",
-      "snippet": "Job Title: React Native DeveloperLocation: Nashville, TN(Remote)Duration: 12 Months + ExtensionBill Rate: $64/hour (C2C)Job Type: W-2, 1099, C2CClient: To Be Discussed LaterWork Authorization: US Citizen, Green Card, OPT-EAD, CPT, H-1B, H4-EAD, OtherJob Description:We are looking for an experienced React Native Developer to design, develop, test, and maintain high-quality mobile applications for iOS and Android platforms. The ideal candidate should have strong hands-on experience with React [...] Domain Exposure: Consumer Staples Client: To Be Discussed Later Employment Type: W-2, 1099, C2C Wo",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "React Native Developer",
       "company": "Bright Vision Technologies",
       "location": "Dallas, TX | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/react-native-developer-at-bright-vision-technologies-4490023866",
       "published": "",
       "snippet": "Job Title: React Native DeveloperLocation: RemotePosition Type: Full-time, Direct W2 - [Not open to C2C or 1099]Salary Range: $115,000–$165,000 AnnuallyExperience Required: 4+ yearsSponsorship: U.S. Citizens, Green Card holders, EAD holders, and H-1B transfer candidates are encouraged to apply. Bright Vision Technologies is unable to sponsor new H-1B visa petitions for this position. [...] #### Affirm Dallas, TX React Developer ### React Developer #### Anblicks Plano, TX iOS Web Developer ### iOS Web Developer #### Moxie Pest Control Irving, TX React Native/React.JS Developer with UX Skills ##",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Developer",
-      "company": "Haystack",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/4487685601",
-      "published": "",
-      "snippet": "### Frontend Engineer, Design Systems Stripe United States Software Engineer II (Frontend) ### Software Engineer II (Frontend) Teamworks United States $166,000.00 - $166,000.00 React Developer Jobs ### React Developer Jobs Surge Software Honolulu, HI Frontend Engineer ### Frontend Engineer Jabra Home, KS Front End Developer ### Front End Developer Talentfoot Executive Search United States ReactJS Frontend Developer [...] United States Software Engineer, Frontend ### Software Engineer, Frontend #### North United States Frontend Engineer (React.Js, UX) ### Frontend Engineer (React.Js, UX) #### S",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Java React Developer",
-      "company": "Infosys",
-      "location": "Minneapolis, MN | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/java-react-developer-at-infosys-4489354193",
-      "published": "",
-      "snippet": "### Sr. Engineer - Fullstack - AI Enablement - Lead Software Engineer ### Lead Software Engineer - Associate Full Stack Software Engineer ### Associate Full Stack Software Engineer - GEN AI Developer ### GEN AI Developer - Full-Stack Software Engineer II | Java, React & AWS ### Full-Stack Software Engineer II | Java, React & AWS - Software Java Engineer II – Hybrid, Minneapolis ### Software Java Engineer II – Hybrid, Minneapolis - Senior Software Developer - Java [...] ### Java React Developer - ### Seniority level Entry level - ### Employment type Full-time - ### Industries IT Services and IT",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -479,36 +899,6 @@
       "published": "2026-10-21",
       "snippet": "- Basic understanding of Python fundamentals and object-oriented programming. - Familiarity with web development concepts and database basics. - Knowledge of version control systems and collaborative development workflows. - Ability to learn quickly and adapt to new technologies. - Language: Advanced level of English. What to Expect from Us: - Fully Remote: Work from anywhere in the world. - Competitive Compensation: Excellent payment in USD or your preferred local currency. [...] ### Desarrollador Python Junior - Trabajo Remoto | REF#280790 #### BairesDev San José, San Jose, Costa Rica Junior",
       "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior Python Developer",
-      "company": "Bright Vision Technologies",
-      "location": "Plainsboro, NJ | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-bright-vision-technologies-4486458403",
-      "published": "",
-      "snippet": "Senior Python Developer - RemoteBright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Senior Python Developer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $100,000–$160,000 Annually [...] Medallion United States Senior Backend Engineer ### Senior Backend Engineer Jeeves United States Senior Software Engineer #",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior Python Developer",
-      "company": "Eliassen Group",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-eliassen-group-4485835169",
-      "published": "2026-11-05",
-      "snippet": "DescriptionRemote Our client seeks a Senior Python Developer to build and operate components of a SaaS risk and compliance AI platform. The role requires hands-on development across data ingestion, storage, search, and cloud deployment. You will work primarily in Python on Linux, leverage AWS services, and contribute to both modernization and production support for a screening platform. [...] #### Zapcom Group Inc United States Senior Software Engineer ### Senior Software Engineer #### Pipe United States Senior / Staff Python Engineer - REMOTE ### Senior / Staff Python Engineer - REMOTE #### C",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Sr. Python Developer - Agent Runtime & MCP",
-      "company": "Zapcom Group Inc",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/sr-python-developer-agent-runtime-mcp-at-zapcom-group-inc-4489822382",
-      "published": "",
-      "snippet": "Direct message the job poster from Zapcom Group Inc Vasala Praveen Click here to view Vasala Praveen’s profile ### Vasala Praveen Hi everyone, Hope you're all doing well. It's nice to connect with you all We are looking for Sr. Python Developer - Agent Runtime & MCP (Remote). Please share your resume to praveen.vasala@zapcg.com if you are interested. Job Title · Sr. Python Developer - Agent Runtime & MCP (Remote) Location: Remote Experience: 6+ [...] Buffalo-Niagara Falls Area Senior Software Engineer (Python) - Remote ### Senior Software Engineer (Python) - Remote #### Mitratech United States",
-      "apply_email": "praveen.vasala@zapcg.com",
       "source": "LinkedIn job"
     },
     {
@@ -532,42 +922,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Python Game Developer - Remote",
-      "company": "YO IT Consulting",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/python-game-developer-remote-at-yo-it-consulting-4486358578",
-      "published": "2026-11-04",
-      "snippet": "Unisys New York, NY MID-LEVEL - Software Engineer - Python, gRPC - remote ### MID-LEVEL - Software Engineer - Python, gRPC - remote Mainz Brady Group United States Software Engineer ### Software Engineer Primordial Labs United States Backend Engineer ### Backend Engineer Phaxis New York, NY $180,000.00 - $250,000.00 Software Engineer (US Candidates only) ### Software Engineer (US Candidates only) Ottimate [...] #### Ascendion United States $70,000.00 - $90,000.00 Regular Gameplay Engineer (Mid Level) | Fully Remote ### Regular Gameplay Engineer (Mid Level) | Fully Remote #### Escape Velocity E",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer",
-      "company": "Creospan Inc.",
-      "location": "Chicago, IL | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-at-creospan-inc-4488601775",
-      "published": "",
-      "snippet": "Chicago, IL $300,000.00 - $500,000.00 ## People also viewed Python & JS Developer / Chicago / Remote ### Python & JS Developer / Chicago / Remote Motion Recruitment Chicago, IL $100,000.00 - $140,000.00 Full Stack Developer ### Full Stack Developer Edgehog Trading Chicago, IL Software Engineer, AI Tooling ### Software Engineer, AI Tooling Selby Jennings Chicago, IL $200,000.00 - $500,000.00 Associate, Software Engineer - SMA Solutions [...] We are looking for a strong, hands-on Senior Software Engineer with Python, FastAPI, and Google Cloud Platform (GCP) experience who can build and manage pr",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Django Developer Jobs in United States (6,000+ Open Roles)",
       "company": "Hiredbuddy",
       "location": "Remote",
       "url": "https://www.linkedin.com/jobs/view/python-developer-at-hiredbuddy-4486553996",
       "published": "2026-11-04",
       "snippet": "### Python/Django Developer (Mid-Level) (NLM) #### Virtual Technologies Group Bethesda, MD Be an early applicant Backend Engineer ### Backend Engineer #### Scribe San Francisco, CA Actively Hiring Senior Python Engineer (On-site or Remote) ### Senior Python Engineer (On-site or Remote) #### HowGood Stone Ridge, NY Sr. Backend Engineer, Django, US Remote ### Sr. Backend Engineer, Django, US Remote #### TaxGPT [...] ### Python/Django Developer (Senior) (NLM) #### Virtual Technologies Group Bethesda, MD Be an early applicant Application Engineer (API) ### Application Engineer (API) #### Lentech,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer",
-      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
-      "location": "Denver, CO | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-at-machine-learning-technologies-llc-4489429093",
-      "published": "",
-      "snippet": "### Software Engineer - Colorado ICR, Inc. Aurora, CO $120,000.00 - $210,000.00 Staff Backend Engineer, Discovery API ### Staff Backend Engineer, Discovery API Vantor Westminster, CO Full Stack Developer (REMOTE) ### Full Stack Developer (REMOTE) Koniag Government Services Denver, CO Website Developer ### Website Developer Lynker Boulder, CO Software Engineer, Ground Software ### Software Engineer, Ground Software Katalyst Space [...] Required Skills: Python Programming. Django, Flask, or FastAPI. REST API Development. SQL and PostgreSQL. MongoDB. Object-Oriented Programming. Git and Version C",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -603,36 +963,6 @@
     },
     {
       "title": "Frontend Developer",
-      "company": "AgileGrid Solutions",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-agilegrid-solutions-4488189100",
-      "published": "2026-11-07",
-      "snippet": "BenefitsThis full-time opportunity offers the flexibility of working remotely from anywhere in the United States. You will have the opportunity to contribute to user-facing web applications while collaborating with colleagues across disciplines. The role supports ongoing professional development through hands-on work, code reviews, shared problem-solving, and exposure to frontend tools and practices. Compensation, benefits, and other employment details will be discussed during the hiring [...] About The RoleJobrapido is seeking a Frontend Developer to help build and maintain modern, user-frien",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Front-End Developer (Flex-Time) (Remote/Global)",
-      "company": "Motu Novu",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/front-end-developer-flex-time-remote-global-at-motu-novu-4487654126",
-      "published": "2026-11-09",
-      "snippet": "Report this job Basics Type: Independent Contractor Schedule: Flex-Time (15-25 hours / week) Education: Bachelor Degree in Computer Science, or a similar field, or equivalent experience Experience: 3+ Years Location: Remote Motu Novu seeks to retain the services of a motivated Front-End Developer to work with React to build modern, responsive user interfaces for custom applications built with back-end PHP and Symfony. What You Do [...] Develop and maintain React-based user interfaces. Collaborate with senior developers on full-stack features. Write clean, maintainable code following team stand",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Developer",
-      "company": "HiJob.work",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-hijob-work-4486650257",
-      "published": "2026-11-09",
-      "snippet": "United States $160,000.00 - $190,000.00 Frontend Engineer ### Frontend Engineer #### SMARTFOX United States $90,000.00 - $130,000.00 Frontend UI/UX Developer (Remote Opportunity) ### Frontend UI/UX Developer (Remote Opportunity) #### VetsEZ Tampa, FL Frontend Developer ### Frontend Developer #### Talemexa United States Front End Developer (Remote) ### Front End Developer (Remote) #### Halvik McLean, VA Front End Engineer II (Remote) [...] ### Front End Engineer II (Remote) #### Torentify United States Web Front-End Developer ### Web Front-End Developer #### Lenovo North Carolina, United States",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend Developer",
       "company": "DEVVISION",
       "location": "United States",
       "url": "https://www.linkedin.com/jobs/view/frontend-developer-at-devvision-4485076147",
@@ -648,26 +978,6 @@
       "url": "https://www.linkedin.com/jobs/view/frontend-engineer-remote-at-yo-ai-labs-4483285898",
       "published": "2026-10-30",
       "snippet": "Superworq United States Staff Frontend Engineer ### Staff Frontend Engineer Castlight Health United States Frontend Developer (Remote) ### Frontend Developer (Remote) 7Seventy Recruiting United States $160,000.00 - $190,000.00 ## Similar Searches ### Web Integrator jobs 8,847 open jobs ### Web Development Specialist jobs 227,596 open jobs ### Senior Frontend Developer jobs 45,179 open jobs ### Web Developer jobs [...] Required Skills JavaScript & TypeScript React Component Architecture State Management Frontend Performance Accessibility (a11y) SSR / CSR / SSG Code Review Technical Writing (RFC",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Frontend JavaScript Developer",
-      "company": "Alignerr",
-      "location": "Seattle, WA | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/frontend-javascript-developer-at-alignerr-4482409217",
-      "published": "2026-10-20",
-      "snippet": "#### North United States Frontend Developer (Remote) ### Frontend Developer (Remote) #### 7Seventy Recruiting United States $160,000.00 - $190,000.00 Frontend Developer ### Frontend Developer #### Goldschmitt and Associates (G&A) United States Front End Software Engineer, Consumer Engineering ### Front End Software Engineer, Consumer Engineering #### Reddit, Inc. United States Frontend Engineer ### Frontend Engineer #### SMARTFOX [...] This is a fully remote, flexible contract role. You set your own schedule and work as much or as little as fits your life — anywhere from 10 to 40 hours per wee",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Front-End Engineer",
-      "company": "HCLTech",
-      "location": "Hoboken, NJ",
-      "url": "https://www.linkedin.com/jobs/view/front-end-engineer-at-hcltech-4481484653",
-      "published": "2026-10-30",
-      "snippet": "Get notified about new Frontend Developer jobs in Hoboken, NJ. Sign in to ... Frontend Developer (Remote). 7Seventy Recruiting. United States $160,000",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -688,16 +998,6 @@
       "url": "https://www.linkedin.com/jobs/view/software-engineer-new-grad-%E2%80%93-remote-worldwide-at-remotejobsone-4482694167",
       "published": "2026-11-13",
       "snippet": "Bachelor's degree in Computer Science, Computer Engineering, Software Engineering, or a related field (recent graduate or graduating soon). Internship, co-op, research, or meaningful personal/project experience building software applications. Strong fundamentals in JavaScript and/or TypeScript. Familiarity with frontend development using React or similar frameworks. Familiarity with backend development using Node.js (NestJS is a plus). [...] 5,569 open jobs ### Developer Internship jobs 362 open jobs ### Information Programmer jobs 224,896 open jobs ### Developer jobs 258,935 open jobs ### Jun",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Web Development Engineer Jobs in United States (11,000+ Open Roles)",
-      "company": "Remotehunter",
-      "location": "",
-      "url": "https://www.linkedin.com/jobs/view/front-end-web-applications-developer-junior-5660-at-remotehunter-4486583381",
-      "published": "2026-11-05",
-      "snippet": "Actively Hiring NodeJS React Developer ### NodeJS React Developer #### Tata Consultancy Services Charlotte, NC Actively Hiring Frontend Engineer - Web ### Frontend Engineer - Web #### FurtherAI San Francisco, CA Senior Software Engineer- Full Stack ### Senior Software Engineer- Full Stack #### Crexi Los Angeles, CA Software Engineer I ### Software Engineer I #### Service Insurance Companies [...] Junior Software Developer ### Junior Software Developer #### Bizowie Cloud ERP Pittsburgh, PA Senior Front End Developer (Angular, TypeScript/ Node.JS, REST APIs) ### Senior Front End Developer (Angul",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -792,26 +1092,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "User Interface/User Experience Designer (UI/UX Designer) (Remote)",
-      "company": "Multimedia Solutions",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/user-interface-user-experience-designer-ui-ux-designer-remote-at-multimedia-solutions-4488949578",
-      "published": "2026-11-13",
-      "snippet": "Collaborate with strategists, developers, and stakeholders to shape intuitive and engaging digital experiences Design user journeys, task flows, personas, and interaction models grounded in data and behavioral insights Produce high-fidelity mockups, responsive layouts, and component libraries using modern design tools Build interactive prototypes to demonstrate behavior, transitions, and workflows Participate in design critique, usability testing, and iterative refinement cycles [...] 3+ years of UI/UX design experience working on web or digital product teams Proven portfolio showcasing end-to",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "UI Designer (Remote)",
-      "company": "Joblet-AI",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/ui-designer-remote-at-joblet-ai-4489099983",
-      "published": "",
-      "snippet": "### User Interface/User Experience Designer (UI/UX Designer) (Remote) #### Multimedia Solutions United States $80,000.00 - $120,000.00 UI/UX Designer ### UI/UX Designer #### Superworq United States UX/UI Designer (Remote) ### UX/UI Designer (Remote) #### GovCIO United States UX Designer ### UX Designer #### AgileGrid Solutions United States Product Designer ### Product Designer #### RXNT [...] #### RXNT United States $90,000.00 - $115,000.00 UX Designer ### UX Designer #### Superworq United States Associate User Experience Designer (Remote) ### Associate User Experience Designer (Remote) ####",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "UI/UX Designer",
       "company": "JRD Systems",
       "location": "United States | LinkedIn Jobs",
@@ -842,52 +1122,12 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "UI/UX Designer (Remote)",
-      "company": "Wiraa",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-remote-at-wiraa-4489005073",
-      "published": "",
-      "snippet": "This fully remote position will lead the user experience and interface design efforts for the new Regulated Garbage (RG) Module, transforming",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "UI Designer - 100% Remote Opportunity",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/ui-designer-100%25-remote-opportunity-at-torentify-4488793770",
-      "published": "",
-      "snippet": "### UI/UX Product Designer Willsmarg Technologies LLC New York, United States Product Designer / UX/UI Designer ### Product Designer / UX/UI Designer PeopleFinders United States Product Designer ### Product Designer WebstaurantStore Lititz, PA $85,000.00 - $120,000.00 Product Designer ### Product Designer Prelim Los Angeles Metropolitan Area User Experience Designer - Online ### User Experience Designer - Online The Home Depot Atlanta, GA [...] #### Instagram United States $170,000.00 - $236,000.00 Product Designer ### Product Designer #### Thatch San Francisco, CA UX/UI Designer (Remote) ###",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "UI/UX Designer",
       "company": "Superworq",
       "location": "United States | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-superworq-4489215239",
       "published": "",
       "snippet": "### UX Designer II #### Caesars Entertainment Las Vegas, NV User Interface/User Experience Designer (UI/UX Designer) (Remote) ### User Interface/User Experience Designer (UI/UX Designer) (Remote) #### Multimedia Solutions United States $80,000.00 - $120,000.00 UI/UX Designer ### UI/UX Designer #### Qliqify Metro Jacksonville Product Designer ### Product Designer #### White Circle New York, NY Designer ### Designer #### Audiohook [...] ### Seniority level Associate ### Employment type Full-time ### Industries Software Development Referrals increase your chances of interviewing at Superworq by 2",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "UI/UX Designer",
-      "company": "The Methodical Group",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-the-methodical-group-4488610429",
-      "published": "",
-      "snippet": "Apply for UI/UX Designer at The Methodical Group. Location: Remote Contract Duration: Through June 30, 2027 Target Start Date: December 2026 …",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "UI/UX Designer",
-      "company": "Booz Allen Hamilton",
-      "location": "Washington, DC | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/ui-ux-designer-at-booz-allen-hamilton-4490536115",
-      "published": "",
-      "snippet": "See who you know Get notified about new User Experience Designer jobs in Washington, DC. Sign in to create job alert ## Similar jobs UI/UX Designer (Remote) ### UI/UX Designer (Remote) #### Koniag Government Services Washington, DC UX Designer ### UX Designer #### Second Front Washington, DC $120,000.00 - $145,000.00 UX Designer ### UX Designer #### Accenture Federal Services Washington, DC User Experience Designer ### User Experience Designer [...] Remote: If this position is listed as remote, there may still be occasions when you are required to work in person at a Booz Allen or customer fac",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -1043,16 +1283,6 @@
     },
     {
       "title": "React Developer",
-      "company": "Bright Vision Technologies",
-      "location": "Overland Park, KS | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-at-bright-vision-technologies-4482113435",
-      "published": "2026-10-27",
-      "snippet": "React Developer – RemoteBright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: React Developer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $120,000–$180,000 Annually [...] Job SummaryWe are seeking an experienced React Developer to design, develop, and maintain modern enterprise web applications that power cus",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer",
       "company": "Netrolynx AI",
       "location": "United Kingdom | LinkedIn Jobs",
       "url": "https://www.linkedin.com/jobs/view/4488134884",
@@ -1078,16 +1308,6 @@
       "url": "https://www.linkedin.com/jobs/view/react-native-developer-remote-at-hired-4447870912",
       "published": "",
       "snippet": "Title: React Native Developer (Remote) at Hired — European Union | LinkedIn Jobs ### React Native Developer (Remote). #### Hired European Union 3 months ago Be among the first 25 applicants See who Hired has hired for this role No longer accepting applications. Get AI-powered advice on this job and more exclusive features. ## Sign in to access AI-powered advices. ## Sign in to evaluate your skills. ## Sign in to tailor your resume. * **Role**: React Native Developer (Remote). We are hiring for one of our clients, seeking a React Native Developer to work on a contract basis. The role involves b",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Contract Python Developer",
-      "company": "H & A Resources, LLC",
-      "location": "Greater Chicago Area | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/contract-python-developer-at-h-a-resources-llc-4484667808",
-      "published": "2026-11-03",
-      "snippet": "### Software Engineer - Python \\PLEASE no C2C\\ #### Curate Partners United States Python Engineer - Remote ### Python Engineer - Remote #### Superworq United States Software Engineer - Python (Advanced) ### Software Engineer - Python (Advanced) #### Alignerr United States $50.00 - $75.00 Software Engineer ### Software Engineer #### Eliassen Group United States Python Developer with AWS 100% Remote ### Python Developer with AWS 100% Remote [...] ### Backend Engineer (Mid-Level) #### Spade United States $170,000.00 - $200,000.00 Python full stack developer - 100% Remote ### Python full stack dev",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -1212,16 +1432,6 @@
       "source": "LinkedIn job"
     },
     {
-      "title": "Full Stack Developer",
-      "company": "Remote Leverage",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4486456785",
-      "published": "2026-11-02",
-      "snippet": "#### Dots Mexico $30,000.00 - $50,000.00 Full Stack Developer (JavaScript, ReactJS, REST APIs) -Mexico Remote ### Full Stack Developer (JavaScript, ReactJS, REST APIs) -Mexico Remote #### Ellucian Mexico Full Stack Developer ### Full Stack Developer #### Softtek Mexico Software Engineer ### Software Engineer #### Traackr Mexico $55,000.00 - $70,000.00 Full Stack Developer (React + Node) - Remote Work [...] ### Software Engineer #### FullPond Latin America Remote Full Stack Developer (Frontend-Focused) - Mexico ### Remote Full Stack Developer (Frontend-Focused) - Mexico #### Brafton Inc. Mexico",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
       "title": "Method — United States | LinkedIn Jobs",
       "company": "Full Stack Developer at The",
       "location": "Remote",
@@ -1248,16 +1458,6 @@
       "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-at-hiredbuddy-4487390268",
       "published": "2026-11-06",
       "snippet": "Hiredbuddy is seeking an entry-level Full Stack Developer to join our remote team. You'll build and maintain web applications, collaborate with cross-functional teams, and grow your skills in a supportive environment. If you're passionate about coding and ready to make an impact, apply today! Full Description [...] As an Entry Level Full Stack Developer at Hiredbuddy, you will be an integral part of our engineering team, contributing to the design, development, and maintenance of web applications that serve a diverse client base. This remote role is perfect for someone who is eager to apply fo",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "Crawford Thomas Recruiting",
-      "location": "Sandy Springs, GA | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-crawford-thomas-recruiting-4481392505",
-      "published": "2026-10-22",
-      "snippet": "### Fullstack Engineer #### Reframe Atlanta, GA $90,000.00 - $140,000.00 Full Stack Developer - Remote ### Full Stack Developer - Remote #### Lazer Logistics Alpharetta, GA Full Stack Developer ### Full Stack Developer #### Block+Tackle Atlanta Metropolitan Area Full Stack Developer ### Full Stack Developer #### ntegral Atlanta, GA Full Stack Developer ### Full Stack Developer #### Chemistry Agency [...] Atlanta, GA Cyber Full-Stack Software Engineer ### Cyber Full-Stack Software Engineer #### Deloitte Atlanta, GA MERN Developer ### MERN Developer #### Spartan Technologies Atlanta, GA Software",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -1468,26 +1668,6 @@
       "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-remote-%2450%E2%80%93%24100-hr-at-synthires-4487898899",
       "published": "",
       "snippet": "This position requires substantial hands-on experience across the full application stack. Candidates should be comfortable developing and debugging both user-facing applications and the backend services that support them, rather than specializing exclusively in one layer. Key Responsibilities [...] Develop, modify, and debug front-end and back-end application components. Implement user-facing features alongside the services, APIs, and data models that support them. Trace requests and data across browsers, front-end applications, APIs, services, databases, and external integrations. Navigate un",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer W React and Vite",
-      "company": "Volantsoft Inc",
-      "location": "San Mateo, CA | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-w-react-and-vite-at-volantsoft-inc-4481049236",
-      "published": "2026-10-24",
-      "snippet": "Required Skills Strong experience with React, Vite, TypeScript, JavaScript, and Node.js. Experience with PostgreSQL, Prisma ORM, and SQL optimization. Hands-on experience with AWS services. Knowledge of event-driven architecture, queues, and distributed systems. Understanding of concurrency, idempotency, and fault-tolerant integrations. Strong problem-solving and communication skills. This is a remote position. ### Seniority level Not Applicable ### Employment type [...] United States $130,000.00 - $150,000.00 Full-Stack Engineer ### Full-Stack Engineer #### Splitero United States Software Eng",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "SDE I - Frontend (React + React Native)",
-      "company": "Flexiple",
-      "location": "India | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/4488724863",
-      "published": "2026-11-08",
-      "snippet": "### React Developer #### emagine Bengaluru, Karnataka, India Front End AI Engineer ### Front End AI Engineer #### Outmarket AI India Mobile Engineer - React Native (100% Remote) ### Mobile Engineer - React Native (100% Remote) #### Tether.io India Web Developer ### Web Developer #### Droisys India Middle Frontend Engineer ### Middle Frontend Engineer #### NodeShift India Frontend Developer ### Frontend Developer #### GoML [...] #### ClickHouse Bengaluru, Karnataka, India Junior JavaScript Developer - Remote work | REF#283760 ### Junior JavaScript Developer - Remote work | REF#283760 #### Baire",
       "apply_email": "",
       "source": "LinkedIn job"
     },
@@ -2818,186 +2998,6 @@
       "url": "https://www.linkedin.com/jobs/view/backend-java-developer-remote-at-yo-ai-labs-4485438561",
       "published": "",
       "snippet": "Backend Java Developer Job Type: Contractor Location: Remote Job OverviewWe are seeking experienced Backend Java Developers to support a high-impact technology and AI training project. In this role, you will apply your backend development expertise to design, develop, review, and optimize scalable systems using Java, Spring Boot, and microservices architecture. [...] Design, develop, and maintain scalable backend applications using Java and Spring Boot. Build and maintain robust microservices architectures. Develop and integrate REST APIs and backend services. Review technical requirements and",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Engineer - 100% Remote",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-100%25-remote-at-torentify-4487752778",
-      "published": "",
-      "snippet": "#### ClickHouse San Francisco, CA $154,000.00 - $215,000.00 Full Stack Developer (REMOTE) ### Full Stack Developer (REMOTE) #### Koniag Government Services Denver, CO Full-Stack Engineer ### Full-Stack Engineer #### ElevenLabs New York, United States Full Stack Engineer ### Full Stack Engineer #### Roadie United States Software Engineer ### Software Engineer #### GitKraken Scottsdale, AZ Full Stack Engineer ### Full Stack Engineer [...] #### Dispatch Miami, FL Full Stack Engineer ### Full Stack Engineer #### Inclined Sausalito, CA Full Stack Engineer ### Full Stack Engineer #### Bloom United S",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer II (Remote)",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-ii-remote-at-torentify-4486168640",
-      "published": "2026-11-02",
-      "snippet": "About the Role Our client is seeking a Senior Full Stack Software Developer to build and maintain modern web applications using ReactJS, NodeJS, and Microsoft SQL Server. The role involves developing responsive user interfaces, integrating REST APIs, and writing efficient SQL queries to support application functionality and reporting. [...] ### Software Developer (fullstack) #### Crash Champions United States Software Engineer II (REMOTE) ### Software Engineer II (REMOTE) #### TENEX.AI United States Software Engineer (Mid-Level) ### Software Engineer (Mid-Level) #### Irth United States $150,00",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full-stack Software Engineer - Remote Worldwide",
-      "company": "matcha.fm",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-software-engineer-remote-worldwide-at-matcha-fm-4486144845",
-      "published": "",
-      "snippet": "#### Doit United States Full Stack Engineer ### Full Stack Engineer #### Virtualitics United States Full Stack Engineer (Remote Position) ### Full Stack Engineer (Remote Position) #### Entefy United States Fullstack Engineer ### Fullstack Engineer #### PropelAuth United States $140,000.00 - $180,000.00 Full Stack Developer ### Full Stack Developer #### TaskVerse United States Full Stack Software Engineer [...] loopfour Silicon Valley, CA Software Engineer ### Software Engineer Gray Swan United States Full Stack Software Engineer ### Full Stack Software Engineer BetterHelp Mountain View, CA Ful",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React Developer - 100% Remote",
-      "company": "Torentify",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-developer-100%25-remote-at-torentify-4486810555",
-      "published": "2026-11-03",
-      "snippet": "#### WellSync Tampa, FL $130,000.00 - $150,000.00 Front-End React Developer ### Front-End React Developer #### SAIC Silver Spring, MD Frontend Developer (Remote) ### Frontend Developer (Remote) #### RecruiterForge United States Front End Developer ### Front End Developer #### Lynn Rodens Orlando, FL ReactJS Frontend Developer ### ReactJS Frontend Developer #### EITACIES Inc. Cumming, GA Front End Engineer - React /Next.js (Remote) [...] ### React Developer Jobs #### Surge Software Honolulu, HI Frontend Developer ### Frontend Developer #### HiJob.work United States Frontend Developer ### Fronte",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "React/React-Native Developer",
-      "company": "Wiraa",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/react-react-native-developer-at-wiraa-4485723761",
-      "published": "2026-11-02",
-      "snippet": "About The RoleThis part-time remote role (24 hours per week, Monday through Wednesday) focuses primarily on frontend development within The Dyrt’s mobile app, built using React Native, while also contributing to the Next.js web platform. You will work closely with a team of 3-4 frontend developers to develop highly interactive features such as the search page and Trip Planner, optimize campground listing performance, and implement improvements on the website. The role emphasizes AI-assisted [...] Benefits Flexible part-time remote work schedule (Monday to Wednesday) Opportunity to work on a le",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior Front-End/React Developer",
-      "company": "MACHINE LEARNING TECHNOLOGIES LLC",
-      "location": "Lansing, MI | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/senior-front-end-react-developer-at-machine-learning-technologies-llc-4487305870",
-      "published": "",
-      "snippet": "Senior Java Full Stack Developer - Lansing,, MI Senior Business Analyst - Lansing, MI Salesforce Senior Developer - Dallas, TX Senior Business Analyst - Tampa, FL Senior Data Engineer - Charlotte,, NC Job Title: Senior Front-End/React DeveloperLocation: Lansing, MI (Remote)Duration: 11 Months + ExtensionBill Rate: $76/hour (C2C)Job Type: W-2, 1099, C2CClient: To Be Discussed LaterWork Authorization: US Citizen, Green Card, OPT-EAD, CPT, H-1B, H4-EAD, OtherKey Responsibilities [...] #### BWI GROUP Brighton, MI Senior Software Developer ### Senior Software Developer #### BS&A Software Bath, MI F",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Lead Full Stack Python Developer ( 100 % Remote )",
-      "company": "Iris Software Inc",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/lead-full-stack-python-developer-100-%25-remote-at-iris-software-inc-4481104995",
-      "published": "2026-10-28",
-      "snippet": "Location - Chicago, IL (100 % Remote). Required Skills - Full Stack - Python / React JS or Angular , AWS, Terraform, CI/CD , SQL/Postgres SQL, .",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Django Developer Jobs in United States (6,000+ Open Roles)",
-      "company": "Rustlabs",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-engineer-senior-ai-code-review-remote-contract-at-rustlabs-4483713209",
-      "published": "2026-10-26",
-      "snippet": "#### Virtual Technologies Group Bethesda, MD Be an early applicant Backend Engineer ### Backend Engineer #### Scribe San Francisco, CA Actively Hiring Senior Python Engineer (On-site or Remote) ### Senior Python Engineer (On-site or Remote) #### HowGood Stone Ridge, NY Sr. Backend Engineer, Django, US Remote ### Sr. Backend Engineer, Django, US Remote #### TaxGPT San Francisco, CA Python Developer (Mid to Sr) [...] ### Python Developer (Mid to Sr) #### Futrend Technology, Inc. Bethesda, MD Senior Python Engineer ### Senior Python Engineer #### Veryfi San Mateo, CA Senior Python Software Engine",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Django Developer Jobs in United States (6,000+ Open Roles)",
-      "company": "Employvision Inc",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-senior-python-developer-%E2%80%93-ai-ml-agentic-ai-at-employvision-inc-4481916624",
-      "published": "2026-10-23",
-      "snippet": "#### Virtual Technologies Group Bethesda, MD Be an early applicant Backend Engineer ### Backend Engineer #### Scribe San Francisco, CA Actively Hiring Senior Python Engineer (On-site or Remote) ### Senior Python Engineer (On-site or Remote) #### HowGood Stone Ridge, NY Sr. Backend Engineer, Django, US Remote ### Sr. Backend Engineer, Django, US Remote #### TaxGPT San Francisco, CA Python Developer (Mid to Sr) [...] ### Python Developer (Mid to Sr) #### Futrend Technology, Inc. Bethesda, MD Senior Python Engineer ### Senior Python Engineer #### Veryfi San Mateo, CA Senior Python Software Engine",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Python Developer",
-      "company": "TaskVerse",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/python-developer-at-taskverse-4486804382",
-      "published": "2026-11-02",
-      "snippet": "Apply for Python Developer at TaskVerse in United States. Full-time Associate role. See responsibilities, qualifications, and similar jobs on LinkedIn.",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Senior Python Developer",
-      "company": "Bright Vision Technologies",
-      "location": "",
-      "url": "https://www.linkedin.com/jobs/view/senior-python-developer-at-bright-vision-technologies-4483587486",
-      "published": "2026-10-30",
-      "snippet": "The ideal candidate will bring deep Python expertise combined with strong fundamentals in software architecture, data engineering, and operational support, and",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "User Interface Designer Jobs in United States (7,000+ Open Roles)",
-      "company": "Hired",
-      "location": "Remote",
-      "url": "https://www.linkedin.com/jobs/view/ux-designer-remote-at-hired-4485410077",
-      "published": "2026-11-01",
-      "snippet": "Newport News, VA UI/UX Designer ### UI/UX Designer #### Lynker Boulder, CO Actively Hiring UI/UX Designer (Remote) ### UI/UX Designer (Remote) #### Koniag Government Services Washington, DC Sr Designer, Visual Design - Global UXUI Experience Design ### Sr Designer, Visual Design - Global UXUI Experience Design #### Universal Studios Hollywood Universal City, CA [...] Rochester, MN Actively Hiring UI/UX Designer – AI Platforms ### UI/UX Designer – AI Platforms #### Service Business Ai New York, NY User Interface Designer ### User Interface Designer #### Berkshire Hathaway Shoe Holdings Andover,",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Junior UI Designer (Remote)",
-      "company": "Crewlia",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/junior-ui-designer-remote-at-crewlia-4485480036",
-      "published": "2026-11-02",
-      "snippet": "### Associate Product Designer #### SRS Acquiom United States UI Designer - 100% Remote Opportunity ### UI Designer - 100% Remote Opportunity #### Torentify United States UX (User Experience) Designer ### UX (User Experience) Designer #### Group O United States Web Designer ### Web Designer #### Etna Interactive United States UI/UX Designer (Remote) ### UI/UX Designer (Remote) #### Koniag Government Services Washington, DC UX Designer [...] #### University of Alabama at Birmingham Greater Birmingham, Alabama Area UX Designer ### UX Designer #### K2United United States Product Designer - Remote",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Backend C#/. - Remote",
-      "company": "YO AI Labs",
-      "location": "San Francisco, CA | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/backend-c%23-remote-at-yo-ai-labs-4486010700",
-      "published": "",
-      "snippet": "Backend C#/.NET Developer Role Type: Contract Location: Remote About The RoleWe are looking for skilled backend developers to support AI training and evaluation projects. You'll use C#, .NET, and database expertise to build reliable backend services and APIs. Key Responsibilities [...] Develop and maintain backend services and REST APIs using C# and .NET. Work with MySQL databases, including schema design and query optimization. Build scalable, secure, and maintainable backend solutions. Troubleshoot and resolve technical issues. Optimize application performance and reliability. Document techn",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Backend Engineer (Remote)",
-      "company": "7Seventy Recruiting",
-      "location": "United States | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/backend-engineer-remote-at-7seventy-recruiting-4485812242",
-      "published": "",
-      "snippet": "#### Phaxis New York, NY $180,000.00 - $250,000.00 Backend Developer ### Backend Developer #### BJAK United States BACK END ENGINEER ### BACK END ENGINEER #### adyn Seattle Bar, OR Backend Engineer ### Backend Engineer #### Dart San Francisco, CA $40,000.00 - $100,000.00 Software Engineer: Backend ### Software Engineer: Backend #### Thatch San Francisco, CA Backend Engineer ### Backend Engineer #### Melotech [...] ### Software Engineer (Remote) #### OPENLANE Carmel, IN Software Engineer, Content Platform ### Software Engineer, Content Platform #### Reddit, Inc. San Francisco, CA Back End Softw",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Golang Developer - Remote Work | REF#307139",
-      "company": "BairesDev",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/golang-developer-remote-work-ref%23307139-at-bairesdev-4487007799",
-      "published": "",
-      "snippet": "#### Proxify Argentina Backend Developer (Golang) ### Backend Developer (Golang) #### Hapi App Dominican Republic $750.00 - $2,500.00 Backend Developer (Golang) ### Backend Developer (Golang) #### Hapi App El Salvador $750.00 - $2,500.00 Senior Golang Developer ### Senior Golang Developer #### Proxify Colombia Senior Golang Developer ### Senior Golang Developer #### Proxify Costa Rica Backend Engineer (Go) - Remote Work | REF#303359 [...] By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. ## Similar jobs Backend Developer (Golang",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Sr Go Developer - Remote",
-      "company": "YO AI Labs",
-      "location": "New York, NY | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/sr-go-developer-remote-at-yo-ai-labs-4486010694",
-      "published": "",
-      "snippet": "See who you know Get notified about new Senior Developer jobs in New York, NY. Sign in to create job alert ## Similar jobs Go Backend Developer ### Go Backend Developer #### Rare Candy United States Senior Backend Engineer (Remote, US) ### Senior Backend Engineer (Remote, US) #### Openly United States $145,600.00 - $163,800.00 Senior Software Engineer (Golang) - remote in the US ### Senior Software Engineer (Golang) - remote in the US #### Mirantis [...] Senior Software Engineer Job Type: Contractor (:15 hrs/week) Location: Remote Schedule: Flexible Required Skills Python 3, Java, Rust, TypeSc",
-      "apply_email": "",
-      "source": "LinkedIn job"
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "Remote Leverage",
-      "location": "Latin America | LinkedIn Jobs",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-remote-leverage-4412920335",
-      "published": "",
-      "snippet": "Title: Full Stack Developer at Remote Leverage — Latin America | LinkedIn Jobs ### Full Stack Developer. # Full Stack Developer. #### Remote Leverage Latin America 5 months ago Be among the first 25 applicants See who Remote Leverage has hired for this role No longer accepting applications. Direct message the job poster from Remote Leverage. Ana Elisa Miranda Click here to view Ana Elisa Miranda’s profile. ### Ana Elisa Miranda. Hiring REMOTE Full Stack Developer - Multiple positions immediately available. Remote Leverage is a leading recruiting agency based in California, specializing in outs",
       "apply_email": "",
       "source": "LinkedIn job"
     }
