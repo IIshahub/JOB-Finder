@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T06:53:09+00:00",
+  "updated_at": "2026-11-21T19:02:42+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -128,6 +128,105 @@
       "apply_email": ""
     },
     {
+      "title": "#c #استخدام #backenddeveloper #dotnet #backend #microservices #fintech | Hadi Salehy Afkham | 26 comments",
+      "company": "Posted by Hadi Salehy",
+      "location": "Tehran, Iran",
+      "url": "https://www.linkedin.com/posts/hadi-salehy_c-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-backenddeveloper-activity-7520783923522576384-rw-z",
+      "published": "2026-10-27",
+      "snippet": "استخدام Backend Developer (.NET) – سطح Mid-level 🏢 حوزه امور مالی، سرمایهگذاری و تحلیل کسبوکار 📍 تهران، خیابان مطهری | تماموقت و حضوری 🕗 شنبه تا چهارشنبه، ۸ تا ۱۶ (با نیم ساعت شناوری) حقوق: توافقی مسئولیتها طراحی و توسعه سرویسهای Backend با #C و .NET پیادهسازی APIها و ارتباط بین سرویسها در معماری Microservice نوشتن کد تمیز، قابل نگهداری و تستپذیر همکاری با تیمهای محصول و تحلیل برای تحویل ویژگیهای جدید شرایط الزامی حداقل مدرک لیسانس (ترجیحاً رشته مرتبط) برای آقایان: داشتن کارت پایان خدمت یا [...] کارت پایان خدمت یا معافیت مهارتها حداقل ۳ سال سابقه کار در توسعه Backend با .NET تسلط بر OOP و Desi",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #backenddeveloper #dotnet #softwaredevelopment | Keysun Data Processing",
+      "company": "Posted by Keysun Data Processing",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/keysun-data-processing_hiring-backenddeveloper-dotnet-activity-7527353481142112256-1UDb",
+      "published": "2026-11-14",
+      "snippet": "استخدام Senior Backend Developer شرکت دادهپردازی کیسان نقش Senior Backend Developer فراتر از توسعه کد است؛ این موقعیت مسئولیت توسعه و بهبود سرویسهای سمت سرور، ارتقای کیفیت فنی و هدایت کارشناسان بکاند را بر عهده دارد. ✅ مسئولیتهای اصلی - طراحی و توسعه سرویسهای Backend با C# / .NET 8+ و ASP.NET Core -طراحی و پیادهسازی معماری میکروسرویس -طراحی مدل داده و بهینهسازی کوئریها روی SQL Server و EF Core -کار با RabbitMQ، Redis ، ElasticSearch و Keycloak در سناریوهای واقعی ترافیک بالا -پیادهسازی [...] حرفهای در توسعه Backend با .NET - حداقل ۲ سال تجربه در نقش Senior یا Tech Lead - سابقه واقعی در تحویل پر",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #dotnet #csharp #backenddeveloper #microservices #banking #fintech #softwarearchitecture #owasp #asvs #devsecops #applicationsecurit",
+      "company": "Posted by Aren Najafi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aren-najafi-a6597a174_hiring-dotnet-csharp-activity-7525819208752889857-Qk_x",
+      "published": "2026-11-10",
+      "snippet": "فرصت همکاری | استخدام Backend Developer (.NET) شرکت گسترش فناوریهای نوین بهمنظور توسعه و تکمیل تیم فنی خود، از متخصصان Backend در حوزه .NET دعوت به همکاری میکند. مهارتها و شرایط موردنیاز: Backend Development & Architecture - تسلط به C# و ASP.NET Core - تجربه عملی در طراحی و توسعه سیستمهای مبتنی بر معماری Microservices - آشنایی با اصول Software Architecture، Design Patterns و Clean Architecture - تجربه کار با SQL Server، طراحی دیتابیس و بهینهسازی Queryها - آشنایی با Distributed Systems و مفاهیم [...] الگوهای Outbox، Saga و Event-Driven Architecture - آشنایی با مفاهیم Observability، Logging و Di",
+      "apply_email": ""
+    },
+    {
+      "title": "#keyformance #teamkeyformance #backenddevelopment #problemsolving #teamgrowth | Keyformance",
+      "company": "Posted by Keyformance",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/keyformance_keyformance-teamkeyformance-backenddevelopment-activity-7524872155625484289-5ZQf",
+      "published": "2026-11-07",
+      "snippet": "بالنطق الجديد، وCleanup Job تانية منفصلة بتتولى مسح الملفات القديمة اللي مبقاش ليها أي Mapping. الجزء اللي عجبني في الشغل ده إنه مكنش مجرد حل لمشكلة pronunciation، لكنه خلاني أفكر في أكتر من جانب مع بعض، زي الـ API usage، والـ Caching، والـ Background Jobs، وإزاي أحافظ على الـ existing data من غير ما أعمل unnecessary operations. #DotNet #BackendDevelopment #ElevenLabs #Caching #Hangfire [...] At Keyformance, we believe that growth comes from challenges, creativity, and the willingness to find solutions. 💚 We love seeing our talented team members turn everyday challenges into opportunities to l",
+      "apply_email": ""
+    },
+    {
+      "title": "C# Task vs Thread: When to Use Each | Marwan Esam posted on the topic",
+      "company": "Posted by Marwan Mohamed Esam",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/marwan-mohamed-esam_csharp-dotnet-softwareengineering-activity-7519910898581520384-gnA4",
+      "published": "2026-10-25",
+      "snippet": "starting point with the things I commonly need when building ASP.NET Core APIs — without adding unnecessary complexity. I've also documented the project in detail, including the why and how behind the different parts of the architecture and how to extend the template when building a new feature. If you're interested in checking it out, the repository is here: 🔗 #DotNet #ASPNetCore #CSharp #SoftwareEngineering #OpenSource #BackendDevelopment #CleanArchitecture #WebAPI #GitHub [...] definitions for filtering, ordering, includes, and pagination. - API Versioning - Serilog & Seq: for structured lo",
+      "apply_email": ""
+    },
+    {
+      "title": "#c #hiring #fullstackdeveloper #dotnet #angular #sqlserver #microservices #golrangtarabar #استخدام | Anaram Yaghoobi Notash | 22 comments",
+      "company": "Posted by Anaram Yaghoobi Notash",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/anaram-yaghoobi-notash_c-hiring-fullstackdeveloper-activity-7520808130037870592-1s23",
+      "published": "2026-10-27",
+      "snippet": "🚀 We’re Hiring | Full-Stack Developer به خانواده بزرگ Golrang Tarabar میپیوندیم و برای توسعه تیم فنی، به دنبال جذب یک Full-Stack Developer متخصص و باانگیزه هستیم. 🔹 شرایط و مهارتهای موردنیاز: \\ حداقل ۵ سال تجربه کاری مرتبط \\ تسلط به #C و ‎.NET / .NET Core \\ تسلط به Angular \\ تجربه کار با SQL Server، Entity Framework Core و Dapper \\ آشنایی با RabbitMQ و Redis \\ تسلط به Git و Azure DevOps \\ تجربه طراحی، توسعه و پیادهسازی APIهای داخلی و خارجی \\ تجربه کار با معماریهای Microservices \\ سابقه کار روی [...] \\ سابقه کار روی سیستمهای سازمانی و مقیاسپذیر 💡 اگر تجربه توسعه نرمافزارهای سازمانی را دارید، به",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #uxui #uxdesigner #uidesigner #figma #aitools #imagineglobal #cairojobs | Ehdaa Said | 50 comments",
+      "company": "Posted by Ehdaa Said",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ehdaa-said-697a50112_hiring-uxui-uxdesigner-activity-7525992775969046530-m1wq",
+      "published": "2026-11-10",
+      "snippet": "🚀 WE ARE HIRING: Senior UI/UX Designer (8–12 Years Experience) We are looking for a creative, user-centric UI/UX Designer for a flexible 100% remote role aligned with Dubai business hours. 📍 Work Mode: 100% Remote (Dual Job / Freelance OK) ⏰ Shift: Day Shift (Dubai Timings) 💼 Experience Required: 8–12 Years 💰 Compensation: As per Company Norms Key Responsibilities & Expertise: Design intuitive, modern, and accessible user interfaces and seamless user journeys for web and enterprise [...] 🎨 We’re Hiring: Mid-Level UI/UX Designer Bridge BFC is looking for a creative and user-focused UI/UX Design",
+      "apply_email": ""
+    },
+    {
+      "title": "#twaddan #hiring #uiuxdesigner #uaejobs #careers | Assel Jehad",
+      "company": "Posted by Aseel Jehad",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aseel-jehad-23b0b518b_twaddan-hiring-uiuxdesigner-activity-7525443146189852672-4AhV",
+      "published": "2026-11-09",
+      "snippet": "We’re Hiring: UI/UX Designer 🚀 Twaddan is looking for a creative and talented UI/UX Designer to join our team. Requirements: - 4+ years of experience in UI/UX Design. - Proficiency in Figma, Sketch, or Adobe XD. - Experience designing mobile apps and websites. - Strong knowledge of Figma Auto Layout and Components. - Ability to write effective prompts and use AI tools such as Figma Make and Claude AI. - Understanding of Design Systems and Prototyping. - Strong visual design and user-centered [...] فرصة وظيفية | (UI/UX Designer) تبحث شركة Twaddan عن مصمم UI/UX مبدع للانضمام إلى فريقها. المؤهلات",
+      "apply_email": ""
+    },
+    {
+      "title": "#productdesigner #uiuxdesigner #uxdesign #productdesign #opentowork #استخدام | narjes shenavar | 13 comments",
+      "company": "Posted by Narjes Shenavar",
+      "location": "Shiraz, Iran",
+      "url": "https://www.linkedin.com/posts/narjes-shenavar-b57180389_productdesigner-uiuxdesigner-uxdesign-activity-7519694231125245952-1xVc",
+      "published": "2026-10-24",
+      "snippet": "Report this post به دنبال فرصت همکاری بهعنوان Product Designer / UI/UX Designer هستم؛ جایی که بتونم با تفکر طراحی، حل مسئله و درک نیاز کاربران، در خلق و بهبود محصولات دیجیتال نقش داشته باشم. 📍 دورکاری یا حضوری(شیراز) اگر تیم شما به دنبال طراح محصوله یا فرصت همکاری مناسبی میشناسید، خوشحال میشم در ارتباط باشیم. ممنون میشم با معرفی من به تیم ها و شرکت های مرتبط، در پیدا کردن فرصت مناسب همراهم باشید.🤍 🔗 پورتفولیو: #ProductDesigner #UIUXDesigner #UXDesign #ProductDesign #OpenToWork #استخدام [...] graphical user interface, text, application, email 78 13 Comments Like Comment Amin Afshar 4d Report th",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #uxdesigner #uidesigner #uxui #figma #productdesign #userexperience #userinterface #digitalproducts #techjobs #uaejobs #dubaijobs #d",
+      "company": "Posted by Aboobacker Inshad",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aboobacker-inshad_hiring-uxdesigner-uidesigner-activity-7525783840770953217-SwTG",
+      "published": "2026-11-10",
+      "snippet": "We're Hiring: UX/UI Designer (Immediate Joiners Preferred) Dubai Are you passionate about creating seamless digital experiences and intuitive user interfaces? We're looking for a talented UX/UI Designer to join our growing team and help shape innovative digital products. 🔹 Key Responsibilities • Design high-fidelity web and mobile interfaces using Figma • Create interactive prototypes, wireframes, and reusable UI components • Transform user journeys and requirements into engaging user [...] into engaging user experiences • Collaborate closely with Product, Business, and Engineering teams • Pre",
+      "apply_email": ""
+    },
+    {
+      "title": "#کارآموزی #طراحی_محصول #تجربه_کاربری #رابط_کاربری #استخدام | Samy Vahdat | 159 comments",
+      "company": "Posted by Samyuxd",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/samyuxd_%DA%A9%D8%A7%D8%B1%D8%A2%D9%85%D9%88%D8%B2%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D9%85%D8%AD%D8%B5%D9%88%D9%84-%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-activity-7527369092941512704-gCxH",
+      "published": "2026-11-14",
+      "snippet": "همکاری: 💻 ریموت و آنلاین 💰 همراه با حقوق 💼 امکان استخدام 📅 سه ماه همکاری 🕑 شروع 1 آذر ماه اگه به طراحی UX/UI علاقه مندی و دوست داری تجربه کار تیمی روی یک محصول واقعی رو داشته باشی، این فرصت رو از دست نده! 👇 برای دریافت جزئیات کامل فرصت کارآموزی و نحوه ارسال رزومه، «کارآموزی» رو کامنت کن تا اطلاعات برات ارسال بشه. #کارآموزی #طراحی\\_محصول #تجربه\\_کاربری #رابط\\_کاربری #استخدام [...] 📌 شرایط کلی همکاری: 💻 ریموت و آنلاین 💰 همراه با حقوق 💼 امکان استخدام 📅 سه ماه همکاری 🕑 شروع 1 آذر ماه اگه به طراحی UX/UI علاقه ‌مندی و دوست داری تجربه کار تیمی روی یک محصول واقعی رو داشته باشی، این فرصت رو از دست نده!",
+      "apply_email": ""
+    },
+    {
       "title": "استخدام توسعهدهنده Full-Stack | Amir mohammad Fatahi",
       "company": "Posted by Amir Mohammad Fatahi",
       "location": "Iran",
@@ -143,15 +242,6 @@
       "url": "https://www.linkedin.com/posts/fatemeh-rajabi-recruiter_hiring-fullstackdeveloper-nodejs-activity-7521224561040838656-hTKi",
       "published": "2026-10-28",
       "snippet": "این یک موقعیت پروکسی نیست. 🎙️ ارزیابی زبان انگلیسی: لطفاً همراه رزومه، یک فایل صوتی حداکثر ۳ دقیقهای ارسال کنید و بهاختصار درباره سوابق کاری و پیشینه حرفهای خود به زبان انگلیسی صحبت کنید. ⚠️ ارسال فایل صوتی به همراه رزومه الزامی است و بدون آن امکان ادامه فرایند استخدام وجود ندارد. 🚨 استخدام برنامهنویس ارشد فولاستک | Senior/Lead Full-Stack Developer 🌎 پروژه بینالمللی | پلتفرم B2B و رویدادهای آنلاین 💻 Remote 💰 حقوق: 690دلار در ماه به دنبال یک Senior/Lead Full-Stack Developer باتجربه هستیم که در [...] ۸ سال سابقه توسعه اپلیکیشنهای وب و تجربه Senior یا Lead • تسلط به JavaScript/TypeScript، Vue.js",
-      "apply_email": ""
-    },
-    {
-      "title": "#c #hiring #fullstackdeveloper #dotnet #angular #sqlserver #microservices #golrangtarabar #استخدام | Anaram Yaghoobi Notash | 22 comments",
-      "company": "Posted by Anaram Yaghoobi Notash",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/anaram-yaghoobi-notash_c-hiring-fullstackdeveloper-activity-7520808130037870592-1s23",
-      "published": "2026-10-27",
-      "snippet": "🚀 We’re Hiring | Full-Stack Developer به خانواده بزرگ Golrang Tarabar میپیوندیم و برای توسعه تیم فنی، به دنبال جذب یک Full-Stack Developer متخصص و باانگیزه هستیم. 🔹 شرایط و مهارتهای موردنیاز: \\ حداقل ۵ سال تجربه کاری مرتبط \\ تسلط به #C و ‎.NET / .NET Core \\ تسلط به Angular \\ تجربه کار با SQL Server، Entity Framework Core و Dapper \\ آشنایی با RabbitMQ و Redis \\ تسلط به Git و Azure DevOps \\ تجربه طراحی، توسعه و پیادهسازی APIهای داخلی و خارجی \\ تجربه کار با معماریهای Microservices \\ سابقه کار روی [...] \\ سابقه کار روی سیستمهای سازمانی و مقیاسپذیر 💡 اگر تجربه توسعه نرمافزارهای سازمانی را دارید، به",
       "apply_email": ""
     },
     {
@@ -233,96 +323,6 @@
       "url": "https://www.linkedin.com/posts/mehdisafiri_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-bi-developer-sql-server-power-activity-7522910325269155840-zwtO",
       "published": "2026-11-02",
       "snippet": "تحلیلی آشنایی با SQL Server Integration Services (SSIS) آشنایی با معماریهای لایهای Data Warehouse شامل Staging، ODS، DWH و Data Mart تجربه کار با Tabular Editor و DAX Studio آشنایی با Performance Tuning در Power BI و SQL Server تجربه استخراج اطلاعات از ERPها، بهویژه Microsoft Dynamics AX / D365 F&O آشنایی با سیستمهای مدیریت فرآیند کسبوکار (BPM) مانند Bizagi آشنایی با Git و مدیریت نسخه کد و پروژهها آشنایی با Python در حوزه پردازش و انتقال داده شرایط احراز حداقل ۲ سال تجربه کاری مرتبط در حوزه هوش [...] مرتبط در حوزه هوش تجاری و تحلیل داده تسلط عملی به SQL Server و Power BI توانایی حل مسئله و تحل",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #uxui #uxdesigner #uidesigner #figma #aitools #imagineglobal #cairojobs | Ehdaa Said | 50 comments",
-      "company": "Posted by Ehdaa Said",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ehdaa-said-697a50112_hiring-uxui-uxdesigner-activity-7525992775969046530-m1wq",
-      "published": "2026-11-10",
-      "snippet": "🚀 WE ARE HIRING: Senior UI/UX Designer (8–12 Years Experience) We are looking for a creative, user-centric UI/UX Designer for a flexible 100% remote role aligned with Dubai business hours. 📍 Work Mode: 100% Remote (Dual Job / Freelance OK) ⏰ Shift: Day Shift (Dubai Timings) 💼 Experience Required: 8–12 Years 💰 Compensation: As per Company Norms Key Responsibilities & Expertise: Design intuitive, modern, and accessible user interfaces and seamless user journeys for web and enterprise [...] 🎨 We’re Hiring: Mid-Level UI/UX Designer Bridge BFC is looking for a creative and user-focused UI/UX Design",
-      "apply_email": ""
-    },
-    {
-      "title": "#twaddan #hiring #uiuxdesigner #uaejobs #careers | Assel Jehad",
-      "company": "Posted by Aseel Jehad",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/aseel-jehad-23b0b518b_twaddan-hiring-uiuxdesigner-activity-7525443146189852672-4AhV",
-      "published": "2026-11-09",
-      "snippet": "We’re Hiring: UI/UX Designer 🚀 Twaddan is looking for a creative and talented UI/UX Designer to join our team. Requirements: - 4+ years of experience in UI/UX Design. - Proficiency in Figma, Sketch, or Adobe XD. - Experience designing mobile apps and websites. - Strong knowledge of Figma Auto Layout and Components. - Ability to write effective prompts and use AI tools such as Figma Make and Claude AI. - Understanding of Design Systems and Prototyping. - Strong visual design and user-centered [...] فرصة وظيفية | (UI/UX Designer) تبحث شركة Twaddan عن مصمم UI/UX مبدع للانضمام إلى فريقها. المؤهلات",
-      "apply_email": ""
-    },
-    {
-      "title": "#productdesigner #uiuxdesigner #uxdesign #productdesign #opentowork #استخدام | narjes shenavar | 13 comments",
-      "company": "Posted by Narjes Shenavar",
-      "location": "Shiraz, Iran",
-      "url": "https://www.linkedin.com/posts/narjes-shenavar-b57180389_productdesigner-uiuxdesigner-uxdesign-activity-7519694231125245952-1xVc",
-      "published": "2026-10-24",
-      "snippet": "Report this post به دنبال فرصت همکاری بهعنوان Product Designer / UI/UX Designer هستم؛ جایی که بتونم با تفکر طراحی، حل مسئله و درک نیاز کاربران، در خلق و بهبود محصولات دیجیتال نقش داشته باشم. 📍 دورکاری یا حضوری(شیراز) اگر تیم شما به دنبال طراح محصوله یا فرصت همکاری مناسبی میشناسید، خوشحال میشم در ارتباط باشیم. ممنون میشم با معرفی من به تیم ها و شرکت های مرتبط، در پیدا کردن فرصت مناسب همراهم باشید.🤍 🔗 پورتفولیو: #ProductDesigner #UIUXDesigner #UXDesign #ProductDesign #OpenToWork #استخدام [...] graphical user interface, text, application, email 78 13 Comments Like Comment Amin Afshar 4d Report th",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #uxdesigner #uidesigner #uxui #figma #productdesign #userexperience #userinterface #digitalproducts #techjobs #uaejobs #dubaijobs #d",
-      "company": "Posted by Aboobacker Inshad",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/aboobacker-inshad_hiring-uxdesigner-uidesigner-activity-7525783840770953217-SwTG",
-      "published": "2026-11-10",
-      "snippet": "We're Hiring: UX/UI Designer (Immediate Joiners Preferred) Dubai Are you passionate about creating seamless digital experiences and intuitive user interfaces? We're looking for a talented UX/UI Designer to join our growing team and help shape innovative digital products. 🔹 Key Responsibilities • Design high-fidelity web and mobile interfaces using Figma • Create interactive prototypes, wireframes, and reusable UI components • Transform user journeys and requirements into engaging user [...] into engaging user experiences • Collaborate closely with Product, Business, and Engineering teams • Pre",
-      "apply_email": ""
-    },
-    {
-      "title": "#کارآموزی #طراحی_محصول #تجربه_کاربری #رابط_کاربری #استخدام | Samy Vahdat | 159 comments",
-      "company": "Posted by Samyuxd",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/samyuxd_%DA%A9%D8%A7%D8%B1%D8%A2%D9%85%D9%88%D8%B2%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%D9%85%D8%AD%D8%B5%D9%88%D9%84-%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-activity-7527369092941512704-gCxH",
-      "published": "2026-11-14",
-      "snippet": "همکاری: 💻 ریموت و آنلاین 💰 همراه با حقوق 💼 امکان استخدام 📅 سه ماه همکاری 🕑 شروع 1 آذر ماه اگه به طراحی UX/UI علاقه مندی و دوست داری تجربه کار تیمی روی یک محصول واقعی رو داشته باشی، این فرصت رو از دست نده! 👇 برای دریافت جزئیات کامل فرصت کارآموزی و نحوه ارسال رزومه، «کارآموزی» رو کامنت کن تا اطلاعات برات ارسال بشه. #کارآموزی #طراحی\\_محصول #تجربه\\_کاربری #رابط\\_کاربری #استخدام [...] 📌 شرایط کلی همکاری: 💻 ریموت و آنلاین 💰 همراه با حقوق 💼 امکان استخدام 📅 سه ماه همکاری 🕑 شروع 1 آذر ماه اگه به طراحی UX/UI علاقه ‌مندی و دوست داری تجربه کار تیمی روی یک محصول واقعی رو داشته باشی، این فرصت رو از دست نده!",
-      "apply_email": ""
-    },
-    {
-      "title": "#c #استخدام #backenddeveloper #dotnet #backend #microservices #fintech | Hadi Salehy Afkham | 26 comments",
-      "company": "Posted by Hadi Salehy",
-      "location": "Tehran, Iran",
-      "url": "https://www.linkedin.com/posts/hadi-salehy_c-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-backenddeveloper-activity-7520783923522576384-rw-z",
-      "published": "2026-10-27",
-      "snippet": "استخدام Backend Developer (.NET) – سطح Mid-level 🏢 حوزه امور مالی، سرمایهگذاری و تحلیل کسبوکار 📍 تهران، خیابان مطهری | تماموقت و حضوری 🕗 شنبه تا چهارشنبه، ۸ تا ۱۶ (با نیم ساعت شناوری) حقوق: توافقی مسئولیتها طراحی و توسعه سرویسهای Backend با #C و .NET پیادهسازی APIها و ارتباط بین سرویسها در معماری Microservice نوشتن کد تمیز، قابل نگهداری و تستپذیر همکاری با تیمهای محصول و تحلیل برای تحویل ویژگیهای جدید شرایط الزامی حداقل مدرک لیسانس (ترجیحاً رشته مرتبط) برای آقایان: داشتن کارت پایان خدمت یا [...] کارت پایان خدمت یا معافیت مهارتها حداقل ۳ سال سابقه کار در توسعه Backend با .NET تسلط بر OOP و Desi",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #backenddeveloper #dotnet #softwaredevelopment | Keysun Data Processing",
-      "company": "Posted by Keysun Data Processing",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/keysun-data-processing_hiring-backenddeveloper-dotnet-activity-7527353481142112256-1UDb",
-      "published": "2026-11-14",
-      "snippet": "استخدام Senior Backend Developer شرکت دادهپردازی کیسان نقش Senior Backend Developer فراتر از توسعه کد است؛ این موقعیت مسئولیت توسعه و بهبود سرویسهای سمت سرور، ارتقای کیفیت فنی و هدایت کارشناسان بکاند را بر عهده دارد. ✅ مسئولیتهای اصلی - طراحی و توسعه سرویسهای Backend با C# / .NET 8+ و ASP.NET Core -طراحی و پیادهسازی معماری میکروسرویس -طراحی مدل داده و بهینهسازی کوئریها روی SQL Server و EF Core -کار با RabbitMQ، Redis ، ElasticSearch و Keycloak در سناریوهای واقعی ترافیک بالا -پیادهسازی [...] حرفهای در توسعه Backend با .NET - حداقل ۲ سال تجربه در نقش Senior یا Tech Lead - سابقه واقعی در تحویل پر",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #dotnet #csharp #backenddeveloper #microservices #banking #fintech #softwarearchitecture #owasp #asvs #devsecops #applicationsecurit",
-      "company": "Posted by Aren Najafi",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/aren-najafi-a6597a174_hiring-dotnet-csharp-activity-7525819208752889857-Qk_x",
-      "published": "2026-11-10",
-      "snippet": "فرصت همکاری | استخدام Backend Developer (.NET) شرکت گسترش فناوریهای نوین بهمنظور توسعه و تکمیل تیم فنی خود، از متخصصان Backend در حوزه .NET دعوت به همکاری میکند. مهارتها و شرایط موردنیاز: Backend Development & Architecture - تسلط به C# و ASP.NET Core - تجربه عملی در طراحی و توسعه سیستمهای مبتنی بر معماری Microservices - آشنایی با اصول Software Architecture، Design Patterns و Clean Architecture - تجربه کار با SQL Server، طراحی دیتابیس و بهینهسازی Queryها - آشنایی با Distributed Systems و مفاهیم [...] الگوهای Outbox، Saga و Event-Driven Architecture - آشنایی با مفاهیم Observability، Logging و Di",
-      "apply_email": ""
-    },
-    {
-      "title": "#keyformance #teamkeyformance #backenddevelopment #problemsolving #teamgrowth | Keyformance",
-      "company": "Posted by Keyformance",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/keyformance_keyformance-teamkeyformance-backenddevelopment-activity-7524872155625484289-5ZQf",
-      "published": "2026-11-07",
-      "snippet": "بالنطق الجديد، وCleanup Job تانية منفصلة بتتولى مسح الملفات القديمة اللي مبقاش ليها أي Mapping. الجزء اللي عجبني في الشغل ده إنه مكنش مجرد حل لمشكلة pronunciation، لكنه خلاني أفكر في أكتر من جانب مع بعض، زي الـ API usage، والـ Caching، والـ Background Jobs، وإزاي أحافظ على الـ existing data من غير ما أعمل unnecessary operations. #DotNet #BackendDevelopment #ElevenLabs #Caching #Hangfire [...] At Keyformance, we believe that growth comes from challenges, creativity, and the willingness to find solutions. 💚 We love seeing our talented team members turn everyday challenges into opportunities to l",
-      "apply_email": ""
-    },
-    {
-      "title": "C# Task vs Thread: When to Use Each | Marwan Esam posted on the topic",
-      "company": "Posted by Marwan Mohamed Esam",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/marwan-mohamed-esam_csharp-dotnet-softwareengineering-activity-7519910898581520384-gnA4",
-      "published": "2026-10-25",
-      "snippet": "starting point with the things I commonly need when building ASP.NET Core APIs — without adding unnecessary complexity. I've also documented the project in detail, including the why and how behind the different parts of the architecture and how to extend the template when building a new feature. If you're interested in checking it out, the repository is here: 🔗 #DotNet #ASPNetCore #CSharp #SoftwareEngineering #OpenSource #BackendDevelopment #CleanArchitecture #WebAPI #GitHub [...] definitions for filtering, ordering, includes, and pagination. - API Versioning - Serilog & Seq: for structured lo",
       "apply_email": ""
     },
     {
