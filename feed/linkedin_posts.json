@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T21:34:03+00:00",
+  "updated_at": "2026-11-26T07:59:31+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -101,6 +101,24 @@
       "apply_email": ""
     },
     {
+      "title": "... استخدام Docker و Kubernetes ⚡ مراقبة الأداء والـ pipelines ⚡ تطبيق DevOps Culture",
+      "company": "Posted by Mohammed El Amine Mahmoudi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammed-el-amine-mahmoudi-a0363b7a_aws-azure-google-cloud-practice-exams-activity-7526701723097210881-63eb",
+      "published": "2026-11-12",
+      "snippet": "... استخدام Docker و Kubernetes ⚡ مراقبة الأداء والـ pipelines ⚡ تطبيق DevOps Culture Building my brand around: DevOps • CI/CD",
+      "apply_email": ""
+    },
+    {
+      "title": "Let the Model Choose, Let Code Decide: Six Patterns for Strands Agents on Amazon Bedrock AgentCore | AWS Builder Center | Mohammad AlYasfo",
+      "company": "Posted by Mohammad Alyasfo",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammad-alyasfo_let-the-model-choose-let-code-decide-six-activity-7526637010476916736-vl3w",
+      "published": "2026-11-12",
+      "snippet": "A model can propose. Code decides. A teacher signs off on whatever code can't settle. That rule shaped every part of BrailleBridge, the worksheet-to-Braille agent I built on AWS. Part 2 of the series turns it into six patterns for Strands Agents on Amazon Bedrock AgentCore, each with the code that implements it: 1. Put exact checks in graph nodes, as plain Python that no prompt can talk out of a result. 2. Check a picture description by trying to use it: an agent that never sees the picture has [...] planted errors. Each pattern ends with where it stops working. Two readers can still make the",
+      "apply_email": ""
+    },
+    {
       "title": "#c #استخدام #backenddeveloper #dotnet #backend #microservices #fintech | Hadi Salehy Afkham | 26 comments",
       "company": "Posted by Hadi Salehy",
       "location": "Tehran, Iran",
@@ -134,6 +152,132 @@
       "url": "https://www.linkedin.com/posts/adele-zabihi_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3-back-end-c-%D8%AF%D8%B1-%D8%B4%D8%B1%DA%A9%D8%AA-activity-7526257485305868288-X26L",
       "published": "2026-11-11",
       "snippet": "سلام ما در تیم توسعه محصول، به دنبال یک Backend Developer مسلط به .NET هستیم تا در این مسیر در کنار ما باشد. خوشحال میشم رزومه هاتون رو برام ارسال کنید: شرح شغل و وظایف درباره ما: ما در پیوند هوشمند نوآوری نوین مانا، یک شرکت چابک و نوآور در حوزه فینتک هستیم که با هدف نوآوری در خدمات مالی و بازار سرمایه فعالیت میکنیم. در این مسیر به دنبال جذب یک کارشناس ارشد برنامهنویس بکاند هستیم که همراه تیم ما باشد. نیازمندیها و مهارتهای ضروری: حداقل 3 سال تجربه کار به عنوان توسعهدهنده بکاند مسلط به .NET Core [...] مسلط به .NET Core مسلط به C# و Entity Framework مسلط به معماری Microservices مسلط به Web API و",
+      "apply_email": ""
+    },
+    {
+      "title": "#استخدام #برنامه_نویسی #dotnet #csharp #backenddeveloper #microservices #pec | Fatemeh Moosavi | 28 comments",
+      "company": "Posted by Fatemehmoosavib",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/fatemehmoosavib_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-dotnet-activity-7520804260645732352-HUgN",
+      "published": "2026-10-27",
+      "snippet": "تسلط به SQL Server، بهینهسازی کوئریها و Entity Framework Core 🔹 آشنایی با Docker و مفاهیم استقرار سرویسها 🔹 آشنایی با Design Patterns و چالشهای معماری توزیعشده، مدیریت تراکنشها و پایداری سرویسها اگر به دنبال فرصتی برای بهکارگیری تخصص خود در توسعه سامانههای نرمافزاری هستید، خوشحال میشویم بیشتر با شما آشنا شویم. 📩 رزومهتان را از طریق لینک زیر یا با ارسال پیام در لینکدین برای ما بفرستید. 🔗 لینک ارسال رزومه: #استخدام #برنامه\\_نویسی #DotNet #CSharp #BackendDeveloper #Microservices #PEC [...] 🚀 فرصت همکاری | NET Developer. ما در تجارت الکترونیک پارسیان (PEC)، به دنبال همکاری با یک توسعهدهنده بکاند ت",
+      "apply_email": ""
+    },
+    {
+      "title": "فرصت همکاری | استخدام برنامهنویس .NET Backend ما در صندوق پژوهش و فناوری استان البرز برای",
+      "company": "Posted by Ehsan Saeidpour",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ehsan-saeidpour-56a684101_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3-%D8%AF%D8%A7%D8%AA%D9%86%D8%AA-activity-7525502964329897984-hzAf",
+      "published": "2026-11-09",
+      "snippet": "فرصت همکاری | استخدام برنامهنویس .NET Backend ما در صندوق پژوهش و فناوری استان البرز برای توسعه تیم فنی خود به دنبال یک توسعهدهنده .",
+      "apply_email": ""
+    },
+    {
+      "title": "Ziad Hassan, Flutter mobile developer",
+      "company": "Posted by Ziadhassan7",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ziadhassan7_ziad-hassan-flutter-mobile-developer-activity-7527645358269571072-6n4s",
+      "published": "2026-11-15",
+      "snippet": "Backend باستخدام Firebase & Laravel. متاح للعمل Remote أو On-site في مصر والخليج. لينكات التطبيقات والـCV في أول كومنت. لو عندك فرصة مناسبة",
+      "apply_email": ""
+    },
+    {
+      "title": "Full Stack Developer | Embedl",
+      "company": "Posted by Embedl",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/embedl_full-stack-developer-activity-7524394928353894400-mRXk",
+      "published": "2026-11-06",
+      "snippet": "🚀 Big ambitions. Brilliant minds. Kind people 🌟 Sounds like your kind of workplace? 👀 We're growing at Embedl and looking for another awesome person to join our team! Cutting-edge AI, exciting challenges, and a genuinely great team. What's not to love? 💙 👉 Curious? Check out our open position and join the journey!",
+      "apply_email": ""
+    },
+    {
+      "title": "#manchester #developer #react #engineering | David Berwick",
+      "company": "Posted by Davidberwick",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/davidberwick_manchester-developer-react-activity-7522951535509757952-aZM5",
+      "published": "2026-11-02",
+      "snippet": "Job opportunity! Senior Full Stack Developer - TypeScript / Node.js / React, Circa £85K - #Manchester. We're looking for a talented Senior Full Stack Developer with a strong backend focus to join a growing engineering team. This isn't a role for someone who simply works with React and Node.js—it's an opportunity for an engineer who genuinely understands how modern web applications and cloud infrastructure work from end to end. Get in touch: 📞 01625 874399 #developer #react #engineering [...] I'm interested in this position and would love to chat",
+      "apply_email": ""
+    },
+    {
+      "title": "Full Stack Developer (React / React Native / Node.js... | Pagaar India | Priyanka Giri",
+      "company": "Posted by Priyanka Giri",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/priyanka-giri-0b60b928b_full-stack-developer-react-react-native-activity-7525488371339546624-6EXU",
+      "published": "2026-11-09",
+      "snippet": "Full Stack Developer Mumbai, React Developer jobs in Mumbai, React Native Developer hiring, Node js Developer vacancy Mumbai, Full Stack Developer 3-4 years experience, Full time Developer jobs Maharashtra, MERN Stack Developer Mumbai, Pagaar India jobs Mumbai, Free job portal Mumbai, Software Engineer React Node, Mobile App Developer Mumbai, Web Developer hiring Mumbai, Urgent hiring Full Stack Developer, IT jobs in Mumbai, React Native developer vacancy, #FullStackDeveloper, #MumbaiJobs, [...] #MumbaiJobs, #ReactDeveloper, #NodeJSJobs, #ReactNative, #PagaarIndia, #ITJobsMumbai, #MaharashtraH",
+      "apply_email": ""
+    },
+    {
+      "title": "Mobile Developer (React Native) - Mnzil | Mohammed Alduhan",
+      "company": "Posted by Mohammedalduhan",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammedalduhan_mobile-developer-react-native-mnzil-activity-7527672525183475712-BNQS",
+      "published": "2026-11-15",
+      "snippet": "We’re hiring a Mobile Developer (React Native) at Mnzil | منزل 📱 Looking for a React Native developer who has built apps that look great and feel smooth to use. You’ll own our app’s quality, performance and releases, working closely with product and design. Experience building apps at a product company is a big plus. 📍 Riyadh, hybrid Apply: #Hiring #ReactNative #MobileDevelopment #Riyadh #Mnzil I develop mobile application with flutter framework. Is it possible to share my CV for you? [...] Interested Mohammed Alduhan let's connect #up interested",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #seniorfullstackdeveloper #python #reactjs #fintech #softwareengineering #tehranjobs | Moein Najafi",
+      "company": "Posted by Moeinnajafi1998",
+      "location": "Tehran, Iran",
+      "url": "https://www.linkedin.com/posts/moeinnajafi1998_hiring-seniorfullstackdeveloper-python-activity-7527691880944504832-AMke",
+      "published": "2026-11-15",
+      "snippet": "🚀 فرصت همکاری | Senior Full-Stack Developer (Python / React) ما برای توسعه تیممون در حوزه فینتک (FinTech) به دنبال دو توسعهدهنده ارشد فولاستک با تجربه عملی و تسلط مناسب بر توسعه Backend و Frontend هستیم. اگر تجربه طراحی، توسعه و نگهداری سامانههای عملیاتی را دارید و میتوانید در تصمیمگیریهای فنی و بهبود معماری نرمافزار نقش مؤثری ایفا کنید، مشتاق همکاری با شما هستیم. 🔹 الزامات اصلی (Required Skills): Backend | Python حداقل ۴ سال تجربه حرفهای مرتبط در توسعه نرمافزار، همراه با تجربه عملی در هر دو [...] که حداقل ۴ سال تجربه حرفهای مرتبط داشته و شرایط اصلی این موقعیت را دارند دعوت میکنیم رزومه خود را",
+      "apply_email": ""
+    },
+    {
+      "title": "#استخدام #پردازش_تصاویر_پزشکی #هوش_مصنوعی #python #medicalimageprocessing #deeplearning #medicalimaging #remotework #airesearch | Ramin Afra",
+      "company": "Posted by Ramin Afrah",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ramin-afrah-20567b270_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-%D9%87%D9%88%D8%B4%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-activity-7529109400532340736-Qm6G",
+      "published": "2026-11-19",
+      "snippet": "🔍 استخدام پژوهشگر حوزه پردازش تصاویر پزشکی و هوش مصنوعی (Medical Image Processing & AI Researcher) برای همکاری بهصورت دورکاری، به یک پژوهشگر توانمند، با پایه برنامهنویسی قوی و تسلط به Python در حوزه پردازش تصاویر پزشکی و هوش مصنوعی نیازمندیم. 🔹 مهارتها و شرایط مورد انتظار: • تسلط به برنامهنویسی Python و داشتن پایه قوی در مفاهیم برنامهنویسی • تسلط به مفاهیم و روشهای پردازش تصویر (Image Processing) • تجربه کار با کتابخانههای مرتبط در Python مانند NumPy، OpenCV، SciPy، scikit-image، PyTorch و [...] PyTorch و TensorFlow • توانایی طراحی و پیادهسازی پایپلاینهای هوش مصنوعی در حوزه تصاویر پزشکی • آشنا",
+      "apply_email": ""
+    },
+    {
+      "title": "استخدام BI Developer (SQL Server & Power BI) شرح وظایف و مسئولیتها طراحی، توسعه و نگهداری داشبوردها و گزارشهای تحلیلی و مدیریتی با استفاده ا",
+      "company": "Posted by Mehdisafiri",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mehdisafiri_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-bi-developer-sql-server-power-activity-7522910325269155840-zwtO",
+      "published": "2026-11-02",
+      "snippet": "تحلیلی آشنایی با SQL Server Integration Services (SSIS) آشنایی با معماریهای لایهای Data Warehouse شامل Staging، ODS، DWH و Data Mart تجربه کار با Tabular Editor و DAX Studio آشنایی با Performance Tuning در Power BI و SQL Server تجربه استخراج اطلاعات از ERPها، بهویژه Microsoft Dynamics AX / D365 F&O آشنایی با سیستمهای مدیریت فرآیند کسبوکار (BPM) مانند Bizagi آشنایی با Git و مدیریت نسخه کد و پروژهها آشنایی با Python در حوزه پردازش و انتقال داده شرایط احراز حداقل ۲ سال تجربه کاری مرتبط در حوزه هوش [...] مرتبط در حوزه هوش تجاری و تحلیل داده تسلط عملی به SQL Server و Power BI توانایی حل مسئله و تحل",
+      "apply_email": ""
+    },
+    {
+      "title": "موقعیت شغلی ریموت دلاری برای Data Scientist 🌍 ریموت ⏰ ساعات کاری منعطف 🗣️ سطح زبان انگلیسی: C1 Level or Higher 💰 حقوق: $4,000 🔥 About the Ro",
+      "company": "Posted by Abbas Hoseini",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/abbas-hoseini_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%B4%D8%BA%D9%84%DB%8C-%D8%B1%DB%8C%D9%85%D9%88%D8%AA-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-data-scientist-activity-7525520146736726016-_dlM",
+      "published": "2026-11-09",
+      "snippet": "success metrics Build feature engineering and data processing pipelines Work with Data Engineers to ensure reliable data access Deploy and integrate ML models into production systems Monitor model performance, bias, and data drift Present insights to technical and non-technical stakeholders Support BI, analytics, and AI initiatives 🎯 What We’re Looking For 3+ years of experience in Data Science or ML roles Strong Python (Pandas, NumPy, Scikit-learn) and SQL skills Solid understanding of [...] understanding of statistics and experimental design Experience with ML model building and evaluation F",
+      "apply_email": ""
+    },
+    {
+      "title": "UI-UX Designer vs Product Designer | Young Urban Project",
+      "company": "Posted by Youngurbanproject",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/youngurbanproject_ui-ux-designer-vs-product-designer-activity-7526150316787093504-1VFB",
+      "published": "2026-11-11",
+      "snippet": "UI/UX Designer and Product Designer are often used interchangeably. But are they actually the same? Both roles focus on creating better user experiences, but their areas of focus can be quite different. Here's how they compare. 👇 🎨 UI/UX Designer Focuses on designing usable experiences. → Maps user flows → Creates wireframes and interface designs → Designs interactions and navigation → Tests prototypes with users 🚀 Product Designer Focuses on solving product problems. → Understands user needs [...] user needs and pain points → Explores and tests possible solutions → Balances user needs with bu",
+      "apply_email": ""
+    },
+    {
+      "title": "Hiring UX UI Designer - India Remote visit notfoundjobs.com for more UX UI Product Design roles in India | Amit Yadav",
+      "company": "Posted by Bruteforceartist",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/bruteforceartist_hiring-ux-ui-designer-india-remote-visit-activity-7522213990236733441-1MOY",
+      "published": "2026-10-31",
+      "snippet": "I’m a Product & UI/UX Designer specializing in Web & App Design, focused on creating user-friendly digital experiences. I also provide Social Media Design & Management to help brands build a strong and engaging online presence. Here’s my portfolio: 🔗 ( Pakistan ) [...] Hiring UX UI Designer - India Remote visit notfoundjobs.com for more UX UI Product Design roles in India Respected Sir/Ma’am Hope you are doing well! Greetings from Pathway- The Placement Cell at Ram Lal Anand College, Delhi University would like to collaborate with your esteemed organization for placement/internship opportuniti",
+      "apply_email": ""
+    },
+    {
+      "title": "Senior UX/UI Designer at Intetics — Remote, Bulgaria — UX Jobs | UX Jobs",
+      "company": "Posted by Uxjobs",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/uxjobs_senior-uxui-designer-at-intetics-remote-activity-7529235625057828864-pA0l",
+      "published": "2026-11-19",
+      "snippet": "UX Jobs 259,718 followers 1d Report this post Senior UX/UI Designer at Intetics · Remote, Bulgaria · Part-time. View this remote UX / product design role and apply on Workable. Senior UX/UI Designer at Intetics — Remote, Bulgaria — UX Jobs jobs.uxjobs.io 2 1 Comment Like Comment Share Copy LinkedIn Facebook X Suman Kumar 1d Report this comment Looking for job as UI/UX designer in Mohali. Having working experience of 10 years in USA based company. Personal website/portfolio link: Thanks. Like [...] link: Thanks. Like Reply 1 Reaction To view or add a comment, sign in",
       "apply_email": ""
     },
     {
@@ -218,48 +362,12 @@
       "apply_email": ""
     },
     {
-      "title": "#manchester #developer #react #engineering | David Berwick",
-      "company": "Posted by Davidberwick",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/davidberwick_manchester-developer-react-activity-7522951535509757952-aZM5",
-      "published": "2026-11-02",
-      "snippet": "Job opportunity! Senior Full Stack Developer - TypeScript / Node.js / React, Circa £85K - #Manchester. We're looking for a talented Senior Full Stack Developer with a strong backend focus to join a growing engineering team. This isn't a role for someone who simply works with React and Node.js—it's an opportunity for an engineer who genuinely understands how modern web applications and cloud infrastructure work from end to end. Get in touch: 📞 01625 874399 #developer #react #engineering [...] I'm interested in this position and would love to chat",
-      "apply_email": ""
-    },
-    {
-      "title": "Full Stack Developer (React / React Native / Node.js... | Pagaar India | Priyanka Giri",
-      "company": "Posted by Priyanka Giri",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/priyanka-giri-0b60b928b_full-stack-developer-react-react-native-activity-7525488371339546624-6EXU",
-      "published": "2026-11-09",
-      "snippet": "Full Stack Developer Mumbai, React Developer jobs in Mumbai, React Native Developer hiring, Node js Developer vacancy Mumbai, Full Stack Developer 3-4 years experience, Full time Developer jobs Maharashtra, MERN Stack Developer Mumbai, Pagaar India jobs Mumbai, Free job portal Mumbai, Software Engineer React Node, Mobile App Developer Mumbai, Web Developer hiring Mumbai, Urgent hiring Full Stack Developer, IT jobs in Mumbai, React Native developer vacancy, #FullStackDeveloper, #MumbaiJobs, [...] #MumbaiJobs, #ReactDeveloper, #NodeJSJobs, #ReactNative, #PagaarIndia, #ITJobsMumbai, #MaharashtraH",
-      "apply_email": ""
-    },
-    {
       "title": "Highly recommended | Mohamed ALbazz",
       "company": "Posted by Mohamed Albazz",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/mohamed-albazz-9224b6191_highly-recommended-activity-7525276903738658816-n9nJ",
       "published": "2026-11-08",
       "snippet": "والتواصل مع أشخاص من خلفيات وثقافات وخبرات مختلفة. اتعرفت على ناس كتير، واتعلمت من خبراتهم، وواجهت تحديات جديدة ساعدتني أتطور كمهندس برمجيات وكشخص. كل الشكر والتقدير لشركة Advancya، ولكل زميل ومدير وقائد فريق كان جزءًا من الرحلة دي. ممتن جدًا لكل فرصة، وكل نصيحة، وكل تجربة اتعلمت منها. 🙏❤️ 🌟 واليوم، أنا متحمس لبدء مرحلة مهنية جديدة! يسعدني الإعلان عن استعدادي لاستقبال فرص عمل جديدة #OpenToWork في الوظائف التالية: 🎯 Senior .NET Backend Developer 🎯 .NET Developer | Junior React Developer 📍 متاح [...] Backend Engineer، يسعدني جدًا التواصل معكم ومشاركة سيرتي الذاتية. وإذا لم تكن لديك فرصة حاليًا،",
-      "apply_email": ""
-    },
-    {
-      "title": "#استخدام #پردازش_تصاویر_پزشکی #هوش_مصنوعی #python #medicalimageprocessing #deeplearning #medicalimaging #remotework #airesearch | Ramin Afra",
-      "company": "Posted by Ramin Afrah",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ramin-afrah-20567b270_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-%D9%87%D9%88%D8%B4%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-activity-7529109400532340736-Qm6G",
-      "published": "2026-11-19",
-      "snippet": "🔍 استخدام پژوهشگر حوزه پردازش تصاویر پزشکی و هوش مصنوعی (Medical Image Processing & AI Researcher) برای همکاری بهصورت دورکاری، به یک پژوهشگر توانمند، با پایه برنامهنویسی قوی و تسلط به Python در حوزه پردازش تصاویر پزشکی و هوش مصنوعی نیازمندیم. 🔹 مهارتها و شرایط مورد انتظار: • تسلط به برنامهنویسی Python و داشتن پایه قوی در مفاهیم برنامهنویسی • تسلط به مفاهیم و روشهای پردازش تصویر (Image Processing) • تجربه کار با کتابخانههای مرتبط در Python مانند NumPy، OpenCV، SciPy، scikit-image، PyTorch و [...] PyTorch و TensorFlow • توانایی طراحی و پیادهسازی پایپلاینهای هوش مصنوعی در حوزه تصاویر پزشکی • آشنا",
-      "apply_email": ""
-    },
-    {
-      "title": "UI-UX Designer vs Product Designer | Young Urban Project",
-      "company": "Posted by Youngurbanproject",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/youngurbanproject_ui-ux-designer-vs-product-designer-activity-7526150316787093504-1VFB",
-      "published": "2026-11-11",
-      "snippet": "UI/UX Designer and Product Designer are often used interchangeably. But are they actually the same? Both roles focus on creating better user experiences, but their areas of focus can be quite different. Here's how they compare. 👇 🎨 UI/UX Designer Focuses on designing usable experiences. → Maps user flows → Creates wireframes and interface designs → Designs interactions and navigation → Tests prototypes with users 🚀 Product Designer Focuses on solving product problems. → Understands user needs [...] user needs and pain points → Explores and tests possible solutions → Balances user needs with bu",
       "apply_email": ""
     },
     {
@@ -272,24 +380,6 @@
       "apply_email": ""
     },
     {
-      "title": "Hiring UX UI Designer - India Remote visit notfoundjobs.com for more UX UI Product Design roles in India | Amit Yadav",
-      "company": "Posted by Bruteforceartist",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/bruteforceartist_hiring-ux-ui-designer-india-remote-visit-activity-7522213990236733441-1MOY",
-      "published": "2026-10-31",
-      "snippet": "I’m a Product & UI/UX Designer specializing in Web & App Design, focused on creating user-friendly digital experiences. I also provide Social Media Design & Management to help brands build a strong and engaging online presence. Here’s my portfolio: 🔗 ( Pakistan ) [...] Hiring UX UI Designer - India Remote visit notfoundjobs.com for more UX UI Product Design roles in India Respected Sir/Ma’am Hope you are doing well! Greetings from Pathway- The Placement Cell at Ram Lal Anand College, Delhi University would like to collaborate with your esteemed organization for placement/internship opportuniti",
-      "apply_email": ""
-    },
-    {
-      "title": "Senior UX/UI Designer at Intetics — Remote, Bulgaria — UX Jobs | UX Jobs",
-      "company": "Posted by Uxjobs",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/uxjobs_senior-uxui-designer-at-intetics-remote-activity-7529235625057828864-pA0l",
-      "published": "2026-11-19",
-      "snippet": "UX Jobs 259,718 followers 1d Report this post Senior UX/UI Designer at Intetics · Remote, Bulgaria · Part-time. View this remote UX / product design role and apply on Workable. Senior UX/UI Designer at Intetics — Remote, Bulgaria — UX Jobs jobs.uxjobs.io 2 1 Comment Like Comment Share Copy LinkedIn Facebook X Suman Kumar 1d Report this comment Looking for job as UI/UX designer in Mohali. Having working experience of 10 years in USA based company. Personal website/portfolio link: Thanks. Like [...] link: Thanks. Like Reply 1 Reaction To view or add a comment, sign in",
-      "apply_email": ""
-    },
-    {
       "title": "Frontend Developer | Prashant Yadav",
       "company": "Posted by Prashant Yadav Lb",
       "location": "Iran",
@@ -299,66 +389,12 @@
       "apply_email": ""
     },
     {
-      "title": "Full Stack Developer | Embedl",
-      "company": "Posted by Embedl",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/embedl_full-stack-developer-activity-7524394928353894400-mRXk",
-      "published": "2026-11-06",
-      "snippet": "🚀 Big ambitions. Brilliant minds. Kind people 🌟 Sounds like your kind of workplace? 👀 We're growing at Embedl and looking for another awesome person to join our team! Cutting-edge AI, exciting challenges, and a genuinely great team. What's not to love? 💙 👉 Curious? Check out our open position and join the journey!",
-      "apply_email": ""
-    },
-    {
-      "title": "Mobile Developer (React Native) - Mnzil | Mohammed Alduhan",
-      "company": "Posted by Mohammedalduhan",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammedalduhan_mobile-developer-react-native-mnzil-activity-7527672525183475712-BNQS",
-      "published": "2026-11-15",
-      "snippet": "We’re hiring a Mobile Developer (React Native) at Mnzil | منزل 📱 Looking for a React Native developer who has built apps that look great and feel smooth to use. You’ll own our app’s quality, performance and releases, working closely with product and design. Experience building apps at a product company is a big plus. 📍 Riyadh, hybrid Apply: #Hiring #ReactNative #MobileDevelopment #Riyadh #Mnzil I develop mobile application with flutter framework. Is it possible to share my CV for you? [...] Interested Mohammed Alduhan let's connect #up interested",
-      "apply_email": ""
-    },
-    {
       "title": "این یک آگهی شغلی است! . .. ما در مهتا به دنبال یک Python Developer خلاق، متخصص و علاقهمند به حل چالشهای فنی هستیم. در انتظار دوستی هستیم که",
       "company": "Posted by Mahtaco",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/mahtaco_%D8%A7%DB%8C%D9%86-%DB%8C%DA%A9-%D8%A2%DA%AF%D9%87%DB%8C-%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7-%D8%AF%D8%B1-%D9%85%D9%87%D8%AA%D8%A7-%D8%A8%D9%87-activity-7529823345803038720-rXF-",
       "published": "2026-11-21",
       "snippet": "این یک آگهی شغلی است! . .. ما در مهتا به دنبال یک Python Developer خلاق، متخصص و علاقهمند به حل چالشهای فنی هستیم. در انتظار دوستی هستیم که علاوه بر دانش فنی و تجربه حرفهای، از تفکر تحلیلی، روحیه حل مسئله و توانایی تبدیل ایدههای پیچیده به راهکارهای کاربردی برخوردار باشد. برای آشنایی بیشتر با این فرصت شغلی و ارسال رزومه، از طریق لینک آگهی اقدام کنید. Danial Hadi2d [...] Danial Hadi2d من رزومم رو ۳۱ شهریور فرستادم و وضعیت به حالت بررسی شده در اومده اما هیچ خبری نشده از بعد اون ، نه رد شده، نه تماس گرفته شده ، هیچی ، و از لحاظ فنی هم مطمئن فیت کار شما خواهم بود ، اما مشکل این وسط چیه نمیدونم Sana",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #seniorfullstackdeveloper #python #reactjs #fintech #softwareengineering #tehranjobs | Moein Najafi",
-      "company": "Posted by Moeinnajafi1998",
-      "location": "Tehran, Iran",
-      "url": "https://www.linkedin.com/posts/moeinnajafi1998_hiring-seniorfullstackdeveloper-python-activity-7527691880944504832-AMke",
-      "published": "2026-11-15",
-      "snippet": "🚀 فرصت همکاری | Senior Full-Stack Developer (Python / React) ما برای توسعه تیممون در حوزه فینتک (FinTech) به دنبال دو توسعهدهنده ارشد فولاستک با تجربه عملی و تسلط مناسب بر توسعه Backend و Frontend هستیم. اگر تجربه طراحی، توسعه و نگهداری سامانههای عملیاتی را دارید و میتوانید در تصمیمگیریهای فنی و بهبود معماری نرمافزار نقش مؤثری ایفا کنید، مشتاق همکاری با شما هستیم. 🔹 الزامات اصلی (Required Skills): Backend | Python حداقل ۴ سال تجربه حرفهای مرتبط در توسعه نرمافزار، همراه با تجربه عملی در هر دو [...] که حداقل ۴ سال تجربه حرفهای مرتبط داشته و شرایط اصلی این موقعیت را دارند دعوت میکنیم رزومه خود را",
-      "apply_email": ""
-    },
-    {
-      "title": "استخدام BI Developer (SQL Server & Power BI) شرح وظایف و مسئولیتها طراحی، توسعه و نگهداری داشبوردها و گزارشهای تحلیلی و مدیریتی با استفاده ا",
-      "company": "Posted by Mehdisafiri",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mehdisafiri_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-bi-developer-sql-server-power-activity-7522910325269155840-zwtO",
-      "published": "2026-11-02",
-      "snippet": "تحلیلی آشنایی با SQL Server Integration Services (SSIS) آشنایی با معماریهای لایهای Data Warehouse شامل Staging، ODS، DWH و Data Mart تجربه کار با Tabular Editor و DAX Studio آشنایی با Performance Tuning در Power BI و SQL Server تجربه استخراج اطلاعات از ERPها، بهویژه Microsoft Dynamics AX / D365 F&O آشنایی با سیستمهای مدیریت فرآیند کسبوکار (BPM) مانند Bizagi آشنایی با Git و مدیریت نسخه کد و پروژهها آشنایی با Python در حوزه پردازش و انتقال داده شرایط احراز حداقل ۲ سال تجربه کاری مرتبط در حوزه هوش [...] مرتبط در حوزه هوش تجاری و تحلیل داده تسلط عملی به SQL Server و Power BI توانایی حل مسئله و تحل",
-      "apply_email": ""
-    },
-    {
-      "title": "Let the Model Choose, Let Code Decide: Six Patterns for Strands Agents on Amazon Bedrock AgentCore | AWS Builder Center | Mohammad AlYasfo",
-      "company": "Posted by Mohammad Alyasfo",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammad-alyasfo_let-the-model-choose-let-code-decide-six-activity-7526637010476916736-vl3w",
-      "published": "2026-11-12",
-      "snippet": "A model can propose. Code decides. A teacher signs off on whatever code can't settle. That rule shaped every part of BrailleBridge, the worksheet-to-Braille agent I built on AWS. Part 2 of the series turns it into six patterns for Strands Agents on Amazon Bedrock AgentCore, each with the code that implements it: 1. Put exact checks in graph nodes, as plain Python that no prompt can talk out of a result. 2. Check a picture description by trying to use it: an agent that never sees the picture has [...] the picture has to answer from the description. 3. Pause for a person across AgentCore invocat",
-      "apply_email": ""
-    },
-    {
-      "title": "موقعیت شغلی ریموت دلاری برای Data Scientist ریموت ⏰ ساعات کاری منعطف 🗣️ سطح زبان انگلیسی:",
-      "company": "Posted by Abbas Hoseini",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/abbas-hoseini_%D9%85%D9%88%D9%82%D8%B9%DB%8C%D8%AA-%D8%B4%D8%BA%D9%84%DB%8C-%D8%B1%DB%8C%D9%85%D9%88%D8%AA-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-data-scientist-activity-7525520146736726016-_dlM",
-      "published": "2026-11-09",
-      "snippet": "موقعیت شغلی ریموت دلاری برای Data Scientist ریموت ⏰ ساعات کاری منعطف 🗣️ سطح زبان انگلیسی: C1 Level or Higher حقوق: $4,000 About",
       "apply_email": ""
     },
     {
@@ -1043,42 +1079,6 @@
       "url": "https://www.linkedin.com/posts/dodangeh_ui-ux-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-activity-7523679638624215040-PUeD",
       "published": "2026-11-04",
       "snippet": "استخدام طراح تجربه کاربری و گرافیست 🎨 در مسسه، پلتفرم خرید و فروش آنلاین مس، دنبال یک طراح تجربه کاربری و گرافیست هستیم. این همکار در طراحی محصول، سادهتر کردن مسیر خرید و فروش برای کاربران و ساختن هویت بصری برند همراهمان خواهد بود. مهارتهای مورد نیاز: • تسلط به Figma و طراحی رابط کاربری برای وب و موبایل • تجربه طراحی تجربه کاربری: تحقیق کاربر، طراحی مسیر کاربر (User Flow)، وایرفریم و پروتوتایپ • تجربه ساخت و نگهداری دیزاین سیستم و کامپوننتها • تسلط به Illustrator و Photoshop برای طراحی گرافیک و [...] برای طراحی گرافیک و محتوای تبلیغاتی • تجربه طراحی هویت بصری، پست و بنر شبکههای اجتماعی و کمپین",
-      "apply_email": ""
-    },
-    {
-      "title": "Agentic AI for Software Developers: A New Approach to Coding | Abdallah Farag posted on the topic",
-      "company": "Posted by Abdallah Farag",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/abdallah-farag-912b06b0_agenticai-softwaredevelopment-dotnet-activity-7515504441987584000-kkUl",
-      "published": "2026-10-12",
-      "snippet": "Vincent Wargnier AI Agents × Full-Stack SaaS Engineer | Automating automations that automate automations. AI took my job. So I took over the AI. 200× the output. Tell me the job. I ship the agent. [...] to use it. Example: GetLastOrder(userId), CancelOrder(orderId), RefundToWallet(orderId, amount), RefundToCard(orderId, amount) The AI can't do anything you didn't give it a function for. 3️⃣ The loop = literally a while loop while (!goalReached) → the AI picks the next function → your code runs it → the result goes back to the AI Example: RefundToWallet() returns \"wallet not activated.\" Followi",
-      "apply_email": ""
-    },
-    {
-      "title": "Saudi e-signature integrations and architecture | Hamada Emam posted on the topic",
-      "company": "Posted by Hamada Emam Tech",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/hamada-emam-tech_sadq-esignature-digitalsignature-activity-7515649730136346624-NJ4N",
-      "published": "2026-10-18",
-      "snippet": "external calls on the main HTTP thread. Push them to a Redis queue so the user gets an instant response. Graceful Degradation & Fallbacks: If the primary service is down, the system should automatically switch to a secondary provider (e.g., routing SMS from Twilio to Vonage) without the user ever noticing. Your application's uptime should never depend on another company's infrastructure. Tech Leads & Backend Engineers: How do you handle external API timeouts? Do you build custom Circuit [...] الكاملة : 👉 1. خليك proactive بالمعلومة ما تستناش لما يسألك \"خلصت؟\". عود نفسك تبعت/تقول update يومي مخ",
-      "apply_email": ""
-    },
-    {
-      "title": "#رزومه #جویای_شغل #استخدام #ai #resume #opentowork",
-      "company": "Posted by Mrsaffar",
-      "location": "Tehran, Iran",
-      "url": "https://www.linkedin.com/posts/mrsaffar_%D8%B1%D8%B2%D9%88%D9%85%D9%87-%D8%AC%D9%88%DB%8C%D8%A7%DB%8C%D8%B4%D8%BA%D9%84-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-activity-7518146016672423936-1xv8",
-      "published": "2026-10-20",
-      "snippet": "... استخدام برنامه‌نویس» دقیق‌تر بگویی: «من ۳ سال تجربه Java و Spring دارم، دنبال موقعیت Backend در تهران یا Remote هستم و ترجیح می‌دهم در تیمی کار کنم که روی",
-      "apply_email": ""
-    },
-    {
-      "title": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن",
-      "company": "Posted by Mrsaffar",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mrsaffar_%D8%B1%D8%B2%D9%88%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%81%D8%B1%D8%B5%D8%AA%D8%B4%D8%BA%D9%84%DB%8C-activity-7519962840225554432-JTlw",
-      "published": "2026-10-25",
-      "snippet": "... Backend Developer است. اگر تمام جست‌وجویش را محدود کند به: «Backend Developer» ممکن است بخش قابل توجهی از فرصت‌های مناسب خودش را اصلاً نبیند. چون یک شرکت",
       "apply_email": ""
     }
   ]
