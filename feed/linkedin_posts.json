@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T21:02:17+00:00",
+  "updated_at": "2026-11-28T07:30:17+00:00",
   "posts": [
     {
       "title": "📢 استخدام Front-End Developer (React.js / Next.js) مجموعهای معتبر در حوزه مالی و بانکی جهت تکمیل تیم فنی خود از یک Front-End Developer باانگ",
@@ -92,6 +92,15 @@
       "apply_email": ""
     },
     {
+      "title": "#devfest #gdg6october #googledevelopergroups #careers | GDG 6 October",
+      "company": "Posted by Gdg6october",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/gdg6october_devfest-gdg6october-googledevelopergroups-activity-7527430227858300928-VBwv",
+      "published": "2026-11-14",
+      "snippet": "مين اللي قتل الـ Junior Developer؟ 🔪 الـ layoffs شغالة، الـ open roles بتقل، وشركات كتير بطّلت تعيّن juniors من غير ما حد يقول. أول speaker في DevFest’26 هو Ahmed Menaim 🎤 Lead Software Engineer بخبرة +9 سنين في الـ Mobile Development، و Co-Founder في GymFactor. اشتغل مع شركات في أمريكا وألمانيا وكينيا والجزائر والسعودية ولبنان. هيتكلم عن اللي بيحصل فعلاً في السوق: هل لقب الـ Junior لسه موجود أصلاً؟ وإزاي تاخد أول job النهارده وإنت عارف إيه الـ skills اللي بجد بتفرق؟ لو لسه بادئ، أو بتفكر في [...] بادئ، أو بتفكر في خطوتك الجاية، السيشن دي معمولة ليك. السبت 12 ديسمبر · ITI Smart Village 🔗 التسج",
+      "apply_email": ""
+    },
+    {
       "title": "Keep going ❤️ | Hossam Mohamed",
       "company": "Posted by Hossam Mohamed",
       "location": "Iran",
@@ -110,24 +119,6 @@
       "apply_email": "m.raafat@wajhadevelopment.com"
     },
     {
-      "title": "#hiring #backenddeveloper #dotnet #softwaredevelopment | Keysun Data Processing",
-      "company": "Posted by Keysun Data Processing",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/keysun-data-processing_hiring-backenddeveloper-dotnet-activity-7527353481142112256-1UDb",
-      "published": "2026-11-14",
-      "snippet": "استخدام Senior Backend Developer شرکت دادهپردازی کیسان نقش Senior Backend Developer فراتر از توسعه کد است؛ این موقعیت مسئولیت توسعه و بهبود سرویسهای سمت سرور، ارتقای کیفیت فنی و هدایت کارشناسان بکاند را بر عهده دارد. ✅ مسئولیتهای اصلی - طراحی و توسعه سرویسهای Backend با C# / .NET 8+ و ASP.NET Core -طراحی و پیادهسازی معماری میکروسرویس -طراحی مدل داده و بهینهسازی کوئریها روی SQL Server و EF Core -کار با RabbitMQ، Redis ، ElasticSearch و Keycloak در سناریوهای واقعی ترافیک بالا -پیادهسازی [...] حرفهای در توسعه Backend با .NET - حداقل ۲ سال تجربه در نقش Senior یا Tech Lead - سابقه واقعی در تحویل پر",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #dotnet #csharp #backenddeveloper #microservices #banking #fintech #softwarearchitecture #owasp #asvs #devsecops #applicationsecurit",
-      "company": "Posted by Aren Najafi",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/aren-najafi-a6597a174_hiring-dotnet-csharp-activity-7525819208752889857-Qk_x",
-      "published": "2026-11-10",
-      "snippet": "فرصت همکاری | استخدام Backend Developer (.NET) شرکت گسترش فناوریهای نوین بهمنظور توسعه و تکمیل تیم فنی خود، از متخصصان Backend در حوزه .NET دعوت به همکاری میکند. مهارتها و شرایط موردنیاز: Backend Development & Architecture - تسلط به C# و ASP.NET Core - تجربه عملی در طراحی و توسعه سیستمهای مبتنی بر معماری Microservices - آشنایی با اصول Software Architecture، Design Patterns و Clean Architecture - تجربه کار با SQL Server، طراحی دیتابیس و بهینهسازی Queryها - آشنایی با Distributed Systems و مفاهیم [...] الگوهای Outbox، Saga و Event-Driven Architecture - آشنایی با مفاهیم Observability، Logging و Di",
-      "apply_email": ""
-    },
-    {
       "title": "استخدام برنامه نویس #Back-End - C در شرکت پیوند هوشمند نوآوری نوین مانا | adele zabihi | 16 comments",
       "company": "Posted by Adele Zabihi",
       "location": "Iran",
@@ -137,39 +128,12 @@
       "apply_email": ""
     },
     {
-      "title": "Ziad Hassan, Flutter mobile developer | Ziad Hassan",
-      "company": "Posted by Ziadhassan7",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/ziadhassan7_ziad-hassan-flutter-mobile-developer-activity-7527645358269571072-6n4s",
-      "published": "2026-11-15",
-      "snippet": "🔹 Led the payment migration from Stripe to NGenius through native Android/iOS SDKs, and added Paymob for Egypt 🔹 Shipped apps with 100k+ downloads across 4 markets 🔹 Wrote Kotlin and Swift for an open-source payment SDK, and I publish 4 packages on pub.dev What I work with: Flutter & Dart · Clean Architecture · BLoC/Cubit · Riverpod · REST APIs · Firebase · Platform Channels (Kotlin/Swift) · Payment Gateways · Maps · CI/CD I’m looking for a Flutter / Mobile Engineer role, remote or in Cairo. If [...] Laid off...!! 🚨 Not what I planned, but I’m ready for what’s next, and I’m available immediate",
-      "apply_email": ""
-    },
-    {
-      "title": "#devfest #gdg6october #googledevelopergroups #careers | GDG 6 October",
-      "company": "Posted by Gdg6october",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/gdg6october_devfest-gdg6october-googledevelopergroups-activity-7527430227858300928-VBwv",
-      "published": "2026-11-14",
-      "snippet": "مين اللي قتل الـ Junior Developer؟ 🔪 الـ layoffs شغالة، الـ open roles بتقل، وشركات كتير بطّلت تعيّن juniors من غير ما حد يقول. أول speaker في DevFest’26 هو Ahmed Menaim 🎤 Lead Software Engineer بخبرة +9 سنين في الـ Mobile Development، و Co-Founder في GymFactor. اشتغل مع شركات في أمريكا وألمانيا وكينيا والجزائر والسعودية ولبنان. هيتكلم عن اللي بيحصل فعلاً في السوق: هل لقب الـ Junior لسه موجود أصلاً؟ وإزاي تاخد أول job النهارده وإنت عارف إيه الـ skills اللي بجد بتفرق؟ لو لسه بادئ، أو بتفكر في [...] بادئ، أو بتفكر في خطوتك الجاية، السيشن دي معمولة ليك. السبت 12 ديسمبر · ITI Smart Village 🔗 التسج",
-      "apply_email": ""
-    },
-    {
       "title": "استخدام توسعهدهنده Full-Stack | Amir mohammad Fatahi",
       "company": "Posted by Amir Mohammad Fatahi",
       "location": "Iran",
       "url": "https://www.linkedin.com/posts/amir-mohammad-fatahi-93a879220_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%AA%D9%88%D8%B3%D8%B9%D9%87%D8%AF%D9%87%D9%86%D8%AF%D9%87-full-stack-activity-7527641503850995713-KVZ9",
       "published": "2026-11-15",
       "snippet": "حل مسائل فنی و توسعه مستقل قابلیتهای جدید است. مهارتهای مورد نیاز: • تسلط به JavaScript / TypeScript • تجربه کار با React و Next.js (App Router) • آشنایی با توسعه Backend و REST API • تجربه کار با PostgreSQL و ORMهایی مانند Prisma • تسلط به HTML، CSS و طراحی Responsive • آشنایی باGit، Debugging و کار با پروژههای موجود • آشنایی عملی با Linux و استقرار برنامههای Node.js آشنایی باTailwind CSS ، سیستمهای احراز هویت و مدیریت دسترسی، تستنویسی و استفاده از ابزارهای AI در فرایند توسعه نرمافزار، امتیاز [...] نرمافزار، امتیاز محسوب میشود. شرح مسئولیتها: • توسعه و بهبود قابلیتهای Frontend و Backend • برر",
-      "apply_email": ""
-    },
-    {
-      "title": "#hiring #fullstackdeveloper #nodejs #vuejs #ai #remotejobs #softwareengineering | Fatemeh Rajabi | 28 comments",
-      "company": "Posted by Fatemeh Rajabi Recruiter",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/fatemeh-rajabi-recruiter_hiring-fullstackdeveloper-nodejs-activity-7521224561040838656-hTKi",
-      "published": "2026-10-28",
-      "snippet": "این یک موقعیت پروکسی نیست. 🎙️ ارزیابی زبان انگلیسی: لطفاً همراه رزومه، یک فایل صوتی حداکثر ۳ دقیقهای ارسال کنید و بهاختصار درباره سوابق کاری و پیشینه حرفهای خود به زبان انگلیسی صحبت کنید. ⚠️ ارسال فایل صوتی به همراه رزومه الزامی است و بدون آن امکان ادامه فرایند استخدام وجود ندارد. 🚨 استخدام برنامهنویس ارشد فولاستک | Senior/Lead Full-Stack Developer 🌎 پروژه بینالمللی | پلتفرم B2B و رویدادهای آنلاین 💻 Remote 💰 حقوق: 690دلار در ماه به دنبال یک Senior/Lead Full-Stack Developer باتجربه هستیم که در [...] ۸ سال سابقه توسعه اپلیکیشنهای وب و تجربه Senior یا Lead • تسلط به JavaScript/TypeScript، Vue.js",
       "apply_email": ""
     },
     {
@@ -218,6 +182,15 @@
       "apply_email": ""
     },
     {
+      "title": "#memora #androiddevelopment #kotlin #jetpackcompose #voicerecognition #restaurantbilling #mobiledevelopment | Mohammed Kadi",
+      "company": "Posted by Mohammedkadi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mohammedkadi_memora-androiddevelopment-kotlin-activity-7525868467229634562-vzqO",
+      "published": "2026-11-10",
+      "snippet": "a busy shift. This is the first in a short series on the seven apps I've built for the restaurant. Next up: online ordering. I'm looking for a junior developer role (full stack or mobile), in Prince Albert, Saskatoon, Regina or remote. More at buivuanhhuy.ca #ReactNative #Expo #Firebase #SoftwareDevelopment [...] Kotlin Multiplatform shared business logic across Android, iOS, and web lesson most developers learn the hard way. How often have you wasted time duplicating shared business logic for each platform? Imagine writing the same code three times over With Kotlin Multiplatform, you only wri",
+      "apply_email": ""
+    },
+    {
       "title": "#appenza #bytedance #edtech #futureoflearning #education | appenza",
       "company": "Posted by Appenza",
       "location": "Iran",
@@ -245,12 +218,12 @@
       "apply_email": ""
     },
     {
-      "title": "این یک آگهی شغلی است! . .. ما در مهتا به دنبال یک Python Developer خلاق، متخصص و علاقهمند به حل چالشهای فنی هستیم. در انتظار دوستی هستیم که",
-      "company": "Posted by Mahtaco",
+      "title": "Mobile Developer (React Native) - Mnzil | Mohammed Alduhan",
+      "company": "Posted by Mohammedalduhan",
       "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mahtaco_%D8%A7%DB%8C%D9%86-%DB%8C%DA%A9-%D8%A2%DA%AF%D9%87%DB%8C-%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7-%D8%AF%D8%B1-%D9%85%D9%87%D8%AA%D8%A7-%D8%A8%D9%87-activity-7529823345803038720-rXF-",
-      "published": "2026-11-21",
-      "snippet": "این یک آگهی شغلی است! . .. ما در مهتا به دنبال یک Python Developer خلاق، متخصص و علاقهمند به حل چالشهای فنی هستیم. در انتظار دوستی هستیم که علاوه بر دانش فنی و تجربه حرفهای، از تفکر تحلیلی، روحیه حل مسئله و توانایی تبدیل ایدههای پیچیده به راهکارهای کاربردی برخوردار باشد. برای آشنایی بیشتر با این فرصت شغلی و ارسال رزومه، از طریق لینک آگهی اقدام کنید. Danial Hadi2d [...] Danial Hadi2d من رزومم رو ۳۱ شهریور فرستادم و وضعیت به حالت بررسی شده در اومده اما هیچ خبری نشده از بعد اون ، نه رد شده، نه تماس گرفته شده ، هیچی ، و از لحاظ فنی هم مطمئن فیت کار شما خواهم بود ، اما مشکل این وسط چیه نمیدونم Sana",
+      "url": "https://www.linkedin.com/posts/mohammedalduhan_mobile-developer-react-native-mnzil-activity-7527672525183475712-BNQS",
+      "published": "2026-11-15",
+      "snippet": "We’re hiring a Mobile Developer (React Native) at Mnzil | منزل 📱 Looking for a React Native developer who has built apps that look great and feel smooth to use. You’ll own our app’s quality, performance and releases, working closely with product and design. Experience building apps at a product company is a big plus. 📍 Riyadh, hybrid Apply: #Hiring #ReactNative #MobileDevelopment #Riyadh #Mnzil I develop mobile application with flutter framework. Is it possible to share my CV for you? [...] Interested Mohammed Alduhan let's connect #up interested",
       "apply_email": ""
     },
     {
@@ -362,6 +335,51 @@
       "apply_email": ""
     },
     {
+      "title": "#hiring #backenddeveloper #dotnet #softwaredevelopment | Keysun Data Processing",
+      "company": "Posted by Keysun Data Processing",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/keysun-data-processing_hiring-backenddeveloper-dotnet-activity-7527353481142112256-1UDb",
+      "published": "2026-11-14",
+      "snippet": "استخدام Senior Backend Developer شرکت دادهپردازی کیسان نقش Senior Backend Developer فراتر از توسعه کد است؛ این موقعیت مسئولیت توسعه و بهبود سرویسهای سمت سرور، ارتقای کیفیت فنی و هدایت کارشناسان بکاند را بر عهده دارد. ✅ مسئولیتهای اصلی - طراحی و توسعه سرویسهای Backend با C# / .NET 8+ و ASP.NET Core -طراحی و پیادهسازی معماری میکروسرویس -طراحی مدل داده و بهینهسازی کوئریها روی SQL Server و EF Core -کار با RabbitMQ، Redis ، ElasticSearch و Keycloak در سناریوهای واقعی ترافیک بالا -پیادهسازی [...] حرفهای در توسعه Backend با .NET - حداقل ۲ سال تجربه در نقش Senior یا Tech Lead - سابقه واقعی در تحویل پر",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #dotnet #csharp #backenddeveloper #microservices #banking #fintech #softwarearchitecture #owasp #asvs #devsecops #applicationsecurit",
+      "company": "Posted by Aren Najafi",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/aren-najafi-a6597a174_hiring-dotnet-csharp-activity-7525819208752889857-Qk_x",
+      "published": "2026-11-10",
+      "snippet": "فرصت همکاری | استخدام Backend Developer (.NET) شرکت گسترش فناوریهای نوین بهمنظور توسعه و تکمیل تیم فنی خود، از متخصصان Backend در حوزه .NET دعوت به همکاری میکند. مهارتها و شرایط موردنیاز: Backend Development & Architecture - تسلط به C# و ASP.NET Core - تجربه عملی در طراحی و توسعه سیستمهای مبتنی بر معماری Microservices - آشنایی با اصول Software Architecture، Design Patterns و Clean Architecture - تجربه کار با SQL Server، طراحی دیتابیس و بهینهسازی Queryها - آشنایی با Distributed Systems و مفاهیم [...] الگوهای Outbox، Saga و Event-Driven Architecture - آشنایی با مفاهیم Observability، Logging و Di",
+      "apply_email": ""
+    },
+    {
+      "title": "Ziad Hassan, Flutter mobile developer | Ziad Hassan",
+      "company": "Posted by Ziadhassan7",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/ziadhassan7_ziad-hassan-flutter-mobile-developer-activity-7527645358269571072-6n4s",
+      "published": "2026-11-15",
+      "snippet": "🔹 Led the payment migration from Stripe to NGenius through native Android/iOS SDKs, and added Paymob for Egypt 🔹 Shipped apps with 100k+ downloads across 4 markets 🔹 Wrote Kotlin and Swift for an open-source payment SDK, and I publish 4 packages on pub.dev What I work with: Flutter & Dart · Clean Architecture · BLoC/Cubit · Riverpod · REST APIs · Firebase · Platform Channels (Kotlin/Swift) · Payment Gateways · Maps · CI/CD I’m looking for a Flutter / Mobile Engineer role, remote or in Cairo. If [...] Laid off...!! 🚨 Not what I planned, but I’m ready for what’s next, and I’m available immediate",
+      "apply_email": ""
+    },
+    {
+      "title": "#hiring #fullstackdeveloper #nodejs #vuejs #ai #remotejobs #softwareengineering | Fatemeh Rajabi | 28 comments",
+      "company": "Posted by Fatemeh Rajabi Recruiter",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/fatemeh-rajabi-recruiter_hiring-fullstackdeveloper-nodejs-activity-7521224561040838656-hTKi",
+      "published": "2026-10-28",
+      "snippet": "این یک موقعیت پروکسی نیست. 🎙️ ارزیابی زبان انگلیسی: لطفاً همراه رزومه، یک فایل صوتی حداکثر ۳ دقیقهای ارسال کنید و بهاختصار درباره سوابق کاری و پیشینه حرفهای خود به زبان انگلیسی صحبت کنید. ⚠️ ارسال فایل صوتی به همراه رزومه الزامی است و بدون آن امکان ادامه فرایند استخدام وجود ندارد. 🚨 استخدام برنامهنویس ارشد فولاستک | Senior/Lead Full-Stack Developer 🌎 پروژه بینالمللی | پلتفرم B2B و رویدادهای آنلاین 💻 Remote 💰 حقوق: 690دلار در ماه به دنبال یک Senior/Lead Full-Stack Developer باتجربه هستیم که در [...] ۸ سال سابقه توسعه اپلیکیشنهای وب و تجربه Senior یا Lead • تسلط به JavaScript/TypeScript، Vue.js",
+      "apply_email": ""
+    },
+    {
+      "title": "این یک آگهی شغلی است! . .. ما در مهتا به دنبال یک Python Developer خلاق، متخصص و علاقهمند به حل چالشهای فنی هستیم. در انتظار دوستی هستیم که",
+      "company": "Posted by Mahtaco",
+      "location": "Iran",
+      "url": "https://www.linkedin.com/posts/mahtaco_%D8%A7%DB%8C%D9%86-%DB%8C%DA%A9-%D8%A2%DA%AF%D9%87%DB%8C-%D8%B4%D8%BA%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7-%D8%AF%D8%B1-%D9%85%D9%87%D8%AA%D8%A7-%D8%A8%D9%87-activity-7529823345803038720-rXF-",
+      "published": "2026-11-21",
+      "snippet": "این یک آگهی شغلی است! . .. ما در مهتا به دنبال یک Python Developer خلاق، متخصص و علاقهمند به حل چالشهای فنی هستیم. در انتظار دوستی هستیم که علاوه بر دانش فنی و تجربه حرفهای، از تفکر تحلیلی، روحیه حل مسئله و توانایی تبدیل ایدههای پیچیده به راهکارهای کاربردی برخوردار باشد. برای آشنایی بیشتر با این فرصت شغلی و ارسال رزومه، از طریق لینک آگهی اقدام کنید. Danial Hadi2d [...] Danial Hadi2d من رزومم رو ۳۱ شهریور فرستادم و وضعیت به حالت بررسی شده در اومده اما هیچ خبری نشده از بعد اون ، نه رد شده، نه تماس گرفته شده ، هیچی ، و از لحاظ فنی هم مطمئن فیت کار شما خواهم بود ، اما مشکل این وسط چیه نمیدونم Sana",
+      "apply_email": ""
+    },
+    {
       "title": "#route_heroes #route #frontend #webdevelopment #softwareengineering | Youssef Abdelbaky | 72 comments",
       "company": "Posted by Youssefabdelbaky",
       "location": "Iran",
@@ -422,15 +440,6 @@
       "url": "https://www.linkedin.com/posts/ehsan-saeidpour-56a684101_%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3-%D8%AF%D8%A7%D8%AA%D9%86%D8%AA-activity-7525502964329897984-hzAf",
       "published": "2026-11-09",
       "snippet": "فرصت همکاری | استخدام برنامهنویس .NET Backend ما در صندوق پژوهش و فناوری استان البرز برای توسعه تیم فنی خود به دنبال یک توسعهدهنده .",
-      "apply_email": ""
-    },
-    {
-      "title": "Mobile Developer (React Native) - Mnzil | Mohammed Alduhan",
-      "company": "Posted by Mohammedalduhan",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammedalduhan_mobile-developer-react-native-mnzil-activity-7527672525183475712-BNQS",
-      "published": "2026-11-15",
-      "snippet": "We’re hiring a Mobile Developer (React Native) at Mnzil | منزل 📱 Looking for a React Native developer who has built apps that look great and feel smooth to use. You’ll own our app’s quality, performance and releases, working closely with product and design. Experience building apps at a product company is a big plus. 📍 Riyadh, hybrid Apply: #Hiring #ReactNative #MobileDevelopment #Riyadh #Mnzil I develop mobile application with flutter framework. Is it possible to share my CV for you? [...] Interested Mohammed Alduhan let's connect #up interested",
       "apply_email": ""
     },
     {
@@ -539,15 +548,6 @@
       "url": "https://www.linkedin.com/posts/dina-mahmoud-7404391bb_python-programming-dataanalysis-activity-7519548173263110144-Iv5v",
       "published": "2026-10-23",
       "snippet": "Perfect for parsing HTML and XML documents. Scrapy: A fast, robust framework for largescale web scraping and data mining. ⚙️ Specialized Tools SQLAlchemy: Powerful database toolkit and ORM. Celery: Distributed task queue for asynchronous operations. Pygame: Fun module for 2D game development. OpenCV: Open-source library for computer vision and object detection. 💡 Python + Libraries = Faster Development, Better Solutions, Bigger Opportunities. What is your absolute go-to Python library for your [...] to explore how Python and Scikit-learn can help build ML workflows that are easier to maintain,",
-      "apply_email": ""
-    },
-    {
-      "title": "#memora #androiddevelopment #kotlin #jetpackcompose #voicerecognition #restaurantbilling #mobiledevelopment | Mohammed Kadi",
-      "company": "Posted by Mohammedkadi",
-      "location": "Iran",
-      "url": "https://www.linkedin.com/posts/mohammedkadi_memora-androiddevelopment-kotlin-activity-7525868467229634562-vzqO",
-      "published": "2026-11-10",
-      "snippet": "a busy shift. This is the first in a short series on the seven apps I've built for the restaurant. Next up: online ordering. I'm looking for a junior developer role (full stack or mobile), in Prince Albert, Saskatoon, Regina or remote. More at buivuanhhuy.ca #ReactNative #Expo #Firebase #SoftwareDevelopment [...] Kotlin Multiplatform shared business logic across Android, iOS, and web lesson most developers learn the hard way. How often have you wasted time duplicating shared business logic for each platform? Imagine writing the same code three times over With Kotlin Multiplatform, you only wri",
       "apply_email": ""
     },
     {
